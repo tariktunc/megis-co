@@ -1,4 +1,20 @@
 import { setRequestLocale } from "next-intl/server";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "AI Destekli Reklam",
+    description: "Yapay zeka ile reklam kampanyalarınızı optimize edin.",
+    alternates: {
+      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/ai-reklam`,
+    },
+  };
+}
 
 export default async function AiReklamPage({
   params,

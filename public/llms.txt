@@ -1,0 +1,48 @@
+# Megis - Dijital Ajans
+
+> Megis, Türkiye merkezli bir dijital ajans olup SEO, SEM, AI destekli reklam yönetimi, e-ticaret çözümleri ve web tasarım hizmetleri sunmaktadır.
+
+## Hakkımızda
+
+Megis, işletmelerin dijital dünyada büyümesine yardımcı olan tam kapsamlı bir dijital pazarlama ajansıdır. 500'den fazla mutlu müşteri, 1200+ aktif kampanya ve ortalama 3.2x ROI artışı ile sektörde lider konumdayız.
+
+## Temel Hizmetler
+
+- **SEO Optimizasyonu**: Teknik SEO, içerik stratejisi, backlink yönetimi, yerel SEO
+- **SEM & Arama Reklamları**: Google Ads, Bing Ads, anahtar kelime stratejisi, dönüşüm takibi
+- **AI Destekli Reklam Yönetimi**: Otomatik bütçe optimizasyonu, AI hedefleme, dinamik reklam üretimi
+- **Sosyal Medya Reklamları**: Meta Ads, TikTok Ads, LinkedIn Ads, YouTube Ads
+- **E-Ticaret Çözümleri**: Mağaza kurulumu, pazaryeri entegrasyonu, ödeme sistemleri
+- **Veri Analitiği & Raporlama**: Google Analytics 4, özel dashboard, dönüşüm analizi
+- **Web Tasarım & Geliştirme**: Kurumsal web sitesi, landing page, e-ticaret sitesi
+- **Marka & Dijital Strateji**: Marka kimliği, dijital strateji, içerik pazarlama
+
+## Önemli Sayfalar
+
+- Ana Sayfa: https://megis.com.tr
+- Hakkımızda: https://megis.com.tr/hakkimizda
+- İletişim: https://megis.com.tr/iletisim
+- SEO Hizmetleri: https://megis.com.tr/seo
+- SEM Hizmetleri: https://megis.com.tr/sem
+- Araçlar: https://megis.com.tr/araclar
+
+## Ücretsiz SEO Araçları
+
+- SERP Önizleme: https://megis.com.tr/araclar/serp-onizleme
+- Kelime Sayacı: https://megis.com.tr/araclar/kelime-sayaci
+- Meta Tag Kontrol: https://megis.com.tr/araclar/meta-tag-kontrol
+- SEO Browser: https://megis.com.tr/araclar/seo-browser
+- MFI Denetleyici: https://megis.com.tr/araclar/mfi-denetleyici
+
+## SSS
+
+- SEO çalışması genellikle 3-6 ay içinde sonuç verir.
+- 48 saat içinde kurumsal web sitesi teslimi yapılmaktadır.
+- Her bütçeye uygun paketler mevcuttur: SEO aylık 5.000 TL'den, SEM aylık 3.000 TL'den başlar.
+- Google Ads, Meta, TikTok, LinkedIn, YouTube, Bing dahil tüm platformlarda reklam yönetimi yapılmaktadır.
+
+## İletişim
+
+- Web: https://megis.com.tr
+- E-posta: info@megis.com.tr
+- Dil: Türkçe, İngilizce

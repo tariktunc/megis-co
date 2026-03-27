@@ -24,6 +24,7 @@ const serviceLinks = [
 ] as const;
 
 const mainLinks = [
+  { href: "/blog", label: "blog" },
   { href: "/araclar", label: "tools" },
   { href: "/hakkimizda", label: "about" },
   { href: "/brand", label: "brand" },
@@ -56,7 +57,7 @@ export function Navbar() {
             : "bg-transparent"
         }`}
       >
-        <nav className="max-w-[980px] mx-auto px-6 h-12 flex items-center justify-between">
+        <nav className="max-w-[980px] mx-auto px-6 h-12 flex items-center justify-between" aria-label="Main navigation">
           <Link href="/" className="text-sm font-semibold text-foreground hover:text-muted transition-colors tracking-tight">
             megis
           </Link>
@@ -71,7 +72,11 @@ export function Navbar() {
               onMouseEnter={() => setServicesOpen(true)}
               onMouseLeave={() => setServicesOpen(false)}
             >
-              <button className="px-3 py-1 text-xs text-muted hover:text-foreground transition-colors flex items-center gap-0.5">
+              <button
+                className="px-3 py-1 text-xs text-muted hover:text-foreground transition-colors flex items-center gap-0.5"
+                aria-expanded={servicesOpen}
+                aria-haspopup="true"
+              >
                 {t("services")}
               </button>
 
@@ -84,9 +89,9 @@ export function Navbar() {
                     transition={{ duration: 0.15 }}
                     className="absolute left-1/2 -translate-x-1/2 top-full pt-3"
                   >
-                    <div className="bg-surface/95 backdrop-blur-xl backdrop-saturate-150 rounded-2xl p-2 min-w-[200px] shadow-2xl shadow-black/20">
+                    <div className="bg-surface/95 backdrop-blur-xl backdrop-saturate-150 rounded-2xl p-2 min-w-[200px] shadow-2xl shadow-black/20" role="menu">
                       {serviceLinks.map((link) => (
-                        <Link key={link.label} href={link.href} className="block px-4 py-2 text-sm text-muted hover:text-foreground rounded-lg transition-colors">
+                        <Link key={link.label} href={link.href} className="block px-4 py-2 text-sm text-muted hover:text-foreground rounded-lg transition-colors" role="menuitem">
                           {t(link.label)}
                         </Link>
                       ))}

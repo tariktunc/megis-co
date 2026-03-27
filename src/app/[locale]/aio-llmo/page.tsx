@@ -1,5 +1,21 @@
 import { setRequestLocale } from "next-intl/server";
 import { ProductPage } from "@/components/sections/product-page";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "AIO / LLMO",
+    description: "AI arama motorları için içerik optimizasyonu.",
+    alternates: {
+      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/aio-llmo`,
+    },
+  };
+}
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

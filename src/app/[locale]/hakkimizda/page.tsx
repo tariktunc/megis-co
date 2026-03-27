@@ -1,4 +1,20 @@
 import { setRequestLocale } from "next-intl/server";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "Hakkımızda",
+    description: "Megis dijital ajans hakkında bilgi edinin.",
+    alternates: {
+      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/hakkimizda`,
+    },
+  };
+}
 
 export default async function HakkimizdaPage({
   params,

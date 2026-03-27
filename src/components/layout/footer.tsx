@@ -26,7 +26,7 @@ export function Footer() {
   const tNav = useTranslations("nav");
 
   return (
-    <footer className="bg-surface">
+    <footer className="bg-surface" role="contentinfo" aria-label="Site footer">
       <div className="max-w-[980px] mx-auto px-6">
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-8 py-12">
           <div>
@@ -64,9 +64,9 @@ export function Footer() {
           <div>
             <h4 className="text-xs font-semibold text-foreground mb-4">{t("legal")}</h4>
             <ul className="space-y-3">
-              <li><span className="text-xs text-muted hover:text-foreground transition-colors cursor-pointer">{t("privacy")}</span></li>
-              <li><span className="text-xs text-muted hover:text-foreground transition-colors cursor-pointer">{t("terms")}</span></li>
-              <li><span className="text-xs text-muted hover:text-foreground transition-colors cursor-pointer">{t("kvkk")}</span></li>
+              <li><Link href="/gizlilik-politikasi" className="text-xs text-muted hover:text-foreground transition-colors">{t("privacy")}</Link></li>
+              <li><Link href="/kullanim-kosullari" className="text-xs text-muted hover:text-foreground transition-colors">{t("terms")}</Link></li>
+              <li><Link href="/kvkk" className="text-xs text-muted hover:text-foreground transition-colors">{t("kvkk")}</Link></li>
             </ul>
           </div>
           <div>

@@ -1,0 +1,119 @@
+# Megis - Dijital Ajans (Detaylı)
+
+> Megis, Türkiye merkezli bir dijital ajans olup SEO, SEM, AI destekli reklam yönetimi, e-ticaret çözümleri ve web tasarım hizmetleri sunmaktadır.
+
+## Hakkımızda
+
+Megis, işletmelerin dijital dünyada büyümesine yardımcı olan tam kapsamlı bir dijital pazarlama ajansıdır. Veri odaklı stratejiler, AI destekli teknolojiler ve şeffaf raporlama ile müşterilerimizin dijital başarısını inşa ediyoruz.
+
+## Temel İstatistikler
+
+- 500+ mutlu müşteri
+- 1200+ aktif kampanya
+- 3.2x ortalama ROI artışı
+- %340 ortalama organik trafik artışı
+- %100 ilk sayfa garantisi (SEO)
+- 48 saat web sitesi teslimatı
+
+## Hizmetler (Detaylı)
+
+### SEO Optimizasyonu
+Arama motorlarında organik olarak 1. sayfada yer almanızı sağlıyoruz. Teknik SEO analizi, içerik stratejisi, backlink yönetimi, yerel SEO ve rakip analizi hizmetleri sunuyoruz. SEO sonuçları genellikle 3-6 ay içinde görülmeye başlar. İlk 30 gün teknik iyileştirmeler, 90 gün içinde organik trafik artışı.
+
+### SEM & Arama Reklamları
+Google Ads, Bing Ads ve arama motoru reklamları ile hedef kitlenize anında ulaşın. Google Ads yönetimi, anahtar kelime stratejisi, A/B test, dönüşüm takibi ve bütçe optimizasyonu ile dönüşüm odaklı kampanya yönetimi.
+
+### AI Destekli Reklam Yönetimi
+Yapay zeka teknolojileri ile reklam kampanyalarınızı otomatik optimize edin. Otomatik bütçe optimizasyonu, AI hedefleme, dinamik reklam üretimi, prediktif analiz ve çok kanallı yönetim. Makine öğrenimi ile hedefleme, bütçe dağılımı ve yaratıcı içerik üretimi.
+
+### Sosyal Medya Reklamları
+Facebook, Instagram, TikTok, LinkedIn ve YouTube'da markanızı milyonlara ulaştırın. Meta Ads, TikTok Ads, LinkedIn Ads, YouTube Ads ve Influencer Marketing ile platform bazlı strateji ve içerik üretimi.
+
+### E-Ticaret Çözümleri
+Online mağazanızı kurun ve satışlarınızı katlayın. Mağaza kurulumu, pazaryeri entegrasyonu (Trendyol, Hepsiburada), ödeme sistemleri, stok yönetimi ve ürün optimizasyonu hizmetleri.
+
+### Veri Analitiği & Raporlama
+Web sitenizin ve kampanyalarınızın performansını gerçek zamanlı takip edin. Google Analytics 4, özel dashboard, dönüşüm analizi, kullanıcı davranışı analizi ve aylık detaylı raporlama.
+
+### Web Tasarım & Geliştirme
+48 saat içinde kurumsal web sitenizi teslim ediyoruz. Mobil uyumlu, hızlı ve SEO dostu siteler. Kurumsal web sitesi, landing page, e-ticaret sitesi, web uygulaması ve mobil uygulama.
+
+### Marka & Dijital Strateji
+Markanızın dijital kimliğini oluşturun. Marka kimliği, dijital strateji, içerik pazarlama, e-posta pazarlama ve CRM entegrasyonu.
+
+## Çalışma Sürecimiz
+
+1. **Analiz & Keşif**: İşinizi, rakiplerinizi ve hedef kitlenizi derinlemesine analiz ediyoruz.
+2. **Strateji & Planlama**: Veriye dayalı özel bir dijital strateji oluşturuyoruz.
+3. **Uygulama & Optimizasyon**: Stratejiyi hayata geçiriyoruz, AI destekli araçlarla sürekli optimizasyon yapıyoruz.
+4. **Raporlama & Büyüme**: Şeffaf raporlama ile sonuçları paylaşıyoruz.
+
+## Tüm Sayfa Envanteri
+
+### Ana Sayfalar
+- Ana Sayfa: https://megis.com.tr
+- Hakkımızda: https://megis.com.tr/hakkimizda
+- İletişim: https://megis.com.tr/iletisim
+- Brand: https://megis.com.tr/brand
+
+### Hizmet Sayfaları
+- SEO: https://megis.com.tr/seo
+- SEM: https://megis.com.tr/sem
+- GEO: https://megis.com.tr/geo
+- AIO / LLMO: https://megis.com.tr/aio-llmo
+- Web Tasarım: https://megis.com.tr/web-tasarim
+- E-Ticaret: https://megis.com.tr/e-ticaret
+- Analitik: https://megis.com.tr/analitik-performans
+- Güvenlik: https://megis.com.tr/guvenlik
+- Erişilebilirlik: https://megis.com.tr/erisilebirlik
+- Temel Kimlik: https://megis.com.tr/temel-kimlik
+- Yasal Uyumluluk: https://megis.com.tr/yasal-uyumluluk
+- UX Temelleri: https://megis.com.tr/ux-temelleri
+- Ürün & Hizmet: https://megis.com.tr/urun-hizmet
+- Tema & Görsel: https://megis.com.tr/tema-gorsel
+
+### Ücretsiz SEO Araçları
+- Araçlar: https://megis.com.tr/araclar
+- SERP Önizleme: https://megis.com.tr/araclar/serp-onizleme
+- Kelime Sayacı: https://megis.com.tr/araclar/kelime-sayaci
+- Meta Tag Kontrol: https://megis.com.tr/araclar/meta-tag-kontrol
+- SEO Browser: https://megis.com.tr/araclar/seo-browser
+- MFI Denetleyici: https://megis.com.tr/araclar/mfi-denetleyici
+
+### Çok Dilli Destek
+- Türkçe (varsayılan): https://megis.com.tr
+- İngilizce: https://megis.com.tr/en
+
+## Teknoloji Altyapısı
+
+- Framework: Next.js (App Router)
+- Dil: TypeScript
+- Stil: Tailwind CSS
+- 3D Grafikler: Three.js
+- Animasyon: Framer Motion, GSAP
+- Hosting: Vercel
+- Çoklu Dil: next-intl
+
+## SSS (Detaylı)
+
+**SEO çalışması ne kadar sürede sonuç verir?**
+SEO sonuçları genellikle 3-6 ay içinde görülmeye başlar. Rekabet düzeyi, sektör ve mevcut site durumuna göre bu süre değişebilir. İlk 30 gün içinde teknik iyileştirmeler tamamlanır, 90 gün içinde organik trafikte artış gözlemlenir.
+
+**AI destekli reklam yönetimi nasıl çalışır?**
+Yapay zeka algoritmalarımız, reklam kampanyalarınızı gerçek zamanlı olarak analiz eder. Hedef kitle segmentasyonu, bütçe dağılımı ve reklam metinleri otomatik olarak optimize edilir. Makine öğrenimi sayesinde performans sürekli iyileşir.
+
+**48 saatte web sitesi gerçekten mümkün mü?**
+Evet! Hazır şablonlarımız ve optimize edilmiş iş akışımız sayesinde kurumsal web sitenizi 48 saat içinde teslim ediyoruz. Özel tasarım projeleri için süre projenin kapsamına göre belirlenir.
+
+**Minimum bütçe ne kadar olmalı?**
+Her bütçeye uygun paketlerimiz bulunmaktadır. SEO için aylık 5.000 TL'den, reklam yönetimi için aylık 3.000 TL + reklam bütçesinden başlayan paketler sunuyoruz.
+
+**Hangi platformlarda reklam yönetimi yapıyorsunuz?**
+Google Ads, Meta (Facebook & Instagram), TikTok, LinkedIn, YouTube, Twitter ve Bing gibi tüm büyük platformlarda reklam yönetimi yapıyoruz. Ayrıca Trendyol, Hepsiburada gibi pazaryerlerinde de reklam optimizasyonu sunuyoruz.
+
+## İletişim
+
+- Web: https://megis.com.tr
+- E-posta: info@megis.com.tr
+- Dil Desteği: Türkçe, İngilizce
+- Konum: Türkiye

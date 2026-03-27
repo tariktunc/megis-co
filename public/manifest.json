@@ -1,0 +1,16 @@
+{
+  "name": "Megis - Dijital Ajans",
+  "short_name": "Megis",
+  "description": "SEO, SEM, AI destekli reklam yönetimi, e-ticaret çözümleri ve web tasarım",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}

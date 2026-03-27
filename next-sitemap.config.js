@@ -13,4 +13,46 @@ module.exports = {
       hreflang: "en",
     },
   ],
+  robotsTxtOptions: {
+    additionalSitemaps: [],
+    policies: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/api/*"],
+      },
+      {
+        userAgent: "GPTBot",
+        allow: ["/", "/llms.txt", "/llms-full.txt"],
+      },
+      {
+        userAgent: "ChatGPT-User",
+        allow: ["/", "/llms.txt", "/llms-full.txt"],
+      },
+      {
+        userAgent: "Google-Extended",
+        allow: "/",
+      },
+      {
+        userAgent: "PerplexityBot",
+        allow: ["/", "/llms.txt", "/llms-full.txt"],
+      },
+      {
+        userAgent: "ClaudeBot",
+        allow: ["/", "/llms.txt", "/llms-full.txt"],
+      },
+      {
+        userAgent: "Applebot-Extended",
+        allow: "/",
+      },
+      {
+        userAgent: "anthropic-ai",
+        allow: ["/", "/llms.txt", "/llms-full.txt"],
+      },
+      {
+        userAgent: "CCBot",
+        allow: "/",
+      },
+    ],
+  },
 };

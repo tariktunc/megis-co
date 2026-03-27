@@ -1,5 +1,21 @@
 import { setRequestLocale } from "next-intl/server";
 import { ProductPage } from "@/components/sections/product-page";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "Temel Kimlik",
+    description: "Markanızın dijital kimliğini oluşturun.",
+    alternates: {
+      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/temel-kimlik`,
+    },
+  };
+}
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

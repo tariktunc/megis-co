@@ -18,6 +18,7 @@
     "security": "Güvenlik",
     "ux": "UX Temelleri",
     "productMarketing": "Ürün & Hizmet",
+    "blog": "Blog",
     "tools": "Araçlar",
     "about": "Hakkımızda",
     "brand": "Brand",
@@ -212,5 +213,153 @@
   "language": {
     "tr": "Türkçe",
     "en": "English"
+  },
+  "cookie": {
+    "title": "Çerez Tercihleri",
+    "description": "Web sitemizde deneyiminizi iyileştirmek ve hizmetlerimizi sunmak için çerezler kullanıyoruz.",
+    "acceptAll": "Tümünü Kabul Et",
+    "rejectAll": "Tümünü Reddet",
+    "preferences": "Tercihleri Yönet",
+    "save": "Tercihleri Kaydet",
+    "essential": "Zorunlu Çerezler",
+    "essentialDesc": "Web sitesinin temel işlevleri için gereklidir.",
+    "analytics": "Analitik Çerezler",
+    "analyticsDesc": "Ziyaretçi istatistiklerini toplamak için kullanılır.",
+    "marketing": "Pazarlama Çerezleri",
+    "marketingDesc": "Kişiselleştirilmiş reklamlar göstermek için kullanılır.",
+    "functional": "Fonksiyonel Çerezler",
+    "functionalDesc": "Tercihlerinizi hatırlamak için kullanılır.",
+    "moreInfo": "Daha fazla bilgi için {link} sayfamızı ziyaret edin.",
+    "privacyLink": "Gizlilik Politikası"
+  },
+  "errors": {
+    "notFound": "Sayfa Bulunamadı",
+    "notFoundDesc": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+    "serverError": "Bir Hata Oluştu",
+    "serverErrorDesc": "Beklenmedik bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "backHome": "Ana Sayfaya Dön",
+    "tryAgain": "Tekrar Dene"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "lastUpdated": "Son güncelleme: 27 Mart 2026",
+      "intro": "Megis olarak kişisel verilerinizin korunmasına büyük önem veriyoruz. Bu gizlilik politikası, web sitemizi ziyaret ettiğinizde hangi verileri topladığımızı, nasıl kullandığımızı ve koruduğumuzu açıklamaktadır.",
+      "sections": [
+        {
+          "title": "Toplanan Veriler",
+          "content": "Web sitemizi ziyaret ettiğinizde, tarayıcı türü, IP adresi, ziyaret edilen sayfalar, ziyaret süresi gibi teknik veriler otomatik olarak toplanabilir. İletişim formu aracılığıyla ad, e-posta adresi ve mesaj içeriği gibi kişisel bilgilerinizi bizimle paylaşabilirsiniz."
+        },
+        {
+          "title": "Verilerin Kullanım Amacı",
+          "content": "Toplanan veriler; hizmet kalitesini artırmak, web sitesi performansını analiz etmek, iletişim taleplerinize yanıt vermek ve yasal yükümlülüklerimizi yerine getirmek amacıyla kullanılmaktadır."
+        },
+        {
+          "title": "Çerezler",
+          "content": "Web sitemizde zorunlu, analitik, pazarlama ve fonksiyonel çerezler kullanılmaktadır. Çerez tercihlerinizi web sitemizin alt kısmındaki çerez banner'ı aracılığıyla yönetebilirsiniz."
+        },
+        {
+          "title": "Veri Güvenliği",
+          "content": "Kişisel verileriniz, endüstri standardı güvenlik önlemleri ile korunmaktadır. SSL şifreleme, güvenlik duvarları ve erişim kontrolleri uygulanmaktadır."
+        },
+        {
+          "title": "Haklarınız",
+          "content": "KVKK kapsamında kişisel verilerinize erişim, düzeltme, silme ve işlemeye itiraz etme haklarınız bulunmaktadır. Bu haklarınızı kullanmak için info@megis.com.tr adresinden bizimle iletişime geçebilirsiniz."
+        },
+        {
+          "title": "İletişim",
+          "content": "Gizlilik politikamız hakkında sorularınız için info@megis.com.tr adresine e-posta gönderebilirsiniz."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Kullanım Koşulları",
+      "lastUpdated": "Son güncelleme: 27 Mart 2026",
+      "intro": "Bu web sitesini kullanarak aşağıdaki koşulları kabul etmiş sayılırsınız. Lütfen bu koşulları dikkatlice okuyunuz.",
+      "sections": [
+        {
+          "title": "Genel Koşullar",
+          "content": "Bu web sitesi Megis tarafından işletilmektedir. Web sitesindeki içerikler bilgilendirme amaçlıdır ve önceden haber verilmeksizin değiştirilebilir."
+        },
+        {
+          "title": "Fikri Mülkiyet",
+          "content": "Web sitesindeki tüm içerikler, tasarımlar, logolar ve yazılımlar Megis'in fikri mülkiyetidir. İzinsiz kopyalama, dağıtım veya değiştirme yasaktır."
+        },
+        {
+          "title": "Sorumluluk Sınırlaması",
+          "content": "Megis, web sitesindeki bilgilerin doğruluğu konusunda azami özeni göstermekle birlikte, bu bilgilerin eksiksizliği veya güncelliği konusunda garanti vermez."
+        },
+        {
+          "title": "Dış Bağlantılar",
+          "content": "Web sitemiz üçüncü taraf web sitelerine bağlantılar içerebilir. Bu sitelerin içeriklerinden Megis sorumlu değildir."
+        },
+        {
+          "title": "Uygulanacak Hukuk",
+          "content": "Bu koşullar Türkiye Cumhuriyeti kanunlarına tabidir. Uyuşmazlıklarda Türkiye mahkemeleri yetkilidir."
+        }
+      ]
+    },
+    "kvkk": {
+      "title": "KVKK Aydınlatma Metni",
+      "lastUpdated": "Son güncelleme: 27 Mart 2026",
+      "intro": "6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) uyarınca, veri sorumlusu sıfatıyla Megis tarafından kişisel verileriniz aşağıda açıklanan şekilde işlenmektedir.",
+      "sections": [
+        {
+          "title": "Veri Sorumlusu",
+          "content": "Kişisel verileriniz, veri sorumlusu sıfatıyla Megis tarafından işlenmektedir."
+        },
+        {
+          "title": "İşlenen Kişisel Veriler",
+          "content": "Kimlik bilgileri (ad, soyad), iletişim bilgileri (e-posta, telefon), işlem güvenliği bilgileri (IP adresi, çerez verileri) ve pazarlama bilgileri (tercihler, ilgi alanları) işlenebilmektedir."
+        },
+        {
+          "title": "İşleme Amaçları",
+          "content": "Kişisel verileriniz; hizmet sunumu, iletişim yönetimi, web sitesi güvenliği ve performans analizi, yasal yükümlülüklerin yerine getirilmesi ve pazarlama faaliyetleri amacıyla işlenmektedir."
+        },
+        {
+          "title": "Veri Aktarımı",
+          "content": "Kişisel verileriniz, hizmet sağlayıcılarımız (hosting, analitik, e-posta servisleri) ve yasal yükümlülükler kapsamında yetkili kurum ve kuruluşlarla paylaşılabilir."
+        },
+        {
+          "title": "Veri Saklama Süresi",
+          "content": "Kişisel verileriniz, işleme amacının gerektirdiği süre boyunca ve yasal saklama süreleri dahilinde muhafaza edilmektedir."
+        },
+        {
+          "title": "Haklarınız (KVKK m.11)",
+          "content": "Kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, yurtiçi/yurtdışı üçüncü kişilere aktarılıp aktarılmadığını öğrenme, eksik veya yanlış işlenmişse düzeltilmesini isteme, KVKK m.7 kapsamında silinmesini veya yok edilmesini isteme, düzeltme/silme/yok etme işlemlerinin aktarıldığı üçüncü kişilere bildirilmesini isteme, otomatik sistemlerle analiz edilmesi sonucu aleyhinize bir sonucun ortaya çıkmasına itiraz etme ve kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız halinde zararın giderilmesini talep etme haklarınız bulunmaktadır."
+        },
+        {
+          "title": "Başvuru",
+          "content": "Haklarınızı kullanmak için info@megis.com.tr adresine e-posta göndererek veya iletişim formu aracılığıyla başvurabilirsiniz."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Projenizi konuşalım. Size en kısa sürede dönüş yapacağız.",
+    "form": {
+      "name": "Adınız",
+      "namePlaceholder": "Adınızı yazın",
+      "email": "E-posta",
+      "emailPlaceholder": "ornek@email.com",
+      "phone": "Telefon (Opsiyonel)",
+      "phonePlaceholder": "+90 5XX XXX XX XX",
+      "subject": "Konu",
+      "subjectPlaceholder": "Proje konunuz",
+      "message": "Mesajınız",
+      "messagePlaceholder": "Projeniz hakkında bilgi verin...",
+      "send": "Mesaj Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi! En kısa sürede dönüş yapacağız.",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+      "validation": {
+        "nameRequired": "Ad alanı zorunludur",
+        "emailRequired": "E-posta alanı zorunludur",
+        "emailInvalid": "Geçerli bir e-posta adresi girin",
+        "messageRequired": "Mesaj alanı zorunludur",
+        "messageMin": "Mesaj en az 10 karakter olmalıdır"
+      }
+    }
   }
 }

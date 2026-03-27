@@ -1,4 +1,20 @@
 import { setRequestLocale } from "next-intl/server";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "Web Tasarım & Geliştirme",
+    description: "48 saat içinde kurumsal web sitenizi kuralım.",
+    alternates: {
+      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/web-tasarim`,
+    },
+  };
+}
 
 export default async function WebTasarimPage({
   params,

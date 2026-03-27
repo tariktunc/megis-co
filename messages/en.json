@@ -18,6 +18,7 @@
     "security": "Security",
     "ux": "UX Fundamentals",
     "productMarketing": "Product & Service",
+    "blog": "Blog",
     "tools": "Tools",
     "about": "About",
     "brand": "Brand",
@@ -212,5 +213,153 @@
   "language": {
     "tr": "Türkçe",
     "en": "English"
+  },
+  "cookie": {
+    "title": "Cookie Preferences",
+    "description": "We use cookies to improve your experience and deliver our services.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All",
+    "preferences": "Manage Preferences",
+    "save": "Save Preferences",
+    "essential": "Essential Cookies",
+    "essentialDesc": "Required for basic website functionality.",
+    "analytics": "Analytics Cookies",
+    "analyticsDesc": "Used to collect visitor statistics.",
+    "marketing": "Marketing Cookies",
+    "marketingDesc": "Used to display personalized advertisements.",
+    "functional": "Functional Cookies",
+    "functionalDesc": "Used to remember your preferences.",
+    "moreInfo": "For more information, visit our {link}.",
+    "privacyLink": "Privacy Policy"
+  },
+  "errors": {
+    "notFound": "Page Not Found",
+    "notFoundDesc": "The page you're looking for doesn't exist or may have been moved.",
+    "serverError": "Something Went Wrong",
+    "serverErrorDesc": "An unexpected error occurred. Please try again later.",
+    "backHome": "Back to Home",
+    "tryAgain": "Try Again"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: March 27, 2026",
+      "intro": "At Megis, we take the protection of your personal data very seriously. This privacy policy explains what data we collect, how we use it, and how we protect it when you visit our website.",
+      "sections": [
+        {
+          "title": "Data Collected",
+          "content": "When you visit our website, technical data such as browser type, IP address, pages visited, and visit duration may be automatically collected. Through the contact form, you may share personal information such as name, email address, and message content."
+        },
+        {
+          "title": "Purpose of Data Use",
+          "content": "Collected data is used to improve service quality, analyze website performance, respond to your communication requests, and fulfill our legal obligations."
+        },
+        {
+          "title": "Cookies",
+          "content": "Our website uses essential, analytics, marketing, and functional cookies. You can manage your cookie preferences through the cookie banner at the bottom of our website."
+        },
+        {
+          "title": "Data Security",
+          "content": "Your personal data is protected with industry-standard security measures. SSL encryption, firewalls, and access controls are implemented."
+        },
+        {
+          "title": "Your Rights",
+          "content": "Under applicable data protection laws, you have the right to access, correct, delete, and object to the processing of your personal data. To exercise these rights, contact us at info@megis.com.tr."
+        },
+        {
+          "title": "Contact",
+          "content": "For questions about our privacy policy, you can email us at info@megis.com.tr."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated: March 27, 2026",
+      "intro": "By using this website, you agree to the following terms and conditions. Please read them carefully.",
+      "sections": [
+        {
+          "title": "General Terms",
+          "content": "This website is operated by Megis. The content on the website is for informational purposes and may be changed without prior notice."
+        },
+        {
+          "title": "Intellectual Property",
+          "content": "All content, designs, logos, and software on the website are the intellectual property of Megis. Unauthorized copying, distribution, or modification is prohibited."
+        },
+        {
+          "title": "Limitation of Liability",
+          "content": "While Megis takes the utmost care regarding the accuracy of information on the website, it does not guarantee the completeness or timeliness of such information."
+        },
+        {
+          "title": "External Links",
+          "content": "Our website may contain links to third-party websites. Megis is not responsible for the content of these sites."
+        },
+        {
+          "title": "Applicable Law",
+          "content": "These terms are governed by the laws of the Republic of Turkey. Turkish courts have jurisdiction over disputes."
+        }
+      ]
+    },
+    "kvkk": {
+      "title": "Data Protection Notice (KVKK)",
+      "lastUpdated": "Last updated: March 27, 2026",
+      "intro": "In accordance with the Turkish Personal Data Protection Law No. 6698 (KVKK), your personal data is processed by Megis as the data controller as described below.",
+      "sections": [
+        {
+          "title": "Data Controller",
+          "content": "Your personal data is processed by Megis as the data controller."
+        },
+        {
+          "title": "Personal Data Processed",
+          "content": "Identity information (name, surname), contact information (email, phone), transaction security information (IP address, cookie data), and marketing information (preferences, interests) may be processed."
+        },
+        {
+          "title": "Processing Purposes",
+          "content": "Your personal data is processed for service delivery, communication management, website security and performance analysis, fulfillment of legal obligations, and marketing activities."
+        },
+        {
+          "title": "Data Transfer",
+          "content": "Your personal data may be shared with our service providers (hosting, analytics, email services) and authorized institutions within the scope of legal obligations."
+        },
+        {
+          "title": "Data Retention Period",
+          "content": "Your personal data is retained for the duration required by the processing purpose and within legal retention periods."
+        },
+        {
+          "title": "Your Rights (KVKK Art.11)",
+          "content": "You have the right to learn whether your personal data is processed, to request information if processed, to learn the purpose of processing, to learn whether data is transferred to third parties, to request correction if incomplete or incorrect, to request deletion or destruction, to request notification of corrections to third parties, to object to automated analysis results, and to claim compensation for damages from unlawful processing."
+        },
+        {
+          "title": "Application",
+          "content": "To exercise your rights, you can email info@megis.com.tr or use the contact form."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's talk about your project. We'll get back to you as soon as possible.",
+    "form": {
+      "name": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "example@email.com",
+      "phone": "Phone (Optional)",
+      "phonePlaceholder": "+90 5XX XXX XX XX",
+      "subject": "Subject",
+      "subjectPlaceholder": "Your project topic",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully! We'll get back to you shortly.",
+      "error": "An error occurred. Please try again.",
+      "validation": {
+        "nameRequired": "Name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Enter a valid email address",
+        "messageRequired": "Message is required",
+        "messageMin": "Message must be at least 10 characters"
+      }
+    }
   }
 }

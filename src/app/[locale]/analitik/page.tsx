@@ -1,4 +1,20 @@
 import { setRequestLocale } from "next-intl/server";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "Veri Analitiği",
+    description: "Google Analytics 4, özel dashboard ve dönüşüm analizi.",
+    alternates: {
+      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/analitik`,
+    },
+  };
+}
 
 export default async function AnalitikPage({
   params,

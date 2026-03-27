@@ -1,5 +1,21 @@
 import { setRequestLocale } from "next-intl/server";
 import { ProductPage } from "@/components/sections/product-page";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "UX Temelleri",
+    description: "Kullanıcı deneyimi odaklı web tasarım ve geliştirme.",
+    alternates: {
+      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/ux-temelleri`,
+    },
+  };
+}
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

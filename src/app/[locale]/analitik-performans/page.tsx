@@ -1,5 +1,21 @@
 import { setRequestLocale } from "next-intl/server";
 import { ProductPage } from "@/components/sections/product-page";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "Analitik & Performans",
+    description: "Web sitesi performansını gerçek zamanlı takip edin, veri odaklı kararlar alın.",
+    alternates: {
+      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/analitik-performans`,
+    },
+  };
+}
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

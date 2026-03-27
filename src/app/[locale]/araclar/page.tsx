@@ -1,5 +1,21 @@
 import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "Ücretsiz SEO Araçları",
+    description: "SERP önizleme, meta tag kontrol ve daha fazla ücretsiz SEO aracı.",
+    alternates: {
+      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/araclar`,
+    },
+  };
+}
 
 const tools = [
   { href: "/araclar/serp-onizleme", title: "SERP Onizleme", desc: "Title ve description'inizin Google'da nasil gorunecegini test edin." },

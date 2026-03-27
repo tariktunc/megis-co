@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "title": "Megis | Dijital Ajans - SEO, SEM, AI Reklam, E-Ticaret & Web Tasarım",
+    "description": "SEO ve SEM ile arama motorlarında 1. sırada yer alın. AI destekli reklam yönetimi, e-ticaret çözümleri ve 48 saat içinde kurumsal web sitesi. Her bütçeye uygun dijital çözümler."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "identity": "Temel Kimlik",
+    "legal": "Yasal Uyumluluk",
+    "a11y": "Erişilebilirlik",
+    "theme": "Tema & Görsel",
+    "seo": "SEO",
+    "sem": "SEM",
+    "geo": "GEO",
+    "aio": "AIO / LLMO",
+    "analyticsPerf": "Analitik & Performans",
+    "security": "Güvenlik",
+    "ux": "UX Temelleri",
+    "productMarketing": "Ürün & Hizmet",
+    "tools": "Araçlar",
+    "about": "Hakkımızda",
+    "brand": "Brand",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "badge": "Dijital Dönüşüm Ortağınız",
+    "title": "Dijital Dünyada\nFark Yaratın",
+    "subtitle": "SEO, SEM, AI destekli reklam yönetimi ve e-ticaret çözümleri ile işinizi dijital dünyada zirveye taşıyoruz. 48 saat içinde kurumsal web sitenizi kuralım.",
+    "cta": "Ücretsiz Analiz Alın",
+    "ctaSecondary": "Hizmetlerimizi Keşfedin"
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "İşinizi büyütmek için ihtiyacınız olan tüm dijital çözümler tek çatı altında",
+    "seo": {
+      "title": "SEO Optimizasyonu",
+      "description": "Arama motorlarında organik olarak 1. sayfada yer alın. Teknik SEO, içerik optimizasyonu ve backlink stratejileri ile Google'da görünürlüğünüzü kalıcı olarak artırın.",
+      "features": ["Teknik SEO Analizi", "İçerik Stratejisi", "Backlink Yönetimi", "Yerel SEO", "Rakip Analizi"]
+    },
+    "sem": {
+      "title": "SEM & Arama Reklamları",
+      "description": "Google Ads, Bing Ads ve arama motoru reklamları ile hedef kitlenize anında ulaşın. Dönüşüm odaklı kampanya yönetimi.",
+      "features": ["Google Ads Yönetimi", "Anahtar Kelime Stratejisi", "A/B Test", "Dönüşüm Takibi", "Bütçe Optimizasyonu"]
+    },
+    "aiAds": {
+      "title": "AI Destekli Reklam Yönetimi",
+      "description": "Yapay zeka teknolojileri ile reklam kampanyalarınızı otomatik optimize edin. Makine öğrenimi ile hedefleme, bütçe dağılımı ve yaratıcı içerik üretimi.",
+      "features": ["Otomatik Bütçe Optimizasyonu", "AI Hedefleme", "Dinamik Reklam Üretimi", "Prediktif Analiz", "Çok Kanallı Yönetim"]
+    },
+    "socialMedia": {
+      "title": "Sosyal Medya Reklamları",
+      "description": "Facebook, Instagram, TikTok, LinkedIn ve YouTube'da markanızı milyonlara ulaştırın. Platform bazlı strateji ve içerik üretimi.",
+      "features": ["Meta Ads", "TikTok Ads", "LinkedIn Ads", "YouTube Ads", "Influencer Marketing"]
+    },
+    "ecommerce": {
+      "title": "E-Ticaret Çözümleri",
+      "description": "Online mağazanızı kurun ve satışlarınızı katlayın. Ürün listeleme, ödeme entegrasyonu, kargo yönetimi ve pazaryeri entegrasyonları.",
+      "features": ["Mağaza Kurulumu", "Pazaryeri Entegrasyonu", "Ödeme Sistemleri", "Stok Yönetimi", "Ürün Optimizasyonu"]
+    },
+    "analytics": {
+      "title": "Veri Analitiği & Raporlama",
+      "description": "Web sitenizin ve kampanyalarınızın performansını gerçek zamanlı takip edin. Veri odaklı kararlar alın, ROI'nizi maximize edin.",
+      "features": ["Google Analytics 4", "Özel Dashboard", "Dönüşüm Analizi", "Kullanıcı Davranışı", "Aylık Raporlama"]
+    },
+    "web": {
+      "title": "Web Tasarım & Geliştirme",
+      "description": "48 saat içinde kurumsal web sitenizi kuralım. Mobil uyumlu, hızlı ve SEO dostu siteler. Her bütçeye uygun çözümler.",
+      "features": ["Kurumsal Web Sitesi", "Landing Page", "E-Ticaret Sitesi", "Web Uygulaması", "Mobil Uygulama"]
+    },
+    "brand": {
+      "title": "Marka & Dijital Strateji",
+      "description": "Markanızın dijital kimliğini oluşturun. Logo, kurumsal kimlik, marka stratejisi ve dijital pazarlama planlaması.",
+      "features": ["Marka Kimliği", "Dijital Strateji", "İçerik Pazarlama", "E-posta Pazarlama", "CRM Entegrasyonu"]
+    }
+  },
+  "stats": {
+    "firstPage": "İlk Sayfa Garantisi",
+    "firstPageValue": "%100",
+    "delivery": "Web Site Teslimatı",
+    "deliveryValue": "48 Saat",
+    "clients": "Mutlu Müşteri",
+    "clientsValue": "500+",
+    "roi": "Ortalama ROI Artışı",
+    "roiValue": "3.2x",
+    "campaigns": "Aktif Kampanya",
+    "campaignsValue": "1200+",
+    "growth": "Organik Trafik Artışı",
+    "growthValue": "%340"
+  },
+  "process": {
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "4 adımda dijital başarınızı inşa ediyoruz",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Analiz & Keşif",
+        "description": "İşinizi, rakiplerinizi ve hedef kitlenizi derinlemesine analiz ediyoruz. Mevcut dijital varlığınızı değerlendiriyoruz."
+      },
+      {
+        "number": "02",
+        "title": "Strateji & Planlama",
+        "description": "Veriye dayalı özel bir dijital strateji oluşturuyoruz. Hedefler, KPI'lar ve yol haritası belirliyoruz."
+      },
+      {
+        "number": "03",
+        "title": "Uygulama & Optimizasyon",
+        "description": "Stratejiyi hayata geçiriyoruz. AI destekli araçlarla sürekli optimizasyon yapıyor, performansı artırıyoruz."
+      },
+      {
+        "number": "04",
+        "title": "Raporlama & Büyüme",
+        "description": "Şeffaf raporlama ile sonuçları paylaşıyor, yeni büyüme fırsatlarını birlikte değerlendiriyoruz."
+      }
+    ]
+  },
+  "showcase": {
+    "title": "Başarı Hikayelerimiz",
+    "subtitle": "Müşterilerimizin dijital dönüşüm yolculuğu",
+    "items": [
+      { "title": "E-Ticaret SEO Projesi", "category": "SEO", "result": "%450 organik trafik artışı" },
+      { "title": "SaaS Landing Page", "category": "Web Tasarım", "result": "48 saatte teslim, %12 dönüşüm" },
+      { "title": "Google Ads Kampanya", "category": "SEM", "result": "3.8x ROAS, %60 maliyet düşüşü" },
+      { "title": "AI Reklam Optimizasyonu", "category": "AI Reklam", "result": "%200 dönüşüm artışı" },
+      { "title": "Pazaryeri Entegrasyonu", "category": "E-Ticaret", "result": "5 pazaryerinde %300 satış artışı" },
+      { "title": "Kurumsal Web Sitesi", "category": "Web Tasarım", "result": "Sayfa hızı skoru 98/100" }
+    ]
+  },
+  "whyUs": {
+    "title": "Neden Megis?",
+    "subtitle": "Rakiplerimizden farkımız",
+    "reasons": [
+      {
+        "title": "%100 İlk Sayfa Garantisi",
+        "description": "Tüm SEO projelerimizde müşterilerimiz Google'da ilk sayfada yer alıyor."
+      },
+      {
+        "title": "AI Destekli Teknoloji",
+        "description": "Yapay zeka ile reklam bütçenizi optimize ediyor, dönüşüm oranınızı katlıyoruz."
+      },
+      {
+        "title": "48 Saat Web Sitesi",
+        "description": "Kurumsal web sitenizi 48 saat içinde teslim ediyoruz. Hız bizim işimiz."
+      },
+      {
+        "title": "Şeffaf Raporlama",
+        "description": "Gerçek zamanlı dashboard ile kampanya performansınızı 7/24 takip edin."
+      }
+    ]
+  },
+  "techStack": {
+    "title": "Kullandığımız Teknolojiler",
+    "subtitle": "En güncel teknolojiler ve platformlar ile çalışıyoruz",
+    "categories": {
+      "advertising": "Reklam Platformları",
+      "analytics": "Analitik Araçlar",
+      "ecommerce": "E-Ticaret Platformları",
+      "development": "Geliştirme Teknolojileri"
+    }
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Merak ettiklerinizin cevapları burada",
+    "items": [
+      {
+        "question": "SEO çalışması ne kadar sürede sonuç verir?",
+        "answer": "SEO sonuçları genellikle 3-6 ay içinde görülmeye başlar. Ancak rekabet düzeyi, sektör ve mevcut site durumuna göre bu süre değişebilir. İlk 30 gün içinde teknik iyileştirmeler tamamlanır, 90 gün içinde organik trafikte artış gözlemlenir."
+      },
+      {
+        "question": "AI destekli reklam yönetimi nasıl çalışır?",
+        "answer": "Yapay zeka algoritmalarımız, reklam kampanyalarınızı gerçek zamanlı olarak analiz eder. Hedef kitle segmentasyonu, bütçe dağılımı ve reklam metinleri otomatik olarak optimize edilir. Makine öğrenimi sayesinde performans sürekli iyileşir."
+      },
+      {
+        "question": "48 saatte web sitesi gerçekten mümkün mü?",
+        "answer": "Evet! Hazır şablonlarımız ve optimize edilmiş iş akışımız sayesinde kurumsal web sitenizi 48 saat içinde teslim ediyoruz. Özel tasarım projeleri için süre, projenin kapsamına göre belirlenir."
+      },
+      {
+        "question": "Minimum bütçe ne kadar olmalı?",
+        "answer": "Her bütçeye uygun paketlerimiz bulunmaktadır. SEO için aylık 5.000 TL'den, reklam yönetimi için aylık 3.000 TL + reklam bütçesinden başlayan paketler sunuyoruz. Ücretsiz analiz ile size en uygun paketi belirleyelim."
+      },
+      {
+        "question": "Hangi platformlarda reklam yönetimi yapıyorsunuz?",
+        "answer": "Google Ads, Meta (Facebook & Instagram), TikTok, LinkedIn, YouTube, Twitter ve Bing gibi tüm büyük platformlarda reklam yönetimi yapıyoruz. Ayrıca Trendyol, Hepsiburada gibi pazaryerlerinde de reklam optimizasyonu sunuyoruz."
+      },
+      {
+        "question": "Raporlama nasıl yapılıyor?",
+        "answer": "Gerçek zamanlı dashboard üzerinden 7/24 kampanya performansınızı takip edebilirsiniz. Ayrıca haftalık ve aylık detaylı raporlar e-posta ile paylaşılır. Google Analytics 4, Google Search Console ve platform bazlı metrikler raporlara dahildir."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Projenizi Hayata Geçirelim",
+    "subtitle": "Ücretsiz dijital analiz ve danışmanlık için hemen iletişime geçin. İşinizi bir sonraki seviyeye taşıyalım.",
+    "button": "Ücretsiz Analiz Alın",
+    "secondaryButton": "Bizi Arayın"
+  },
+  "footer": {
+    "description": "SEO, SEM, AI destekli reklam yönetimi, e-ticaret çözümleri ve web tasarım alanında dijital çözümler sunuyoruz.",
+    "services": "Hizmetlerimiz",
+    "company": "Şirket",
+    "legal": "Yasal",
+    "rights": "Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "kvkk": "KVKK Aydınlatma Metni"
+  },
+  "theme": {
+    "light": "Aydınlık",
+    "dark": "Karanlık",
+    "system": "Sistem"
+  },
+  "language": {
+    "tr": "Türkçe",
+    "en": "English"
+  }
+}

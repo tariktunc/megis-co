@@ -8,6 +8,7 @@ import { WhyUs } from "@/components/sections/why-us";
 import { FAQ } from "@/components/sections/faq";
 import { CTA } from "@/components/sections/cta";
 import { FaqJsonLd } from "@/components/seo/json-ld";
+import { ThreeWaveGlobal } from "@/components/animations/three-wave-global";
 
 export default async function HomePage({
   params,
@@ -22,14 +23,21 @@ export default async function HomePage({
   return (
     <>
       <FaqJsonLd items={faq.items} />
+      <ThreeWaveGlobal />
+      
+      {/* Sections with transparent background over the 3D wave */}
       <Hero />
       <Stats />
       <Services />
       <Process />
-      <Showcase />
-      <WhyUs />
-      <FAQ />
-      <CTA />
+
+      {/* Sections with solid background to hide the wave */}
+      <div className="relative z-20 bg-background">
+        <Showcase />
+        <WhyUs />
+        <FAQ />
+        <CTA />
+      </div>
     </>
   );
 }

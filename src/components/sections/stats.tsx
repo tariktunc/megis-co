@@ -12,8 +12,8 @@ export function Stats() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section ref={ref} className="py-12 border-t border-border">
-      <div className="max-w-[980px] mx-auto px-6">
+    <section ref={ref} className="relative py-12 border-t border-border overflow-hidden">
+      <div className="relative z-10 max-w-[980px] mx-auto px-6">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-x-12 gap-y-10 py-10">
           {statKeys.map((key, i) => (
             <motion.div

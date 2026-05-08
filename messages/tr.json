@@ -37,42 +37,90 @@
     "seo": {
       "title": "SEO Optimizasyonu",
       "description": "Arama motorlarında organik olarak 1. sayfada yer alın. Teknik SEO, içerik optimizasyonu ve backlink stratejileri ile Google'da görünürlüğünüzü kalıcı olarak artırın.",
-      "features": ["Teknik SEO Analizi", "İçerik Stratejisi", "Backlink Yönetimi", "Yerel SEO", "Rakip Analizi"]
+      "features": [
+        "Teknik SEO Analizi",
+        "İçerik Stratejisi",
+        "Backlink Yönetimi",
+        "Yerel SEO",
+        "Rakip Analizi"
+      ]
     },
     "sem": {
       "title": "SEM & Arama Reklamları",
       "description": "Google Ads, Bing Ads ve arama motoru reklamları ile hedef kitlenize anında ulaşın. Dönüşüm odaklı kampanya yönetimi.",
-      "features": ["Google Ads Yönetimi", "Anahtar Kelime Stratejisi", "A/B Test", "Dönüşüm Takibi", "Bütçe Optimizasyonu"]
+      "features": [
+        "Google Ads Yönetimi",
+        "Anahtar Kelime Stratejisi",
+        "A/B Test",
+        "Dönüşüm Takibi",
+        "Bütçe Optimizasyonu"
+      ]
     },
     "aiAds": {
       "title": "AI Destekli Reklam Yönetimi",
       "description": "Yapay zeka teknolojileri ile reklam kampanyalarınızı otomatik optimize edin. Makine öğrenimi ile hedefleme, bütçe dağılımı ve yaratıcı içerik üretimi.",
-      "features": ["Otomatik Bütçe Optimizasyonu", "AI Hedefleme", "Dinamik Reklam Üretimi", "Prediktif Analiz", "Çok Kanallı Yönetim"]
+      "features": [
+        "Otomatik Bütçe Optimizasyonu",
+        "AI Hedefleme",
+        "Dinamik Reklam Üretimi",
+        "Prediktif Analiz",
+        "Çok Kanallı Yönetim"
+      ]
     },
     "socialMedia": {
       "title": "Sosyal Medya Reklamları",
       "description": "Facebook, Instagram, TikTok, LinkedIn ve YouTube'da markanızı milyonlara ulaştırın. Platform bazlı strateji ve içerik üretimi.",
-      "features": ["Meta Ads", "TikTok Ads", "LinkedIn Ads", "YouTube Ads", "Influencer Marketing"]
+      "features": [
+        "Meta Ads",
+        "TikTok Ads",
+        "LinkedIn Ads",
+        "YouTube Ads",
+        "Influencer Marketing"
+      ]
     },
     "ecommerce": {
       "title": "E-Ticaret Çözümleri",
       "description": "Online mağazanızı kurun ve satışlarınızı katlayın. Ürün listeleme, ödeme entegrasyonu, kargo yönetimi ve pazaryeri entegrasyonları.",
-      "features": ["Mağaza Kurulumu", "Pazaryeri Entegrasyonu", "Ödeme Sistemleri", "Stok Yönetimi", "Ürün Optimizasyonu"]
+      "features": [
+        "Mağaza Kurulumu",
+        "Pazaryeri Entegrasyonu",
+        "Ödeme Sistemleri",
+        "Stok Yönetimi",
+        "Ürün Optimizasyonu"
+      ]
     },
     "analytics": {
       "title": "Veri Analitiği & Raporlama",
       "description": "Web sitenizin ve kampanyalarınızın performansını gerçek zamanlı takip edin. Veri odaklı kararlar alın, ROI'nizi maximize edin.",
-      "features": ["Google Analytics 4", "Özel Dashboard", "Dönüşüm Analizi", "Kullanıcı Davranışı", "Aylık Raporlama"]
+      "features": [
+        "Google Analytics 4",
+        "Özel Dashboard",
+        "Dönüşüm Analizi",
+        "Kullanıcı Davranışı",
+        "Aylık Raporlama"
+      ]
     },
     "web": {
       "title": "Web Tasarım & Geliştirme",
       "description": "48 saat içinde kurumsal web sitenizi kuralım. Mobil uyumlu, hızlı ve SEO dostu siteler. Her bütçeye uygun çözümler.",
-      "features": ["Kurumsal Web Sitesi", "Landing Page", "E-Ticaret Sitesi", "Web Uygulaması", "Mobil Uygulama"]
+      "features": [
+        "Kurumsal Web Sitesi",
+        "Landing Page",
+        "E-Ticaret Sitesi",
+        "Web Uygulaması",
+        "Mobil Uygulama"
+      ]
     },
     "brand": {
       "title": "Marka & Dijital Strateji",
       "description": "Markanızın dijital kimliğini oluşturun. Logo, kurumsal kimlik, marka stratejisi ve dijital pazarlama planlaması.",
-      "features": ["Marka Kimliği", "Dijital Strateji", "İçerik Pazarlama", "E-posta Pazarlama", "CRM Entegrasyonu"]
+      "features": [
+        "Marka Kimliği",
+        "Dijital Strateji",
+        "İçerik Pazarlama",
+        "E-posta Pazarlama",
+        "CRM Entegrasyonu"
+      ]
     }
   },
   "stats": {
@@ -119,12 +167,36 @@
     "title": "Başarı Hikayelerimiz",
     "subtitle": "Müşterilerimizin dijital dönüşüm yolculuğu",
     "items": [
-      { "title": "E-Ticaret SEO Projesi", "category": "SEO", "result": "%450 organik trafik artışı" },
-      { "title": "SaaS Landing Page", "category": "Web Tasarım", "result": "48 saatte teslim, %12 dönüşüm" },
-      { "title": "Google Ads Kampanya", "category": "SEM", "result": "3.8x ROAS, %60 maliyet düşüşü" },
-      { "title": "AI Reklam Optimizasyonu", "category": "AI Reklam", "result": "%200 dönüşüm artışı" },
-      { "title": "Pazaryeri Entegrasyonu", "category": "E-Ticaret", "result": "5 pazaryerinde %300 satış artışı" },
-      { "title": "Kurumsal Web Sitesi", "category": "Web Tasarım", "result": "Sayfa hızı skoru 98/100" }
+      {
+        "title": "E-Ticaret SEO Projesi",
+        "category": "SEO",
+        "result": "%450 organik trafik artışı"
+      },
+      {
+        "title": "SaaS Landing Page",
+        "category": "Web Tasarım",
+        "result": "48 saatte teslim, %12 dönüşüm"
+      },
+      {
+        "title": "Google Ads Kampanya",
+        "category": "SEM",
+        "result": "3.8x ROAS, %60 maliyet düşüşü"
+      },
+      {
+        "title": "AI Reklam Optimizasyonu",
+        "category": "AI Reklam",
+        "result": "%200 dönüşüm artışı"
+      },
+      {
+        "title": "Pazaryeri Entegrasyonu",
+        "category": "E-Ticaret",
+        "result": "5 pazaryerinde %300 satış artışı"
+      },
+      {
+        "title": "Kurumsal Web Sitesi",
+        "category": "Web Tasarım",
+        "result": "Sayfa hızı skoru 98/100"
+      }
     ]
   },
   "whyUs": {
@@ -203,7 +275,9 @@
     "rights": "Tüm hakları saklıdır.",
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Koşulları",
-    "kvkk": "KVKK Aydınlatma Metni"
+    "kvkk": "KVKK Aydınlatma Metni",
+    "cookies": "Çerez Politikası",
+    "dsar": "Veri Talebi"
   },
   "theme": {
     "light": "Aydınlık",
@@ -331,6 +405,56 @@
         {
           "title": "Başvuru",
           "content": "Haklarınızı kullanmak için info@megis.com.tr adresine e-posta göndererek veya iletişim formu aracılığıyla başvurabilirsiniz."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Çerez Politikası",
+      "lastUpdated": "Son güncelleme: 09 Mayıs 2026",
+      "intro": "Bu Çerez Politikası, Megis web sitesinde (megis.com.tr) çerezleri ve benzeri teknolojileri nasıl kullandığımızı açıklamaktadır. Siteyi kullanarak çerez kullanımına ilişkin bu politikayı kabul etmiş sayılırsınız.",
+      "sections": [
+        {
+          "title": "Çerez Nedir?",
+          "content": "Çerezler, bir web sitesini ziyaret ettiğinizde cihazınıza kaydedilen küçük metin dosyalarıdır. Web sitelerinin sizi tanımasına ve tercihlerinizi hatırlamasına yardımcı olurlar. Oturum çerezleri tarayıcı kapatılınca silinirken kalıcı çerezler belirli bir süre cihazda kalır."
+        },
+        {
+          "title": "Kullandığımız Çerezler",
+          "content": "Zorunlu Çerezler: Web sitesinin temel işlevleri için gereklidir; oturum yönetimi ve güvenlik. Analitik Çerezler: Ziyaretçi sayısı ve site kullanım istatistikleri (Google Analytics 4, Yandex.Metrika). Pazarlama Çerezleri: Hedefli reklamlar ve kampanya ölçümü için kullanılır. Fonksiyonel Çerezler: Dil ve tema tercihlerinizi hatırlamak için kullanılır."
+        },
+        {
+          "title": "Google Consent Mode v2",
+          "content": "Sitemizde Google Consent Mode v2 uygulanmaktadır. Analitik veya pazarlama çerezlerini reddetseniz bile Google hizmetleri temel işlevselliği sürdürmek için şekillendirme modunda çalışabilir; ancak kişiselleştirme yapılmaz."
+        },
+        {
+          "title": "Çerez Tercihlerinizi Yönetme",
+          "content": "Sitemize ilk girişinizde çerez banner'ı aracılığıyla tercihlerinizi belirleyebilirsiniz. Zorunlu çerezler dışındaki çerezleri reddedebilirsiniz. Tarayıcı ayarlarınızdan da çerezleri yönetebilirsiniz; ancak bu durumda sitenin bazı özellikleri düzgün çalışmayabilir."
+        },
+        {
+          "title": "İletişim",
+          "content": "Çerez politikamız hakkında sorularınız için info@megis.com.tr adresine e-posta gönderebilirsiniz."
+        }
+      ]
+    },
+    "dsar": {
+      "title": "Veri Sahibi Başvuru Formu (DSAR)",
+      "lastUpdated": "Son güncelleme: 09 Mayıs 2026",
+      "intro": "KVKK Madde 11 ve GDPR Madde 15–22 kapsamındaki kişisel veri haklarınızı kullanmak için aşağıdaki talimatları izleyerek başvurabilirsiniz.",
+      "sections": [
+        {
+          "title": "Haklarınız",
+          "content": "Kişisel verilerinize erişim talep etme, yanlış verilerin düzeltilmesini isteme, belirli koşullar altında verilerinizin silinmesini talep etme, işlemenin kısıtlanmasını isteme, veri taşınabilirliği talep etme ve işlemeye itiraz etme haklarınız bulunmaktadır."
+        },
+        {
+          "title": "Başvuru Yöntemi",
+          "content": "Başvurularınızı info@megis.com.tr adresine 'DSAR Başvurusu' konu başlığıyla e-posta göndererek iletebilirsiniz. Başvuruda adınız, soyadınız, iletişim bilgileriniz, kullandığınız hizmet ve talep türünü belirtiniz."
+        },
+        {
+          "title": "Yanıt Süresi",
+          "content": "Başvurularınız KVKK kapsamında 30 gün, GDPR kapsamında ise 1 ay (uzatma gerekirse 3 ay) içinde yanıtlanacaktır. Kimlik doğrulaması gerekebilir."
+        },
+        {
+          "title": "Şikâyet Hakkı",
+          "content": "Yanıtımızdan memnun kalmazsanız KVKK için Kişisel Verileri Koruma Kurulu'na (kvkk.gov.tr) veya GDPR için ilgili ülkenin veri koruma otoritesine şikâyette bulunabilirsiniz."
         }
       ]
     }

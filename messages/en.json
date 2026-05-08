@@ -37,42 +37,90 @@
     "seo": {
       "title": "SEO Optimization",
       "description": "Rank on the first page organically. Boost your Google visibility permanently with technical SEO, content optimization, and backlink strategies.",
-      "features": ["Technical SEO Audit", "Content Strategy", "Backlink Management", "Local SEO", "Competitor Analysis"]
+      "features": [
+        "Technical SEO Audit",
+        "Content Strategy",
+        "Backlink Management",
+        "Local SEO",
+        "Competitor Analysis"
+      ]
     },
     "sem": {
       "title": "SEM & Search Ads",
       "description": "Reach your target audience instantly with Google Ads, Bing Ads, and search engine advertising. Conversion-focused campaign management.",
-      "features": ["Google Ads Management", "Keyword Strategy", "A/B Testing", "Conversion Tracking", "Budget Optimization"]
+      "features": [
+        "Google Ads Management",
+        "Keyword Strategy",
+        "A/B Testing",
+        "Conversion Tracking",
+        "Budget Optimization"
+      ]
     },
     "aiAds": {
       "title": "AI-Powered Ad Management",
       "description": "Automatically optimize your ad campaigns with AI technology. Machine learning for targeting, budget allocation, and creative content generation.",
-      "features": ["Auto Budget Optimization", "AI Targeting", "Dynamic Ad Generation", "Predictive Analytics", "Multi-Channel Management"]
+      "features": [
+        "Auto Budget Optimization",
+        "AI Targeting",
+        "Dynamic Ad Generation",
+        "Predictive Analytics",
+        "Multi-Channel Management"
+      ]
     },
     "socialMedia": {
       "title": "Social Media Advertising",
       "description": "Reach millions on Facebook, Instagram, TikTok, LinkedIn, and YouTube. Platform-specific strategy and content creation.",
-      "features": ["Meta Ads", "TikTok Ads", "LinkedIn Ads", "YouTube Ads", "Influencer Marketing"]
+      "features": [
+        "Meta Ads",
+        "TikTok Ads",
+        "LinkedIn Ads",
+        "YouTube Ads",
+        "Influencer Marketing"
+      ]
     },
     "ecommerce": {
       "title": "E-Commerce Solutions",
       "description": "Build your online store and multiply your sales. Product listing, payment integration, shipping management, and marketplace integrations.",
-      "features": ["Store Setup", "Marketplace Integration", "Payment Systems", "Inventory Management", "Product Optimization"]
+      "features": [
+        "Store Setup",
+        "Marketplace Integration",
+        "Payment Systems",
+        "Inventory Management",
+        "Product Optimization"
+      ]
     },
     "analytics": {
       "title": "Data Analytics & Reporting",
       "description": "Track your website and campaign performance in real-time. Make data-driven decisions and maximize your ROI.",
-      "features": ["Google Analytics 4", "Custom Dashboard", "Conversion Analysis", "User Behavior", "Monthly Reporting"]
+      "features": [
+        "Google Analytics 4",
+        "Custom Dashboard",
+        "Conversion Analysis",
+        "User Behavior",
+        "Monthly Reporting"
+      ]
     },
     "web": {
       "title": "Web Design & Development",
       "description": "Get your corporate website up in 48 hours. Mobile-responsive, fast, and SEO-friendly sites. Solutions for every budget.",
-      "features": ["Corporate Website", "Landing Page", "E-Commerce Site", "Web Application", "Mobile App"]
+      "features": [
+        "Corporate Website",
+        "Landing Page",
+        "E-Commerce Site",
+        "Web Application",
+        "Mobile App"
+      ]
     },
     "brand": {
       "title": "Brand & Digital Strategy",
       "description": "Build your brand's digital identity. Logo, corporate identity, brand strategy, and digital marketing planning.",
-      "features": ["Brand Identity", "Digital Strategy", "Content Marketing", "Email Marketing", "CRM Integration"]
+      "features": [
+        "Brand Identity",
+        "Digital Strategy",
+        "Content Marketing",
+        "Email Marketing",
+        "CRM Integration"
+      ]
     }
   },
   "stats": {
@@ -119,12 +167,36 @@
     "title": "Success Stories",
     "subtitle": "The digital transformation journey of our clients",
     "items": [
-      { "title": "E-Commerce SEO Project", "category": "SEO", "result": "450% organic traffic increase" },
-      { "title": "SaaS Landing Page", "category": "Web Design", "result": "Delivered in 48h, 12% conversion" },
-      { "title": "Google Ads Campaign", "category": "SEM", "result": "3.8x ROAS, 60% cost reduction" },
-      { "title": "AI Ad Optimization", "category": "AI Ads", "result": "200% conversion increase" },
-      { "title": "Marketplace Integration", "category": "E-Commerce", "result": "300% sales increase on 5 marketplaces" },
-      { "title": "Corporate Website", "category": "Web Design", "result": "Page speed score 98/100" }
+      {
+        "title": "E-Commerce SEO Project",
+        "category": "SEO",
+        "result": "450% organic traffic increase"
+      },
+      {
+        "title": "SaaS Landing Page",
+        "category": "Web Design",
+        "result": "Delivered in 48h, 12% conversion"
+      },
+      {
+        "title": "Google Ads Campaign",
+        "category": "SEM",
+        "result": "3.8x ROAS, 60% cost reduction"
+      },
+      {
+        "title": "AI Ad Optimization",
+        "category": "AI Ads",
+        "result": "200% conversion increase"
+      },
+      {
+        "title": "Marketplace Integration",
+        "category": "E-Commerce",
+        "result": "300% sales increase on 5 marketplaces"
+      },
+      {
+        "title": "Corporate Website",
+        "category": "Web Design",
+        "result": "Page speed score 98/100"
+      }
     ]
   },
   "whyUs": {
@@ -203,7 +275,9 @@
     "rights": "All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "kvkk": "Data Protection Notice"
+    "kvkk": "Data Protection Notice",
+    "cookies": "Cookie Policy",
+    "dsar": "Data Request"
   },
   "theme": {
     "light": "Light",
@@ -331,6 +405,56 @@
         {
           "title": "Application",
           "content": "To exercise your rights, you can email info@megis.com.tr or use the contact form."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "lastUpdated": "Last updated: May 9, 2026",
+      "intro": "This Cookie Policy explains how Megis (megis.com.tr) uses cookies and similar technologies. By using the site, you accept this policy.",
+      "sections": [
+        {
+          "title": "What Are Cookies?",
+          "content": "Cookies are small text files stored on your device when you visit a website. They help websites recognise you and remember your preferences. Session cookies are deleted when you close your browser; persistent cookies remain for a set period."
+        },
+        {
+          "title": "Cookies We Use",
+          "content": "Essential Cookies: Required for core functionality such as session management and security. Analytics Cookies: Visitor counts and usage statistics (Google Analytics 4, Yandex.Metrika). Marketing Cookies: Used for targeted advertising and campaign measurement. Functional Cookies: Used to remember your language and theme preferences."
+        },
+        {
+          "title": "Google Consent Mode v2",
+          "content": "We implement Google Consent Mode v2. Even if you decline analytics or marketing cookies, Google services may operate in modelling mode for basic functionality without personalisation."
+        },
+        {
+          "title": "Managing Your Cookie Preferences",
+          "content": "You can set your preferences via the cookie banner on your first visit. You may decline all non-essential cookies and update your preferences at any time. You can also manage cookies through your browser settings, though some features may not work correctly."
+        },
+        {
+          "title": "Contact",
+          "content": "For questions about our cookie policy, please email info@megis.com.tr."
+        }
+      ]
+    },
+    "dsar": {
+      "title": "Data Subject Access Request (DSAR)",
+      "lastUpdated": "Last updated: May 9, 2026",
+      "intro": "You may exercise your personal data rights under KVKK Article 11 and GDPR Articles 15–22 by following the instructions below.",
+      "sections": [
+        {
+          "title": "Your Rights",
+          "content": "You have the right to access your personal data, request correction of inaccurate data, request erasure under certain conditions, request restriction of processing, request data portability, and object to processing."
+        },
+        {
+          "title": "How to Submit a Request",
+          "content": "Send an email to info@megis.com.tr with the subject line 'DSAR Request'. Please include your full name, contact details, the service you used, and the type of request."
+        },
+        {
+          "title": "Response Time",
+          "content": "Requests will be answered within 30 days under KVKK and within 1 month (extendable to 3 months) under GDPR. Identity verification may be required."
+        },
+        {
+          "title": "Right to Lodge a Complaint",
+          "content": "If you are not satisfied with our response, you may lodge a complaint with the Personal Data Protection Authority (kvkk.gov.tr) for KVKK, or with your national data protection authority for GDPR."
         }
       ]
     }

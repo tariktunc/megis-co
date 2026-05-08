@@ -2,7 +2,7 @@
 module.exports = {
   siteUrl: process.env.SITE_URL || "https://megis.com.tr",
   generateRobotsTxt: true,
-  exclude: ["/api/*"],
+  exclude: ["/api/*", "/dsar", "/en/dsar"],
   alternateRefs: [
     {
       href: "https://megis.com.tr",

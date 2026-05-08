@@ -15,7 +15,7 @@ const footerServices = [
 const footerMore = [
   { href: "/temel-kimlik", label: "identity" },
   { href: "/yasal-uyumluluk", label: "legal" },
-  { href: "/erisilebirlik", label: "a11y" },
+  { href: "/erisilebilirlik", label: "a11y" },
   { href: "/tema-gorsel", label: "theme" },
   { href: "/ux-temelleri", label: "ux" },
   { href: "/urun-hizmet", label: "productMarketing" },
@@ -65,8 +65,10 @@ export function Footer() {
             <h4 className="text-xs font-semibold text-foreground mb-4">{t("legal")}</h4>
             <ul className="space-y-3">
               <li><Link href="/gizlilik-politikasi" className="text-xs text-muted hover:text-foreground transition-colors">{t("privacy")}</Link></li>
+              <li><Link href="/cerez-politikasi" className="text-xs text-muted hover:text-foreground transition-colors">{t("cookies")}</Link></li>
               <li><Link href="/kullanim-kosullari" className="text-xs text-muted hover:text-foreground transition-colors">{t("terms")}</Link></li>
               <li><Link href="/kvkk" className="text-xs text-muted hover:text-foreground transition-colors">{t("kvkk")}</Link></li>
+              <li><Link href="/dsar" className="text-xs text-muted hover:text-foreground transition-colors">{t("dsar")}</Link></li>
             </ul>
           </div>
           <div>

@@ -1,0 +1,1016 @@
+{
+  "date": "2026-05-08",
+  "ngrams": {
+    "1": [
+      [
+        "seo",
+        21
+      ],
+      [
+        "web",
+        19
+      ],
+      [
+        "icerik",
+        15
+      ],
+      [
+        "gorsel",
+        15
+      ],
+      [
+        "izleme",
+        14
+      ],
+      [
+        "teknik",
+        14
+      ],
+      [
+        "surekli",
+        13
+      ],
+      [
+        "veri",
+        13
+      ],
+      [
+        "google",
+        13
+      ],
+      [
+        "dijital",
+        12
+      ],
+      [
+        "optimizasyonu",
+        12
+      ],
+      [
+        "neden",
+        12
+      ],
+      [
+        "analizi",
+        12
+      ],
+      [
+        "ticaret",
+        12
+      ],
+      [
+        "kullanici",
+        12
+      ],
+      [
+        "stratejisi",
+        11
+      ],
+      [
+        "strateji",
+        11
+      ],
+      [
+        "tag",
+        11
+      ],
+      [
+        "arama",
+        10
+      ],
+      [
+        "onemli",
+        10
+      ],
+      [
+        "yonetimi",
+        10
+      ],
+      [
+        "marka",
+        10
+      ],
+      [
+        "raporlama",
+        10
+      ],
+      [
+        "denetimi",
+        10
+      ],
+      [
+        "optimizasyon",
+        10
+      ],
+      [
+        "analiz",
+        10
+      ],
+      [
+        "landing",
+        10
+      ],
+      [
+        "tema",
+        10
+      ],
+      [
+        "icin",
+        9
+      ],
+      [
+        "performans",
+        9
+      ],
+      [
+        "sayfa",
+        9
+      ],
+      [
+        "saas",
+        9
+      ],
+      [
+        "schema",
+        8
+      ],
+      [
+        "txt",
+        8
+      ],
+      [
+        "meta",
+        8
+      ],
+      [
+        "altyapisi",
+        8
+      ],
+      [
+        "test",
+        8
+      ],
+      [
+        "entegrasyonu",
+        8
+      ],
+      [
+        "tum",
+        7
+      ],
+      [
+        "markup",
+        7
+      ],
+      [
+        "uyumlu",
+        7
+      ],
+      [
+        "robots",
+        7
+      ],
+      [
+        "altyapi",
+        7
+      ],
+      [
+        "header",
+        7
+      ],
+      [
+        "dashboard",
+        7
+      ],
+      [
+        "kurulumu",
+        7
+      ],
+      [
+        "ucretsiz",
+        7
+      ],
+      [
+        "pazarlama",
+        7
+      ],
+      [
+        "sem",
+        7
+      ],
+      [
+        "mevcut",
+        7
+      ]
+    ],
+    "2": [
+      [
+        "neden onemli",
+        9
+      ],
+      [
+        "izleme raporlama",
+        6
+      ],
+      [
+        "cd pipeline",
+        6
+      ],
+      [
+        "robots txt",
+        5
+      ],
+      [
+        "teknik altyapi",
+        5
+      ],
+      [
+        "schema markup",
+        5
+      ],
+      [
+        "web vitals",
+        5
+      ],
+      [
+        "surekli izleme",
+        5
+      ],
+      [
+        "ucretsiz arac",
+        5
+      ],
+      [
+        "meta tag",
+        5
+      ],
+      [
+        "custom properties",
+        5
+      ],
+      [
+        "core web",
+        4
+      ],
+      [
+        "seo sem",
+        4
+      ],
+      [
+        "wcag aa",
+        4
+      ],
+      [
+        "content security",
+        4
+      ],
+      [
+        "security policy",
+        4
+      ],
+      [
+        "cok dilli",
+        4
+      ],
+      [
+        "issues math",
+        3
+      ],
+      [
+        "math abs",
+        3
+      ],
+      [
+        "abs desktop",
+        3
+      ],
+      [
+        "dijital ajans",
+        3
+      ],
+      [
+        "ai bot",
+        3
+      ],
+      [
+        "product service",
+        3
+      ],
+      [
+        "knowledge panel",
+        3
+      ],
+      [
+        "vitals optimizasyonu",
+        3
+      ],
+      [
+        "performans butcesi",
+        3
+      ],
+      [
+        "surekli iyilestirme",
+        3
+      ],
+      [
+        "saas dashboard",
+        3
+      ],
+      [
+        "tag kontrol",
+        3
+      ],
+      [
+        "radix ui",
+        3
+      ],
+      [
+        "strateji yol",
+        3
+      ],
+      [
+        "yol haritasi",
+        3
+      ],
+      [
+        "ticaret platformu",
+        3
+      ],
+      [
+        "perplexity gemini",
+        3
+      ],
+      [
+        "analiz ediyoruz",
+        3
+      ],
+      [
+        "web sitenizi",
+        3
+      ],
+      [
+        "neden kritik",
+        3
+      ],
+      [
+        "conversion pixel",
+        3
+      ],
+      [
+        "hedef kitle",
+        3
+      ],
+      [
+        "teknik seo",
+        3
+      ],
+      [
+        "tema sistemi",
+        3
+      ],
+      [
+        "next themes",
+        3
+      ],
+      [
+        "marka kimligi",
+        3
+      ],
+      [
+        "apple tarzi",
+        3
+      ],
+      [
+        "web tasarım",
+        3
+      ],
+      [
+        "desktop wordcount",
+        2
+      ],
+      [
+        "hata oluştu",
+        2
+      ],
+      [
+        "ai destekli",
+        2
+      ],
+      [
+        "destekli reklam",
+        2
+      ],
+      [
+        "yapay zeka",
+        2
+      ]
+    ],
+    "3": [
+      [
+        "ci cd pipeline",
+        6
+      ],
+      [
+        "core web vitals",
+        4
+      ],
+      [
+        "content security policy",
+        4
+      ],
+      [
+        "issues math abs",
+        3
+      ],
+      [
+        "math abs desktop",
+        3
+      ],
+      [
+        "web vitals optimizasyonu",
+        3
+      ],
+      [
+        "meta tag kontrol",
+        3
+      ],
+      [
+        "strateji yol haritasi",
+        3
+      ],
+      [
+        "ai destekli reklam",
+        2
+      ],
+      [
+        "yapay zeka reklam",
+        2
+      ],
+      [
+        "zeka reklam kampanyalarınızı",
+        2
+      ],
+      [
+        "reklam kampanyalarınızı optimize",
+        2
+      ],
+      [
+        "kampanyalarınızı optimize edin",
+        2
+      ],
+      [
+        "organization person product",
+        2
+      ],
+      [
+        "person product service",
+        2
+      ],
+      [
+        "product service brand",
+        2
+      ],
+      [
+        "izleme raporlama ai",
+        2
+      ],
+      [
+        "entity schema markup",
+        2
+      ],
+      [
+        "izleme raporlama surekli",
+        2
+      ],
+      [
+        "veri odaklı kararlar",
+        2
+      ],
+      [
+        "real user monitoring",
+        2
+      ],
+      [
+        "optimizasyonu izleme raporlama",
+        2
+      ],
+      [
+        "markanızın dijital kimliğini",
+        2
+      ],
+      [
+        "dijital kimliğini oluşturun",
+        2
+      ],
+      [
+        "ticaret çözümleri online",
+        2
+      ],
+      [
+        "çözümleri online mağazanızı",
+        2
+      ],
+      [
+        "online mağazanızı kurun",
+        2
+      ],
+      [
+        "mağazanızı kurun satışlarınızı",
+        2
+      ],
+      [
+        "kurun satışlarınızı katlayın",
+        2
+      ],
+      [
+        "denetimi strateji yol",
+        2
+      ],
+      [
+        "surekli izleme iyilestirme",
+        2
+      ],
+      [
+        "arama motorlarında görünürlüğünüzü",
+        2
+      ],
+      [
+        "motorlarında görünürlüğünüzü artırın",
+        2
+      ],
+      [
+        "llms txt dosyasi",
+        2
+      ],
+      [
+        "chatgpt claude perplexity",
+        2
+      ],
+      [
+        "claude perplexity gemini",
+        2
+      ],
+      [
+        "cd pipeline penetrasyon",
+        2
+      ],
+      [
+        "pipeline penetrasyon testi",
+        2
+      ],
+      [
+        "hakkımızda megis dijital",
+        2
+      ],
+      [
+        "megis dijital ajans",
+        2
+      ],
+      [
+        "google tag manager",
+        2
+      ],
+      [
+        "heatmap session recording",
+        2
+      ],
+      [
+        "teknik seo denetimi",
+        2
+      ],
+      [
+        "light dark system",
+        2
+      ],
+      [
+        "next themes entegrasyonu",
+        2
+      ],
+      [
+        "hedef kitle persona",
+        2
+      ],
+      [
+        "cok dilli altyapi",
+        2
+      ],
+      [
+        "apple tarzi landing",
+        2
+      ],
+      [
+        "web tasarım geliştirme",
+        2
+      ],
+      [
+        "saat içinde kurumsal",
+        2
+      ]
+    ],
+    "4": [
+      [
+        "issues math abs desktop",
+        3
+      ],
+      [
+        "core web vitals optimizasyonu",
+        3
+      ],
+      [
+        "yapay zeka reklam kampanyalarınızı",
+        2
+      ],
+      [
+        "zeka reklam kampanyalarınızı optimize",
+        2
+      ],
+      [
+        "reklam kampanyalarınızı optimize edin",
+        2
+      ],
+      [
+        "organization person product service",
+        2
+      ],
+      [
+        "person product service brand",
+        2
+      ],
+      [
+        "markanızın dijital kimliğini oluşturun",
+        2
+      ],
+      [
+        "ticaret çözümleri online mağazanızı",
+        2
+      ],
+      [
+        "çözümleri online mağazanızı kurun",
+        2
+      ],
+      [
+        "online mağazanızı kurun satışlarınızı",
+        2
+      ],
+      [
+        "mağazanızı kurun satışlarınızı katlayın",
+        2
+      ],
+      [
+        "denetimi strateji yol haritasi",
+        2
+      ],
+      [
+        "arama motorlarında görünürlüğünüzü artırın",
+        2
+      ],
+      [
+        "chatgpt claude perplexity gemini",
+        2
+      ],
+      [
+        "ci cd pipeline penetrasyon",
+        2
+      ],
+      [
+        "cd pipeline penetrasyon testi",
+        2
+      ],
+      [
+        "hakkımızda megis dijital ajans",
+        2
+      ],
+      [
+        "saat içinde kurumsal web",
+        2
+      ],
+      [
+        "içinde kurumsal web sitenizi",
+        2
+      ],
+      [
+        "kurumsal web sitenizi kuralım",
+        2
+      ],
+      [
+        "google consent mode entegrasyonu",
+        2
+      ],
+      [
+        "desktop count mobile count",
+        1
+      ],
+      [
+        "count mobile count issues",
+        1
+      ],
+      [
+        "mobile count issues math",
+        1
+      ],
+      [
+        "count issues math abs",
+        1
+      ],
+      [
+        "math abs desktop linkcount",
+        1
+      ],
+      [
+        "abs desktop linkcount mobile",
+        1
+      ],
+      [
+        "desktop linkcount mobile linkcount",
+        1
+      ],
+      [
+        "linkcount mobile linkcount issues",
+        1
+      ],
+      [
+        "mobile linkcount issues math",
+        1
+      ],
+      [
+        "linkcount issues math abs",
+        1
+      ],
+      [
+        "math abs desktop imagecount",
+        1
+      ],
+      [
+        "abs desktop imagecount mobile",
+        1
+      ],
+      [
+        "desktop imagecount mobile imagecount",
+        1
+      ],
+      [
+        "imagecount mobile imagecount issues",
+        1
+      ],
+      [
+        "mobile imagecount issues math",
+        1
+      ],
+      [
+        "imagecount issues math abs",
+        1
+      ],
+      [
+        "math abs desktop wordcount",
+        1
+      ],
+      [
+        "abs desktop wordcount mobile",
+        1
+      ],
+      [
+        "desktop wordcount mobile wordcount",
+        1
+      ],
+      [
+        "wordcount mobile wordcount desktop",
+        1
+      ],
+      [
+        "mobile wordcount desktop wordcount",
+        1
+      ],
+      [
+        "wordcount desktop wordcount issues",
+        1
+      ],
+      [
+        "desktop wordcount issues hata",
+        1
+      ],
+      [
+        "wordcount issues hata oluştu",
+        1
+      ],
+      [
+        "issues hata oluştu beklenmedik",
+        1
+      ],
+      [
+        "hata oluştu beklenmedik hata",
+        1
+      ],
+      [
+        "oluştu beklenmedik hata oluştu",
+        1
+      ],
+      [
+        "beklenmedik hata oluştu lütfen",
+        1
+      ]
+    ],
+    "5": [
+      [
+        "yapay zeka reklam kampanyalarınızı optimize",
+        2
+      ],
+      [
+        "zeka reklam kampanyalarınızı optimize edin",
+        2
+      ],
+      [
+        "organization person product service brand",
+        2
+      ],
+      [
+        "ticaret çözümleri online mağazanızı kurun",
+        2
+      ],
+      [
+        "çözümleri online mağazanızı kurun satışlarınızı",
+        2
+      ],
+      [
+        "online mağazanızı kurun satışlarınızı katlayın",
+        2
+      ],
+      [
+        "ci cd pipeline penetrasyon testi",
+        2
+      ],
+      [
+        "saat içinde kurumsal web sitenizi",
+        2
+      ],
+      [
+        "içinde kurumsal web sitenizi kuralım",
+        2
+      ],
+      [
+        "desktop count mobile count issues",
+        1
+      ],
+      [
+        "count mobile count issues math",
+        1
+      ],
+      [
+        "mobile count issues math abs",
+        1
+      ],
+      [
+        "count issues math abs desktop",
+        1
+      ],
+      [
+        "issues math abs desktop linkcount",
+        1
+      ],
+      [
+        "math abs desktop linkcount mobile",
+        1
+      ],
+      [
+        "abs desktop linkcount mobile linkcount",
+        1
+      ],
+      [
+        "desktop linkcount mobile linkcount issues",
+        1
+      ],
+      [
+        "linkcount mobile linkcount issues math",
+        1
+      ],
+      [
+        "mobile linkcount issues math abs",
+        1
+      ],
+      [
+        "linkcount issues math abs desktop",
+        1
+      ],
+      [
+        "issues math abs desktop imagecount",
+        1
+      ],
+      [
+        "math abs desktop imagecount mobile",
+        1
+      ],
+      [
+        "abs desktop imagecount mobile imagecount",
+        1
+      ],
+      [
+        "desktop imagecount mobile imagecount issues",
+        1
+      ],
+      [
+        "imagecount mobile imagecount issues math",
+        1
+      ],
+      [
+        "mobile imagecount issues math abs",
+        1
+      ],
+      [
+        "imagecount issues math abs desktop",
+        1
+      ],
+      [
+        "issues math abs desktop wordcount",
+        1
+      ],
+      [
+        "math abs desktop wordcount mobile",
+        1
+      ],
+      [
+        "abs desktop wordcount mobile wordcount",
+        1
+      ],
+      [
+        "desktop wordcount mobile wordcount desktop",
+        1
+      ],
+      [
+        "wordcount mobile wordcount desktop wordcount",
+        1
+      ],
+      [
+        "mobile wordcount desktop wordcount issues",
+        1
+      ],
+      [
+        "wordcount desktop wordcount issues hata",
+        1
+      ],
+      [
+        "desktop wordcount issues hata oluştu",
+        1
+      ],
+      [
+        "wordcount issues hata oluştu beklenmedik",
+        1
+      ],
+      [
+        "issues hata oluştu beklenmedik hata",
+        1
+      ],
+      [
+        "hata oluştu beklenmedik hata oluştu",
+        1
+      ],
+      [
+        "oluştu beklenmedik hata oluştu lütfen",
+        1
+      ],
+      [
+        "beklenmedik hata oluştu lütfen tekrar",
+        1
+      ],
+      [
+        "hata oluştu lütfen tekrar deneyin",
+        1
+      ],
+      [
+        "oluştu lütfen tekrar deneyin tekrar",
+        1
+      ],
+      [
+        "lütfen tekrar deneyin tekrar dene",
+        1
+      ],
+      [
+        "tekrar deneyin tekrar dene dijital",
+        1
+      ],
+      [
+        "deneyin tekrar dene dijital ajans",
+        1
+      ],
+      [
+        "tekrar dene dijital ajans ai",
+        1
+      ],
+      [
+        "dene dijital ajans ai destekli",
+        1
+      ],
+      [
+        "dijital ajans ai destekli reklam",
+        1
+      ],
+      [
+        "ajans ai destekli reklam yönetimi",
+        1
+      ],
+      [
+        "ai destekli reklam yönetimi yapay",
+        1
+      ]
+    ]
+  },
+  "volumes": null
+}

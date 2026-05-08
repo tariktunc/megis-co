@@ -1,4 +1,4 @@
-import { NextIntlClientProvider, useMessages } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
@@ -7,8 +7,10 @@ import { Providers } from "@/components/providers";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { LenisProvider } from "@/components/animations/lenis-provider";
-import { CookieConsent } from "@/components/cookie-consent";
+import { BlakfyFooter } from "@/components/BlakfyFooter";
 import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/seo/json-ld";
+import { A11yServerHelper, A11yScript, A11yPreconnect } from "@blakfy/accessibility-widget-next";
+import { BlakfyCookieProvider, ConsentModeDefault } from "@blakfy/cookie-next";
 import type { Metadata } from "next";
 
 const geistSans = Geist({
@@ -97,28 +99,42 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
   const messages = await getMessages();
+  const a11yAttrs = await A11yServerHelper();
 
   return (
     <html
       lang={locale}
+      {...a11yAttrs}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <head>
+        <ConsentModeDefault />
+        <A11yPreconnect />
         <OrganizationJsonLd locale={locale} />
         <WebSiteJsonLd locale={locale} />
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
-        <NextIntlClientProvider messages={messages}>
-          <Providers>
-            <LenisProvider>
-              <Navbar />
-              <main className="flex-1">{children}</main>
-              <Footer />
-              <CookieConsent />
-            </LenisProvider>
-          </Providers>
-        </NextIntlClientProvider>
+        <BlakfyCookieProvider
+          locale="tr"
+          policyUrl="/cerez-politikasi"
+          presets="ga4,gtm,facebook,clarity"
+          position="bottom-right"
+          theme="auto"
+          accent="#2997ff"
+        >
+          <NextIntlClientProvider messages={messages}>
+            <Providers>
+              <LenisProvider>
+                <Navbar />
+                <main className="flex-1">{children}</main>
+                <Footer />
+                <A11yScript locale={locale === "tr" ? "tr" : "en"} theme="auto" position="bottom-left" />
+                <BlakfyFooter />
+              </LenisProvider>
+            </Providers>
+          </NextIntlClientProvider>
+        </BlakfyCookieProvider>
       </body>
     </html>
   );

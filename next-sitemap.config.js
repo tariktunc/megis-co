@@ -3,6 +3,10 @@ module.exports = {
   siteUrl: process.env.SITE_URL || "https://megis.com.tr",
   generateRobotsTxt: true,
   exclude: ["/api/*", "/dsar", "/en/dsar"],
+  transform: async (config, path) => ({
+    loc: path,
+    lastmod: new Date().toISOString(),
+  }),
   alternateRefs: [
     {
       href: "https://megis.com.tr",

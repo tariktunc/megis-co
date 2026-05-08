@@ -1,6 +1,6 @@
 # Megis
 
-**Domain:** —  
+**Domain:** https://megis.co  
 **Vercel:** https://megis.vercel.app  
 **GitHub:** https://github.com/tariktunc/megis
 

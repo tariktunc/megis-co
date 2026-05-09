@@ -119,7 +119,7 @@ export default async function LocaleLayout({
           locale="tr"
           policyUrl="/cerez-politikasi"
           presets="ga4,gtm,facebook,clarity"
-          position="bottom-right"
+          position="bottom-center"
           theme="auto"
           accent="#2997ff"
         >

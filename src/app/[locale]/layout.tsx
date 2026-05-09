@@ -109,6 +109,12 @@ export default async function LocaleLayout({
       suppressHydrationWarning
     >
       <head>
+        {/* Theme FOUC guard — Tailwind class strategy (specs/theme-system.md) */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem('theme')||'system';var d=t==='dark'||(t==='system'&&matchMedia('(prefers-color-scheme: dark)').matches);if(d)document.documentElement.classList.add('dark');}catch(e){}})();`,
+          }}
+        />
         <ConsentModeDefault />
         <A11yPreconnect />
         <OrganizationJsonLd locale={locale} />

@@ -4,7 +4,18 @@
 
 import type { SitemapAdapter, UrlEntry, IndexChild } from "./types";
 
-export const BASE = (process.env.NEXT_PUBLIC_SITE_URL || "https://megis.com.tr").replace(/\/$/, "");
+// 3-katmanli canonical BASE (multi-domain plug-and-play, WebForge Kural #41)
+// 1. NEXT_PUBLIC_SITE_URL — manuel set (production canonical, Vercel env)
+// 2. VERCEL_URL          — Vercel auto (preview deployment)
+// 3. production fallback  — env yoksa hardcoded canonical
+// 4. localhost:3000       — local dev fallback
+function resolveBase(): string {
+  if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL;
+  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+  if (process.env.NODE_ENV === "production") return "https://megis.co";
+  return "http://localhost:3000";
+}
+export const BASE = resolveBase().replace(/\/$/, "");
 const CHUNK_SIZE = 5000;
 
 const iso = (d: Date | string) => (typeof d === "string" ? d : d.toISOString());

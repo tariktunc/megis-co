@@ -4,6 +4,28 @@ import { routing } from "./i18n/routing";
 
 const intlMiddleware = createMiddleware(routing);
 
+// WebForge Kural #41 — Canonical host (NEXT_PUBLIC_SITE_URL'den)
+const CANONICAL_HOST = (() => {
+  const url = process.env.NEXT_PUBLIC_SITE_URL;
+  if (!url) return null;
+  try {
+    return new URL(url).host;
+  } catch {
+    return null;
+  }
+})();
+
+function applyNoindexIfNonCanonical(req: NextRequest, res: NextResponse): NextResponse {
+  const host = req.headers.get("host") ?? "";
+
+  // Canonical match → indexlenebilir, hicbir sey ekleme
+  if (CANONICAL_HOST && host === CANONICAL_HOST) return res;
+
+  // Localhost (dev) ve diger tum host'lar → noindex
+  res.headers.set("X-Robots-Tag", "noindex, nofollow");
+  return res;
+}
+
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
@@ -28,7 +50,13 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 301);
   }
 
-  return intlMiddleware(request);
+  const intlResponse = intlMiddleware(request);
+
+  // next-intl response her zaman NextResponse — header ekleyebiliriz
+  if (intlResponse instanceof NextResponse) {
+    return applyNoindexIfNonCanonical(request, intlResponse);
+  }
+  return intlResponse;
 }
 
 export const config = {

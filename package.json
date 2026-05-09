@@ -9,7 +9,8 @@
     "lint": "eslint",
     "sitemap:check": "node scripts/sitemap-coverage-check.mjs",
     "sitemap:validate": "node scripts/sitemap-validate.mjs",
-    "prebuild": "npm run sitemap:check"
+    "canonical:check": "node scripts/check-canonical.mjs",
+    "prebuild": "npm run canonical:check && npm run sitemap:check"
   },
   "dependencies": {
     "@blakfy/accessibility-widget-next": "^2.0.0-alpha.1",

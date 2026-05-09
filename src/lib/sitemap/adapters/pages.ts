@@ -1,27 +1,18 @@
 // src/lib/sitemap/adapters/pages.ts
 // Megis i18n custom — [locale] routing + hreflang alternates
 // next-intl: tr (default, no prefix), en (/en/* prefix)
+// LEGAL_SLUG_SET ve AUTH_GATED_SLUG_SET shared constant'tan gelir (DRY).
 
 import fs from "fs/promises";
 import path from "path";
 import { execSync } from "child_process";
 import type { SitemapAdapter, UrlEntry } from "../types";
 import { BASE } from "../generate";
+import { LEGAL_SLUG_SET, AUTH_GATED_SLUG_SET } from "../_legal-slugs";
 
 const APP_DIR = path.join(process.cwd(), "src/app/[locale]");
 const LOCALES = ["tr", "en"] as const;
 const DEFAULT_LOCALE = "tr";
-
-const LEGAL_SLUGS = new Set([
-  "gizlilik-politikasi",
-  "cerez-politikasi",
-  "kvkk",
-  "kullanim-kosullari",
-  "kullanim-sartlari",
-  "erisilebirlik",
-  "erisilebilirlik",
-  "dsar",
-]);
 
 async function scanStaticRoutes(
   dir: string,
@@ -39,7 +30,10 @@ async function scanStaticRoutes(
   for (const entry of entries) {
     if (!entry.isDirectory()) continue;
     if (entry.name.startsWith("[") || entry.name.startsWith("(") || entry.name.startsWith("_")) continue;
-    if (LEGAL_SLUGS.has(entry.name)) continue;
+    // Legal — ayri adapter (legal-sitemap.xml) isliyor
+    if (LEGAL_SLUG_SET.has(entry.name)) continue;
+    // Auth-gated / transactional — sitemap'e KESINLIKLE GIRMEZ (Kural #9)
+    if (AUTH_GATED_SLUG_SET.has(entry.name)) continue;
 
     const subdir = path.join(dir, entry.name);
     const newUrlPath = `${urlPath}/${entry.name}`;

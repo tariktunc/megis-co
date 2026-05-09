@@ -15,7 +15,8 @@ function resolveBase(): string {
   if (process.env.NODE_ENV === "production") return "https://megis.co";
   return "http://localhost:3000";
 }
-export const BASE = resolveBase().replace(/\/$/, "");
+// trim() ile env'deki yanlislikla eklenen whitespace/newline temizlenir.
+export const BASE = resolveBase().trim().replace(/\/$/, "");
 const CHUNK_SIZE = 5000;
 
 const iso = (d: Date | string) => (typeof d === "string" ? d : d.toISOString());

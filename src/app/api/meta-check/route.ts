@@ -13,7 +13,7 @@ export async function GET(request: NextRequest) {
 
     const getTag = (pattern: RegExp) => {
       const match = html.match(pattern);
-      return match ? match[1].trim() : "";
+      return match?.[1]?.trim() ?? "";
     };
 
     const title = getTag(/<title[^>]*>([^<]+)<\/title>/i);

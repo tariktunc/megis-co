@@ -9,7 +9,7 @@ async function fetchAs(url: string, userAgent: string) {
 
   const getTag = (pattern: RegExp) => {
     const match = html.match(pattern);
-    return match ? match[1].trim() : "";
+    return match?.[1]?.trim() ?? "";
   };
 
   const getAll = (pattern: RegExp) => {
@@ -17,7 +17,7 @@ async function fetchAs(url: string, userAgent: string) {
     let m;
     const re = new RegExp(pattern.source, "gi");
     while ((m = re.exec(html)) !== null) {
-      const clean = m[1].replace(/<[^>]+>/g, "").trim();
+      const clean = (m[1] ?? "").replace(/<[^>]+>/g, "").trim();
       if (clean) matches.push(clean);
     }
     return matches;

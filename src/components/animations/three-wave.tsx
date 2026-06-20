@@ -47,7 +47,8 @@ function Particles() {
     if (!pointsRef.current) return;
     
     const positionsAttr = pointsRef.current.geometry.attributes.position;
-    
+    if (!positionsAttr) return;
+
     // Animate wave based on time and mouse position
     let i = 0;
     for (let ix = 0; ix < AMOUNTX; ix++) {

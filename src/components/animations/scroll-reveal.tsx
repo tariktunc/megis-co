@@ -11,7 +11,10 @@ interface ScrollRevealProps {
   duration?: number;
 }
 
-const directions: Record<string, TargetAndTransition> = {
+const directions: Record<
+  NonNullable<ScrollRevealProps["direction"]>,
+  TargetAndTransition
+> = {
   up: { y: 80, opacity: 0 },
   down: { y: -80, opacity: 0 },
   left: { x: 80, opacity: 0 },
@@ -27,7 +30,7 @@ export function ScrollReveal({
 }: ScrollRevealProps) {
   return (
     <motion.div
-      className={className}
+      {...(className !== undefined ? { className } : {})}
       initial={directions[direction]}
       whileInView={{ x: 0, y: 0, opacity: 1 }}
       viewport={{ once: true, margin: "-100px" }}

@@ -52,10 +52,12 @@ export function LanguageSwitcher() {
           setFocusedIndex((i) => (i - 1 + locales.length) % locales.length);
           break;
         case "Enter":
-        case " ":
+        case " ": {
           e.preventDefault();
-          if (focusedIndex >= 0) switchLocale(locales[focusedIndex]);
+          const target = focusedIndex >= 0 ? locales[focusedIndex] : undefined;
+          if (target) switchLocale(target);
           break;
+        }
         case "Escape":
           e.preventDefault();
           setOpen(false);

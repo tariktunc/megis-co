@@ -13,7 +13,7 @@ export async function GET(request: NextRequest) {
 
     const getTag = (pattern: RegExp) => {
       const match = html.match(pattern);
-      return match ? match[1].trim() : "";
+      return match?.[1]?.trim() ?? "";
     };
 
     const getAll = (pattern: RegExp) => {
@@ -21,7 +21,7 @@ export async function GET(request: NextRequest) {
       let m;
       const re = new RegExp(pattern.source, "gi");
       while ((m = re.exec(html)) !== null) {
-        const clean = m[1].replace(/<[^>]+>/g, "").trim();
+        const clean = (m[1] ?? "").replace(/<[^>]+>/g, "").trim();
         if (clean) matches.push(clean);
       }
       return matches;
@@ -45,8 +45,8 @@ export async function GET(request: NextRequest) {
     for (const link of linkMatches) {
       if (link.includes('rel="nofollow"') || link.includes("rel='nofollow'")) nofollow++;
       const hrefMatch = link.match(/href=["']([^"']+)["']/);
-      if (hrefMatch) {
-        const href = hrefMatch[1];
+      const href = hrefMatch?.[1];
+      if (href) {
         if (href.startsWith("/") || href.includes(hostname)) internal++;
         else if (href.startsWith("http")) external++;
       }

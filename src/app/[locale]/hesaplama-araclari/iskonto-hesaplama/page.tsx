@@ -20,7 +20,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return {
-    title: 'İskonto Hesaplama | Megis',
+    title: 'İskonto Hesaplama',
     // Derived from answerBlock (megis-co issue #18 follow-up); tr-only, same
     // locale gate as robots below.
     description:

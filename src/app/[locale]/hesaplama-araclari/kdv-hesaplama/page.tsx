@@ -35,7 +35,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return {
-    title: 'KDV Hesaplama | Megis',
+    title: 'KDV Hesaplama',
     // Derived from answerBlock (megis-co issue #18 follow-up). tr-only per the
     // /en resolution above — a Turkish description on the noindex /en route
     // is harmless (it is not indexable either way), but omitting it there

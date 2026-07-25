@@ -20,7 +20,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return {
-    title: 'Çiçeksepeti Komisyon Hesaplama | Megis',
+    title: 'Çiçeksepeti Komisyon Hesaplama',
     // Derived from answerBlock (megis-co issue #18 follow-up); tr-only, same
     // locale gate as robots below. No real rate stated — "kendi verilerinizle".
     description:

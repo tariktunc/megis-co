@@ -113,7 +113,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return {
-    title: 'Hesaplama Araçları | Megis',
+    title: 'Hesaplama Araçları',
     // Derived from content.ts's intro, compressed to cover the whole 15-tool
     // set rather than one tool (megis-co issue #18 follow-up); tr-only, same
     // locale gate as robots below.

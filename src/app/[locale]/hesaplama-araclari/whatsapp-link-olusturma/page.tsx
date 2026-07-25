@@ -20,7 +20,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return {
-    title: 'WhatsApp Link Oluşturma | Megis',
+    title: 'WhatsApp Link Oluşturma',
     // Derived from answerBlock (megis-co issue #18 follow-up); tr-only, same
     // locale gate as robots below.
     description:

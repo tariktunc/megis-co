@@ -15,11 +15,23 @@ const CANONICAL_HOST = (() => {
   }
 })();
 
+// "www." on ya da tarafta olabilir (host'ta olabilir cunku apex bu domainde
+// www'ya redirect ediyor; CANONICAL_HOST'ta olabilir baska bir site www'yu
+// canonical secmisse) — normalize edip oyle kiyasla, yoksa apex<->www
+// redirect zinciri olan HER production istegi "non-canonical" sanilip site
+// genelinde X-Robots-Tag: noindex, nofollow header'i basar (megis-co canli
+// regresyon, 2026-07-26: megis.co, www.megis.co'ya 308 redirect ediyor ama
+// CANONICAL_HOST "megis.co" idi, boylece www uzerinden gelen HER istek
+// noindex isaretleniyordu — meta robots/canonical dogruyken bile).
+function stripWww(host: string): string {
+  return host.replace(/^www\./, "");
+}
+
 function applyNoindexIfNonCanonical(req: NextRequest, res: NextResponse): NextResponse {
   const host = req.headers.get("host") ?? "";
 
-  // Canonical match → indexlenebilir, hicbir sey ekleme
-  if (CANONICAL_HOST && host === CANONICAL_HOST) return res;
+  // Canonical match (www ile/without) → indexlenebilir, hicbir sey ekleme
+  if (CANONICAL_HOST && stripWww(host) === stripWww(CANONICAL_HOST)) return res;
 
   // Localhost (dev) ve diger tum host'lar → noindex
   res.headers.set("X-Robots-Tag", "noindex, nofollow");

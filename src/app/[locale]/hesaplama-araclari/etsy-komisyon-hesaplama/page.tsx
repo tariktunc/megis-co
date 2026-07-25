@@ -24,7 +24,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   return {
-    title: 'Etsy Komisyon Hesaplama | Megis',
+    title: 'Etsy Komisyon Hesaplama',
     // Derived from answerBlock (megis-co issue #18 follow-up); tr-only, same
     // locale gate as robots below.
     description:

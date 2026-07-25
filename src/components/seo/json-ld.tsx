@@ -1,10 +1,12 @@
+import { SITE_URL } from "@/lib/site-url";
+
 export function OrganizationJsonLd({ locale }: { locale: string }) {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Megis",
-    url: "https://megis.com.tr",
-    logo: "https://megis.com.tr/logo.svg",
+    url: SITE_URL,
+    logo: `${SITE_URL}/logo.svg`,
     description:
       locale === "tr"
         ? "SEO, SEM, AI destekli reklam yönetimi, e-ticaret çözümleri ve web tasarım alanında dijital çözümler sunuyoruz."
@@ -94,9 +96,9 @@ export function ArticleJsonLd({
     publisher: {
       "@type": "Organization",
       name: "Megis",
-      logo: { "@type": "ImageObject", url: "https://megis.com.tr/logo.svg" },
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.svg` },
     },
-    mainEntityOfPage: `https://megis.com.tr${localePath}/blog/${post.slug}`,
+    mainEntityOfPage: `${SITE_URL}${localePath}/blog/${post.slug}`,
     inLanguage: locale === "tr" ? "tr-TR" : "en-US",
     keywords: post.tags.join(", "),
   };
@@ -114,13 +116,13 @@ export function WebSiteJsonLd({ locale }: { locale: string }) {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Megis",
-    url: "https://megis.com.tr",
+    url: SITE_URL,
     inLanguage: locale === "tr" ? "tr-TR" : "en-US",
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: `https://megis.com.tr/${locale === "en" ? "en/" : ""}araclar?q={search_term_string}`,
+        urlTemplate: `${SITE_URL}/${locale === "en" ? "en/" : ""}araclar?q={search_term_string}`,
       },
       "query-input": "required name=search_term_string",
     },

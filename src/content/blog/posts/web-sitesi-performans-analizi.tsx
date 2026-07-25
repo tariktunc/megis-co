@@ -62,21 +62,21 @@ export default function WebSitesiPerformansAnalizi() {
 
       <h3>Lighthouse Komut Satiri Ornekleri</h3>
       <pre><code>{`# Temel analiz
-npx lighthouse https://megis.com.tr --output html
+npx lighthouse https://megis.co --output html
 
 # Sadece performans kategorisi
-npx lighthouse https://megis.com.tr --only-categories=performance
+npx lighthouse https://megis.co --only-categories=performance
 
 # Mobil ve desktop karsilastirma
-npx lighthouse https://megis.com.tr --preset=desktop --output json
-npx lighthouse https://megis.com.tr --form-factor=mobile --output json
+npx lighthouse https://megis.co --preset=desktop --output json
+npx lighthouse https://megis.co --form-factor=mobile --output json
 
 # CI/CD entegrasyonu icin
-npx lighthouse https://megis.com.tr --budget-path=budget.json --output json
+npx lighthouse https://megis.co --budget-path=budget.json --output json
 
 # Birden fazla sayfa analizi (script)
 for url in "/" "/hizmetler" "/iletisim" "/blog"; do
-  npx lighthouse "https://megis.com.tr$url" \
+  npx lighthouse "https://megis.co$url" \
     --output html \
     --output-path "./reports/$(echo $url | tr '/' '-').html"
 done`}</code></pre>

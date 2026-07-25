@@ -187,8 +187,8 @@ export default function YerelSeoRehberi() {
   },
   "telephone": "+90-212-XXX-XXXX",
   "openingHours": "Mo-Fr 09:00-18:00",
-  "url": "https://megis.com.tr",
-  "image": "https://megis.com.tr/logo.png",
+  "url": "https://megis.co",
+  "image": "https://megis.co/logo.png",
   "priceRange": "$$"
 }`}</code></pre>
 

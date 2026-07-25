@@ -23,6 +23,7 @@
 
 import { Suspense } from 'react';
 import Link from 'next/link';
+import { SITE_URL } from '@/lib/site-url';
 
 export interface BreadcrumbItem {
   label: string;
@@ -64,7 +65,7 @@ export function ToolShell({
   faqItems,
   sourceLine,
   relatedTools,
-  siteUrl = 'https://megis.co',
+  siteUrl = SITE_URL,
 }: ToolShellProps) {
   const pageUrl = `${siteUrl}/hesaplama-araclari/${slug}`;
 

@@ -29,8 +29,8 @@ export default function SchemaMarkupRehberi() {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Megis Digital",
-  "url": "https://megis.com.tr",
-  "logo": "https://megis.com.tr/logo.png",
+  "url": "https://megis.co",
+  "logo": "https://megis.co/logo.png",
   "description": "Dijital pazarlama ve SEO ajansı",
   "address": {
     "@type": "PostalAddress",
@@ -157,12 +157,12 @@ export default function SchemaMarkupRehberi() {
     "name": "Megis Digital",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://megis.com.tr/logo.png"
+      "url": "https://megis.co/logo.png"
     }
   },
   "datePublished": "2025-03-15",
   "dateModified": "2025-06-01",
-  "image": "https://megis.com.tr/blog/seo-icerik.jpg",
+  "image": "https://megis.co/blog/seo-icerik.jpg",
   "description": "SEO uyumlu içerik yazımının tüm adımları."
 }
 </script>`}</code></pre>

@@ -1,5 +1,6 @@
 import { setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/site-url";
 
 export async function generateMetadata({
   params,
@@ -11,7 +12,7 @@ export async function generateMetadata({
     title: "Hakkımızda",
     description: "Megis dijital ajans hakkında bilgi edinin.",
     alternates: {
-      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/hakkimizda`,
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/hakkimizda`,
     },
   };
 }

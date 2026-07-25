@@ -1,9 +1,8 @@
 import { NextResponse } from "next/server";
+import { SITE_URL } from "@/lib/site-url";
 
 export const dynamic = "force-static";
 export const revalidate = 3600;
-
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://megis.com.tr";
 
 export async function GET() {
   const content = `# Megis — SEO, GEO ve Dijital Pazarlama Ajansı
@@ -39,7 +38,7 @@ Megis, klasik SEO ile yapay zeka çağı için GEO (Generative Engine Optimizati
 - [E-ticaret](${SITE_URL}/e-ticaret) — Shopify, WooCommerce, Wix Stores entegrasyonu
 - [Tema & Görsel](${SITE_URL}/tema-gorsel) — Tema tasarımı ve görsel üretimi
 - [Temel Kimlik](${SITE_URL}/temel-kimlik) — Marka kimliği ve logo
-- [Marka](${SITE_URL}/brand) — Marka stratejisi
+- [Marka](${SITE_URL}/marka) — Tasarım sistemi referansı
 - [Ürün & Hizmet](${SITE_URL}/urun-hizmet) — Ürün/hizmet sayfa optimizasyonu
 - [Analitik](${SITE_URL}/analitik) — GA4, Search Console, Yandex Metrika
 - [Analitik & Performans](${SITE_URL}/analitik-performans) — KPI takibi ve optimizasyon

@@ -3,20 +3,13 @@
 // Spec: webforge/specs/sitemap-format.md
 
 import type { SitemapAdapter, UrlEntry, IndexChild } from "./types";
+import { SITE_URL } from "@/lib/site-url";
 
-// 3-katmanli canonical BASE (multi-domain plug-and-play, WebForge Kural #41)
-// 1. NEXT_PUBLIC_SITE_URL — manuel set (production canonical, Vercel env)
-// 2. VERCEL_URL          — Vercel auto (preview deployment)
-// 3. production fallback  — env yoksa hardcoded canonical
-// 4. localhost:3000       — local dev fallback
-function resolveBase(): string {
-  if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL;
-  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
-  if (process.env.NODE_ENV === "production") return "https://megis.co";
-  return "http://localhost:3000";
-}
-// trim() ile env'deki yanlislikla eklenen whitespace/newline temizlenir.
-export const BASE = resolveBase().trim().replace(/\/$/, "");
+// Resolver moved to src/lib/site-url.ts (single source of truth used by page
+// metadata + JSON-LD too, not just the sitemap). Re-exported here as BASE so
+// every existing importer (adapters/*.ts, app/*-sitemap.xml/route.ts) keeps
+// working unchanged. Resolution order/logic is unchanged — see site-url.ts.
+export const BASE = SITE_URL;
 const CHUNK_SIZE = 5000;
 
 const iso = (d: Date | string) => (typeof d === "string" ? d : d.toISOString());

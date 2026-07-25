@@ -2,6 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
+import { SITE_URL } from "@/lib/site-url";
 import {
   getPostBySlug,
   getPostContent,
@@ -30,7 +31,7 @@ export async function generateMetadata({
     title: post.title,
     description: post.description,
     alternates: {
-      canonical: `https://megis.com.tr${localePath}/blog/${post.slug}`,
+      canonical: `${SITE_URL}${localePath}/blog/${post.slug}`,
     },
     openGraph: {
       type: "article",
@@ -39,7 +40,7 @@ export async function generateMetadata({
       publishedTime: post.date,
       authors: [post.author],
       tags: post.tags,
-      url: `https://megis.com.tr${localePath}/blog/${post.slug}`,
+      url: `${SITE_URL}${localePath}/blog/${post.slug}`,
     },
   };
 }
@@ -64,11 +65,11 @@ export default async function BlogPostPage({
         <ArticleJsonLd post={post} locale={locale} />
         <BreadcrumbJsonLd
           items={[
-            { name: "Ana Sayfa", url: "https://megis.com.tr" },
-            { name: "Blog", url: `https://megis.com.tr${localePath}/blog` },
+            { name: "Ana Sayfa", url: "${SITE_URL}" },
+            { name: "Blog", url: `${SITE_URL}${localePath}/blog` },
             {
               name: post.title,
-              url: `https://megis.com.tr${localePath}/blog/${post.slug}`,
+              url: `${SITE_URL}${localePath}/blog/${post.slug}`,
             },
           ]}
         />

@@ -73,7 +73,7 @@ export default function UtmParametreleriRehberi() {
         UTM parametreleri, URL&apos;in sonuna soru isareti (?) ile baslayarak eklenir. Birden fazla parametre &quot;&amp;&quot; isareti ile birlestirilir. Ornek bir UTM parametreli URL su sekildedir:
       </p>
       <p>
-        <code>https://megis.com.tr/hizmetler?utm_source=facebook&amp;utm_medium=social&amp;utm_campaign=yaz_kampanyasi&amp;utm_content=gorsel_a</code>
+        <code>https://megis.co/hizmetler?utm_source=facebook&amp;utm_medium=social&amp;utm_campaign=yaz_kampanyasi&amp;utm_content=gorsel_a</code>
       </p>
       <p>
         Bu URL&apos;i elle olusturmak hatalara acik olabilir. Bu nedenle arac kullanmaniz onerilir:

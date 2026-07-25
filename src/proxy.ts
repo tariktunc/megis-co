@@ -50,6 +50,15 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 301);
   }
 
+  // Route rename: /brand -> /marka (2026-07-25, site-builder/specs/brand-page.md
+  // — WebForge default slug). Locale-aware: default locale "tr" has no prefix,
+  // "en" is prefixed (next-intl routing, see ./i18n/routing).
+  if (pathname === "/brand" || pathname === "/en/brand") {
+    const url = request.nextUrl.clone();
+    url.pathname = pathname === "/en/brand" ? "/en/marka" : "/marka";
+    return NextResponse.redirect(url, 301);
+  }
+
   const intlResponse = intlMiddleware(request);
 
   // next-intl response her zaman NextResponse — header ekleyebiliriz

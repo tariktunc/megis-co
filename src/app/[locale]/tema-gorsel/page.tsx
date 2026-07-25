@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { ProductPage } from "@/components/sections/product-page";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/site-url";
 
 export async function generateMetadata({
   params,
@@ -12,7 +13,7 @@ export async function generateMetadata({
     title: "Tema & Görsel Tasarım",
     description: "Markanıza uygun tema ve görsel kimlik tasarımı.",
     alternates: {
-      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/tema-gorsel`,
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/tema-gorsel`,
     },
   };
 }

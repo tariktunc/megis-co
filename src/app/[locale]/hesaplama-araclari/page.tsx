@@ -27,6 +27,7 @@
 // /araclar hub convention).
 
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/lib/site-url';
 import { setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { intro } from './content';
@@ -114,7 +115,7 @@ export async function generateMetadata({
   return {
     title: 'Hesaplama Araçları | Megis',
     alternates: {
-      canonical: `https://megis.co${locale === 'en' ? '/en' : ''}/hesaplama-araclari`,
+      canonical: `${SITE_URL}${locale === 'en' ? '/en' : ''}/hesaplama-araclari`,
     },
     robots: { index: false, follow: false },
   };
@@ -126,7 +127,7 @@ export default async function HesaplamaAraclariHubPage({ params }: { params: Pro
 
   const categories = getInstalledCategories();
   const installedTools = categories.flatMap((category) => category.tools);
-  const siteUrl = 'https://megis.co';
+  const siteUrl = SITE_URL;
 
   const itemListSchema = {
     '@context': 'https://schema.org',

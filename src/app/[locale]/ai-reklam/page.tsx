@@ -1,5 +1,6 @@
 import { setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/site-url";
 
 export async function generateMetadata({
   params,
@@ -11,7 +12,7 @@ export async function generateMetadata({
     title: "AI Destekli Reklam",
     description: "Yapay zeka ile reklam kampanyalarınızı optimize edin.",
     alternates: {
-      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/ai-reklam`,
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/ai-reklam`,
     },
   };
 }

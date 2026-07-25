@@ -154,12 +154,9 @@ export type Tokens = typeof tokens;
 //    the codebase, fleet-wide unique to this site — the 3 `toolsSuite.*700` values
 //    above are the tools suite's own first introduction of status color, sourced from
 //    Tailwind's own default palette (see comments above), not an invented brand color.
-// 4. Canonical host mismatch (informational, NOT fixed here, pre-existing, found while
-//    reading this site's own `/araclar` hub page during the tools-suite install):
-//    `src/app/[locale]/araclar/page.tsx`'s `generateMetadata()` hardcodes
-//    `https://megis.com.tr` for its canonical URL, while
-//    `src/lib/sitemap/generate.ts`'s production `BASE` resolves to `https://megis.co`
-//    (the real, sitemap-generating domain). The new `/hesaplama-araclari` route added
-//    in this same pass uses `megis.co` (matching the sitemap generator), NOT the
-//    pre-existing `/araclar` hub's `megis.com.tr` typo — these two should be
-//    reconciled, but doing so was out of scope for this task.
+// 4. Canonical host mismatch — RESOLVED (2026-07-25). Every hardcoded
+//    `https://megis.com.tr`/`https://megis.co` literal across page metadata,
+//    JSON-LD, layout.tsx and llms.txt was replaced with the shared `SITE_URL`
+//    constant (`src/lib/site-url.ts`, re-exported as `BASE` from
+//    `src/lib/sitemap/generate.ts`). megis.co is the owner-confirmed canonical
+//    domain. See site-builder/LEARNING-LOG.md for the full sweep.

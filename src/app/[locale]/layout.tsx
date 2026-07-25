@@ -10,6 +10,7 @@ import { Footer } from "@/components/layout/footer";
 import { LenisProvider } from "@/components/animations/lenis-provider";
 import { BlakfyFooter } from "@/components/BlakfyFooter";
 import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/seo/json-ld";
+import { SITE_URL } from "@/lib/site-url";
 import { A11yServerHelper, A11yScript, A11yPreconnect } from "@blakfy/accessibility-widget-next";
 import { BlakfyCookieProvider, ConsentModeDefault } from "@blakfy/cookie-next";
 import type { Metadata } from "next";
@@ -37,7 +38,7 @@ export async function generateMetadata({
   const messages = await getMessages({ locale });
   const metadata = messages.metadata as Record<string, string>;
 
-  const siteUrl = "https://megis.com.tr";
+  const siteUrl = SITE_URL;
   const localePath = locale === "tr" ? "" : `/${locale}`;
 
   return {

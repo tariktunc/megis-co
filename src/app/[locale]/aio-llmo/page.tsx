@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { ProductPage } from "@/components/sections/product-page";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/site-url";
 
 export async function generateMetadata({
   params,
@@ -12,7 +13,7 @@ export async function generateMetadata({
     title: "AIO / LLMO",
     description: "AI arama motorları için içerik optimizasyonu.",
     alternates: {
-      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/aio-llmo`,
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/aio-llmo`,
     },
   };
 }

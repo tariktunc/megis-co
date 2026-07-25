@@ -65,6 +65,9 @@ export const AUTH_GATED_SLUGS = [
   "orders",
   // Studio / dev
   "_studio",
+  // Brand page / style guide — internal reference page, noindex by default
+  // (site-builder/specs/brand-page.md). Renamed from /brand 2026-07-25.
+  "marka",
   // Tools-suite routes with unfilled content.ts placeholders (Rule #58) — kept
   // out of the sitemap the same way an auth-gated route is, NOT because it is
   // auth-gated, but because every page under it carries `robots: { index:

@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { ProductPage } from "@/components/sections/product-page";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/site-url";
 
 export async function generateMetadata({
   params,
@@ -12,7 +13,7 @@ export async function generateMetadata({
     title: "Analitik & Performans",
     description: "Web sitesi performansını gerçek zamanlı takip edin, veri odaklı kararlar alın.",
     alternates: {
-      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/analitik-performans`,
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/analitik-performans`,
     },
   };
 }

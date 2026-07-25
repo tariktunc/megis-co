@@ -14,7 +14,7 @@ export default function ReklamMetniYazmaTeknikleri() {
       </p>
 
       <p>
-        Reklamınızın URL&apos;si de gösterilir. Görüntülenen URL&apos;ye iki adet yol (path) alanı ekleyebilirsiniz, her biri on beş karakter uzunluğundadır. Bu alanlar, kullanıcıya tıkladığında ne bulacağı hakkında ipucu verir. Örneğin megis.com.tr/Google-Ads/Yonetim şeklinde yapılandırılmış bir URL, hem güven verir hem de alaka düzeyini artırır.
+        Reklamınızın URL&apos;si de gösterilir. Görüntülenen URL&apos;ye iki adet yol (path) alanı ekleyebilirsiniz, her biri on beş karakter uzunluğundadır. Bu alanlar, kullanıcıya tıkladığında ne bulacağı hakkında ipucu verir. Örneğin megis.co/Google-Ads/Yonetim şeklinde yapılandırılmış bir URL, hem güven verir hem de alaka düzeyini artırır.
       </p>
 
       <h2>Etkili Başlık Yazma Teknikleri</h2>

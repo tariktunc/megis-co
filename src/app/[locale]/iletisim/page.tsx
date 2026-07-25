@@ -2,6 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import { getMessages } from "next-intl/server";
 import type { Metadata } from "next";
 import { ContactForm } from "@/components/contact-form";
+import { SITE_URL } from "@/lib/site-url";
 
 export async function generateMetadata({
   params,
@@ -15,7 +16,7 @@ export async function generateMetadata({
     title: contact?.title || "İletişim",
     description: contact?.subtitle || "",
     alternates: {
-      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/iletisim`,
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/iletisim`,
     },
   };
 }

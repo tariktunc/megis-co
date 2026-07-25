@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { getMessages } from "next-intl/server";
+import { SITE_URL } from "@/lib/site-url";
 
 export async function generateMetadata({
   params,
@@ -15,7 +16,7 @@ export async function generateMetadata({
   return {
     title: legal?.title || "Çerez Politikası",
     alternates: {
-      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/cerez-politikasi`,
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/cerez-politikasi`,
     },
   };
 }

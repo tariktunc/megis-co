@@ -5,7 +5,7 @@ import { useState } from "react";
 export function SerpPreview() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  const [url, setUrl] = useState("https://megis.com.tr");
+  const [url, setUrl] = useState("https://megis.co");
   const [view, setView] = useState<"desktop" | "mobile">("desktop");
 
   const titleLen = title.length;

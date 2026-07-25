@@ -17,6 +17,7 @@
 // sees a Turkish calculator, same as every pre-existing tool on this site.
 
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/lib/site-url';
 import { setRequestLocale } from 'next-intl/server';
 import { ToolShell } from '@/components/tools/hesaplama/ToolShell';
 import { guardText, guardDefinitionBox, guardRows, guardFaqItems } from '@/components/tools/hesaplama/contentGuard';
@@ -34,7 +35,7 @@ export async function generateMetadata({
     // description: intentionally omitted until /write fills content.ts — a literal
     // {{META_DESCRIPTION}} would ship as a real <meta name="description"> in the page source.
     alternates: {
-      canonical: `https://megis.co${locale === 'en' ? '/en' : ''}/hesaplama-araclari/kdv-hesaplama`,
+      canonical: `${SITE_URL}${locale === 'en' ? '/en' : ''}/hesaplama-araclari/kdv-hesaplama`,
     },
     robots: { index: false, follow: false },
   };
@@ -93,7 +94,7 @@ export default async function KdvHesaplamaPage({ params }: { params: Promise<{ l
       }
       faqItems={guardFaqItems(faqItems)}
       relatedTools={relatedTools}
-      siteUrl="https://megis.co"
+      siteUrl={SITE_URL}
     />
   );
 }

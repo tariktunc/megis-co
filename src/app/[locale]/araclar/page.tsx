@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/site-url";
 
 export async function generateMetadata({
   params,
@@ -12,7 +13,7 @@ export async function generateMetadata({
     title: "Ücretsiz SEO Araçları",
     description: "SERP önizleme, meta tag kontrol ve daha fazla ücretsiz SEO aracı.",
     alternates: {
-      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/araclar`,
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/araclar`,
     },
   };
 }

@@ -5,6 +5,7 @@
 // "What NOT to Do"). robots noindex,follow:false — content.ts unfilled (Rule #58).
 
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/lib/site-url';
 import { setRequestLocale } from 'next-intl/server';
 import { ToolShell } from '@/components/tools/hesaplama/ToolShell';
 import { guardText, guardDefinitionBox, guardRows, guardFaqItems } from '@/components/tools/hesaplama/contentGuard';
@@ -20,7 +21,7 @@ export async function generateMetadata({
   return {
     title: 'Çiçeksepeti Komisyon Hesaplama | Megis',
     alternates: {
-      canonical: `https://megis.co${locale === 'en' ? '/en' : ''}/hesaplama-araclari/ciceksepeti-komisyon-hesaplama`,
+      canonical: `${SITE_URL}${locale === 'en' ? '/en' : ''}/hesaplama-araclari/ciceksepeti-komisyon-hesaplama`,
     },
     robots: { index: false, follow: false },
   };
@@ -79,7 +80,7 @@ export default async function CiceksepetiPage({ params }: { params: Promise<{ lo
       }
       faqItems={guardFaqItems(faqItems)}
       relatedTools={relatedTools}
-      siteUrl="https://megis.co"
+      siteUrl={SITE_URL}
     />
   );
 }

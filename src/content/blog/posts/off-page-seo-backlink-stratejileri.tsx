@@ -166,7 +166,7 @@ export default function OffPageSeoBacklinkStratejileri() {
           </tr>
           <tr>
             <td>URL</td>
-            <td>&quot;megis.com.tr&quot;, &quot;www.megis.com.tr&quot;</td>
+            <td>&quot;megis.co&quot;, &quot;www.megis.co&quot;</td>
             <td>%15-20</td>
           </tr>
           <tr>

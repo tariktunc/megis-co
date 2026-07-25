@@ -1,6 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
 import { ProductPage } from "@/components/sections/product-page";
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/site-url";
 
 export async function generateMetadata({
   params,
@@ -12,7 +13,7 @@ export async function generateMetadata({
     title: "SEO Optimizasyonu",
     description: "Teknik SEO, içerik stratejisi ve backlink yönetimi ile Google'da 1. sayfada yer alın.",
     alternates: {
-      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/seo`,
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/seo`,
     },
   };
 }

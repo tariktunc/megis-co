@@ -3,7 +3,7 @@ export default function DnsYonetimiRehberi() {
     <>
       <h2>DNS Nedir ve Nasil Calisir?</h2>
       <p>
-        DNS (Domain Name System — Alan Adi Sistemi), internetin telefon rehberi olarak adlandirilan ve alan adlarini (ornegin megis.com.tr) IP adreslerine (ornegin 104.26.10.78) donusturen dagitik bir veritabani sistemidir. Insanlar alan adlarini hatirlar, bilgisayarlar ise IP adresleriyle iletisim kurar — DNS bu ikisi arasindaki kopruduir.
+        DNS (Domain Name System — Alan Adi Sistemi), internetin telefon rehberi olarak adlandirilan ve alan adlarini (ornegin megis.co) IP adreslerine (ornegin 104.26.10.78) donusturen dagitik bir veritabani sistemidir. Insanlar alan adlarini hatirlar, bilgisayarlar ise IP adresleriyle iletisim kurar — DNS bu ikisi arasindaki kopruduir.
       </p>
       <p>
         DNS sistemi, interneetin en temel altyapi bilesenlerinden biridir ve her web sitesi erisimi, e-posta gonderimi ve online hizmet kullanimi DNS sorgulariyla baslar. 2026 yilinda DNS yonetimi, web performansi, guvenlik ve hizmet surekliligi icin kritik oneme sahiptir. Bu rehberde, DNS kayit turlerini, yonetim araclarini, sorun giderme yontemlerini ve en iyi uygulamalari kapsamli olarak ele alacagiz.

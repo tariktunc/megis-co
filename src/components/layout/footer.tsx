@@ -64,7 +64,7 @@ export function Footer() {
             <h4 className="text-xs font-semibold text-foreground mb-4">{t("company")}</h4>
             <ul className="space-y-3">
               <li><Link href="/hakkimizda" className="text-xs text-muted hover:text-foreground transition-colors">{tNav("about")}</Link></li>
-              <li><Link href="/brand" className="text-xs text-muted hover:text-foreground transition-colors">{tNav("brand")}</Link></li>
+              <li><Link href="/marka" className="text-xs text-muted hover:text-foreground transition-colors">{tNav("brand")}</Link></li>
               <li><Link href="/iletisim" className="text-xs text-muted hover:text-foreground transition-colors">{tNav("contact")}</Link></li>
             </ul>
           </div>

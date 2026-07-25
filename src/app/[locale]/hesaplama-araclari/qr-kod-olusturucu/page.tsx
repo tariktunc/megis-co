@@ -10,6 +10,7 @@
 // hardcoded Turkish — see kdv-hesaplama/page.tsx for the full i18n note.
 
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/lib/site-url';
 import { setRequestLocale } from 'next-intl/server';
 import { ToolShell } from '@/components/tools/hesaplama/ToolShell';
 import { guardText, guardDefinitionBox, guardRows, guardFaqItems } from '@/components/tools/hesaplama/contentGuard';
@@ -25,7 +26,7 @@ export async function generateMetadata({
   return {
     title: 'QR Kod Oluşturucu | Megis',
     alternates: {
-      canonical: `https://megis.co${locale === 'en' ? '/en' : ''}/hesaplama-araclari/qr-kod-olusturucu`,
+      canonical: `${SITE_URL}${locale === 'en' ? '/en' : ''}/hesaplama-araclari/qr-kod-olusturucu`,
     },
     robots: { index: false, follow: false },
   };
@@ -75,7 +76,7 @@ export default async function QrKodOlusturucuPage({ params }: { params: Promise<
       }
       faqItems={guardFaqItems(faqItems)}
       relatedTools={relatedTools}
-      siteUrl="https://megis.co"
+      siteUrl={SITE_URL}
     />
   );
 }

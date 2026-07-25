@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { getPaginatedPosts, getAllCategories } from "@/lib/blog";
 import { BlogCard } from "@/components/blog/blog-card";
 import { BlogPagination } from "@/components/blog/blog-pagination";
+import { SITE_URL } from "@/lib/site-url";
 
 export async function generateMetadata({
   params,
@@ -15,7 +16,7 @@ export async function generateMetadata({
     description:
       "SEO, SEM, dijital pazarlama, web geliştirme ve AI teknolojileri hakkında kapsamlı rehberler ve güncel makaleler.",
     alternates: {
-      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/blog`,
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/blog`,
     },
   };
 }

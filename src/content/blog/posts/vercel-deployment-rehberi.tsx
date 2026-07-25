@@ -48,7 +48,7 @@ export default function VercelDeploymentRehberi() {
         <li><strong>Yonlendirmeleri ayarlayin:</strong> www&apos;dan apex&apos;e veya tam tersi yonlendirme yapillandirilabilir. Vercel, otomatik yonlendirme kuralları sunar.</li>
       </ol>
       <p>
-        Birden fazla alan adi ayni projeye baglanabilir. Ornegin <code>megis.com.tr</code> ve <code>www.megis.com.tr</code> ayni uygulamayi sunabilir.
+        Birden fazla alan adi ayni projeye baglanabilir. Ornegin <code>megis.co</code> ve <code>www.megis.co</code> ayni uygulamayi sunabilir.
       </p>
 
       <h2>Ortam Degiskenleri (Environment Variables)</h2>

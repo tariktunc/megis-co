@@ -6,6 +6,7 @@
 // hardcoded Turkish — see kdv-hesaplama/page.tsx for the full i18n note.
 
 import type { Metadata } from 'next';
+import { SITE_URL } from '@/lib/site-url';
 import { setRequestLocale } from 'next-intl/server';
 import { ToolShell } from '@/components/tools/hesaplama/ToolShell';
 import { guardText, guardDefinitionBox, guardRows, guardFaqItems } from '@/components/tools/hesaplama/contentGuard';
@@ -21,7 +22,7 @@ export async function generateMetadata({
   return {
     title: 'Yüzde Hesaplama | Megis',
     alternates: {
-      canonical: `https://megis.co${locale === 'en' ? '/en' : ''}/hesaplama-araclari/yuzde-hesaplama`,
+      canonical: `${SITE_URL}${locale === 'en' ? '/en' : ''}/hesaplama-araclari/yuzde-hesaplama`,
     },
     robots: { index: false, follow: false },
   };
@@ -79,7 +80,7 @@ export default async function YuzdeHesaplamaPage({ params }: { params: Promise<{
       }
       faqItems={guardFaqItems(faqItems)}
       relatedTools={relatedTools}
-      siteUrl="https://megis.co"
+      siteUrl={SITE_URL}
     />
   );
 }

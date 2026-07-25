@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { getMessages } from "next-intl/server";
+import { SITE_URL } from "@/lib/site-url";
 
 export async function generateMetadata({
   params,
@@ -16,7 +17,7 @@ export async function generateMetadata({
     title: legal?.title || "Veri Sahibi Başvuru Formu",
     robots: { index: false, follow: false },
     alternates: {
-      canonical: `https://megis.com.tr${locale === "en" ? "/en" : ""}/dsar`,
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/dsar`,
     },
   };
 }

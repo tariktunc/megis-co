@@ -27,7 +27,7 @@ const mainLinks = [
   { href: "/blog", label: "blog" },
   { href: "/araclar", label: "tools" },
   { href: "/hakkimizda", label: "about" },
-  { href: "/brand", label: "brand" },
+  { href: "/marka", label: "brand" },
   { href: "/iletisim", label: "contact" },
 ] as const;
 

@@ -13,7 +13,7 @@ export function OrganizationJsonLd({ locale }: { locale: string }) {
         : "We provide digital solutions in SEO, SEM, AI-powered ad management, e-commerce, and web design.",
     contactPoint: {
       "@type": "ContactPoint",
-      email: "info@megis.com.tr",
+      email: "info@megis.co",
       contactType: "customer service",
       availableLanguage: ["Turkish", "English"],
     },

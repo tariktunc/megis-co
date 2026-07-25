@@ -338,11 +338,11 @@
         },
         {
           "title": "Haklarınız",
-          "content": "KVKK kapsamında kişisel verilerinize erişim, düzeltme, silme ve işlemeye itiraz etme haklarınız bulunmaktadır. Bu haklarınızı kullanmak için info@megis.com.tr adresinden bizimle iletişime geçebilirsiniz."
+          "content": "KVKK kapsamında kişisel verilerinize erişim, düzeltme, silme ve işlemeye itiraz etme haklarınız bulunmaktadır. Bu haklarınızı kullanmak için info@megis.co adresinden bizimle iletişime geçebilirsiniz."
         },
         {
           "title": "İletişim",
-          "content": "Gizlilik politikamız hakkında sorularınız için info@megis.com.tr adresine e-posta gönderebilirsiniz."
+          "content": "Gizlilik politikamız hakkında sorularınız için info@megis.co adresine e-posta gönderebilirsiniz."
         }
       ]
     },
@@ -404,14 +404,14 @@
         },
         {
           "title": "Başvuru",
-          "content": "Haklarınızı kullanmak için info@megis.com.tr adresine e-posta göndererek veya iletişim formu aracılığıyla başvurabilirsiniz."
+          "content": "Haklarınızı kullanmak için info@megis.co adresine e-posta göndererek veya iletişim formu aracılığıyla başvurabilirsiniz."
         }
       ]
     },
     "cookies": {
       "title": "Çerez Politikası",
       "lastUpdated": "Son güncelleme: 09 Mayıs 2026",
-      "intro": "Bu Çerez Politikası, Megis web sitesinde (megis.com.tr) çerezleri ve benzeri teknolojileri nasıl kullandığımızı açıklamaktadır. Siteyi kullanarak çerez kullanımına ilişkin bu politikayı kabul etmiş sayılırsınız.",
+      "intro": "Bu Çerez Politikası, Megis web sitesinde (megis.co) çerezleri ve benzeri teknolojileri nasıl kullandığımızı açıklamaktadır. Siteyi kullanarak çerez kullanımına ilişkin bu politikayı kabul etmiş sayılırsınız.",
       "sections": [
         {
           "title": "Çerez Nedir?",
@@ -431,7 +431,7 @@
         },
         {
           "title": "İletişim",
-          "content": "Çerez politikamız hakkında sorularınız için info@megis.com.tr adresine e-posta gönderebilirsiniz."
+          "content": "Çerez politikamız hakkında sorularınız için info@megis.co adresine e-posta gönderebilirsiniz."
         }
       ]
     },
@@ -446,7 +446,7 @@
         },
         {
           "title": "Başvuru Yöntemi",
-          "content": "Başvurularınızı info@megis.com.tr adresine 'DSAR Başvurusu' konu başlığıyla e-posta göndererek iletebilirsiniz. Başvuruda adınız, soyadınız, iletişim bilgileriniz, kullandığınız hizmet ve talep türünü belirtiniz."
+          "content": "Başvurularınızı info@megis.co adresine 'DSAR Başvurusu' konu başlığıyla e-posta göndererek iletebilirsiniz. Başvuruda adınız, soyadınız, iletişim bilgileriniz, kullandığınız hizmet ve talep türünü belirtiniz."
         },
         {
           "title": "Yanıt Süresi",

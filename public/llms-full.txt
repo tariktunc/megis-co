@@ -51,38 +51,38 @@ Markanızın dijital kimliğini oluşturun. Marka kimliği, dijital strateji, i�
 ## Tüm Sayfa Envanteri
 
 ### Ana Sayfalar
-- Ana Sayfa: https://megis.com.tr
-- Hakkımızda: https://megis.com.tr/hakkimizda
-- İletişim: https://megis.com.tr/iletisim
-- Brand: https://megis.com.tr/brand
+- Ana Sayfa: https://megis.co
+- Hakkımızda: https://megis.co/hakkimizda
+- İletişim: https://megis.co/iletisim
+- Brand: https://megis.co/brand
 
 ### Hizmet Sayfaları
-- SEO: https://megis.com.tr/seo
-- SEM: https://megis.com.tr/sem
-- GEO: https://megis.com.tr/geo
-- AIO / LLMO: https://megis.com.tr/aio-llmo
-- Web Tasarım: https://megis.com.tr/web-tasarim
-- E-Ticaret: https://megis.com.tr/e-ticaret
-- Analitik: https://megis.com.tr/analitik-performans
-- Güvenlik: https://megis.com.tr/guvenlik
-- Erişilebilirlik: https://megis.com.tr/erisilebirlik
-- Temel Kimlik: https://megis.com.tr/temel-kimlik
-- Yasal Uyumluluk: https://megis.com.tr/yasal-uyumluluk
-- UX Temelleri: https://megis.com.tr/ux-temelleri
-- Ürün & Hizmet: https://megis.com.tr/urun-hizmet
-- Tema & Görsel: https://megis.com.tr/tema-gorsel
+- SEO: https://megis.co/seo
+- SEM: https://megis.co/sem
+- GEO: https://megis.co/geo
+- AIO / LLMO: https://megis.co/aio-llmo
+- Web Tasarım: https://megis.co/web-tasarim
+- E-Ticaret: https://megis.co/e-ticaret
+- Analitik: https://megis.co/analitik-performans
+- Güvenlik: https://megis.co/guvenlik
+- Erişilebilirlik: https://megis.co/erisilebirlik
+- Temel Kimlik: https://megis.co/temel-kimlik
+- Yasal Uyumluluk: https://megis.co/yasal-uyumluluk
+- UX Temelleri: https://megis.co/ux-temelleri
+- Ürün & Hizmet: https://megis.co/urun-hizmet
+- Tema & Görsel: https://megis.co/tema-gorsel
 
 ### Ücretsiz SEO Araçları
-- Araçlar: https://megis.com.tr/araclar
-- SERP Önizleme: https://megis.com.tr/araclar/serp-onizleme
-- Kelime Sayacı: https://megis.com.tr/araclar/kelime-sayaci
-- Meta Tag Kontrol: https://megis.com.tr/araclar/meta-tag-kontrol
-- SEO Browser: https://megis.com.tr/araclar/seo-browser
-- MFI Denetleyici: https://megis.com.tr/araclar/mfi-denetleyici
+- Araçlar: https://megis.co/araclar
+- SERP Önizleme: https://megis.co/araclar/serp-onizleme
+- Kelime Sayacı: https://megis.co/araclar/kelime-sayaci
+- Meta Tag Kontrol: https://megis.co/araclar/meta-tag-kontrol
+- SEO Browser: https://megis.co/araclar/seo-browser
+- MFI Denetleyici: https://megis.co/araclar/mfi-denetleyici
 
 ### Çok Dilli Destek
-- Türkçe (varsayılan): https://megis.com.tr
-- İngilizce: https://megis.com.tr/en
+- Türkçe (varsayılan): https://megis.co
+- İngilizce: https://megis.co/en
 
 ## Teknoloji Altyapısı
 
@@ -113,7 +113,7 @@ Google Ads, Meta (Facebook & Instagram), TikTok, LinkedIn, YouTube, Twitter ve B
 
 ## İletişim
 
-- Web: https://megis.com.tr
-- E-posta: info@megis.com.tr
+- Web: https://megis.co
+- E-posta: info@megis.co
 - Dil Desteği: Türkçe, İngilizce
 - Konum: Türkiye

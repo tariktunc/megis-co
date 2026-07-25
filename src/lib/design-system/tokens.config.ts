@@ -154,9 +154,11 @@ export type Tokens = typeof tokens;
 //    the codebase, fleet-wide unique to this site — the 3 `toolsSuite.*700` values
 //    above are the tools suite's own first introduction of status color, sourced from
 //    Tailwind's own default palette (see comments above), not an invented brand color.
-// 4. Canonical host mismatch — RESOLVED (2026-07-25). Every hardcoded
-//    `https://megis.com.tr`/`https://megis.co` literal across page metadata,
-//    JSON-LD, layout.tsx and llms.txt was replaced with the shared `SITE_URL`
-//    constant (`src/lib/site-url.ts`, re-exported as `BASE` from
-//    `src/lib/sitemap/generate.ts`). megis.co is the owner-confirmed canonical
-//    domain. See site-builder/LEARNING-LOG.md for the full sweep.
+// 4. Canonical host mismatch — RESOLVED (2026-07-25). Page metadata, JSON-LD,
+//    layout.tsx and llms.txt used to hardcode a canonical host directly, and the
+//    host they named was one this business does NOT own. Every such literal is
+//    now the shared `SITE_URL` constant (`src/lib/site-url.ts`, re-exported as
+//    `BASE` from `src/lib/sitemap/generate.ts`), which resolves to megis.co, the
+//    owner-confirmed canonical domain. Static copy in messages/*.json and
+//    public/llms*.txt was corrected in the same pass. Never reintroduce a
+//    hardcoded host here or anywhere else — use SITE_URL.

@@ -58,7 +58,7 @@ export function WordCounter() {
         <textarea
           value={text}
           onChange={(e) => setText(e.target.value)}
-          placeholder="Analiz etmek istediginiz metni buraya yapistirim veya yazin..."
+          placeholder="Analiz etmek istediğiniz metni buraya yapıştırın veya yazın..."
           rows={10}
           className="w-full border border-border bg-surface px-4 py-3 text-sm text-foreground placeholder:text-muted/50 rounded-lg outline-none transition-all focus:border-accent focus:ring-1 focus:ring-accent/30 resize-y"
         />
@@ -69,12 +69,12 @@ export function WordCounter() {
         {[
           { label: "Kelime", value: stats.words },
           { label: "Karakter", value: stats.chars },
-          { label: "Karakter (boslukuluz)", value: stats.charsNoSpace },
-          { label: "Cumle", value: stats.sentences },
+          { label: "Karakter (boşluksuz)", value: stats.charsNoSpace },
+          { label: "Cümle", value: stats.sentences },
           { label: "Paragraf", value: stats.paragraphs },
-          { label: "Okuma Suresi", value: stats.readingTime },
-          { label: "Konusma Suresi", value: stats.speakingTime },
-          { label: "Ort. Kelime/Cumle", value: stats.sentences > 0 ? Math.round(stats.words / stats.sentences) : 0 },
+          { label: "Okuma Süresi", value: stats.readingTime },
+          { label: "Konuşma Süresi", value: stats.speakingTime },
+          { label: "Ort. Kelime/Cümle", value: stats.sentences > 0 ? Math.round(stats.words / stats.sentences) : 0 },
         ].map((s) => (
           <div key={s.label} className="rounded-xl bg-surface p-4 text-center">
             <div className="text-2xl sm:text-3xl font-bold text-foreground">{s.value}</div>
@@ -89,10 +89,10 @@ export function WordCounter() {
           <h3 className="text-lg font-semibold text-foreground mb-4">SEO Kontrol</h3>
           <div className="space-y-2">
             {[
-              { label: "Icerik uzunlugu (blog icin)", ok: stats.words >= 1500, msg: stats.words >= 1500 ? `${stats.words} kelime — iyi uzunluk` : `${stats.words} kelime — ideal 1500+ kelime` },
-              { label: "Meta description uzunlugu", ok: true, msg: "Metin sayacinda kontrol edilmez, SERP Onizleme aracini kullanin" },
-              { label: "Ortalama cumle uzunlugu", ok: stats.sentences > 0 && stats.words / stats.sentences <= 20, msg: stats.sentences > 0 ? `${Math.round(stats.words / stats.sentences)} kelime/cumle — ${stats.words / stats.sentences <= 20 ? "okunabilir" : "cok uzun, kisa cumleler kullanin"}` : "—" },
-              { label: "Paragraf sayisi", ok: stats.paragraphs >= 3, msg: stats.paragraphs >= 3 ? `${stats.paragraphs} paragraf — iyi yapilandirilmis` : "Daha fazla paragraf kullanin" },
+              { label: "İçerik uzunluğu (blog için)", ok: stats.words >= 1500, msg: stats.words >= 1500 ? `${stats.words} kelime, iyi uzunluk` : `${stats.words} kelime, ideal 1500+ kelime` },
+              { label: "Meta description uzunluğu", ok: true, msg: "Metin sayacında kontrol edilmez, SERP Önizleme aracını kullanın" },
+              { label: "Ortalama cümle uzunluğu", ok: stats.sentences > 0 && stats.words / stats.sentences <= 20, msg: stats.sentences > 0 ? `${Math.round(stats.words / stats.sentences)} kelime/cümle, ${stats.words / stats.sentences <= 20 ? "okunabilir" : "çok uzun, kısa cümleler kullanın"}` : "–" },
+              { label: "Paragraf sayısı", ok: stats.paragraphs >= 3, msg: stats.paragraphs >= 3 ? `${stats.paragraphs} paragraf, iyi yapılandırılmış` : "Daha fazla paragraf kullanın" },
             ].map((check) => (
               <div key={check.label} className="flex items-start gap-3 py-2">
                 <span className={`mt-0.5 flex-shrink-0 ${check.ok ? "text-accent" : "text-muted"}`}>
@@ -115,14 +115,14 @@ export function WordCounter() {
       {/* Keyword Density */}
       {keywordStats.length > 0 && (
         <div>
-          <h3 className="text-lg font-semibold text-foreground mb-4">Anahtar Kelime Yogunlugu (Top 10)</h3>
+          <h3 className="text-lg font-semibold text-foreground mb-4">Anahtar Kelime Yoğunluğu (Top 10)</h3>
           <div className="rounded-xl border border-border overflow-hidden">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-surface">
                   <th className="text-left px-4 py-3 text-xs font-semibold text-muted uppercase tracking-wider">Kelime</th>
-                  <th className="text-right px-4 py-3 text-xs font-semibold text-muted uppercase tracking-wider">Sayi</th>
-                  <th className="text-right px-4 py-3 text-xs font-semibold text-muted uppercase tracking-wider">Yogunluk</th>
+                  <th className="text-right px-4 py-3 text-xs font-semibold text-muted uppercase tracking-wider">Sayı</th>
+                  <th className="text-right px-4 py-3 text-xs font-semibold text-muted uppercase tracking-wider">Yoğunluk</th>
                   <th className="px-4 py-3 text-xs font-semibold text-muted uppercase tracking-wider">Bar</th>
                 </tr>
               </thead>

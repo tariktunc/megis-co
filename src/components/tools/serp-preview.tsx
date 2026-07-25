@@ -40,7 +40,7 @@ export function SerpPreview() {
             type="text"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            placeholder="Sayfa basligini girin..."
+            placeholder="Sayfa başlığını girin..."
             className="w-full border border-border bg-surface px-4 py-3 text-sm text-foreground placeholder:text-muted/50 rounded-lg outline-none transition-all focus:border-accent focus:ring-1 focus:ring-accent/30"
           />
           <div className="mt-1.5 h-1 rounded-full bg-border overflow-hidden">
@@ -61,7 +61,7 @@ export function SerpPreview() {
           <textarea
             value={description}
             onChange={(e) => setDescription(e.target.value)}
-            placeholder="Meta aciklamasini girin..."
+            placeholder="Meta açıklamasını girin..."
             rows={3}
             className="w-full border border-border bg-surface px-4 py-3 text-sm text-foreground placeholder:text-muted/50 rounded-lg outline-none transition-all focus:border-accent focus:ring-1 focus:ring-accent/30 resize-none"
           />
@@ -91,7 +91,7 @@ export function SerpPreview() {
           onClick={() => setView("desktop")}
           className={`px-4 py-1.5 text-xs rounded-full transition-colors ${view === "desktop" ? "bg-accent text-white" : "text-muted hover:text-foreground"}`}
         >
-          Masaustu
+          Masaüstü
         </button>
         <button
           onClick={() => setView("mobile")}
@@ -114,10 +114,10 @@ export function SerpPreview() {
             </div>
           </div>
           <h3 className={`text-[#1a0dab] ${view === "mobile" ? "text-lg" : "text-xl"} leading-snug cursor-pointer hover:underline`}>
-            {title ? truncate(title, 60) : <span className="text-[#70757a]">Sayfa Basligi</span>}
+            {title ? truncate(title, 60) : <span className="text-[#70757a]">Sayfa Başlığı</span>}
           </h3>
           <p className={`text-[#4d5156] ${view === "mobile" ? "text-xs" : "text-sm"} leading-relaxed`}>
-            {description ? truncate(description, 160) : <span className="text-[#70757a]">Meta aciklamasi burada gorunecek. Arama sonuclarinda kullanicilarin goreceei metin budur.</span>}
+            {description ? truncate(description, 160) : <span className="text-[#70757a]">Meta açıklaması burada görünecek. Arama sonuçlarında kullanıcıların göreceği metin budur.</span>}
           </p>
         </div>
       </div>
@@ -127,23 +127,23 @@ export function SerpPreview() {
         <div className="rounded-xl bg-surface p-4">
           <div className="text-xs text-muted mb-1">Title</div>
           <div className={`text-lg font-bold ${titleOk ? "text-foreground" : titleLen === 0 ? "text-muted" : "text-red-400"}`}>
-            {titleLen === 0 ? "—" : titleOk ? "Uygun" : titleLen > 60 ? "Cok uzun" : "Cok kisa"}
+            {titleLen === 0 ? "–" : titleOk ? "Uygun" : titleLen > 60 ? "Çok uzun" : "Çok kısa"}
           </div>
-          <div className="text-xs text-muted mt-1">Ideal: 50-60 karakter</div>
+          <div className="text-xs text-muted mt-1">İdeal: 50-60 karakter</div>
         </div>
         <div className="rounded-xl bg-surface p-4">
           <div className="text-xs text-muted mb-1">Description</div>
           <div className={`text-lg font-bold ${descOk ? "text-foreground" : descLen === 0 ? "text-muted" : "text-red-400"}`}>
-            {descLen === 0 ? "—" : descOk ? "Uygun" : descLen > 160 ? "Cok uzun" : "Cok kisa"}
+            {descLen === 0 ? "–" : descOk ? "Uygun" : descLen > 160 ? "Çok uzun" : "Çok kısa"}
           </div>
-          <div className="text-xs text-muted mt-1">Ideal: 140-160 karakter</div>
+          <div className="text-xs text-muted mt-1">İdeal: 140-160 karakter</div>
         </div>
         <div className="rounded-xl bg-surface p-4">
-          <div className="text-xs text-muted mb-1">Pixel Genisligi (tahmini)</div>
+          <div className="text-xs text-muted mb-1">Pixel Genişliği (tahmini)</div>
           <div className="text-lg font-bold text-foreground">
-            {titleLen === 0 ? "—" : `~${Math.round(titleLen * 8.5)}px`}
+            {titleLen === 0 ? "–" : `~${Math.round(titleLen * 8.5)}px`}
           </div>
-          <div className="text-xs text-muted mt-1">Limit: ~580px masaustu</div>
+          <div className="text-xs text-muted mt-1">Limit: ~580px masaüstü</div>
         </div>
       </div>
     </div>

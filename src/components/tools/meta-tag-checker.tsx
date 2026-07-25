@@ -121,30 +121,30 @@ export function MetaTagChecker() {
           </div>
 
           {/* Detailed Checks */}
-          <h3 className="text-lg font-semibold text-foreground mb-4">Detayli Analiz</h3>
+          <h3 className="text-lg font-semibold text-foreground mb-4">Detaylı Analiz</h3>
           <div className="rounded-xl border border-border">
-            <Check label="Title Tag" value={result.title} good={result.title.length > 0 && result.title.length <= 60} tip="Title tag 50-60 karakter arasi olmali." />
-            <Check label="Meta Description" value={result.description} good={result.description.length > 0 && result.description.length <= 160} tip="Description 140-160 karakter arasi olmali." />
-            <Check label="Canonical URL" value={result.canonical} good={!!result.canonical} tip="Canonical URL eksik. Duplicate content sorununa yol acabilir." />
-            <Check label="Robots Meta" value={result.robots || "index, follow (varsayilan)"} good={!result.robots || !result.robots.includes("noindex")} tip="noindex etiketi sayfanin indekslenmesini engeller." />
-            <Check label="OG Title" value={result.ogTitle} good={!!result.ogTitle} tip="Open Graph title eksik. Sosyal medya paylasimlari basliksiz gorunur." />
+            <Check label="Title Tag" value={result.title} good={result.title.length > 0 && result.title.length <= 60} tip="Title tag 50-60 karakter arası olmalı." />
+            <Check label="Meta Description" value={result.description} good={result.description.length > 0 && result.description.length <= 160} tip="Description 140-160 karakter arası olmalı." />
+            <Check label="Canonical URL" value={result.canonical} good={!!result.canonical} tip="Canonical URL eksik. Duplicate content sorununa yol açabilir." />
+            <Check label="Robots Meta" value={result.robots || "index, follow (varsayılan)"} good={!result.robots || !result.robots.includes("noindex")} tip="noindex etiketi sayfanın indekslenmesini engeller." />
+            <Check label="OG Title" value={result.ogTitle} good={!!result.ogTitle} tip="Open Graph title eksik. Sosyal medya paylaşımları başlıksız görünür." />
             <Check label="OG Description" value={result.ogDescription} good={!!result.ogDescription} tip="Open Graph description eksik." />
-            <Check label="OG Image" value={result.ogImage} good={!!result.ogImage} tip="OG image eksik. Sosyal medya paylasimlari gorselsiz gorunur." />
+            <Check label="OG Image" value={result.ogImage} good={!!result.ogImage} tip="OG image eksik. Sosyal medya paylaşımları görselsiz görünür." />
             <Check label="Twitter Card" value={result.twitterCard || "Eksik"} good={!!result.twitterCard} tip="Twitter Card meta etiketi eksik." />
-            <Check label={`H1 Basligi (${result.h1.length} adet)`} value={result.h1.join(" | ") || "Eksik"} good={result.h1.length === 1} tip={result.h1.length === 0 ? "H1 baslik eksik." : result.h1.length > 1 ? "Birden fazla H1 var. Sayfa basina tek H1 olmali." : ""} />
+            <Check label={`H1 Başlığı (${result.h1.length} adet)`} value={result.h1.join(" | ") || "Eksik"} good={result.h1.length === 1} tip={result.h1.length === 0 ? "H1 başlık eksik." : result.h1.length > 1 ? "Birden fazla H1 var. Sayfa başına tek H1 olmalı." : ""} />
           </div>
 
           {/* Quick Stats */}
           <div className="mt-8 grid grid-cols-3 gap-4">
             <div className="rounded-xl bg-surface p-4 text-center">
               <div className="text-2xl font-bold text-foreground">{result.h2Count}</div>
-              <div className="text-xs text-muted mt-1">H2 Basligi</div>
+              <div className="text-xs text-muted mt-1">H2 Başlığı</div>
             </div>
             <div className="rounded-xl bg-surface p-4 text-center">
               <div className={`text-2xl font-bold ${result.imgWithoutAlt > 0 ? "text-red-400" : "text-foreground"}`}>
                 {result.imgWithoutAlt}/{result.totalImages}
               </div>
-              <div className="text-xs text-muted mt-1">Alt Text Eksik Gorsel</div>
+              <div className="text-xs text-muted mt-1">Alt Text Eksik Görsel</div>
             </div>
             <div className="rounded-xl bg-surface p-4 text-center">
               <div className="text-2xl font-bold text-foreground">{result.totalLinks}</div>

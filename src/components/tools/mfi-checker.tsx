@@ -82,7 +82,7 @@ export function MfiChecker() {
             <div className={`text-7xl font-bold tracking-tight ${result.score >= 90 ? "text-foreground" : result.score >= 70 ? "text-yellow-400" : "text-red-400"}`}>
               {result.score}
             </div>
-            <div className="text-muted text-sm mt-2">MFI Uyumluluk Skoru (100 uzerinden)</div>
+            <div className="text-muted text-sm mt-2">MFI Uyumluluk Skoru (100 üzerinden)</div>
           </div>
 
           {/* Issues */}
@@ -107,26 +107,26 @@ export function MfiChecker() {
               <span className="text-accent text-lg">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="inline mr-2"><polyline points="20 6 9 17 4 12" /></svg>
               </span>
-              <span className="text-foreground font-semibold">Sorun bulunamadi. MFI uyumlu!</span>
+              <span className="text-foreground font-semibold">Sorun bulunamadı. MFI uyumlu!</span>
             </div>
           )}
 
           {/* Comparison Table */}
-          <h3 className="text-sm font-semibold text-foreground mb-4">Masaustu vs Mobil Karsilastirma</h3>
+          <h3 className="text-sm font-semibold text-foreground mb-4">Masaüstü vs Mobil Karşılaştırma</h3>
           <div className="rounded-xl border border-border overflow-hidden">
             <div className="grid grid-cols-3 gap-4 px-4 py-3 bg-surface-light text-xs font-semibold text-muted uppercase tracking-wider">
               <span>Metrik</span>
-              <span>Masaustu</span>
+              <span>Masaüstü</span>
               <span>Mobil</span>
             </div>
             <div className="px-4">
               <Diff label="Title" desktop={result.desktop.title || "Eksik"} mobile={result.mobile.title || "Eksik"} />
               <Diff label="Description" desktop={result.desktop.description ? `${result.desktop.description.length} chr` : "Eksik"} mobile={result.mobile.description ? `${result.mobile.description.length} chr` : "Eksik"} />
-              <Diff label="H1 Sayisi" desktop={result.desktop.h1.length} mobile={result.mobile.h1.length} />
-              <Diff label="H2 Sayisi" desktop={result.desktop.h2Count} mobile={result.mobile.h2Count} />
-              <Diff label="Link Sayisi" desktop={result.desktop.linkCount} mobile={result.mobile.linkCount} />
-              <Diff label="Gorsel Sayisi" desktop={result.desktop.imageCount} mobile={result.mobile.imageCount} />
-              <Diff label="Kelime Sayisi" desktop={result.desktop.wordCount} mobile={result.mobile.wordCount} />
+              <Diff label="H1 Sayısı" desktop={result.desktop.h1.length} mobile={result.mobile.h1.length} />
+              <Diff label="H2 Sayısı" desktop={result.desktop.h2Count} mobile={result.mobile.h2Count} />
+              <Diff label="Link Sayısı" desktop={result.desktop.linkCount} mobile={result.mobile.linkCount} />
+              <Diff label="Görsel Sayısı" desktop={result.desktop.imageCount} mobile={result.mobile.imageCount} />
+              <Diff label="Kelime Sayısı" desktop={result.desktop.wordCount} mobile={result.mobile.wordCount} />
             </div>
           </div>
         </div>

@@ -43,9 +43,9 @@ export function SeoBrowser() {
 
   const tabs = [
     { id: "overview" as const, label: "Genel" },
-    { id: "headings" as const, label: "Basliklar" },
+    { id: "headings" as const, label: "Başlıklar" },
     { id: "links" as const, label: "Linkler" },
-    { id: "images" as const, label: "Gorseller" },
+    { id: "images" as const, label: "Görseller" },
     { id: "text" as const, label: "Metin" },
   ];
 
@@ -65,7 +65,7 @@ export function SeoBrowser() {
           disabled={loading || !url.trim()}
           className="rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-white hover:bg-accent-hover transition-colors disabled:opacity-50 flex-shrink-0"
         >
-          {loading ? "Taraniyor..." : "Tara"}
+          {loading ? "Taranıyor..." : "Tara"}
         </button>
       </div>
 
@@ -77,7 +77,7 @@ export function SeoBrowser() {
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-8">
             <div className="rounded-xl bg-surface p-4 text-center">
               <div className="text-2xl font-bold text-foreground">{result.h1.length + result.h2.length + result.h3.length}</div>
-              <div className="text-xs text-muted mt-1">Baslik</div>
+              <div className="text-xs text-muted mt-1">Başlık</div>
             </div>
             <div className="rounded-xl bg-surface p-4 text-center">
               <div className="text-2xl font-bold text-foreground">{result.links.internal + result.links.external}</div>
@@ -85,7 +85,7 @@ export function SeoBrowser() {
             </div>
             <div className="rounded-xl bg-surface p-4 text-center">
               <div className="text-2xl font-bold text-foreground">{result.images.total}</div>
-              <div className="text-xs text-muted mt-1">Gorsel</div>
+              <div className="text-xs text-muted mt-1">Görsel</div>
             </div>
             <div className="rounded-xl bg-surface p-4 text-center">
               <div className="text-2xl font-bold text-foreground">{result.wordCount}</div>
@@ -113,8 +113,8 @@ export function SeoBrowser() {
                 { label: "Title", value: result.title, warn: !result.title || result.title.length > 60 },
                 { label: "Meta Description", value: result.metaDescription, warn: !result.metaDescription || result.metaDescription.length > 160 },
                 { label: "Canonical", value: result.canonical, warn: !result.canonical },
-                { label: "Robots", value: result.robots || "index, follow (varsayilan)", warn: result.robots?.includes("noindex") },
-                { label: "H1 Sayisi", value: `${result.h1.length} adet`, warn: result.h1.length !== 1 },
+                { label: "Robots", value: result.robots || "index, follow (varsayılan)", warn: result.robots?.includes("noindex") },
+                { label: "H1 Sayısı", value: `${result.h1.length} adet`, warn: result.h1.length !== 1 },
                 { label: "Dahili Link", value: `${result.links.internal} adet`, warn: false },
                 { label: "Harici Link", value: `${result.links.external} adet`, warn: false },
                 { label: "Nofollow Link", value: `${result.links.nofollow} adet`, warn: false },
@@ -157,7 +157,7 @@ export function SeoBrowser() {
                 </div>
               ))}
               {result.h1.length + result.h2.length + result.h3.length === 0 && (
-                <p className="text-sm text-muted py-4">Hicbir baslik bulunamadi.</p>
+                <p className="text-sm text-muted py-4">Hiçbir başlık bulunamadı.</p>
               )}
             </div>
           )}
@@ -184,7 +184,7 @@ export function SeoBrowser() {
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="rounded-xl bg-surface p-5 text-center">
                   <div className="text-4xl font-bold text-foreground">{result.images.total}</div>
-                  <div className="text-sm text-muted mt-2">Toplam Gorsel</div>
+                  <div className="text-sm text-muted mt-2">Toplam Görsel</div>
                 </div>
                 <div className="rounded-xl bg-surface p-5 text-center">
                   <div className={`text-4xl font-bold ${result.images.withoutAlt > 0 ? "text-red-400" : "text-foreground"}`}>{result.images.withoutAlt}</div>
@@ -206,10 +206,10 @@ export function SeoBrowser() {
 
           {tab === "text" && (
             <div>
-              <div className="text-xs text-muted mb-3">{result.wordCount} kelime — Googlebot'un gordugu metin icerigi</div>
+              <div className="text-xs text-muted mb-3">{result.wordCount} kelime, Googlebot'un gördüğü metin içeriği</div>
               <div className="rounded-xl bg-surface p-6 text-sm text-muted leading-relaxed max-h-[500px] overflow-y-auto whitespace-pre-wrap">
                 {result.textContent.slice(0, 5000)}
-                {result.textContent.length > 5000 && "\n\n... (devami kisaltildi)"}
+                {result.textContent.length > 5000 && "\n\n... (devamı kısaltıldı)"}
               </div>
             </div>
           )}

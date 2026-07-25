@@ -19,11 +19,11 @@ export async function generateMetadata({
 }
 
 const tools = [
-  { href: "/araclar/serp-onizleme", title: "SERP Onizleme", desc: "Title ve description'inizin Google'da nasil gorunecegini test edin." },
-  { href: "/araclar/kelime-sayaci", title: "Kelime Sayaci", desc: "Metin analizi: kelime, karakter, cumle sayisi ve anahtar kelime yogunlugu." },
-  { href: "/araclar/meta-tag-kontrol", title: "Meta Tag Kontrol", desc: "Herhangi bir URL'nin meta etiketlerini, OG tag'larini ve SEO durumunu analiz edin." },
-  { href: "/araclar/seo-browser", title: "SEO Browser", desc: "Googlebot'un sayfanizi nasil gordugunu goruntuleyin. Baslik, link ve gorsel analizi." },
-  { href: "/araclar/mfi-denetleyici", title: "MFI Denetleyici", desc: "Mobile-First Indexing uyumlulugunu denetleyin. Masaustu ve mobil karsilastirma." },
+  { href: "/araclar/serp-onizleme", title: "SERP Önizleme", desc: "Title ve description'ınızın Google'da nasıl görüneceğini test edin." },
+  { href: "/araclar/kelime-sayaci", title: "Kelime Sayacı", desc: "Metin analizi: kelime, karakter, cümle sayısı ve anahtar kelime yoğunluğu." },
+  { href: "/araclar/meta-tag-kontrol", title: "Meta Tag Kontrol", desc: "Herhangi bir URL'nin meta etiketlerini, OG tag'larını ve SEO durumunu analiz edin." },
+  { href: "/araclar/seo-browser", title: "SEO Browser", desc: "Googlebot'un sayfanızı nasıl gördüğünü görüntüleyin. Başlık, link ve görsel analizi." },
+  { href: "/araclar/mfi-denetleyici", title: "MFI Denetleyici", desc: "Mobile-First Indexing uyumluluğunu denetleyin. Masaüstü ve mobil karşılaştırma." },
 ];
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
@@ -34,12 +34,12 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     <div className="min-h-screen pt-32 pb-20">
       <div className="max-w-[980px] mx-auto px-6">
         <div className="text-center mb-20">
-          <p className="text-accent text-lg font-semibold mb-4">Ucretsiz SEO Araclari</p>
+          <p className="text-accent text-lg font-semibold mb-4">Ücretsiz SEO Araçları</p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground leading-tight">
-            Araclar
+            Araçlar
           </h1>
           <p className="mt-5 text-xl text-muted max-w-2xl mx-auto leading-relaxed">
-            SEO ve dijital pazarlama calismalariniz icin ucretsiz araclar. Hicbir kayit gerektirmez.
+            SEO ve dijital pazarlama çalışmalarınız için ücretsiz araçlar. Hiçbir kayıt gerektirmez.
           </p>
         </div>
 

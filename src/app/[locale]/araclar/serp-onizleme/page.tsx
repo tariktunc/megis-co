@@ -9,9 +9,9 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
     <div className="min-h-screen pt-32 pb-20">
       <div className="max-w-[680px] mx-auto px-6">
         <div className="text-center mb-12">
-          <p className="text-accent text-sm font-semibold mb-3">Ucretsiz Arac</p>
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground">SERP Onizleme</h1>
-          <p className="mt-4 text-lg text-muted">Title ve description'inizin Google arama sonuclarinda nasil gorunecegini test edin.</p>
+          <p className="text-accent text-sm font-semibold mb-3">Ücretsiz Araç</p>
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground">SERP Önizleme</h1>
+          <p className="mt-4 text-lg text-muted">Title ve description'ınızın Google arama sonuçlarında nasıl görüneceğini test edin.</p>
         </div>
         <SerpPreview />
       </div>

@@ -20,7 +20,7 @@ export interface SourcingModeInput {
   /** Lump total of other expenses, divided by unitCount inside this function. */
   otherExpensesTotal: number;
   unitCount: number;
-  targetSalePrice?: number;
+  targetSalePrice?: number | undefined;
   /** Default 20 (a calculator default, not a verified fact) — apply the default in the UI layer, not silently here. */
   minimumMarginPercent?: number;
 }
@@ -31,7 +31,7 @@ export interface ManufacturingModeInput {
   directLabourTotal: number;
   productionOverheadTotal: number;
   unitsProduced: number;
-  targetSalePrice?: number;
+  targetSalePrice?: number | undefined;
   minimumMarginPercent?: number;
 }
 

@@ -27,13 +27,16 @@ import { useId } from 'react';
 
 // ── Shared chrome (label + helper/error + optional char counter) ───────────
 
+// Optional props carry an explicit `| undefined` because this project has
+// exactOptionalPropertyTypes enabled: a caller forwarding an already-optional
+// value is not assignable to a plain `?: T`.
 interface FieldChromeProps {
   id: string;
   label: string;
-  error?: string;
-  helperText?: string;
-  required?: boolean;
-  charCount?: { current: number; max: number };
+  error?: string | undefined;
+  helperText?: string | undefined;
+  required?: boolean | undefined;
+  charCount?: { current: number; max: number } | undefined;
   children: React.ReactNode;
 }
 

@@ -77,7 +77,7 @@ export interface EtsyFeeInput {
    *  default — this function NEVER supplies a default of its own. When
    *  omitted, the fixed component is returned unconverted and no single
    *  blended USD total is produced. */
-  usdTryRate?: number;
+  usdTryRate?: number | undefined;
 }
 
 export interface EtsyFeeResult {

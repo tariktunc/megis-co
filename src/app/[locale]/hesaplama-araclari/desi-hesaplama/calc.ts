@@ -23,7 +23,7 @@ export interface DesiInput {
   lengthCm: number;
   heightCm: number;
   /** Optional real scale weight — when provided, the billable weight is whichever is larger. */
-  actualWeightKg?: number;
+  actualWeightKg?: number | undefined;
   divisorMode: DesiDivisorMode;
 }
 

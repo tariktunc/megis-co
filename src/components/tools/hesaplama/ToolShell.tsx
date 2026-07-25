@@ -30,20 +30,26 @@ export interface BreadcrumbItem {
   href?: string;
 }
 
+// Optional props are declared `?: T | undefined` rather than plain `?: T` because
+// this project has exactOptionalPropertyTypes enabled. Every caller feeds these
+// slots from contentGuard, which returns `T | undefined` by design (an unfilled
+// {{PLACEHOLDER}} becomes undefined so the section is omitted). Under that flag a
+// plain optional prop rejects an explicitly-passed undefined, so the guard's own
+// return type would not be assignable here.
 export interface ToolShellProps {
   slug: string;
   title: string;
   answerBlock: string;
   breadcrumbItems: BreadcrumbItem[];
   toolSlot: React.ReactNode;
-  definitionBox?: { term: string; definition: string };
-  formula?: React.ReactNode;
-  exampleTable?: React.ReactNode;
+  definitionBox?: { term: string; definition: string } | undefined;
+  formula?: React.ReactNode | undefined;
+  exampleTable?: React.ReactNode | undefined;
   faqItems: Array<{ question: string; answer: string }>;
   /** Data-driven tools only (customs duty, Etsy) — omit for formula-only and user-entered-rate tools. */
-  sourceLine?: { verifiedAt: string; sourceLabel: string; sourceUrl: string };
+  sourceLine?: { verifiedAt: string; sourceLabel: string; sourceUrl: string } | undefined;
   relatedTools: Array<{ slug: string; label: string }>;
-  siteUrl?: string;
+  siteUrl?: string | undefined;
 }
 
 export function ToolShell({

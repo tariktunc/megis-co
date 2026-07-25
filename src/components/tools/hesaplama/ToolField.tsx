@@ -25,13 +25,17 @@ function clamp(value: number, min?: number, max?: number): number {
 
 // ── Shared chrome (label + unit suffix + helper/error) ─────────────────────
 
+// The optional props are written as `?: T | undefined` rather than plain `?: T`
+// because this project has exactOptionalPropertyTypes enabled: under that flag a
+// caller forwarding an already-optional value (unit={unit} where unit is
+// `string | undefined`) is NOT assignable to a plain `unit?: string`.
 interface FieldChromeProps {
   id: string;
   label: string;
-  unit?: string;
-  error?: string;
-  helperText?: string;
-  required?: boolean;
+  unit?: string | undefined;
+  error?: string | undefined;
+  helperText?: string | undefined;
+  required?: boolean | undefined;
   children: React.ReactNode;
 }
 
@@ -83,7 +87,7 @@ interface NumberFieldProps {
   label: string;
   value: number;
   onChange: (value: number) => void;
-  unit?: string;
+  unit?: string | undefined;
   min?: number;
   max?: number;
   placeholder?: string;
@@ -174,7 +178,7 @@ interface SelectFieldProps {
   value: string;
   onChange: (value: string) => void;
   options: SelectOption[];
-  unit?: string;
+  unit?: string | undefined;
   error?: string;
   helperText?: string;
   required?: boolean;

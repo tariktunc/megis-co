@@ -50,7 +50,7 @@ export interface QrCodeProps {
   fgColor: string;
   bgColor: string;
   level: QrErrorCorrectionLevel;
-  logo?: QrCodeLogo;
+  logo?: QrCodeLogo | undefined;
   /** Accessible name for the code, also passed to the library as its internal <title> (used for the sr-only text alternative too). */
   ariaLabel: string;
   /** Used to build the 3 download file names, e.g. "qr-kod" -> "qr-kod.png". */
@@ -70,6 +70,11 @@ export function QrCode({
   fileNamePrefix = 'qr-kod',
   emptyMessage = 'İçerik girildiğinde QR kodu burada görünecek.',
 }: QrCodeProps) {
+  // imageSettings is spread conditionally rather than passed as
+  // `imageSettings={logo ? {...} : undefined}`. qrcode.react types the prop
+  // without an `undefined` variant, and this project has
+  // exactOptionalPropertyTypes enabled, so explicitly passing undefined is a
+  // type error. Omitting the key entirely is the equivalent, type-safe form.
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const hasValue = value.trim().length > 0;
@@ -90,9 +95,16 @@ export function QrCode({
             level={level}
             marginSize={2}
             title={ariaLabel}
-            imageSettings={
-              logo ? { src: logo.src, width: logo.widthPx, height: logo.heightPx, excavate: true } : undefined
-            }
+            {...(logo
+              ? {
+                  imageSettings: {
+                    src: logo.src,
+                    width: logo.widthPx,
+                    height: logo.heightPx,
+                    excavate: true,
+                  },
+                }
+              : {})}
           />
         ) : (
           <div

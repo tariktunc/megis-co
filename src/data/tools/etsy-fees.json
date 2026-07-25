@@ -12,8 +12,8 @@
     "appliesTo": "total order amount including shipping and gift wrap charged to the buyer"
   },
   "paymentProcessing": [
-    { "country": "TR", "label": "Turkiye", "ratePercent": 6.5, "fixedAmount": 3, "fixedCurrency": "TRY" },
-    { "country": "US", "label": "Amerika Birlesik Devletleri", "ratePercent": 3, "fixedAmount": 0.25, "fixedCurrency": "USD" }
+    { "country": "TR", "label": "Türkiye", "ratePercent": 6.5, "fixedAmount": 3, "fixedCurrency": "TRY" },
+    { "country": "US", "label": "Amerika Birleşik Devletleri", "ratePercent": 3, "fixedAmount": 0.25, "fixedCurrency": "USD" }
   ],
   "paymentProcessingNote": "Rate and fixed component vary by seller country. Only TR and US are verified here. Any additional country must be verified against Etsy Help before being added to the dropdown.",
   "offsiteAds": [

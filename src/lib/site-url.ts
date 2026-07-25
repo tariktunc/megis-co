@@ -19,3 +19,10 @@ function resolveSiteUrl(): string {
 
 // trim() ile env'deki yanlislikla eklenen whitespace/newline temizlenir.
 export const SITE_URL = resolveSiteUrl().trim().replace(/\/$/, "");
+
+// Public contact address. Single source of truth for the same reason SITE_URL is:
+// this was previously hardcoded on a domain the business does not own, scattered
+// across the contact form, the Organization JSON-LD, llms.txt and the KVKK /
+// privacy / cookie / DSAR page copy. It appears on legal pages as the channel for
+// exercising data-subject rights, so it must stay a real, monitored inbox.
+export const CONTACT_EMAIL = "info@megis.co";

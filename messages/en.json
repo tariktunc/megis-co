@@ -473,17 +473,18 @@
       "subjectPlaceholder": "Your project topic",
       "message": "Message",
       "messagePlaceholder": "Tell us about your project...",
-      "send": "Send Message",
-      "sending": "Sending...",
-      "success": "Your message has been sent successfully! We'll get back to you shortly.",
-      "error": "An error occurred. Please try again.",
+      "send": "Send by Email",
+      "error": "Your email app could not be opened. Please email us directly.",
       "validation": {
         "nameRequired": "Name is required",
         "emailRequired": "Email is required",
         "emailInvalid": "Enter a valid email address",
         "messageRequired": "Message is required",
         "messageMin": "Message must be at least 10 characters"
-      }
+      },
+      "opened": "Your email app has opened with the message ready.",
+      "openedFallback": "If it did not open, you can write to us directly at:",
+      "mailtoFallbackSubject": "Contact form"
     }
   }
 }

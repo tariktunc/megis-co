@@ -473,17 +473,18 @@
       "subjectPlaceholder": "Proje konunuz",
       "message": "Mesajınız",
       "messagePlaceholder": "Projeniz hakkında bilgi verin...",
-      "send": "Mesaj Gönder",
-      "sending": "Gönderiliyor...",
-      "success": "Mesajınız başarıyla gönderildi! En kısa sürede dönüş yapacağız.",
-      "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+      "send": "E-posta ile Gönder",
+      "error": "E-posta uygulaması açılamadı. Lütfen doğrudan e-posta gönderin.",
       "validation": {
         "nameRequired": "Ad alanı zorunludur",
         "emailRequired": "E-posta alanı zorunludur",
         "emailInvalid": "Geçerli bir e-posta adresi girin",
         "messageRequired": "Mesaj alanı zorunludur",
         "messageMin": "Mesaj en az 10 karakter olmalıdır"
-      }
+      },
+      "opened": "E-posta uygulamanız açıldı, mesajınız hazır.",
+      "openedFallback": "Açılmadıysa doğrudan şu adrese yazabilirsiniz:",
+      "mailtoFallbackSubject": "İletişim formu"
     }
   }
 }

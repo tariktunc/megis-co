@@ -1,0 +1,26 @@
+{
+  "verifiedAt": "2026-07-25",
+  "sourceUrls": [
+    "https://www.etsy.com/legal/fees/",
+    "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy",
+    "https://help.etsy.com/hc/en-us/articles/360000338367-How-Etsy-s-Offsite-Ads-Work"
+  ],
+  "currencyNote": "Listing and transaction fees are USD-denominated. Payment processing is charged in the seller's local currency.",
+  "listingFee": { "amount": 0.20, "currency": "USD", "per": "listing", "durationMonths": 4 },
+  "transactionFee": {
+    "ratePercent": 6.5,
+    "appliesTo": "total order amount including shipping and gift wrap charged to the buyer"
+  },
+  "paymentProcessing": [
+    { "country": "TR", "label": "Turkiye", "ratePercent": 6.5, "fixedAmount": 3, "fixedCurrency": "TRY" },
+    { "country": "US", "label": "Amerika Birlesik Devletleri", "ratePercent": 3, "fixedAmount": 0.25, "fixedCurrency": "USD" }
+  ],
+  "paymentProcessingNote": "Rate and fixed component vary by seller country. Only TR and US are verified here. Any additional country must be verified against Etsy Help before being added to the dropdown.",
+  "offsiteAds": [
+    { "tier": "under_10k", "ratePercent": 15, "condition": "Shop has never made 10.000 USD in any consecutive 365-day period. Participation optional." },
+    { "tier": "over_10k", "ratePercent": 12, "condition": "Shop has made 10.000 USD or more in a consecutive 365-day period. Participation mandatory." }
+  ],
+  "correctionsToThirdPartyData": [
+    "ikas.com/tr/etsy-komisyon-hesaplama states the Turkey payment processing fee is 4.5 percent + 0.30 USD. Etsy's own help documentation states 6.5 percent + 3 TRY. The ikas figure is wrong or stale and must NOT be used."
+  ]
+}

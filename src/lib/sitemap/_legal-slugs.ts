@@ -65,6 +65,16 @@ export const AUTH_GATED_SLUGS = [
   "orders",
   // Studio / dev
   "_studio",
+  // Tools-suite routes with unfilled content.ts placeholders (Rule #58) — kept
+  // out of the sitemap the same way an auth-gated route is, NOT because it is
+  // auth-gated, but because every page under it carries `robots: { index:
+  // false, follow: false }` until the /write pipeline fills content.ts (see
+  // site-builder/specs/tools-suite.md "Content Is Not Authored Here"). Works
+  // for both /tr and /en since pages.ts's scanStaticRoutes checks entry.name
+  // at every static-folder level, locale-independent. Remove once every tool
+  // page under hesaplama-araclari/ is indexable and the route is added back
+  // deliberately.
+  "hesaplama-araclari",
 ] as const;
 
 export const LEGAL_SLUG_SET = new Set<string>(LEGAL_SLUGS);

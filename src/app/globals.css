@@ -13,6 +13,22 @@
   --color-border-light: #6e6e73;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Tools Suite aliases (2026-07-25, site-builder/specs/tools-suite.md +
+     src/lib/design-system/tokens.config.ts "Tools Suite aliases" — read that
+     file's comments before touching any line below). Every value here is either
+     a DIFFERENT property name pointing at an ALREADY-EXISTING token above (never
+     self-referential), a color-mix() derived from one, or a literal Tailwind v4
+     framework default (verified against node_modules/tailwindcss/theme.css) —
+     no new independent brand hex. Dark-mode values (this site's default); the
+     mode-dependent ones are overridden in html.light below. */
+  --color-muted-foreground: var(--color-muted);
+  --color-primary-500: var(--color-accent);
+  --color-primary-600: var(--color-accent-hover);
+  --color-primary-50: color-mix(in srgb, var(--color-accent) 12%, black);
+  --color-error-700: oklch(50.5% 0.213 27.518); /* Tailwind v4 default red-700 */
+  --color-success-700: oklch(52.7% 0.154 150.069); /* Tailwind v4 default green-700 */
+  --color-warning-700: oklch(55.5% 0.163 48.998); /* Tailwind v4 default amber-700 */
 }
 
 :root {
@@ -29,6 +45,11 @@ html.light {
   --color-surface-light: #e8e8ed;
   --color-border: #d2d2d7;
   --color-border-light: #86868b;
+
+  /* Tools Suite alias override — light mode mixes primary-50 toward white instead
+     of black (see the @theme block above for the rest of the alias set, which is
+     mode-independent and does not need repeating here). */
+  --color-primary-50: color-mix(in srgb, var(--color-accent) 8%, white);
 }
 
 body {

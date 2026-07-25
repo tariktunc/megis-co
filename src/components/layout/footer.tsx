@@ -51,6 +51,13 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              {/* Hardcoded label, not routed through next-intl "nav" messages
+                  (2026-07-25 tools-suite install) — see navbar.tsx's identical note. */}
+              <li>
+                <Link href="/hesaplama-araclari" className="text-xs text-muted hover:text-foreground transition-colors">
+                  Hesaplama Araçları
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

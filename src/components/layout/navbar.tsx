@@ -106,6 +106,13 @@ export function Navbar() {
                 {t(link.label)}
               </Link>
             ))}
+            {/* Hardcoded label, not routed through next-intl "nav" messages (2026-07-25
+                tools-suite install): adding a real translation key was out of scope for
+                this pass (see hesaplama-araclari/page.tsx's i18n note) — same
+                hardcoded-Turkish convention this site's own /araclar tool pages already use. */}
+            <Link href="/hesaplama-araclari" className="px-3 py-1 text-xs text-muted hover:text-foreground transition-colors">
+              Hesaplama Araçları
+            </Link>
           </div>
 
           <div className="hidden lg:flex items-center gap-3">
@@ -157,6 +164,13 @@ export function Navbar() {
                   {t(link.label)}
                 </Link>
               ))}
+              <Link
+                href="/hesaplama-araclari"
+                className="block py-3 text-2xl font-semibold text-foreground border-b border-border"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Hesaplama Araçları
+              </Link>
 
               <div className="mt-6 flex items-center gap-4">
                 <LanguageSwitcher />

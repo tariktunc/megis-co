@@ -6,15 +6,19 @@
 // no `next/dynamic(..., { ssr: false })` anywhere in this chain, per
 // site-builder/specs/tools-suite.md page anatomy step 2).
 //
-// robots noindex,follow:false — content.ts still ships unfilled {{...}}
-// placeholders (Rule #58, /write pipeline fills these later). Lifts once
-// content.ts is filled and this route is added to the sitemap.
+// content.ts is filled (megis-co issue #18) — robots is indexable on /tr and
+// this route is added to the sitemap.
 //
 // i18n note (megis.co): matches the established convention of this site's
 // existing /araclar tools (e.g. src/app/[locale]/araclar/kelime-sayaci/page.tsx)
 // — setRequestLocale(locale) is called, but the UI copy itself is hardcoded
-// Turkish, not routed through next-intl messages. Consequence: an /en visitor
-// sees a Turkish calculator, same as every pre-existing tool on this site.
+// Turkish, not routed through next-intl messages. Resolution (megis-co issue
+// #17): rather than writing 15 English translations for a Turkey-specific
+// calculator suite (KDV, desi, Trendyol/n11/Çiçeksepeti are Turkish-market
+// concepts), /en is deliberately kept noindex and out of the sitemap — see
+// generateMetadata below and src/lib/sitemap/_legal-slugs.ts's TR_ONLY_SLUGS.
+// The /en route itself still exists (locale switcher keeps working), it is
+// simply not presented to search engines as a real English page.
 
 import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/site-url';
@@ -32,12 +36,21 @@ export async function generateMetadata({
   const { locale } = await params;
   return {
     title: 'KDV Hesaplama | Megis',
-    // description: intentionally omitted until /write fills content.ts — a literal
-    // {{META_DESCRIPTION}} would ship as a real <meta name="description"> in the page source.
+    // Derived from answerBlock (megis-co issue #18 follow-up). tr-only per the
+    // /en resolution above — a Turkish description on the noindex /en route
+    // is harmless (it is not indexable either way), but omitting it there
+    // keeps the metadata itself locale-honest, matching the robots field.
+    description:
+      locale === 'en'
+        ? undefined
+        : 'Bir teklif veya reklam bütçesinde net mi brüt mü konuşulduğunu netleştirin, tutarı hesaplayıp fatura öncesi gerçek maliyeti görün.',
     alternates: {
       canonical: `${SITE_URL}${locale === 'en' ? '/en' : ''}/hesaplama-araclari/kdv-hesaplama`,
     },
-    robots: { index: false, follow: false },
+    // content.ts is filled (megis-co issue #18) — indexable on /tr. /en stays
+    // noindex (megis-co issue #17) — no English copy for this Turkey-specific
+    // calculator, see the i18n note above.
+    robots: locale === 'en' ? { index: false, follow: false } : undefined,
   };
 }
 

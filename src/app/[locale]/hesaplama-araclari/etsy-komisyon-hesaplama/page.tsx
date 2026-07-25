@@ -3,13 +3,10 @@
 // "Per-Tool Folder Contract"
 //
 // This tool IS data-driven and its data file's verifiedAt/sourceUrls ARE real
-// (src/data/tools/etsy-fees.json, verifiedAt 2026-07-25) — upstream's own
-// page.tsx.tmpl would normally flip robots to indexable once verified. This
-// install task's content rule OVERRIDES that: because content.ts
-// (definitionBox/exampleRows/faqItems/answerBlock) still ships unfilled
-// {{...}} placeholders, robots stays { index: false, follow: false } like
-// every other tool page here, regardless of the data file's own verified
-// state. Lifts once /write fills content.ts.
+// (src/data/tools/etsy-fees.json, verifiedAt 2026-07-25). content.ts is now
+// filled (megis-co issue #18) — robots is indexable on /tr. /en stays
+// noindex, deliberately kept out of English (megis-co issue #17) — see
+// kdv-hesaplama/page.tsx for the full i18n note.
 
 import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/site-url';
@@ -28,10 +25,18 @@ export async function generateMetadata({
   const { locale } = await params;
   return {
     title: 'Etsy Komisyon Hesaplama | Megis',
+    // Derived from answerBlock (megis-co issue #18 follow-up); tr-only, same
+    // locale gate as robots below.
+    description:
+      locale === 'en'
+        ? undefined
+        : "Etsy'nin resmi ücretleriyle USD ve TL bileşenlerini karıştırmadan net kazancınızı hesaplayın, tek bir uydurma toplam görmeyin.",
     alternates: {
       canonical: `${SITE_URL}${locale === 'en' ? '/en' : ''}/hesaplama-araclari/etsy-komisyon-hesaplama`,
     },
-    robots: { index: false, follow: false },
+    // content.ts is filled (megis-co issue #18) — indexable on /tr. /en stays
+    // noindex (megis-co issue #17) — no English copy for this calculator.
+    robots: locale === 'en' ? { index: false, follow: false } : undefined,
   };
 }
 

@@ -5,9 +5,9 @@
 // arithmetic formula; this prop is left undefined and ToolShell renders that
 // section conditionally.
 //
-// robots noindex,follow:false — content.ts still ships unfilled {{...}}
-// placeholders (Rule #58). i18n: setRequestLocale(locale) called, UI copy
-// hardcoded Turkish — see kdv-hesaplama/page.tsx for the full i18n note.
+// content.ts filled, robots indexable on /tr (megis-co issue #18). /en stays
+// noindex, deliberately kept out of English (megis-co issue #17). i18n: UI
+// copy is still hardcoded Turkish — see kdv-hesaplama/page.tsx for the full note.
 
 import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/site-url';
@@ -25,10 +25,18 @@ export async function generateMetadata({
   const { locale } = await params;
   return {
     title: 'Alan Adı Oluşturucu | Megis',
+    // Derived from answerBlock (megis-co issue #18 follow-up); tr-only, same
+    // locale gate as robots below.
+    description:
+      locale === 'en'
+        ? undefined
+        : 'Yeni markanız için anahtar kelimelerinizden domain fikirleri üretin, aynı seed ile paylaştığınız bağlantıda sonucu tekrar üretin.',
     alternates: {
       canonical: `${SITE_URL}${locale === 'en' ? '/en' : ''}/hesaplama-araclari/alan-adi-olusturucu`,
     },
-    robots: { index: false, follow: false },
+    // content.ts is filled (megis-co issue #18) — indexable on /tr. /en stays
+    // noindex (megis-co issue #17) — no English copy for this calculator.
+    robots: locale === 'en' ? { index: false, follow: false } : undefined,
   };
 }
 

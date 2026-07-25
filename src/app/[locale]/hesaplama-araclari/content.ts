@@ -3,8 +3,10 @@
   Spec: site-builder/specs/tools-suite.md → "Content Is Not Authored Here" +
   "Hub Page (/araclar)"
 
-  DO NOT hand-author copy here. {{HUB_INTRO}} below is filled by the /write
-  pipeline (Rule #58), never inline during template instantiation.
+  Filled 2026-07-26 (owner Rule #65 override for this session, tracked in
+  megis-co issue #18) — Megis-specific copy, framed around an agency's
+  budget/return advisory seat rather than a neutral tool directory.
+
   Instantiated as plain .ts (no MDX loader on this site) — see
   kdv-hesaplama/content.ts for the full rationale.
 
@@ -15,4 +17,5 @@
   in page.tsx's ALL_TOOLS registry, same as every tool's formula text.
 */
 
-export const intro = '{{HUB_INTRO}}'; // 40-60 words, TL;DR for the hub h1 (page-anatomy.md KURAL 2)
+export const intro =
+  "Megis'in hesaplama araçları, bir reklam bütçesi ayırmadan, bir pazaryerinde satışa başlamadan ya da bir teklif hazırlamadan önce ihtiyacınız olan rakamları saniyeler içinde verir. KDV ve maliyet hesaplarından pazaryeri komisyon simülasyonlarına, QR kod ve link üreticilerine kadar 15 araç, tek bir bütçe ve dönüşüm bakış açısıyla tasarlandı.";

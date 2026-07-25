@@ -68,17 +68,25 @@ export const AUTH_GATED_SLUGS = [
   // Brand page / style guide — internal reference page, noindex by default
   // (site-builder/specs/brand-page.md). Renamed from /brand 2026-07-25.
   "marka",
-  // Tools-suite routes with unfilled content.ts placeholders (Rule #58) — kept
-  // out of the sitemap the same way an auth-gated route is, NOT because it is
-  // auth-gated, but because every page under it carries `robots: { index:
-  // false, follow: false }` until the /write pipeline fills content.ts (see
-  // site-builder/specs/tools-suite.md "Content Is Not Authored Here"). Works
-  // for both /tr and /en since pages.ts's scanStaticRoutes checks entry.name
-  // at every static-folder level, locale-independent. Remove once every tool
-  // page under hesaplama-araclari/ is indexable and the route is added back
-  // deliberately.
+  // "hesaplama-araclari" REMOVED 2026-07-26 (megis-co issue #18) — all 15
+  // tool pages + the hub now have content.ts filled and are indexable on
+  // /tr. The whole-subtree skip is no longer correct; see TR_ONLY_SLUGS
+  // below for how the /en variants are kept out instead (megis-co issue #17).
+] as const;
+
+// Slugs whose SUBTREE is real and indexable, but ONLY in the default (tr)
+// locale — the /en variant of the same physical route exists (same page.tsx,
+// same [locale] folder) and stays crawlable/noindex, never listed in the
+// sitemap or given an hreflang alternate (megis-co issue #17). Unlike
+// AUTH_GATED_SLUGS this does NOT stop recursion — pages.ts still walks the
+// whole subtree, it just emits a single tr-only UrlEntry per route instead of
+// one per LOCALES entry. Add a slug here (folder name only, checked at every
+// recursion level, same as the two sets above) whenever a route is
+// deliberately Turkish-market-only rather than genuinely bilingual.
+export const TR_ONLY_SLUGS = [
   "hesaplama-araclari",
 ] as const;
 
 export const LEGAL_SLUG_SET = new Set<string>(LEGAL_SLUGS);
 export const AUTH_GATED_SLUG_SET = new Set<string>(AUTH_GATED_SLUGS);
+export const TR_ONLY_SLUG_SET = new Set<string>(TR_ONLY_SLUGS);

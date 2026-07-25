@@ -13,10 +13,10 @@
 // here). The hub emits its own minimal JSON-LD (ItemList + BreadcrumbList)
 // directly.
 //
-// robots noindex,follow:false — content.ts's {{HUB_INTRO}} slot is still
-// unfilled (Rule #58) and every one of the 15 tools listed below is itself
-// noindexed for the same reason, so this hub is not ready for search either.
-// Lifts once /write fills content.ts AND the linked tool pages are indexable.
+// content.ts's intro slot is filled and every one of the 15 tools listed
+// below is now indexable on /tr (megis-co issue #18) — robots is indexable
+// here too. /en stays noindex, same tr-only resolution as every tool page
+// under this route (megis-co issue #17) — see kdv-hesaplama/page.tsx.
 //
 // INSTALLED_TOOL_SLUGS below lists exactly the 15 tools actually routed on
 // this site. gumruk-vergisi-hesaplama is NOT installed (deferred out of the
@@ -114,10 +114,21 @@ export async function generateMetadata({
   const { locale } = await params;
   return {
     title: 'Hesaplama Araçları | Megis',
+    // Derived from content.ts's intro, compressed to cover the whole 15-tool
+    // set rather than one tool (megis-co issue #18 follow-up); tr-only, same
+    // locale gate as robots below.
+    description:
+      locale === 'en'
+        ? undefined
+        : 'KDV, maliyet, pazaryeri komisyonu, QR kod ve link araçlarından oluşan 15 hesaplama aracıyla bütçe kararlarınızı rakamla verin.',
     alternates: {
       canonical: `${SITE_URL}${locale === 'en' ? '/en' : ''}/hesaplama-araclari`,
     },
-    robots: { index: false, follow: false },
+    // content.ts is filled (megis-co issue #18) — indexable on /tr. /en stays
+    // noindex (megis-co issue #17): this site has no English copy for these
+    // Turkey-specific calculators, and the page still renders Turkish body
+    // text under English chrome — see the i18n note atop this file.
+    robots: locale === 'en' ? { index: false, follow: false } : undefined,
   };
 }
 

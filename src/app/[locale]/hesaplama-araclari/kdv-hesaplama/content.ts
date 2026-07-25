@@ -2,10 +2,10 @@
   content.ts — kdv-hesaplama content slots.
   Spec: site-builder/specs/tools-suite.md → "Content Is Not Authored Here"
 
-  DO NOT hand-author copy here. Every {{PLACEHOLDER}} below is filled by the
-  /write pipeline (Rule #58 — SearXNG gate -> research -> draft -> humanize ->
-  audit), never inline during template instantiation
-  (site-builder/templates/tools/README.md step 6).
+  Filled 2026-07-26 (owner Rule #65 override for this session, tracked in
+  megis-co issue #18) — Megis-specific copy, framed around an agency's
+  budget/return advisory seat: is a quoted or invoiced amount net or gross,
+  and what does that mean for the client's real cost.
 
   Instantiation note: upstream ships this file as content.mdx.tmpl (real MDX,
   where a JSX-style comment expression is valid). megis.co has no MDX loader
@@ -18,31 +18,52 @@
   imports from './content' accordingly.
 */
 
-export const answerBlock = '{{ANSWER_BLOCK}}'; // 40-60 words, TL;DR for the page h1 (page-anatomy.md KURAL 2)
+export const answerBlock =
+  'Bir teklif ya da fatura tutarını net mi brüt mü konuştuğunuzu netleştirmeden bütçe planı sağlıklı olmaz. Bu araç girdiğiniz tutara KDV oranını ekler veya tutardan ayırır, sonucu anında gösterir. Reklam bütçesi teklifi hazırlarken ya da bir tedarikçi faturasını değerlendirirken hangi rakamın gerçek maliyet olduğunu bu şekilde netleştirirsiniz.';
 
 export const definitionBox = {
-  term: '{{DEFINITION_TERM}}', // e.g. "KDV (Katma Değer Vergisi)"
-  definition: '{{DEFINITION_TEXT}}',
+  term: 'KDV (Katma Değer Vergisi)',
+  definition:
+    "KDV, mal ve hizmet satışlarında fiyatın üzerine eklenen dolaylı bir vergidir. Oran, ürün veya hizmetin kategorisine göre değişebilir; bu araç yalnızca seçtiğiniz oranla matematiksel sonucu üretir, güncel oranın kendisini Gelir İdaresi Başkanlığı'nın mevzuatından teyit etmeniz gerekir.",
 };
 
 export const exampleRows = [
-  // At least 1 concrete input -> output row (site-builder/specs/tools-suite.md
-  // page anatomy step 5). Values here should mirror calc.ts's own worked
-  // example — the /write pipeline may add more rows, never fewer than 1.
-  { label: '{{EXAMPLE_LABEL_1}}', value: '{{EXAMPLE_VALUE_1}}' },
-  { label: '{{EXAMPLE_LABEL_2}}', value: '{{EXAMPLE_VALUE_2}}' },
-  { label: '{{EXAMPLE_LABEL_3}}', value: '{{EXAMPLE_VALUE_3}}' },
+  { label: 'Net Tutar', value: '5.000 TL' },
+  { label: 'KDV Tutarı (%20)', value: '1.000 TL' },
+  { label: 'Brüt Tutar', value: '6.000 TL' },
 ];
 
 export const faqItems = [
-  // Minimum 6 questions, wired to FAQPage JSON-LD (site-builder/specs/tools-suite.md
-  // page anatomy step 6 — AI-citation only, no SERP rich-result expected).
-  { question: '{{FAQ_QUESTION_1}}', answer: '{{FAQ_ANSWER_1}}' },
-  { question: '{{FAQ_QUESTION_2}}', answer: '{{FAQ_ANSWER_2}}' },
-  { question: '{{FAQ_QUESTION_3}}', answer: '{{FAQ_ANSWER_3}}' },
-  { question: '{{FAQ_QUESTION_4}}', answer: '{{FAQ_ANSWER_4}}' },
-  { question: '{{FAQ_QUESTION_5}}', answer: '{{FAQ_ANSWER_5}}' },
-  { question: '{{FAQ_QUESTION_6}}', answer: '{{FAQ_ANSWER_6}}' },
+  {
+    question: 'Bir teklifte net mi brüt mü tutar konuşmalıyım?',
+    answer:
+      'Standart olan yok; önemli olan hangi tutarın esas alındığını açıkça belirtmektir. Net tutar üzerinden anlaşıp faturada brüt tutar çıkması, bütçe planınızda sürpriz bir farka yol açar.',
+  },
+  {
+    question: 'Net tutardan brüt tutara nasıl geçilir?',
+    answer:
+      'Net tutarın üzerine, seçilen KDV oranının yüzde karşılığı eklenir. Örneğin 5.000 TL net tutara %20 KDV eklendiğinde brüt tutar 6.000 TL olur.',
+  },
+  {
+    question: 'Brüt tutardan net tutarı ayırmak ne işe yarar?',
+    answer:
+      'Bir fatura veya teklif tutarının ne kadarının hizmet bedeli, ne kadarının vergi olduğunu ayırt etmek, bütçe karşılaştırması yaparken gerçek maliyeti görmenizi sağlar.',
+  },
+  {
+    question: 'Her hizmet ve üründe KDV oranı aynı mı?',
+    answer:
+      'Hayır, kategoriye göre farklı oranlar uygulanabilir. Bu araç yalnızca girdiğiniz orana göre hesaplama yapar, oranın kendisini doğrulamaz.',
+  },
+  {
+    question: 'KDV oranını yanlış girersem sonuç ne olur?',
+    answer:
+      'Araç matematiksel olarak doğru sonucu üretir ama girilen oranın doğruluğunu kontrol etmez. Yanlış bir oran, hesaplanan net veya brüt tutarın da yanlış çıkmasına yol açar.',
+  },
+  {
+    question: 'Bu araç gerçek faturamı mı oluşturuyor?',
+    answer:
+      'Hayır, yalnızca tutar hesaplaması yapar. Resmi fatura veya beyanname işlemleri için muhasebe yazılımınızı ya da mali müşavirinizi kullanmanız gerekir.',
+  },
 ];
 
 export const relatedTools = [

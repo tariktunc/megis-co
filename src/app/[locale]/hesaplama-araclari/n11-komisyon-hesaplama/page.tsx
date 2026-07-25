@@ -2,7 +2,8 @@
 // Spec: site-builder/specs/tools-suite.md → "7-11. Marketplace commission calculators"
 //
 // No `sourceLine` prop — user-entered-rate tool, not data-driven (tools-suite.md
-// "What NOT to Do"). robots noindex,follow:false — content.ts unfilled (Rule #58).
+// "What NOT to Do"). content.ts filled, robots indexable on /tr (megis-co
+// issue #18); /en stays noindex (megis-co issue #17) — see kdv-hesaplama/page.tsx.
 
 import type { Metadata } from 'next';
 import { SITE_URL } from '@/lib/site-url';
@@ -20,10 +21,18 @@ export async function generateMetadata({
   const { locale } = await params;
   return {
     title: 'n11 Komisyon Hesaplama | Megis',
+    // Derived from answerBlock (megis-co issue #18 follow-up); tr-only, same
+    // locale gate as robots below. No real rate stated — "kendi girdiğiniz".
+    description:
+      locale === 'en'
+        ? undefined
+        : "n11'de satışa çıkmadan önce net kârınızı kendi satıcı panelinizden aldığınız komisyon oranıyla hesaplayıp bütçe kararınızı netleştirin.",
     alternates: {
       canonical: `${SITE_URL}${locale === 'en' ? '/en' : ''}/hesaplama-araclari/n11-komisyon-hesaplama`,
     },
-    robots: { index: false, follow: false },
+    // content.ts is filled (megis-co issue #18) — indexable on /tr. /en stays
+    // noindex (megis-co issue #17) — no English copy for this calculator.
+    robots: locale === 'en' ? { index: false, follow: false } : undefined,
   };
 }
 

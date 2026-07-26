@@ -160,7 +160,7 @@ export function ProductPage({
         <div className="max-w-[980px] mx-auto px-6">
           <ScrollReveal>
             <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground text-center mb-6">Neler sunuyoruz?</h2>
-            <p className="text-muted text-xl text-center mb-20 max-w-2xl mx-auto">Her detay dusunulmus, her adim planlanmis.</p>
+            <p className="text-muted text-xl text-center mb-20 max-w-2xl mx-auto">Her detay düşünülmüş, her adım planlanmış.</p>
           </ScrollReveal>
 
           <div className="space-y-20">
@@ -215,7 +215,7 @@ export function ProductPage({
         <section className="py-20 sm:py-28 bg-surface">
           <div className="max-w-[980px] mx-auto px-6">
             <ScrollReveal>
-              <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground text-center mb-6">Nasil calisiyoruz?</h2>
+              <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground text-center mb-6">Nasıl çalışıyoruz?</h2>
               {timeline && <p className="text-muted text-xl text-center mb-20">{timeline}</p>}
             </ScrollReveal>
 
@@ -263,7 +263,7 @@ export function ProductPage({
 
               <ScrollReveal delay={0.2}>
                 <div className="rounded-2xl bg-surface p-8">
-                  <h3 className="text-xl font-semibold text-muted mb-6">{comparison.othersTitle || "Digerleri ile"}</h3>
+                  <h3 className="text-xl font-semibold text-muted mb-6">{comparison.othersTitle || "Diğerleri ile"}</h3>
                   <ul className="space-y-3">
                     {comparison.others.map((item, i) => (
                       <li key={i} className="flex gap-3 text-muted">
@@ -284,7 +284,7 @@ export function ProductPage({
         <section className="py-20 sm:py-28 bg-surface">
           <div className="max-w-[980px] mx-auto px-6">
             <ScrollReveal>
-              <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground text-center mb-20">Basari hikayeleri</h2>
+              <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground text-center mb-20">Başarı hikayeleri</h2>
             </ScrollReveal>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -294,8 +294,8 @@ export function ProductPage({
                     <h3 className="text-xl font-semibold text-foreground mb-4">{cs.title}</h3>
                     <div className="space-y-3 text-sm">
                       <div><span className="text-muted">Sorun:</span> <span className="text-foreground">{cs.challenge}</span></div>
-                      <div><span className="text-muted">Cozum:</span> <span className="text-foreground">{cs.solution}</span></div>
-                      <div><span className="text-accent font-semibold">Sonuc:</span> <span className="text-foreground font-semibold">{cs.result}</span></div>
+                      <div><span className="text-muted">Çözüm:</span> <span className="text-foreground">{cs.solution}</span></div>
+                      <div><span className="text-accent font-semibold">Sonuç:</span> <span className="text-foreground font-semibold">{cs.result}</span></div>
                     </div>
                   </div>
                 </ScrollReveal>
@@ -310,7 +310,7 @@ export function ProductPage({
         <section className="py-20 sm:py-28">
           <div className="max-w-[680px] mx-auto px-6">
             <ScrollReveal>
-              <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground text-center mb-16">Sik sorulan sorular</h2>
+              <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground text-center mb-16">Sık sorulan sorular</h2>
             </ScrollReveal>
             <div className="border-t border-border">
               {faqs.map((faq, i) => (
@@ -326,10 +326,10 @@ export function ProductPage({
         <div className="max-w-[980px] mx-auto px-6 text-center">
           <ScrollReveal>
             <h2 className="text-4xl sm:text-5xl font-bold tracking-tight text-foreground mb-6">
-              {ctaBottom || "Hemen baslayin."}
+              {ctaBottom || "Hemen başlayın."}
             </h2>
             <p className="text-muted text-xl mb-10 max-w-2xl mx-auto">
-              Ucretsiz analiz ve danismanlik icin iletisime gecin. Projenizi birlikte buyutelim.
+              Ücretsiz analiz ve danışmanlık için iletişime geçin. Projenizi birlikte büyütelim.
             </p>
             <Link href="/iletisim" className="inline-flex items-center justify-center rounded-full bg-accent px-7 py-3 text-lg text-white hover:bg-accent-hover transition-colors">
               {cta}

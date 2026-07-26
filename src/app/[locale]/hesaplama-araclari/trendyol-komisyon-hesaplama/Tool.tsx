@@ -70,7 +70,7 @@ export function TrendyolTool() {
           user's own seller panel. */}
       <p className="mb-4 text-sm text-muted-foreground">
         Trendyol komisyon oranları kategoriye ve satıcı anlaşmanıza göre değişir.
-        Trendyol bu oranları herkese açık tek bir tablo halinde yayınlamaz | bu
+        Trendyol bu oranları herkese açık tek bir tablo halinde yayınlamaz, bu
         yüzden oranı kendi satıcı panelinizden görüp aşağıya siz gireceksiniz.
       </p>
 

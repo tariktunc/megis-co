@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 const serviceLinks = [
   { href: "/temel-kimlik", label: "identity" },
   { href: "/yasal-uyumluluk", label: "legal" },
-  { href: "/erisilebirlik", label: "a11y" },
+  { href: "/erisilebilirlik", label: "a11y" },
   { href: "/tema-gorsel", label: "theme" },
   { href: "/seo", label: "seo" },
   { href: "/sem", label: "sem" },

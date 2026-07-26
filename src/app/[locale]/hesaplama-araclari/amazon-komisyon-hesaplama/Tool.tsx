@@ -66,7 +66,7 @@ export function AmazonTool() {
     <div className="rounded-[1px] border border-border p-4 sm:p-6">
       <p className="mb-4 text-sm text-muted-foreground">
         Amazon komisyon oranları kategoriye ve satıcı anlaşmanıza göre değişir.
-        Amazon bu oranları herkese açık tek bir tablo halinde yayınlamaz | bu
+        Amazon bu oranları herkese açık tek bir tablo halinde yayınlamaz, bu
         yüzden oranı kendi satıcı panelinizden görüp aşağıya siz gireceksiniz.
       </p>
 

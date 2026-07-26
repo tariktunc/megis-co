@@ -89,7 +89,7 @@ export function EtsyTool() {
       <p className="mb-4 text-sm text-muted-foreground">
         Bu araç yalnızca Etsy&apos;nin kendi resmi Help/Legal sayfalarında yayınladığı ücretleri
         kullanır. Bazı üçüncü taraf sitelerde görülen Türkiye ödeme işleme oranı (%4,5 + 0,30
-        USD) Etsy&apos;nin kendi belgeleriyle uyuşmuyor | doğru oran %6,5 + 3 TL&apos;dir.
+        USD) Etsy&apos;nin kendi belgeleriyle uyuşmuyor. Doğru oran %6,5 + 3 TL&apos;dir.
       </p>
 
       {/* No onSubmit navigation — this is a live calculator, every field recalculates on change. */}
@@ -146,7 +146,7 @@ export function EtsyTool() {
           value={state.offSiteAdsTier}
           onChange={(offSiteAdsTier) => update({ offSiteAdsTier: offSiteAdsTier as EtsyOffsiteAdsTier })}
           options={OFFSITE_ADS_OPTIONS}
-          helperText="Hangi dilimde olduğunuz mağazanızın son 365 günlük cirosuna bağlıdır | bu araç sizin adınıza hesaplayamaz, kendiniz seçin."
+          helperText="Hangi dilimde olduğunuz mağazanızın son 365 günlük cirosuna bağlıdır, bu araç sizin adınıza hesaplayamaz, kendiniz seçin."
         />
 
         {/* Only meaningful when the selected country's fixed payment-processing
@@ -161,7 +161,7 @@ export function EtsyTool() {
             value={state.usdTryRate}
             onChange={(usdTryRate) => update({ usdTryRate })}
             min={0}
-            helperText={`Etsy, ${pp.fixedCurrency === 'TRY' ? 'Türkiye' : pp.fixedCurrency} için ödeme işleme ücretinin sabit kısmını (${formatNumberTR(pp.fixedAmount)} ${pp.fixedCurrency}) kendi para biriminizde alır. Günün USD/TRY kurunu girerseniz bu sabit ücret USD'ye çevrilip toplam tutara dahil edilir. Boş bırakırsanız bu ücret ayrı gösterilir, USD tutarına eklenmez | biz kur verisi sağlamıyoruz, kendi güncel kurunuzu girmeniz gerekir.`}
+            helperText={`Etsy, ${pp.fixedCurrency === 'TRY' ? 'Türkiye' : pp.fixedCurrency} için ödeme işleme ücretinin sabit kısmını (${formatNumberTR(pp.fixedAmount)} ${pp.fixedCurrency}) kendi para biriminizde alır. Günün USD/TRY kurunu girerseniz bu sabit ücret USD'ye çevrilip toplam tutara dahil edilir. Boş bırakırsanız bu ücret ayrı gösterilir, USD tutarına eklenmez, biz kur verisi sağlamıyoruz, kendi güncel kurunuzu girmeniz gerekir.`}
           />
         )}
       </form>
@@ -198,7 +198,7 @@ export function EtsyTool() {
       {net.outstandingFixedFee && (
         <p className="mt-3 text-sm text-muted-foreground" role="note">
           Yukarıdaki &quot;Net Kazanç (USD kısmı)&quot; rakamı, {formatNumberTR(net.outstandingFixedFee.amount)}{' '}
-          {net.outstandingFixedFee.currency} tutarındaki sabit ödeme işleme ücretini henüz içermiyor | bu
+          {net.outstandingFixedFee.currency} tutarındaki sabit ödeme işleme ücretini henüz içermiyor, bu
           ücret USD cinsinden değil, bu yüzden gerçek bir döviz kuruyla çevrilmeden USD tutarından
           düşülemez. Gerçek net kazancınızı görmek için yukarıya günün USD/TRY kurunu girin.
         </p>

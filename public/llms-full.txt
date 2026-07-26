@@ -65,7 +65,7 @@ Markanızın dijital kimliğini oluşturun. Marka kimliği, dijital strateji, i�
 - E-Ticaret: https://megis.co/e-ticaret
 - Analitik: https://megis.co/analitik-performans
 - Güvenlik: https://megis.co/guvenlik
-- Erişilebilirlik: https://megis.co/erisilebirlik
+- Erişilebilirlik: https://megis.co/erisilebilirlik
 - Temel Kimlik: https://megis.co/temel-kimlik
 - Yasal Uyumluluk: https://megis.co/yasal-uyumluluk
 - UX Temelleri: https://megis.co/ux-temelleri

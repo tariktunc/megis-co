@@ -5,6 +5,20 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
   transpilePackages: ["three"],
+  async redirects() {
+    return [
+      {
+        source: "/erisilebirlik",
+        destination: "/erisilebilirlik",
+        permanent: true,
+      },
+      {
+        source: "/en/erisilebirlik",
+        destination: "/en/erisilebilirlik",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

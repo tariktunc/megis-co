@@ -91,7 +91,7 @@ Megis, klasik SEO ile yapay zeka çağı için GEO (Generative Engine Optimizati
 - [Çerez Politikası](${SITE_URL}/cerez-politikasi)
 - [KVKK Aydınlatma](${SITE_URL}/kvkk)
 - [Kullanım Koşulları](${SITE_URL}/kullanim-kosullari)
-- [Erişilebilirlik](${SITE_URL}/erisilebirlik)
+- [Erişilebilirlik](${SITE_URL}/erisilebilirlik)
 - [Veri Talebi (DSAR)](${SITE_URL}/dsar)
 
 ## Sitemap

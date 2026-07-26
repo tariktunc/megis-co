@@ -210,7 +210,7 @@ export function MaliyetTool() {
             onChange={(minimumMarginPercent) => update({ minimumMarginPercent })}
             min={0}
             max={99}
-            helperText="Varsayılan %20 | dilediğiniz gibi değiştirebilirsiniz."
+            helperText="Varsayılan %20, dilediğiniz gibi değiştirebilirsiniz."
           />
         </div>
       </form>

@@ -73,7 +73,7 @@ export default async function EtsyKomisyonHesaplamaPage({ params }: { params: Pr
           </p>
           <p className="mt-2 font-mono text-sm sm:text-base">
             Ödeme İşleme Ücreti (sabit kısım) = ülkeye göre değişir, kendi para biriminde (örn. Türkiye için 3
-            TL) | USD/TRY kuru girilmeden USD&apos;ye çevrilmez
+            TL). USD/TRY kuru girilmeden USD&apos;ye çevrilmez
           </p>
           <p className="mt-2 font-mono text-sm sm:text-base">
             Net Kazanç (USD kısmı) = Toplam Sipariş Tutarı - Listeleme Ücreti - İşlem Ücreti - Ödeme İşleme

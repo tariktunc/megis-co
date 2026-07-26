@@ -62,7 +62,7 @@ export function HepsiburadaTool() {
     <div className="rounded-[1px] border border-border p-4 sm:p-6">
       <p className="mb-4 text-sm text-muted-foreground">
         Hepsiburada komisyon oranları kategoriye ve satıcı anlaşmanıza göre değişir.
-        Hepsiburada bu oranları herkese açık tek bir tablo halinde yayınlamaz | bu
+        Hepsiburada bu oranları herkese açık tek bir tablo halinde yayınlamaz, bu
         yüzden oranı kendi satıcı panelinizden görüp aşağıya siz gireceksiniz.
       </p>
 

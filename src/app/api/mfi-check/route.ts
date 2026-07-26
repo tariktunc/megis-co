@@ -57,14 +57,14 @@ export async function GET(request: NextRequest) {
 
     const issues: string[] = [];
 
-    if (desktop.title !== mobile.title) issues.push("Title tag masaustu ve mobilde farkli.");
-    if (desktop.description !== mobile.description) issues.push("Meta description masaustu ve mobilde farkli.");
-    if (desktop.h1.length !== mobile.h1.length) issues.push(`H1 sayisi farkli: masaustu ${desktop.h1.length}, mobil ${mobile.h1.length}.`);
-    if (desktop.h2Count !== mobile.h2Count) issues.push(`H2 sayisi farkli: masaustu ${desktop.h2Count}, mobil ${mobile.h2Count}.`);
-    if (Math.abs(desktop.linkCount - mobile.linkCount) > 5) issues.push(`Link sayisi onemli olcude farkli: masaustu ${desktop.linkCount}, mobil ${mobile.linkCount}.`);
-    if (Math.abs(desktop.imageCount - mobile.imageCount) > 3) issues.push(`Gorsel sayisi farkli: masaustu ${desktop.imageCount}, mobil ${mobile.imageCount}.`);
-    if (Math.abs(desktop.wordCount - mobile.wordCount) > desktop.wordCount * 0.1) issues.push(`Icerik miktari farkli: masaustu ${desktop.wordCount} kelime, mobil ${mobile.wordCount} kelime.`);
-    if (mobile.h1.length === 0) issues.push("Mobil versiyonda H1 basligi bulunamadi.");
+    if (desktop.title !== mobile.title) issues.push("Title tag masaüstü ve mobilde farklı.");
+    if (desktop.description !== mobile.description) issues.push("Meta description masaüstü ve mobilde farklı.");
+    if (desktop.h1.length !== mobile.h1.length) issues.push(`H1 sayısı farklı: masaüstü ${desktop.h1.length}, mobil ${mobile.h1.length}.`);
+    if (desktop.h2Count !== mobile.h2Count) issues.push(`H2 sayısı farklı: masaüstü ${desktop.h2Count}, mobil ${mobile.h2Count}.`);
+    if (Math.abs(desktop.linkCount - mobile.linkCount) > 5) issues.push(`Link sayısı önemli ölçüde farklı: masaüstü ${desktop.linkCount}, mobil ${mobile.linkCount}.`);
+    if (Math.abs(desktop.imageCount - mobile.imageCount) > 3) issues.push(`Görsel sayısı farklı: masaüstü ${desktop.imageCount}, mobil ${mobile.imageCount}.`);
+    if (Math.abs(desktop.wordCount - mobile.wordCount) > desktop.wordCount * 0.1) issues.push(`İçerik miktarı farklı: masaüstü ${desktop.wordCount} kelime, mobil ${mobile.wordCount} kelime.`);
+    if (mobile.h1.length === 0) issues.push("Mobil versiyonda H1 başlığı bulunamadı.");
     if (!mobile.title) issues.push("Mobil versiyonda title tag eksik.");
     if (!mobile.description) issues.push("Mobil versiyonda meta description eksik.");
 
@@ -73,6 +73,6 @@ export async function GET(request: NextRequest) {
 
     return NextResponse.json({ desktop, mobile, issues, score });
   } catch {
-    return NextResponse.json({ error: "Sayfa yuklenemedi" }, { status: 500 });
+    return NextResponse.json({ error: "Sayfa yüklenemedi" }, { status: 500 });
   }
 }

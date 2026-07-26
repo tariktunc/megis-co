@@ -25,186 +25,186 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
   return (
     <ProductPage
       eyebrow="AIO / LLMO Hizmeti"
-      title="AI'in sizi nasil gordugunu kontrol edin."
-      subtitle="GPTBot, ClaudeBot, PerplexityBot ve diger AI tarayicilarin sitenize erisimini yonetin. Entity markup, robots.txt stratejisi ve bilgi grafi optimizasyonu ile markanizin AI ekosistemindeki temsilini kontrol altina alin."
-      introduction="AI Optimization (AIO) ve Large Language Model Optimization (LLMO), yapay zeka sistemlerinin markanizi nasil gordugunu, hangi verilerinizi kullandigini ve sizi nasil temsil ettigini kontrol etmeyi saglayan stratejik bir optimizasyon alanıdir. GEO 'AI sonuclarinda gorunmeyi' hedeflerken, AIO/LLMO 'AI'in seni nasil gorundugunu yonetmeyi' hedefler.
+      title="AI'in sizi nasıl gördüğünü kontrol edin."
+      subtitle="GPTBot, ClaudeBot, PerplexityBot ve diğer AI tarayıcıların sitenize erişimini yönetin. Entity markup, robots.txt stratejisi ve bilgi grafiği optimizasyonu ile markanızın AI ekosistemindeki temsilini kontrol altına alın."
+      introduction="AI Optimization (AIO) ve Large Language Model Optimization (LLMO), yapay zeka sistemlerinin markanızı nasıl gördüğünü, hangi verilerinizi kullandığını ve sizi nasıl temsil ettiğini kontrol etmeyi sağlayan stratejik bir optimizasyon alanıdır. GEO 'AI sonuçlarında görünmeyi' hedeflerken, AIO/LLMO 'AI'in seni nasıl gördüğünü yönetmeyi' hedefler.
 
-Bugun onlarca AI botu web sitenizi surekli tarıyor. OpenAI'in GPTBot'u, Anthropic'in ClaudeBot'u, PerplexityBot, Google-Extended, Bytespider ve daha fazlasi iceriklerinizi okuyor, isliyor ve kendi modellerini egitmek icin kullaniyor. Cogu isletme bu taramanin farknda bile degil. Hangi botlarin hangi sayfalari taradigini, ne siklikta geldigini ve iceriklerinizi nasil kullandigini bilmiyorlar.
+Bugün onlarca AI botu web sitenizi sürekli tarıyor. OpenAI'in GPTBot'u, Anthropic'in ClaudeBot'u, PerplexityBot, Google-Extended, Bytespider ve daha fazlası içeriklerinizi okuyor, işliyor ve kendi modellerini eğitmek için kullanıyor. Çoğu işletme bu taramanın farkında bile değil. Hangi botların hangi sayfaları taradığını, ne sıklıkta geldiğini ve içeriklerinizi nasıl kullandığını bilmiyorlar.
 
-Megis olarak AIO/LLMO hizmetimizle bu sureci tamamen kontrol altina aliyoruz. AI botlarinin erisimini stratejik olarak yonetiyor, markanizin entity kimligini yapisal veri ile tanimlıyor, bilgi grafi entegrasyonu sagliyor ve AI platformlarindaki marka temsilinizi izliyoruz. Amacimiz iceriklerinizin korumasiz sekilde tuketilmesini engellerken, stratejik olarak AI ekosistemindeki otoritenizi insaa etmektir."
+Megis olarak AIO/LLMO hizmetimizle bu süreci tamamen kontrol altına alıyoruz. AI botlarının erişimini stratejik olarak yönetiyor, markanızın entity kimliğini yapısal veri ile tanımlıyor, bilgi grafiği entegrasyonu sağlıyor ve AI platformlarındaki marka temsilinizi izliyoruz. Amacımız içeriklerinizin korumasız şekilde tüketilmesini engellerken, stratejik olarak AI ekosistemindeki otoritenizi inşa etmektir."
       whyMatters={{
-        title: "AIO/LLMO neden bu kadar onemli?",
-        description: "AI modelleri web'deki icerikleri egitim verisi olarak kullaniyor. Eger bu sureci yonetmezseniz, icerikleriniz sizin kontrolunuz disinda kullanilir, yanlis temsil edilebilir veya hic atif verilmeden tuketilir. robots.txt ile AI bot erisimini kontrol etmek, 2026'nin en kritik dijital strateji kararlarindan biridir.\n\nEntity markup ve bilgi grafi optimizasyonu, AI modellerinin markanizi dogru tanımasinin temelidir. Yapisal veri olmadan AI modelleri markaniz hakkinda tutarsiz, eksik veya yanlis bilgi uretebilir. Organization, Person, Product ve Brand schema'lari ile markanizin dijital kimligini AI'in anlayabilecegi formatta tanimlarsaniz, tutarli ve dogru temsil edilirsiniz.\n\nAIO/LLMO erken asama bir disiplindir ve simdiden harekete gecen markalar buyuk avantaj elde ediyor. AI platformlari hangi kaynaklara guvenecegini belirlerken, entity taninirligi yuksek ve yapisal verisi zengin markalari oncelikli olarak degerlendiriyor. Bugun yaptiginiz yatirim, onumuzdeki yillarda AI ekosistemindeki konumunuzu belirleyecek."
+        title: "AIO/LLMO neden bu kadar önemli?",
+        description: "AI modelleri web'deki içerikleri eğitim verisi olarak kullanıyor. Eğer bu süreci yönetmezseniz, içerikleriniz sizin kontrolünüz dışında kullanılır, yanlış temsil edilebilir veya hiç atıf verilmeden tüketilir. robots.txt ile AI bot erişimini kontrol etmek, 2026'nın en kritik dijital strateji kararlarından biridir.\n\nEntity markup ve bilgi grafiği optimizasyonu, AI modellerinin markanızı doğru tanımasının temelidir. Yapısal veri olmadan AI modelleri markanız hakkında tutarsız, eksik veya yanlış bilgi üretebilir. Organization, Person, Product ve Brand schema'ları ile markanızın dijital kimliğini AI'in anlayabileceği formatta tanımlarsanız, tutarlı ve doğru temsil edilirsiniz.\n\nAIO/LLMO erken aşama bir disiplindir ve şimdiden harekete geçen markalar büyük avantaj elde ediyor. AI platformları hangi kaynaklara güveneceğini belirlerken, entity tanınırlığı yüksek ve yapısal verisi zengin markaları öncelikli olarak değerlendiriyor. Bugün yaptığınız yatırım, önümüzdeki yıllarda AI ekosistemindeki konumunuzu belirleyecek."
       }}
       stats={[
         { value: "15+", label: "Web'i tarayan aktif AI botu" },
-        { value: "%78", label: "AI bot trafiginin farkinda olmayan site orani" },
-        { value: "5x", label: "Entity markup'li markalarin AI'da dogru temsil edilme orani" },
-        { value: "%92", label: "AI egitim verisinde atif verilmeyen icerik orani" },
+        { value: "%78", label: "AI bot trafiğinin farkında olmayan site oranı" },
+        { value: "5x", label: "Entity markup'lı markaların AI'da doğru temsil edilme oranı" },
+        { value: "%92", label: "AI eğitim verisinde atıf verilmeyen içerik oranı" },
       ]}
       features={[
         {
-          title: "AI Bot Erisim Yonetimi",
-          description: "GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, CCBot ve diger AI tarayicilarin sitenize erisimini robots.txt, meta tag ve HTTP header ile stratejik olarak yonetiyoruz. Hangi botlara hangi sayfalarda izin verilecegini detayli olarak yapilandiriyoruz."
+          title: "AI Bot Erişim Yönetimi",
+          description: "GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, CCBot ve diğer AI tarayıcıların sitenize erişimini robots.txt, meta tag ve HTTP header ile stratejik olarak yönetiyoruz. Hangi botlara hangi sayfalarda izin verileceğini detaylı olarak yapılandırıyoruz."
         },
         {
-          title: "Secici Icerik Erisim Politikasi",
-          description: "Tum iceriginizi toptan engellemek veya toptan acmak yerine stratejik bir erisim politikasi olusturuyoruz. Blog ve bilgi icerikleri AI'a acilirken, premium icerikler ve musteri verileri korunur. Her sayfa grubu icin ayri erisim kuralari belirliyoruz."
+          title: "Seçici İçerik Erişim Politikası",
+          description: "Tüm içeriğinizi toptan engellemek veya toptan açmak yerine stratejik bir erişim politikası oluşturuyoruz. Blog ve bilgi içerikleri AI'a açılırken, premium içerikler ve müşteri verileri korunur. Her sayfa grubu için ayrı erişim kuralları belirliyoruz."
         },
         {
           title: "Entity Markup ve Dijital Kimlik",
-          description: "Organization, Person, Product, Service, Brand ve LocalBusiness schema'lari ile markanizin, kurucularinizin ve urunlerinizin dijital kimligini AI'in anlayabilecegi formatta tanimliyoruz. Wikidata, Google Knowledge Graph ve diger bilgi graflerine entegrasyon sagliyoruz."
+          description: "Organization, Person, Product, Service, Brand ve LocalBusiness schema'ları ile markanızın, kurucularınızın ve ürünlerinizin dijital kimliğini AI'in anlayabileceği formatta tanımlıyoruz. Wikidata, Google Knowledge Graph ve diğer bilgi graflerine entegrasyon sağlıyoruz."
         },
         {
           title: "Knowledge Panel Optimizasyonu",
-          description: "Google Knowledge Panel ve AI platformlarindaki bilgi kutucuklarinda markanizin dogru, guncel ve kapsamli sekilde gorunmesini sagliyoruz. Sosyal profiller, logo, kurucu bilgileri, sirket detaylari ve urun bilgilerini yapisal veri ile birlesik bir marka kimligi olarak sunuyoruz."
+          description: "Google Knowledge Panel ve AI platformlarındaki bilgi kutucuklarında markanızın doğru, güncel ve kapsamlı şekilde görünmesini sağlıyoruz. Sosyal profiller, logo, kurucu bilgileri, şirket detayları ve ürün bilgilerini yapısal veri ile birleşik bir marka kimliği olarak sunuyoruz."
         },
         {
-          title: "AI Egitim Verisi Yonetimi",
-          description: "AI modellerinin egitim donemlerinde iceriklerinizin nasil kullanildigini stratejik olarak yonetiyoruz. Icerik lisanslama politikasi, kullanim sartlari ve teknik engelleme mekanizmalari ile verilerinizin kontrolsuz tuketilmesini onluyoruz. Ayni zamanda stratejik icerikleri AI egitimine aciyoruz."
+          title: "AI Eğitim Verisi Yönetimi",
+          description: "AI modellerinin eğitim dönemlerinde içeriklerinizin nasıl kullanıldığını stratejik olarak yönetiyoruz. İçerik lisanslama politikası, kullanım şartları ve teknik engelleme mekanizmaları ile verilerinizin kontrolsüz tüketilmesini önlüyoruz. Aynı zamanda stratejik içerikleri AI eğitimine açıyoruz."
         },
         {
           title: "AI Bot Trafik Analizi",
-          description: "Server log analizi ile hangi AI botlarinin sitenizi ne siklikta taradigini, hangi sayfalari ziyaret ettigini ve ne kadar bant genisligi tukettigini detayli olarak olcuyoruz. Bu veriler erisim politikanizi optimize etmek ve anormal tarama davranislarini tespit etmek icin kullanilir."
+          description: "Server log analizi ile hangi AI botlarının sitenizi ne sıklıkta taradığını, hangi sayfaları ziyaret ettiğini ve ne kadar bant genişliği tükettiğini detaylı olarak ölçüyoruz. Bu veriler erişim politikanızı optimize etmek ve anormal tarama davranışlarını tespit etmek için kullanılır."
         },
         {
-          title: "Marka Temsil Izleme",
-          description: "AI platformlarinin markaniz hakkinda urettigi cevaplari sistematik olarak izliyoruz. Yanlis bilgi, eksik temsil veya tutarsiz aciklamalar tespit edildiginde duzeltme stratejisi uyguluyoruz. Markanizin AI ekosistemindeki itibarini proaktif olarak yonetiyoruz."
+          title: "Marka Temsil İzleme",
+          description: "AI platformlarının markanız hakkında ürettiği cevapları sistematik olarak izliyoruz. Yanlış bilgi, eksik temsil veya tutarsız açıklamalar tespit edildiğinde düzeltme stratejisi uyguluyoruz. Markanızın AI ekosistemindeki itibarını proaktif olarak yönetiyoruz."
         },
         {
           title: "AI Uyumlu robots.txt Stratejisi",
-          description: "Geleneksel robots.txt yapilarini AI cagina uygun hale getiriyoruz. Her AI botu icin ayri kurallar, crawl-delay ayarlari, izin verilen ve engellenen dizinler belirliyoruz. robots.txt'in yaninda meta robots tag ve X-Robots-Tag HTTP header ile katmanli kontrol sagliyoruz."
+          description: "Geleneksel robots.txt yapılarını AI çağına uygun hale getiriyoruz. Her AI botu için ayrı kurallar, crawl-delay ayarları, izin verilen ve engellenen dizinler belirliyoruz. robots.txt'in yanında meta robots tag ve X-Robots-Tag HTTP header ile katmanlı kontrol sağlıyoruz."
         },
       ]}
       included={[
         {
-          title: "Teknik Altyapi",
+          title: "Teknik Altyapı",
           items: [
-            "AI-uyumlu robots.txt yapilandirmasi",
-            "Meta robots ve X-Robots-Tag ayarlari",
+            "AI-uyumlu robots.txt yapılandırması",
+            "Meta robots ve X-Robots-Tag ayarları",
             "Entity schema markup (JSON-LD)",
             "Knowledge Panel optimizasyonu",
             "Wikidata entegrasyonu",
-            "AI bot crawl-delay konfigurasyonu",
+            "AI bot crawl-delay konfigürasyonu",
           ]
         },
         {
           title: "Strateji ve Politika",
           items: [
-            "AI bot erisim politikasi dokumani",
-            "Icerik lisanslama ve kullanim sartlari",
-            "Secici erisim stratejisi (sayfa bazli)",
-            "AI egitim verisi yonetim plani",
-            "Marka temsil yonergeleri",
-            "Kriz yonetimi protokolu",
+            "AI bot erişim politikası dokümanı",
+            "İçerik lisanslama ve kullanım şartları",
+            "Seçici erişim stratejisi (sayfa bazlı)",
+            "AI eğitim verisi yönetim planı",
+            "Marka temsil yönergeleri",
+            "Kriz yönetimi protokolü",
           ]
         },
         {
-          title: "Izleme ve Raporlama",
+          title: "İzleme ve Raporlama",
           items: [
-            "AI bot trafik analizi (haftalik)",
+            "AI bot trafik analizi (haftalık)",
             "Marka temsil izleme raporu",
-            "Entity tanimlama durumu dashboard'u",
-            "Knowledge Panel guncelleme takibi",
-            "Aylik performans ve trend raporu",
-            "Rakip AIO karsilastirmasi",
+            "Entity tanımlama durumu dashboard'u",
+            "Knowledge Panel güncelleme takibi",
+            "Aylık performans ve trend raporu",
+            "Rakip AIO karşılaştırması",
           ]
         },
       ]}
       process={[
         {
           title: "AI Bot ve Entity Denetimi",
-          description: "Server loglarinizi analiz ederek hangi AI botlarinin sitenizi taradigini, ne siklikta geldigini ve hangi sayfalari ziyaret ettigini belirliyoruz. Ayni zamanda markanizin mevcut entity taninirligi, Knowledge Panel durumu ve AI platformlarindaki temsilini inceliyoruz."
+          description: "Server loglarınızı analiz ederek hangi AI botlarının sitenizi taradığını, ne sıklıkta geldiğini ve hangi sayfaları ziyaret ettiğini belirliyoruz. Aynı zamanda markanızın mevcut entity tanınırlığı, Knowledge Panel durumu ve AI platformlarındaki temsilini inceliyoruz."
         },
         {
-          title: "Erisim Stratejisi Tasarimi",
-          description: "Denetim sonuclarina gore kapsamli bir AI bot erisim stratejisi tasarliyoruz. Hangi botlara izin verilecegi, hangi iceriklerin acilacagi, hangi sayfalarin korunacagi ve crawl-delay ayarlari belirleniyor. Is hedeflerinize uygun bir denge kuruyoruz."
+          title: "Erişim Stratejisi Tasarımı",
+          description: "Denetim sonuçlarına göre kapsamlı bir AI bot erişim stratejisi tasarlıyoruz. Hangi botlara izin verileceği, hangi içeriklerin açılacağı, hangi sayfaların korunacağı ve crawl-delay ayarları belirleniyor. İş hedeflerinize uygun bir denge kuruyoruz."
         },
         {
           title: "Teknik Uygulama",
-          description: "robots.txt yeniden yapilandirilir. Meta robots tag ve X-Robots-Tag header ayarlari yapilir. Entity schema markup'lari (Organization, Person, Product, Brand) tum ilgili sayfalara uygulanir. Wikidata girisleri olusturulur veya guncellenir."
+          description: "robots.txt yeniden yapılandırılır. Meta robots tag ve X-Robots-Tag header ayarları yapılır. Entity schema markup'ları (Organization, Person, Product, Brand) tüm ilgili sayfalara uygulanır. Wikidata girişleri oluşturulur veya güncellenir."
         },
         {
-          title: "Knowledge Panel ve Bilgi Grafi",
-          description: "Google Knowledge Panel icin basvuru sureci yonetilir. Sosyal profiller, resmi web sitesi, logo ve sirket bilgileri tutarli hale getirilir. Wikidata, Wikipedia ve diger bilgi kaynaklarinda marka varliginiz guclendirilir."
+          title: "Knowledge Panel ve Bilgi Grafiği",
+          description: "Google Knowledge Panel için başvuru süreci yönetilir. Sosyal profiller, resmi web sitesi, logo ve şirket bilgileri tutarlı hale getirilir. Wikidata, Wikipedia ve diğer bilgi kaynaklarında marka varlığınız güçlendirilir."
         },
         {
-          title: "Izleme ve Raporlama",
-          description: "AI bot trafigi haftalik olarak izlenir. Anormal tarama davranislari (asiri crawling, yetkisiz erisim) tespit edilir ve onlem alinir. Marka temsil raporu ile AI platformlarindaki gorunumunuz aylık olarak degerlendirilir."
+          title: "İzleme ve Raporlama",
+          description: "AI bot trafiği haftalık olarak izlenir. Anormal tarama davranışları (aşırı crawling, yetkisiz erişim) tespit edilir ve önlem alınır. Marka temsil raporu ile AI platformlarındaki görünümünüz aylık olarak değerlendirilir."
         },
         {
-          title: "Surekli Yonetim ve Adaptasyon",
-          description: "AI ekosistemi hizla degisiyor. Yeni AI botlari ortaya cikiyor, mevcut platformlar kurallarini guncelliyor. Erisim politikanizi bu degisimlere uygun olarak surekli guncelliyoruz. Yeni firsatlari ve riskleri proaktif olarak degerlendiriyoruz."
+          title: "Sürekli Yönetim ve Adaptasyon",
+          description: "AI ekosistemi hızla değişiyor. Yeni AI botları ortaya çıkıyor, mevcut platformlar kurallarını güncelliyor. Erişim politikanızı bu değişimlere uygun olarak sürekli güncelliyoruz. Yeni fırsatları ve riskleri proaktif olarak değerlendiriyoruz."
         },
       ]}
-      timeline="Tipik proje sureci: Ilk 7 gun denetim ve analiz, 21 gun teknik uygulama, 45 gun Knowledge Panel sureci, 60 gun ilk olcum sonuclari."
+      timeline="Tipik proje süreci: İlk 7 gün denetim ve analiz, 21 gün teknik uygulama, 45 gün Knowledge Panel süreci, 60 gün ilk ölçüm sonuçları."
       comparison={{
-        usTitle: "Megis AIO/LLMO Yaklasimi",
+        usTitle: "Megis AIO/LLMO Yaklaşımı",
         othersTitle: "Geleneksel Dijital Ajanslar",
         us: [
-          "AI bot erisimini stratejik olarak yonetme",
-          "Secici icerik politikasi — toptan engelleme yok",
-          "Entity markup + Knowledge Panel + bilgi grafi butunsel",
-          "Haftalik bot trafik analizi ve marka temsil izleme",
-          "Her AI platformu icin ozel yapilandirma",
-          "Proaktif AI ekosistemi yonetimi",
+          "AI bot erişimini stratejik olarak yönetme",
+          "Seçici içerik politikası — toptan engelleme yok",
+          "Entity markup + Knowledge Panel + bilgi grafiği bütünsel",
+          "Haftalık bot trafik analizi ve marka temsil izleme",
+          "Her AI platformu için özel yapılandırma",
+          "Proaktif AI ekosistemi yönetimi",
         ],
         others: [
-          "AI botlari tamamen engelleme veya tamamen goz ardi etme",
-          "Tek satirlik robots.txt — strateji yok",
-          "Entity markup ve bilgi grafi bilgisi yok",
-          "AI bot trafigini olcmeme ve izlememe",
-          "Tum AI platformlarini ayni gorup tek kural uygulama",
-          "Reaktif yaklasim — sorun ciktiktan sonra mudahale",
+          "AI botlarını tamamen engelleme veya tamamen göz ardı etme",
+          "Tek satırlık robots.txt — strateji yok",
+          "Entity markup ve bilgi grafiği bilgisi yok",
+          "AI bot trafiğini ölçmeme ve izlememe",
+          "Tüm AI platformlarını aynı görüp tek kural uygulama",
+          "Reaktif yaklaşım — sorun çıktıktan sonra müdahale",
         ],
       }}
       caseStudies={[
         {
-          title: "Medya Sirketi — AI Icerik Trafigi %85 Azalma ve Stratejik Yeniden Yapilanma",
-          challenge: "Gunluk 200.000+ ziyaretcisi olan haber sitesinde AI botlari gunluk 500.000+ sayfa tariyordu. Server maliyetleri %40 artmisti. Ayni zamanda icerikleri AI platformlarinda atif verilmeden kullaniliyordu ve organik trafik dusmeye baslamisti.",
-          solution: "Detayli bot trafik analizi yapildi. Stratejik erisim politikasi olusturuldu: blog icerikleri AI'a acik, premium icerikler korumali, arsiv icerikleri sinirli erisimli. Crawl-delay ayarlari optimize edildi. Entity markup ile marka kimligi guclendirildi.",
-          result: "AI bot kaynakli server yuku %85 azaldi. Aylik hosting maliyetinde 8.000 TL tasarruf saglandi. Stratejik olarak acilan icerikler sayesinde Perplexity'de kaynak gosterilme orani %340 artti. Marka AI cevaplarinda dogru temsil edilmeye basladi.",
+          title: "Medya Şirketi — AI İçerik Trafiği %85 Azalma ve Stratejik Yeniden Yapılanma",
+          challenge: "Günlük 200.000+ ziyaretçisi olan haber sitesinde AI botları günlük 500.000+ sayfa tarıyordu. Server maliyetleri %40 artmıştı. Aynı zamanda içerikleri AI platformlarında atıf verilmeden kullanılıyordu ve organik trafik düşmeye başlamıştı.",
+          solution: "Detaylı bot trafik analizi yapıldı. Stratejik erişim politikası oluşturuldu: blog içerikleri AI'a açık, premium içerikler korumalı, arşiv içerikleri sınırlı erişimli. Crawl-delay ayarları optimize edildi. Entity markup ile marka kimliği güçlendirildi.",
+          result: "AI bot kaynaklı server yükü %85 azaldı. Aylık hosting maliyetinde 8.000 TL tasarruf sağlandı. Stratejik olarak açılan içerikler sayesinde Perplexity'de kaynak gösterilme oranı %340 arttı. Marka AI cevaplarında doğru temsil edilmeye başladı.",
         },
         {
-          title: "Teknoloji Sirketi — Knowledge Panel ve AI Otorite Kazanimi",
-          challenge: "10 yillik yazilim sirketi Google Knowledge Panel'de gorunmuyordu. AI platformlari sirket hakkinda tutarsiz ve kismen yanlis bilgi uretiyordu. Rakiplerle karismalar ve eksik urun bilgileri marka itibarini zedeliyordu.",
-          solution: "Kapsamli entity markup uygulamasi: Organization, Person (kurucu ve yoneticiler), Product (tum yazilim urunleri) ve Brand schema. Wikidata girisi olusturuldu. Tum sosyal profiller ve resmi kaynaklar tutarli hale getirildi. Google Knowledge Panel basvurusu yapildi.",
-          result: "45 gunde Google Knowledge Panel aktif oldu. AI platformlarinda marka tutarliligi %95'e cikti. Yanlis bilgi uretim orani %90 azaldi. Sirket AI cevaplarinda sektorun guvenilir kaynagi olarak referans verilmeye basladi.",
+          title: "Teknoloji Şirketi — Knowledge Panel ve AI Otorite Kazanımı",
+          challenge: "10 yıllık yazılım şirketi Google Knowledge Panel'de görünmüyordu. AI platformları şirket hakkında tutarsız ve kısmen yanlış bilgi üretiyordu. Rakiplerle karışmalar ve eksik ürün bilgileri marka itibarını zedeliyordu.",
+          solution: "Kapsamlı entity markup uygulaması: Organization, Person (kurucu ve yöneticiler), Product (tüm yazılım ürünleri) ve Brand schema. Wikidata girişi oluşturuldu. Tüm sosyal profiller ve resmi kaynaklar tutarlı hale getirildi. Google Knowledge Panel başvurusu yapıldı.",
+          result: "45 günde Google Knowledge Panel aktif oldu. AI platformlarında marka tutarlılığı %95'e çıktı. Yanlış bilgi üretim oranı %90 azaldı. Şirket AI cevaplarında sektörün güvenilir kaynağı olarak referans verilmeye başladı.",
         },
       ]}
       faqs={[
         {
-          question: "AIO/LLMO nedir ve GEO'dan farki ne?",
-          answer: "AIO (AI Optimization) ve LLMO (Large Language Model Optimization), yapay zeka sistemlerinin markanizi nasil gordugunu, hangi verilerinizi kullandigini ve sizi nasil temsil ettigini kontrol etmeyi saglayan stratejik bir optimizasyon alanidir. GEO 'AI sonuclarinda gorunmeyi' hedeflerken, AIO/LLMO 'AI'in seni nasil gorundugunu yonetmeyi' hedefler. GEO cikit odaklidir (AI cevaplarinda kaynak olarak gorunme), AIO/LLMO ise girdi odaklidir (AI'in sizi nasil tanidigi ve verilerinizi nasil kullandigi). Ideal strateji ikisini birlikte uygulamaktir.",
+          question: "AIO/LLMO nedir ve GEO'dan farkı ne?",
+          answer: "AIO (AI Optimization) ve LLMO (Large Language Model Optimization), yapay zeka sistemlerinin markanızı nasıl gördüğünü, hangi verilerinizi kullandığını ve sizi nasıl temsil ettiğini kontrol etmeyi sağlayan stratejik bir optimizasyon alanıdır. GEO 'AI sonuçlarında görünmeyi' hedeflerken, AIO/LLMO 'AI'in seni nasıl gördüğünü yönetmeyi' hedefler. GEO çıktı odaklıdır (AI cevaplarında kaynak olarak görünme), AIO/LLMO ise girdi odaklıdır (AI'in sizi nasıl tanıdığı ve verilerinizi nasıl kullandığı). İdeal strateji ikisini birlikte uygulamaktır.",
         },
         {
-          question: "Hangi AI botlari web sitemi tariyor?",
-          answer: "Bugun 15'ten fazla AI botu aktif olarak web'i tariyor. Baslicalari: GPTBot (OpenAI/ChatGPT), ClaudeBot (Anthropic/Claude), PerplexityBot (Perplexity), Google-Extended (Gemini), Bytespider (ByteDance), CCBot (Common Crawl), Amazonbot, FacebookBot (Meta AI) ve AppleBot-Extended. Her botun farkli tarama davranisi ve amaci vardir. Server loglarinizi analiz etmeden hangi botlarin sitenizi ne siklikta taradigini bilemezsiniz.",
+          question: "Hangi AI botları web sitemi tarıyor?",
+          answer: "Bugün 15'ten fazla AI botu aktif olarak web'i tarıyor. Başlıcaları: GPTBot (OpenAI/ChatGPT), ClaudeBot (Anthropic/Claude), PerplexityBot (Perplexity), Google-Extended (Gemini), Bytespider (ByteDance), CCBot (Common Crawl), Amazonbot, FacebookBot (Meta AI) ve AppleBot-Extended. Her botun farklı tarama davranışı ve amacı vardır. Server loglarınızı analiz etmeden hangi botların sitenizi ne sıklıkta taradığını bilemezsiniz.",
         },
         {
-          question: "AI botlarini tamamen engellemeli miyim?",
-          answer: "Hayir, toptan engelleme cogu durumda yanlis stratejidir. AI botlarini tamamen engellerseniz, AI platformlarinda gorunmez olursunuz ve rakipleriniz bu alani doldurur. Dogru yaklasim secici erisim politikasidir: bilgi icerikleri ve blog yazilarini AI'a acin (kaynak olarak referans verilmek icin), premium icerikleri ve hassas verileri koruyun, arsiv iceriklerine sinirli erisim verin. Her isletmenin ihtiyacina gore ozel bir strateji gerekir.",
+          question: "AI botlarını tamamen engellemeli miyim?",
+          answer: "Hayır, toptan engelleme çoğu durumda yanlış stratejidir. AI botlarını tamamen engellerseniz, AI platformlarında görünmez olursunuz ve rakipleriniz bu alanı doldurur. Doğru yaklaşım seçici erişim politikasıdır: bilgi içerikleri ve blog yazılarını AI'a açın (kaynak olarak referans verilmek için), premium içerikleri ve hassas verileri koruyun, arşiv içeriklerine sınırlı erişim verin. Her işletmenin ihtiyacına göre özel bir strateji gerekir.",
         },
         {
-          question: "Entity markup neden onemli?",
-          answer: "Entity markup (yapisal veri), AI modellerinin markanizi dogru tanimasi icin kritik oneme sahiptir. Organization, Person, Product ve Brand schema'lari olmadan AI modelleri markaniz hakkinda tutarsiz veya yanlis bilgi uretebilir. Entity markup ile markanizin adi, kurulus tarihi, kurucusu, urunleri, hizmetleri ve iletisim bilgileri AI'in anlayabilecegi formatta tanimlanir. Bu, Knowledge Panel gorunurlugunu de dogrudan etkiler.",
+          question: "Entity markup neden önemli?",
+          answer: "Entity markup (yapısal veri), AI modellerinin markanızı doğru tanıması için kritik öneme sahiptir. Organization, Person, Product ve Brand schema'ları olmadan AI modelleri markanız hakkında tutarsız veya yanlış bilgi üretebilir. Entity markup ile markanızın adı, kuruluş tarihi, kurucusu, ürünleri, hizmetleri ve iletişim bilgileri AI'in anlayabileceği formatta tanımlanır. Bu, Knowledge Panel görünürlüğünü de doğrudan etkiler.",
         },
         {
-          question: "Knowledge Panel nasil elde edilir?",
-          answer: "Google Knowledge Panel otomatik olarak olusturulur, ancak surecini hizlandirmak ve icerigini kontrol etmek mumkundur. Adimlar: (1) Entity schema markup uygulamak, (2) Wikidata girisi olusturmak, (3) Tum resmi kaynaklarda (web sitesi, sosyal medya, dizinler) tutarli bilgi saglamak, (4) Wikipedia makalesi olusturmak (notability kriterlerini karsilamak gerekir), (5) Google Knowledge Panel dogrulama basvurusu yapmak. Tipik sure 30-90 gundur.",
+          question: "Knowledge Panel nasıl elde edilir?",
+          answer: "Google Knowledge Panel otomatik olarak oluşturulur, ancak sürecini hızlandırmak ve içeriğini kontrol etmek mümkündür. Adımlar: (1) Entity schema markup uygulamak, (2) Wikidata girişi oluşturmak, (3) Tüm resmi kaynaklarda (web sitesi, sosyal medya, dizinler) tutarlı bilgi sağlamak, (4) Wikipedia makalesi oluşturmak (notability kriterlerini karşılamak gerekir), (5) Google Knowledge Panel doğrulama başvurusu yapmak. Tipik süre 30-90 gündür.",
         },
         {
-          question: "AI bot trafigi server performansimi etkiler mi?",
-          answer: "Evet, onemli olcude etkileyebilir. AI botlari geleneksel arama motoru crawlerlarindan cok daha agresif tarayabilir. Bazi AI botlari gunde yuz binlerce sayfa tarar ve bu ciddi server yuku olusturur. Crawl-delay ayarlari ve erisim kontrolleri ile bu yuku yonetemezseniz, hosting maliyetleriniz artar ve gercek kullanicilarinizin deneyimi olumsuz etkilenir. AIO stratejisinin onemli bir parcasi bu trafigi optimize etmektir.",
+          question: "AI bot trafiği server performansımı etkiler mi?",
+          answer: "Evet, önemli ölçüde etkileyebilir. AI botları geleneksel arama motoru crawlerlarından çok daha agresif tarayabilir. Bazı AI botları günde yüz binlerce sayfa tarar ve bu ciddi server yükü oluşturur. Crawl-delay ayarları ve erişim kontrolleri ile bu yükü yönetemezseniz, hosting maliyetleriniz artar ve gerçek kullanıcılarınızın deneyimi olumsuz etkilenir. AIO stratejisinin önemli bir parçası bu trafiği optimize etmektir.",
         },
         {
-          question: "AIO/LLMO sonuclari ne kadar surede gorulur?",
-          answer: "Teknik uygulama (robots.txt, entity markup, meta tag) genellikle 2-3 hafta icinde tamamlanir ve etkileri hemen baslar — AI bot trafigindeki degisiklikleri ilk haftadan itibaren gorebilirsiniz. Knowledge Panel sureci 30-90 gun surer. AI platformlarindaki marka temsil iyilesmesi 45-60 gunde belirginlesir. Tam olcum ve optimizasyon dongusu icin 90 gunluk bir surec onerilir. Ancak AI ekosistemi surekli degistigi icin AIO/LLMO devam eden bir surectir.",
+          question: "AIO/LLMO sonuçları ne kadar sürede görülür?",
+          answer: "Teknik uygulama (robots.txt, entity markup, meta tag) genellikle 2-3 hafta içinde tamamlanır ve etkileri hemen başlar — AI bot trafiğindeki değişiklikleri ilk haftadan itibaren görebilirsiniz. Knowledge Panel süreci 30-90 gün sürer. AI platformlarındaki marka temsil iyileşmesi 45-60 günde belirginleşir. Tam ölçüm ve optimizasyon döngüsü için 90 günlük bir süreç önerilir. Ancak AI ekosistemi sürekli değiştiği için AIO/LLMO devam eden bir süreçtir.",
         },
       ]}
-      cta="Ucretsiz AI Bot Denetimi Alin"
-      ctaSecondary="Neden onemli?"
-      ctaBottom="AI ekosistemindeki kontrolunuzu bugunden baslatin."
+      cta="Ücretsiz AI Bot Denetimi Alın"
+      ctaSecondary="Neden önemli?"
+      ctaBottom="AI ekosistemindeki kontrolünüzü bugünden başlatın."
     />
   );
 }

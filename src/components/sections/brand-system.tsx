@@ -46,7 +46,7 @@ export function BrandSystem() {
             Megis Brand
           </h1>
           <p className="mt-5 text-xl sm:text-2xl text-muted max-w-2xl mx-auto leading-relaxed">
-            Tutarli bir marka deneyimi icin tasarim ilkeleri, renk paleti ve UI kurallari.
+            Tutarlı bir marka deneyimi için tasarım ilkeleri, renk paleti ve UI kuralları.
           </p>
         </div>
 
@@ -63,7 +63,7 @@ export function BrandSystem() {
         {/* LOGO */}
         <section id="logo" className="mb-24 scroll-mt-24">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground tracking-tight mb-4">Logo</h2>
-          <p className="text-muted text-lg mb-12">Megis wordmark ve kullanim kurallari.</p>
+          <p className="text-muted text-lg mb-12">Megis wordmark ve kullanım kuralları.</p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div className="rounded-2xl bg-black p-12 flex items-center justify-center">
@@ -78,8 +78,8 @@ export function BrandSystem() {
           </div>
 
           <div className="mt-12">
-            <h3 className="text-xl font-semibold text-foreground mb-4">Koruma Alani</h3>
-            <p className="text-muted mb-6">Logo etrafinda minimum &quot;m&quot; harfi yuksekligi kadar bos alan birakilmalidir.</p>
+            <h3 className="text-xl font-semibold text-foreground mb-4">Koruma Alanı</h3>
+            <p className="text-muted mb-6">Logo etrafında minimum &quot;m&quot; harfi yüksekliği kadar boş alan bırakılmalıdır.</p>
             <div className="inline-flex border-2 border-dashed border-border p-10 rounded-xl relative">
               <span className="text-3xl font-bold tracking-tighter text-foreground">megis</span>
               <span className="absolute top-2 left-1/2 -translate-x-1/2 text-[10px] text-accent">m</span>
@@ -93,7 +93,7 @@ export function BrandSystem() {
         {/* COLORS */}
         <section id="colors" className="mb-24 scroll-mt-24">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground tracking-tight mb-4">Renkler</h2>
-          <p className="text-muted text-lg mb-12">Tek accent rengi. Geri kalan her sey notr.</p>
+          <p className="text-muted text-lg mb-12">Tek accent rengi. Geri kalan her şey nötr.</p>
 
           <h3 className="text-xl font-semibold text-foreground mb-6">Accent</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-16">
@@ -102,13 +102,13 @@ export function BrandSystem() {
                 <div className="flex h-32">
                   <div className="flex-1 relative flex items-end p-4" style={{ background: c.dark }}>
                     <button onClick={() => copy(c.dark)} className="text-xs text-white/60 hover:text-white font-mono transition-colors">
-                      {copied === c.dark ? "Kopyalandi" : c.dark}
+                      {copied === c.dark ? "Kopyalandı" : c.dark}
                     </button>
                     <span className="absolute top-4 left-4 text-[10px] text-white/40">Dark</span>
                   </div>
                   <div className="flex-1 relative flex items-end p-4" style={{ background: c.light }}>
                     <button onClick={() => copy(c.light)} className="text-xs text-white/60 hover:text-white font-mono transition-colors">
-                      {copied === c.light ? "Kopyalandi" : c.light}
+                      {copied === c.light ? "Kopyalandı" : c.light}
                     </button>
                     <span className="absolute top-4 left-4 text-[10px] text-white/40">Light</span>
                   </div>
@@ -121,7 +121,7 @@ export function BrandSystem() {
             ))}
           </div>
 
-          <h3 className="text-xl font-semibold text-foreground mb-6">Notr</h3>
+          <h3 className="text-xl font-semibold text-foreground mb-6">Nötr</h3>
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
             {neutralColors.map((c) => (
               <div key={c.name} className="rounded-xl overflow-hidden">
@@ -172,7 +172,7 @@ export function BrandSystem() {
         {/* BUTTONS */}
         <section id="buttons" className="mb-24 scroll-mt-24">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground tracking-tight mb-4">Butonlar</h2>
-          <p className="text-muted text-lg mb-12">Iki buton stili: filled ve text link.</p>
+          <p className="text-muted text-lg mb-12">İki buton stili: filled ve text link.</p>
 
           <div className="space-y-12">
             <div>
@@ -206,18 +206,18 @@ export function BrandSystem() {
         {/* LAYOUT */}
         <section id="layout" className="mb-24 scroll-mt-24">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground tracking-tight mb-4">Layout</h2>
-          <p className="text-muted text-lg mb-12">Icerik odakli, sade, genis bosluklu tasarim ilkeleri.</p>
+          <p className="text-muted text-lg mb-12">İçerik odaklı, sade, geniş boşluklu tasarım ilkeleri.</p>
 
           <div className="divide-y divide-border">
             {[
-              ["Max Width", "980px", "Icerik alani standardi"],
-              ["Section Padding", "py-20 sm:py-28", "Bolumler arasi genislik"],
-              ["Navbar Height", "h-12 (48px)", "Ince, minimal header"],
+              ["Max Width", "980px", "İçerik alanı standardı"],
+              ["Section Padding", "py-20 sm:py-28", "Bölümler arası genişlik"],
+              ["Navbar Height", "h-12 (48px)", "İnce, minimal header"],
               ["Card Radius", "rounded-2xl (16px)", "Kartlar ve gruplar"],
               ["Nav Font", "text-xs (12px)", "Navigasyon metni"],
               ["Hover", "color change only", "Efekt yok, sadece renk"],
               ["Backdrop", "blur-xl saturate-150", "Saydam arka planlar"],
-              ["Divider", "border-t border-border", "Border ile ayirma"],
+              ["Divider", "border-t border-border", "Border ile ayırma"],
             ].map(([prop, val, desc]) => (
               <div key={prop} className="flex flex-col sm:flex-row gap-2 py-4">
                 <div className="w-40 flex-shrink-0 text-sm font-semibold text-foreground">{prop}</div>
@@ -231,29 +231,29 @@ export function BrandSystem() {
         {/* GUIDELINES */}
         <section id="guidelines" className="mb-24 scroll-mt-24">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground tracking-tight mb-4">Kurallar</h2>
-          <p className="text-muted text-lg mb-12">Marka tutarliligi icin uyulmasi gereken ilkeler.</p>
+          <p className="text-muted text-lg mb-12">Marka tutarlılığı için uyulması gereken ilkeler.</p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
             <div>
               <h3 className="text-xl font-semibold text-foreground mb-6">Yapin</h3>
               <ul className="space-y-4 text-muted">
-                <li className="flex gap-3"><span className="text-accent mt-0.5">+</span>Icerik suslemeye her zaman baskin olmali</li>
-                <li className="flex gap-3"><span className="text-accent mt-0.5">+</span>Genis bosluk ve nefes alan layout kullanin</li>
-                <li className="flex gap-3"><span className="text-accent mt-0.5">+</span>Tek accent rengi tutarli kullanin</li>
-                <li className="flex gap-3"><span className="text-accent mt-0.5">+</span>Border yerine whitespace ile ayirin</li>
-                <li className="flex gap-3"><span className="text-accent mt-0.5">+</span>Hover sadece renk degisimi olsun</li>
+                <li className="flex gap-3"><span className="text-accent mt-0.5">+</span>İçerik süslemeye her zaman baskın olmalı</li>
+                <li className="flex gap-3"><span className="text-accent mt-0.5">+</span>Geniş boşluk ve nefes alan layout kullanın</li>
+                <li className="flex gap-3"><span className="text-accent mt-0.5">+</span>Tek accent rengi tutarlı kullanın</li>
+                <li className="flex gap-3"><span className="text-accent mt-0.5">+</span>Border yerine whitespace ile ayırın</li>
+                <li className="flex gap-3"><span className="text-accent mt-0.5">+</span>Hover sadece renk değişimi olsun</li>
                 <li className="flex gap-3"><span className="text-accent mt-0.5">+</span>Tipografi hiyerarsisini net tutun</li>
               </ul>
             </div>
             <div>
               <h3 className="text-xl font-semibold text-foreground mb-6">Yapmayin</h3>
               <ul className="space-y-4 text-muted">
-                <li className="flex gap-3"><span className="text-foreground mt-0.5">&minus;</span>Gradient, glow veya shadow efekti kullanmayin</li>
-                <li className="flex gap-3"><span className="text-foreground mt-0.5">&minus;</span>Kartlari border ile cevreleyin</li>
-                <li className="flex gap-3"><span className="text-foreground mt-0.5">&minus;</span>Birden fazla accent rengi kullanmayin</li>
-                <li className="flex gap-3"><span className="text-foreground mt-0.5">&minus;</span>Animasyonu dikkat dagitici yapmayin</li>
+                <li className="flex gap-3"><span className="text-foreground mt-0.5">&minus;</span>Gradient, glow veya shadow efekti kullanmayın</li>
+                <li className="flex gap-3"><span className="text-foreground mt-0.5">&minus;</span>Kartları border ile çevreleyin</li>
+                <li className="flex gap-3"><span className="text-foreground mt-0.5">&minus;</span>Birden fazla accent rengi kullanmayın</li>
+                <li className="flex gap-3"><span className="text-foreground mt-0.5">&minus;</span>Animasyonu dikkat dağıtıcı yapmayın</li>
                 <li className="flex gap-3"><span className="text-foreground mt-0.5">&minus;</span>Logoya efekt veya dekorasyon eklemeyin</li>
-                <li className="flex gap-3"><span className="text-foreground mt-0.5">&minus;</span>980px container genisligini asmayin</li>
+                <li className="flex gap-3"><span className="text-foreground mt-0.5">&minus;</span>980px container genişliğini aşmayın</li>
               </ul>
             </div>
           </div>

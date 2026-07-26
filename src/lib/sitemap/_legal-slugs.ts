@@ -13,7 +13,6 @@ export const LEGAL_SLUGS = [
   "kullanim-sartlari",
   "kullanim-kosullari",
   "erisilebilirlik",
-  "erisilebirlik", // typo varyanti — megis [locale]/erisilebirlik klasoru var
   "dsar",
   "veri-talep",
   "imprint",

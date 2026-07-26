@@ -21,6 +21,30 @@ const footerMore = [
   { href: "/urun-hizmet", label: "productMarketing" },
 ] as const;
 
+// Hardcoded labels, not routed through next-intl "nav" messages
+// (2026-07-26 footer tools column) - same precedent as the hesaplama-araclari
+// hub link above.
+const footerToolsColumnA = [
+  { href: "/hesaplama-araclari/kdv-hesaplama", label: "KDV Hesaplama" },
+  { href: "/hesaplama-araclari/yuzde-hesaplama", label: "Yüzde Hesaplama" },
+  { href: "/hesaplama-araclari/iskonto-hesaplama", label: "İskonto Hesaplama" },
+  { href: "/hesaplama-araclari/maliyet-hesaplama", label: "Maliyet Hesaplama" },
+  { href: "/hesaplama-araclari/desi-hesaplama", label: "Desi Hesaplama" },
+  { href: "/hesaplama-araclari/trendyol-komisyon-hesaplama", label: "Trendyol Komisyon" },
+  { href: "/hesaplama-araclari/hepsiburada-komisyon-hesaplama", label: "Hepsiburada Komisyon" },
+  { href: "/hesaplama-araclari/n11-komisyon-hesaplama", label: "n11 Komisyon" },
+  { href: "/hesaplama-araclari/ciceksepeti-komisyon-hesaplama", label: "Çiçeksepeti Komisyon" },
+] as const;
+
+const footerToolsColumnB = [
+  { href: "/hesaplama-araclari/amazon-komisyon-hesaplama", label: "Amazon Komisyon" },
+  { href: "/hesaplama-araclari/etsy-komisyon-hesaplama", label: "Etsy Komisyon" },
+  { href: "/hesaplama-araclari/qr-kod-olusturucu", label: "QR Kod Oluşturucu" },
+  { href: "/hesaplama-araclari/whatsapp-link-olusturma", label: "WhatsApp Link" },
+  { href: "/hesaplama-araclari/meta-title-description-onizleyici", label: "Meta Önizleyici" },
+  { href: "/hesaplama-araclari/alan-adi-olusturucu", label: "Alan Adı Üretici" },
+] as const;
+
 export function Footer() {
   const t = useTranslations("footer");
   const tNav = useTranslations("nav");
@@ -51,8 +75,8 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
-              {/* Hardcoded label, not routed through next-intl "nav" messages
-                  (2026-07-25 tools-suite install) — see navbar.tsx's identical note. */}
+              {/* Hardcoded label, not routed through next-intl "nav" messages,
+                  (2026-07-25 tools-suite install), see navbar.tsx's identical note. */}
               <li>
                 <Link href="/hesaplama-araclari" className="text-xs text-muted hover:text-foreground transition-colors">
                   Hesaplama Araçları
@@ -81,6 +105,30 @@ export function Footer() {
           <div>
             <h4 className="text-xs font-semibold text-foreground mb-4">megis</h4>
             <p className="text-xs text-muted leading-relaxed">{t("description")}</p>
+          </div>
+        </div>
+
+        <div className="border-t border-border py-8">
+          <h4 className="text-xs font-semibold text-foreground mb-4">Araçlar</h4>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <ul className="space-y-3">
+              {footerToolsColumnA.map((tool) => (
+                <li key={tool.href}>
+                  <Link href={tool.href} className="text-xs text-muted hover:text-foreground transition-colors">
+                    {tool.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <ul className="space-y-3">
+              {footerToolsColumnB.map((tool) => (
+                <li key={tool.href}>
+                  <Link href={tool.href} className="text-xs text-muted hover:text-foreground transition-colors">
+                    {tool.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
 

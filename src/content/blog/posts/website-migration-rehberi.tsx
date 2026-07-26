@@ -130,14 +130,14 @@ export default function WebsiteMigrationRehberi() {
         Migration sonrasi trafik dususu yasanirsa, panik yapmadan sistematik bir yaklasim izleyin:
       </p>
       <ol>
-        <li>301 yonlendirmelerini tekrar kontrol edin — eksik veya hatali yonlendirmeler en yaygin nedendir.</li>
+        <li>301 yonlendirmelerini tekrar kontrol edin: eksik veya hatali yonlendirmeler en yaygin nedendir.</li>
         <li>404 raporlarini inceleyin ve eksik yonlendirmeleri hemen ekleyin.</li>
         <li>Robots.txt ve meta robots etiketlerinin sayfalari engellemedigini dogrulayin.</li>
         <li>Canonical etiketlerin dogru URL&apos;lere isaret ettigini kontrol edin.</li>
         <li>Yapilandirilmis verilerin hatasiz oldugunu dogrulayin.</li>
         <li>Ic baglanti yapisini inceleyin ve eski URL&apos;lere isaret eden linkleri guncelleyin.</li>
         <li>Google Search Console&apos;da manual aksiyon olup olmadigini kontrol edin.</li>
-        <li>Sabri olun — Google&apos;in yeni yapinizi tamamen islemesi 4-12 hafta surebilir.</li>
+        <li>Sabri olun: Google&apos;in yeni yapinizi tamamen islemesi 4-12 hafta surebilir.</li>
       </ol>
 
       <blockquote>

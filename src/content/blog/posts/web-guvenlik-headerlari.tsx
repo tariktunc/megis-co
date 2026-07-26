@@ -99,9 +99,9 @@ export default function WebGuvenlikHeaderlari() {
         X-Frame-Options headeri, sayfanizin baska siteler tarafindan iframe icine alinmasini kontrol eder. Clickjacking saldirilarina karsi temel koruma saglar. Clickjacking, saldirganlarin sitenizi gorunmez bir iframe icinde gostererek kullanicilarin bilmeden aksiyonlar almasini sagladigi bir saldiri turudur.
       </p>
       <ul>
-        <li><code>DENY</code> — Sayfaniz hicbir kosulda iframe icinde gosteruilemez.</li>
-        <li><code>SAMEORIGIN</code> — Sadece ayni alan adiindaki sayfalar iframe icinde gosterebilir.</li>
-        <li><code>ALLOW-FROM uri</code> — Belirtilen URI iframe icinde gosterebilir (modern tarayicilarda destegi siniirli).</li>
+        <li><code>DENY</code>: Sayfaniz hicbir kosulda iframe icinde gosteruilemez.</li>
+        <li><code>SAMEORIGIN</code>: Sadece ayni alan adiindaki sayfalar iframe icinde gosterebilir.</li>
+        <li><code>ALLOW-FROM uri</code>: Belirtilen URI iframe icinde gosterebilir (modern tarayicilarda destegi siniirli).</li>
       </ul>
       <p>
         Not: CSP&apos;nin <code>frame-ancestors</code> direktifi, X-Frame-Options&apos;in daha modern ve esnek alternatifidir. Her ikisini de kullanmaniz onerilir.
@@ -154,10 +154,10 @@ export default function WebGuvenlikHeaderlari() {
         Permissions-Policy (eski adiyla Feature-Policy), tarayici ozelliklerinin ve API&apos;lerin kullanimini kontrol eder:
       </p>
       <ul>
-        <li><code>camera=()</code> — Kamera erisimini engeller</li>
-        <li><code>microphone=()</code> — Mikrofon erisimini engeller</li>
-        <li><code>geolocation=(self)</code> — Konum erisimini sadece kendi sitenize sinirlar</li>
-        <li><code>payment=(self)</code> — Odeme API erisimini kontrol eder</li>
+        <li><code>camera=()</code>: Kamera erisimini engeller</li>
+        <li><code>microphone=()</code>: Mikrofon erisimini engeller</li>
+        <li><code>geolocation=(self)</code>: Konum erisimini sadece kendi sitenize sinirlar</li>
+        <li><code>payment=(self)</code>: Odeme API erisimini kontrol eder</li>
       </ul>
 
       <h3>X-DNS-Prefetch-Control</h3>

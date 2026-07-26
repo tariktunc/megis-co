@@ -63,7 +63,7 @@ export default function InstagramReklamRehberi() {
       <ul>
         <li>Tam ekran dikey deneyim (9:16 orani, 1080 x 1920 px)</li>
         <li>Gorsel veya 15 saniyeye kadar video</li>
-        <li>Yuksek dikkat orani — kullanici ekranin tamaminı gorur</li>
+        <li>Yuksek dikkat orani: kullanici ekranin tamaminı gorur</li>
         <li>Yukari kaydir (swipe-up) veya CTA butonu ile dogrudan yonlendirme</li>
         <li>Anket, emoji kaydirici, soru-cevap gibi interaktif ogeler kullanilabilir</li>
       </ul>
@@ -86,10 +86,10 @@ export default function InstagramReklamRehberi() {
         Reels reklamlarinda basari icin onemli noktalar:
       </p>
       <ol>
-        <li>Ilk 3 saniyede dikkat cekin — kullanici kaydirmadan once ilgisini yakalamalisiniz</li>
+        <li>Ilk 3 saniyede dikkat cekin: kullanici kaydirmadan once ilgisini yakalamalisiniz</li>
         <li>Trend sesleri ve muzikleri takip edin ve uygun olanlari kullanin</li>
         <li>Asiri cilali produksiyon yerine otantik ve dogal icerikler tercih edin</li>
-        <li>Dikey formati tam kullatin — yanlarina siyah seritler birakmayin</li>
+        <li>Dikey formati tam kullatin: yanlarina siyah seritler birakmayin</li>
         <li>Net bir CTA (harekete gecirici mesaj) ekleyin</li>
       </ol>
 
@@ -182,9 +182,9 @@ export default function InstagramReklamRehberi() {
       </ul>
       <h3>Video Kreatif Onerileri</h3>
       <ul>
-        <li>Sessiz izlemeye uygun tasarlayin — alt yazi ekleyin</li>
+        <li>Sessiz izlemeye uygun tasarlayin: alt yazi ekleyin</li>
         <li>Dikey format (9:16) onceliklendirin, ozellikle Reels ve Stories icin</li>
-        <li>Ilk 3 saniyeyi dikkat cekici yapın — soru sorun, sasirtici bir veri paylasın</li>
+        <li>Ilk 3 saniyeyi dikkat cekici yapın: soru sorun, sasirtici bir veri paylasın</li>
         <li>15-30 saniye arasi ideal video suresidir (reklam icin)</li>
         <li>Sonunda net bir CTA yer alsın</li>
       </ul>
@@ -244,7 +244,7 @@ export default function InstagramReklamRehberi() {
 
       <h3>Optimizasyon Kontrol Listesi</h3>
       <ol>
-        <li>Frekans 3&apos;u astiysa, kreatif yorgunlugu olabilir — yeni kreativler olusturun</li>
+        <li>Frekans 3&apos;u astiysa, kreatif yorgunlugu olabilir: yeni kreativler olusturun</li>
         <li>TO dusukse, reklam metni ve gorsellerinizi guncellığn</li>
         <li>Donusum orani dusukse, acilis sayfanizi optimize edin</li>
         <li>CPM yuksekse, kitle boyutunu genisletin veya hedeflemeyi ayarlayin</li>
@@ -253,7 +253,7 @@ export default function InstagramReklamRehberi() {
 
       <h2>Ileri Duzey Stratejiler</h2>
       <ul>
-        <li><strong>UGC (Kullanici Uretimli Icerik):</strong> Musterilerinizin urettigi icerikleri reklamlarda kullanin — otantiklik ve guven artisi saglar</li>
+        <li><strong>UGC (Kullanici Uretimli Icerik):</strong> Musterilerinizin urettigi icerikleri reklamlarda kullanin: otantiklik ve guven artisi saglar</li>
         <li><strong>Influencer Ortakligi:</strong> Branded Content reklamlari ile influencer iceriklerini reklam olarak yayinlayin</li>
         <li><strong>Dinamik Kreativler:</strong> Farkli gorsel, baslik ve CTA kombinasyonlarini otomatik test ettirin</li>
         <li><strong>Retargeting Serileri:</strong> Farkindalik, degerlendirme ve karar asamalarina ozel retargeting kampanyalari olusturun</li>

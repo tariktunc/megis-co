@@ -66,7 +66,7 @@ export default function PazaryeriEntegrasyonu() {
 
       <h2>3. Envanter Senkronizasyonu: Cok Kanallı Yonetimin Kalbi</h2>
       <p>
-        Birden fazla pazaryerinde satıs yapmanın en buyuk zorluklarından biri <strong>stok yonetimidir</strong>. Aynı urun farklı platformlarda satılıyorsa, bir kanalda yapılan satıs anında diger kanallara yansımalıdır — aksi halde fazla satıs (overselling) riski olusur.
+        Birden fazla pazaryerinde satıs yapmanın en buyuk zorluklarından biri <strong>stok yonetimidir</strong>. Aynı urun farklı platformlarda satılıyorsa, bir kanalda yapılan satıs anında diger kanallara yansımalıdır: aksi halde fazla satıs (overselling) riski olusur.
       </p>
       <h3>Merkezi Envanter Yonetimi Yaklasimlari</h3>
       <ol>

@@ -96,7 +96,7 @@ export default function IcerikPazarlamaRehberi() {
 
       <h2>4. Icerik Dagıtım Kanalları</h2>
       <p>
-        Harika bir icerik uretmek yeterli degildir — onu dogru kitleye ulastırmak da en az uretim kadar onemlidir. Icerik dagıtım kanalları uc kategoride incelenir:
+        Harika bir icerik uretmek yeterli degildir: onu dogru kitleye ulastırmak da en az uretim kadar onemlidir. Icerik dagıtım kanalları uc kategoride incelenir:
       </p>
       <h3>Sahip Olunan Kanallar (Owned Media)</h3>
       <ul>

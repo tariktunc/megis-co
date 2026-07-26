@@ -160,13 +160,13 @@ Megis olarak önce ölçüm altyapınızı kusursuz hale getiriyoruz. Google Tag
       }}
       caseStudies={[
         {
-          title: "E-Ticaret — ROAS 1.2x'ten 4.8x'e",
+          title: "E-Ticaret: ROAS 1.2x'ten 4.8x'e",
           challenge: "Aylık 50.000 TL reklam bütçesi harcayan e-ticaret sitesi ROAS 1.2x ile zarar ediyordu. Conversion tracking eksikti, remarketing listeleri yoktu, bid stratejisi manuel ve tutarsızdı. Hangi kampanyanın satış getirdiğini bilmiyorlardı.",
           solution: "GTM ile tüm conversion pixel'leri yeniden kuruldu ve doğrulandı. Enhanced conversions aktif edildi. Dynamic remarketing kampanyaları oluşturuldu. Heatmap analizi ile landing page optimize edildi. Smart bidding (Target ROAS) stratejisine geçildi. A/B testlerle reklam metinleri ve landing page iyileştirildi.",
           result: "90 günde ROAS 1.2x'ten 4.8x'e çıktı. Aynı bütçe ile satış geliri 4 katına yükseldi. CPA %62 düştü. Sepet terk oranı remarketing ile %35 azaldı. Landing page conversion rate A/B testlerle %180 arttı.",
         },
         {
-          title: "B2B SaaS — Lead Başına Maliyet %70 Düştü",
+          title: "B2B SaaS: Lead Başına Maliyet %70 Düştü",
           challenge: "B2B SaaS şirketi Google Ads'te lead başına 450 TL ödüyordu ama lead kalitesi düşüktü. Demo talebi formu conversion olarak izlenmiyordu, UTM tracking yoktu, hangi anahtar kelimenin kaliteli lead getirdiğini bilemiyorlardı.",
           solution: "GTM ile form submit, demo talebi ve pricing page görüntülemesi event olarak tanımlandı. Offline conversion import ile CRM'deki kapanan fırsatlar Google Ads'e aktarıldı. UTM stratejisi ile kanal bazlı attribution kuruldu. Anahtar kelime listesi kaliteli lead verisine göre yeniden yapılandırıldı. Lookalike audience ile hedef kitle genişletildi.",
           result: "6 ayda lead başına maliyet 450 TL'den 135 TL'ye düştü (%70 azalma). Lead kalitesi skoru %85 arttı. Demo'dan müşteriye dönüşüm oranı %12'den %28'e çıktı. Aylık pipeline değeri 3.5x büyüdü.",

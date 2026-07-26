@@ -1,5 +1,5 @@
 // src/app/legal-sitemap.xml/route.ts
-// Otomatik üretildi — /webforge-sitemap (v2.1)
+// Otomatik üretildi, /webforge-sitemap (v2.1)
 // Adapter: legal
 
 import { legalAdapter } from "@/lib/sitemap/adapters/legal";

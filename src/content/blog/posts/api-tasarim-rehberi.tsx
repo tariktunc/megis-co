@@ -16,7 +16,7 @@ export default function ApiTasarimRehberi() {
       <ul>
         <li><strong>Isim kullanin, fiil degil:</strong> <code>/kullanicilar</code> dogru, <code>/kullanicilariGetir</code> yanlis. Eylem, HTTP metodu ile belirtilir.</li>
         <li><strong>Cogul isimler kullanin:</strong> <code>/urunler</code>, <code>/siparisler</code>, <code>/kullanicilar</code>. Tutarlilik saglar.</li>
-        <li><strong>Hiyerarsik yapiyi yansistin:</strong> <code>/kullanicilar/123/siparisler</code> — 123 numarali kullanicinin siparisleri. Ikiden fazla ic ice gecmeyi (nesting) genellikle tercih etmeyin.</li>
+        <li><strong>Hiyerarsik yapiyi yansistin:</strong> <code>/kullanicilar/123/siparisler</code>: 123 numarali kullanicinin siparisleri. Ikiden fazla ic ice gecmeyi (nesting) genellikle tercih etmeyin.</li>
         <li><strong>Kucuk harf ve tire kullanin:</strong> <code>/blog-yazilari</code> seklinde. Alt cizgi veya camelCase kullanmayin.</li>
         <li><strong>URL sonundaki egiik cizgi tutarli olsun:</strong> Ya tum endpoint&apos;lerde kullanin ya da hicbirinde. Yonlendirme ile tutarlilik saglayin.</li>
         <li><strong>Dosya uzantisi eklemeyin:</strong> <code>/kullanicilar.json</code> yerine, <code>Accept</code> basligiyla icerik turunu belirtin.</li>

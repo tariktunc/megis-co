@@ -29,12 +29,12 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       subtitle="ChatGPT, Claude, Perplexity ve Gemini gibi yapay zeka arama motorlarında markanızın görünür olmasını sağlıyoruz. llms.txt, AI-dostu içerik yapısı, entity markup ve citation takibi ile yeni nesil arama sonuçlarında yer alın."
       introduction="Generative Engine Optimization (GEO), arama motorlarının ötesinde yapay zeka tabanlı arama platformlarında görünür olmayı hedefleyen yeni nesil bir optimizasyon disiplinidir. Artık kullanıcılar yalnızca Google'da aramıyorlar. ChatGPT, Claude, Perplexity, Gemini ve Copilot gibi AI asistanlarına soru soruyor ve doğrudan cevap alıyorlar.
 
-Geleneksel SEO, web sayfalarınızı arama motoru sonuç sayfalarında (SERP) üst sıralara taşımaya odaklanır. Ancak AI arama motorları farklı çalışır. Büyük dil modelleri (LLM'ler) içeriği tarar, anlamlandırır ve kullanıcıya doğrudan bir cevap üretir — genellikle tek bir kaynak göstermeden. Eğer içerik yapınız AI'in anlayabileceği formatta değilse, markanız bu cevaplarda yer alamaz.
+Geleneksel SEO, web sayfalarınızı arama motoru sonuç sayfalarında (SERP) üst sıralara taşımaya odaklanır. Ancak AI arama motorları farklı çalışır. Büyük dil modelleri (LLM'ler) içeriği tarar, anlamlandırır ve kullanıcıya doğrudan bir cevap üretir, genellikle tek bir kaynak göstermeden. Eğer içerik yapınız AI'in anlayabileceği formatta değilse, markanız bu cevaplarda yer alamaz.
 
 Megis olarak GEO'yu Türkiye'nin ilk uzmanlaşmış ajanslarından biri olarak sunuyoruz. llms.txt dosyası oluşturmadan entity markup'a, FAQ ve HowTo schema'dan AI citation takibine kadar bütünsel bir strateji uyguluyoruz. Amacımız markanızı AI arama sonuçlarında güvenilir bir kaynak haline getirmek ve bu yeni ekosistemdeki görünürlüğünüzü ölçülebilir şekilde artırmaktır."
       whyMatters={{
         title: "GEO neden bu kadar önemli?",
-        description: "Arama davranışları kökeninden değişiyor. Gartner'ın araştırmalarına göre 2026 sonuna kadar geleneksel arama motoru trafiğinde %25 düşüş bekleniyor. Kullanıcılar artık karmaşık sorularını AI asistanlarına soruyor ve doğrudan cevaplanmış, özetlenmiş sonuçları tercih ediyor. Bu devasa değişim, dijital görünürlüğünüzü korumak için yeni stratejiler gerektirir.\n\nAI arama motorları içerik seçerken belirli kriterlere bakar: yapısal netlik, kaynak güvenilirliği, entity tanınırlığı ve atıf verilebilirlik. Eğer siteniz bu kriterleri karşılamıyorsa, AI modelleri rakiplerinizi kaynak olarak tercih edecektir. GEO tam da bu noktada devreye girer — içerik yapınızı, teknik altyapınızı ve semantik işaretlemenizi AI'in anlayabileceği formata dönüştürür.\n\nGEO, SEO'nun yerine geçmez; onu tamamlar. Geleneksel SEO ile organik arama trafiği korurken, GEO ile AI platformlarındaki görünürlüğünüzü yakalarsınız. Erken hareket eden markalar bu yeni ekosistemin otoritelerini şimdiden inşa ediyor. 2026'da GEO'ya yatırım yapmayan işletmeler, 2015'te SEO'yu göz ardı edenlerle aynı kaderi paylaşacak."
+        description: "Arama davranışları kökeninden değişiyor. Gartner'ın araştırmalarına göre 2026 sonuna kadar geleneksel arama motoru trafiğinde %25 düşüş bekleniyor. Kullanıcılar artık karmaşık sorularını AI asistanlarına soruyor ve doğrudan cevaplanmış, özetlenmiş sonuçları tercih ediyor. Bu devasa değişim, dijital görünürlüğünüzü korumak için yeni stratejiler gerektirir.\n\nAI arama motorları içerik seçerken belirli kriterlere bakar: yapısal netlik, kaynak güvenilirliği, entity tanınırlığı ve atıf verilebilirlik. Eğer siteniz bu kriterleri karşılamıyorsa, AI modelleri rakiplerinizi kaynak olarak tercih edecektir. GEO tam da bu noktada devreye girer: içerik yapınızı, teknik altyapınızı ve semantik işaretlemenizi AI'in anlayabileceği formata dönüştürür.\n\nGEO, SEO'nun yerine geçmez; onu tamamlar. Geleneksel SEO ile organik arama trafiği korurken, GEO ile AI platformlarındaki görünürlüğünüzü yakalarsınız. Erken hareket eden markalar bu yeni ekosistemin otoritelerini şimdiden inşa ediyor. 2026'da GEO'ya yatırım yapmayan işletmeler, 2015'te SEO'yu göz ardı edenlerle aynı kaderi paylaşacak."
       }}
       stats={[
         { value: "%40", label: "Kullanıcıların AI arama kullanan oranı (2026)" },
@@ -69,7 +69,7 @@ Megis olarak GEO'yu Türkiye'nin ilk uzmanlaşmış ajanslarından biri olarak s
         },
         {
           title: "Rakip GEO Analizi",
-          description: "Sektörünüzdeki rakiplerin AI arama platformlarındaki görünürlüğünü analiz ediyoruz. Hangi rakipler hangi sorgularda referans veriliyor, hangi içerik yapıları başarılı, hangi schema markup'lar kullanıyor — bu verileri kendi stratejimizde kullanıyoruz."
+          description: "Sektörünüzdeki rakiplerin AI arama platformlarındaki görünürlüğünü analiz ediyoruz. Hangi rakipler hangi sorgularda referans veriliyor, hangi içerik yapıları başarılı, hangi schema markup'lar kullanıyor. Bu verileri kendi stratejimizde kullanıyoruz."
         },
         {
           title: "AI Platformlarına Özel Strateji",
@@ -114,7 +114,7 @@ Megis olarak GEO'yu Türkiye'nin ilk uzmanlaşmış ajanslarından biri olarak s
       process={[
         {
           title: "AI Görünürlük Denetimi",
-          description: "Markanızın ChatGPT, Claude, Perplexity ve Gemini'deki mevcut görünürlüğünü ölçüyoruz. Sektörünüzle ilgili 50+ sorguda AI cevaplarını analiz ediyoruz. Hangi rakipler referans veriliyor, sizin markanız nerede eksik — detaylı bir durum raporu çıkarıyoruz."
+          description: "Markanızın ChatGPT, Claude, Perplexity ve Gemini'deki mevcut görünürlüğünü ölçüyoruz. Sektörünüzle ilgili 50+ sorguda AI cevaplarını analiz ediyoruz. Hangi rakipler referans veriliyor, sizin markanız nerede eksik. Detaylı bir durum raporu çıkarıyoruz."
         },
         {
           title: "GEO Strateji ve Yol Haritası",
@@ -160,13 +160,13 @@ Megis olarak GEO'yu Türkiye'nin ilk uzmanlaşmış ajanslarından biri olarak s
       }}
       caseStudies={[
         {
-          title: "B2B SaaS — AI Aramalarında %320 Görünürlük Artışı",
+          title: "B2B SaaS: AI Aramalarında %320 Görünürlük Artışı",
           challenge: "Proje yönetim yazılımı sunan SaaS şirketi Google'da iyi sıralanıyordu ancak ChatGPT ve Perplexity sorgularında hiç görünmüyordu. Rakipler AI cevaplarında sürekli referans verilirken, marka tamamen görmezden geliniyordu.",
           solution: "Kapsamlı llms.txt dosyası oluşturuldu. 40+ sayfa AI-dostu formata dönüştürüldü. FAQ ve HowTo schema tüm hizmet ve blog sayfalarına eklendi. Entity markup ile marka, kurucu ve ürünler semantik olarak tanımlandı.",
           result: "90 günde AI platformlarındaki görünürlük %320 arttı. Perplexity'de hedef sorguların %45'inde kaynak olarak gösterildi. ChatGPT'den gelen organik trafik aylık 0'dan 2.400 benzersiz ziyaretçiye ulaştı.",
         },
         {
-          title: "E-Ticaret Markası — Perplexity ve Gemini'de Otorite Konumu",
+          title: "E-Ticaret Markası: Perplexity ve Gemini'de Otorite Konumu",
           challenge: "Türkiye'nin önde gelen organik gıda markası, AI arama platformlarında hiç yer almıyordu. Ürün önerileri sorgularında rakip markalar sürekli referans verilirken, 15 yıllık marka bilinirliğine rağmen AI ekosisteminde görünmez durumdaydı.",
           solution: "Tüm ürün sayfalarına Product ve Brand schema eklendi. llms.txt ile ürün kategorileri, kalite sertifikaları ve marka hikayesi yapısal olarak tanımlandı. 25+ blog içeriği AI-dostu formata dönüştürüldü. Wikidata entegrasyonu ile entity tanınırlığı güçlendirildi.",
           result: "120 günde Perplexity'de 'en iyi organik gıda' sorgularının %60'ında kaynak olarak göründü. Gemini ürün önerileri sonuçlarında ilk 3'te yer aldı. AI kaynaklı trafik toplam organik trafiğin %12'sine ulaştı.",
@@ -175,7 +175,7 @@ Megis olarak GEO'yu Türkiye'nin ilk uzmanlaşmış ajanslarından biri olarak s
       faqs={[
         {
           question: "GEO nedir ve SEO'dan farkı ne?",
-          answer: "GEO (Generative Engine Optimization), ChatGPT, Claude, Perplexity ve Gemini gibi yapay zeka tabanlı arama platformlarında görünür olmayı hedefleyen bir optimizasyon disiplinidir. SEO arama motoru sonuç sayfalarında (SERP) sıralama hedeflerken, GEO AI'in ürettiği cevaplarda kaynak olarak referans verilmeyi hedefler. SEO'da amaç linklere tıklatmak, GEO'da amaç AI cevaplarında markanızın güvenilir bir kaynak olarak gösterilmesidir. İkisi birbirini tamamlar — ikisini birlikte uygulamak en etkili stratejidir.",
+          answer: "GEO (Generative Engine Optimization), ChatGPT, Claude, Perplexity ve Gemini gibi yapay zeka tabanlı arama platformlarında görünür olmayı hedefleyen bir optimizasyon disiplinidir. SEO arama motoru sonuç sayfalarında (SERP) sıralama hedeflerken, GEO AI'in ürettiği cevaplarda kaynak olarak referans verilmeyi hedefler. SEO'da amaç linklere tıklatmak, GEO'da amaç AI cevaplarında markanızın güvenilir bir kaynak olarak gösterilmesidir. İkisi birbirini tamamlar; ikisini birlikte uygulamak en etkili stratejidir.",
         },
         {
           question: "llms.txt dosyası nedir ve ne işe yarar?",
@@ -183,7 +183,7 @@ Megis olarak GEO'yu Türkiye'nin ilk uzmanlaşmış ajanslarından biri olarak s
         },
         {
           question: "GEO sonuçları ne kadar sürede görülür?",
-          answer: "GEO sonuçları genellikle 60-90 gün içinde görülmeye başlar. İlk 15 günde teknik altyapı (llms.txt, schema markup) tamamlanır. 30 günde içerik dönüşümü yapılır. 60 gün civarında ilk AI citation'lar görülmeye başlar. 90 günde ölçülebilir görünürlük artışı elde edilir. Ancak AI platformları içerik indekslemesini farklı hızlarda yapar — Perplexity daha hızlı sonuç verirken, ChatGPT'nin eğitim verileri daha yavaş güncellenir.",
+          answer: "GEO sonuçları genellikle 60-90 gün içinde görülmeye başlar. İlk 15 günde teknik altyapı (llms.txt, schema markup) tamamlanır. 30 günde içerik dönüşümü yapılır. 60 gün civarında ilk AI citation'lar görülmeye başlar. 90 günde ölçülebilir görünürlük artışı elde edilir. Ancak AI platformları içerik indekslemesini farklı hızlarda yapar: Perplexity daha hızlı sonuç verirken, ChatGPT'nin eğitim verileri daha yavaş güncellenir.",
         },
         {
           question: "Hangi AI platformlarında görünürlük sağlıyorsunuz?",
@@ -199,7 +199,7 @@ Megis olarak GEO'yu Türkiye'nin ilk uzmanlaşmış ajanslarından biri olarak s
         },
         {
           question: "GEO ve AIO/LLMO arasındaki fark nedir?",
-          answer: "GEO, AI arama platformlarında kaynak olarak görünmeyi hedefler — yani AI'in ürettiği cevaplarda markanızın referans verilmesini sağlar. AIO/LLMO ise AI botlarının sitenize erişimini yönetmeyi, hangi içeriğin AI tarafından kullanılabileceğini kontrol etmeyi ve markanızın AI bilgi grafındaki temsilini optimize etmeyi kapsar. Kısa özet: GEO 'AI sonuçlarında görün', AIO/LLMO 'AI'in seni nasıl gördüğünü kontrol et'. Megis olarak her iki hizmeti entegre şekilde sunuyoruz.",
+          answer: "GEO, AI arama platformlarında kaynak olarak görünmeyi hedefler, yani AI'in ürettiği cevaplarda markanızın referans verilmesini sağlar. AIO/LLMO ise AI botlarının sitenize erişimini yönetmeyi, hangi içeriğin AI tarafından kullanılabileceğini kontrol etmeyi ve markanızın AI bilgi grafındaki temsilini optimize etmeyi kapsar. Kısa özet: GEO 'AI sonuçlarında görün', AIO/LLMO 'AI'in seni nasıl gördüğünü kontrol et'. Megis olarak her iki hizmeti entegre şekilde sunuyoruz.",
         },
       ]}
       cta="Ücretsiz AI Görünürlük Analizi Alın"

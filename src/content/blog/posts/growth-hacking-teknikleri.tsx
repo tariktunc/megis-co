@@ -8,7 +8,7 @@ export default function GrowthHackingTeknikleri() {
 
       <h2>1. Growth Hacking Nedir?</h2>
       <p>
-        Sean Ellis tarafından 2010 yılında popülerleştirilen growth hacking, tek bir amaca — <strong>büyüme</strong> — odaklanan ve bunu kanıt bazlı deneylerle gerçekleştiren bir yöntemdir. Geleneksel pazarlamadan farkı şudur:
+        Sean Ellis tarafından 2010 yılında popülerleştirilen growth hacking, tek bir amaca (<strong>büyüme</strong>) odaklanan ve bunu kanıt bazlı deneylerle gerçekleştiren bir yöntemdir. Geleneksel pazarlamadan farkı şudur:
       </p>
       <table>
         <thead>
@@ -67,9 +67,9 @@ export default function GrowthHackingTeknikleri() {
         Viral döngü, mevcut kullanıcıların ürünü kullanarak doğal olarak yeni kullanıcılar getirmesini sağlayan mekanizmadır. Başarılı viral döngü örnekleri:
       </p>
       <ul>
-        <li><strong>Doğal viral döngü:</strong> Ürünün kullanımı başkalarına gösterilmesini gerektirir. Örnek: WhatsApp — mesajlaşmak için karşı tarafın da uygulamayı yüklemesi gerekir.</li>
-        <li><strong>Teşvikli viral döngü:</strong> Paylaşım karşılığında ödül verilir. Örnek: Uber'in referans kodu — hem davet eden hem de davet edilen indirim alır.</li>
-        <li><strong>İçerik viral döngüsü:</strong> Kullanıcının oluşturduğu içerik paylaşılır. Örnek: Canva — tasarımlar paylaşıldığında Canva logosu görünür.</li>
+        <li><strong>Doğal viral döngü:</strong> Ürünün kullanımı başkalarına gösterilmesini gerektirir. Örnek: WhatsApp, mesajlaşmak için karşı tarafın da uygulamayı yüklemesi gerekir.</li>
+        <li><strong>Teşvikli viral döngü:</strong> Paylaşım karşılığında ödül verilir. Örnek: Uber'in referans kodu, hem davet eden hem de davet edilen indirim alır.</li>
+        <li><strong>İçerik viral döngüsü:</strong> Kullanıcının oluşturduğu içerik paylaşılır. Örnek: Canva, tasarımlar paylaşıldığında Canva logosu görünür.</li>
         <li><strong>Gömülü viral döngü:</strong> Ürün başka platformlarda görünür. Örnek: "Sent from iPhone" imzası veya YouTube gömülü videoları.</li>
       </ul>
 
@@ -101,7 +101,7 @@ export default function GrowthHackingTeknikleri() {
       </p>
       <ul>
         <li><strong>Ücretsiz deneyim sunun:</strong> Freemium model veya ücretsiz deneme süresi ile kullanıcının ürünü risksiz denemesini sağlayın.</li>
-        <li><strong>"Aha anı"nı hızlandırın:</strong> Kullanıcının ürünün değerini ilk dakikalarda görmesini sağlayan onboarding akışı oluşturun. Örnek: Slack — ilk mesajın gönderilmesi.</li>
+        <li><strong>"Aha anı"nı hızlandırın:</strong> Kullanıcının ürünün değerini ilk dakikalarda görmesini sağlayan onboarding akışı oluşturun. Örnek: Slack, ilk mesajın gönderilmesi.</li>
         <li><strong>Self-servis satış:</strong> Kullanıcının satış ekibiyle konuşmadan plan yükseltme yapabilmesini sağlayın.</li>
         <li><strong>Ürün içi viral mekanizmalar:</strong> İşbirliği özellikleri, paylaşım butonları ve davet akışları ürünün doğal parçası olsun.</li>
         <li><strong>Kullanım verisiyle satış tetikleme:</strong> Ücretsiz kullanıcının limit aşımına yaklaşması veya aktif kullanımı artması durumunda otomatik upgrade önerileri gösterin.</li>
@@ -143,21 +143,21 @@ export default function GrowthHackingTeknikleri() {
 
       <h3>Haftalık Deney Döngüsü</h3>
       <ol>
-        <li><strong>Pazartesi — Hipotez oluşturma:</strong> Veri analizinden çıkan içgörülere dayalı hipotez yazın. "Kayıt formundaki adım sayısını 3'ten 1'e düşürürsek, tamamlama oranı %30 artar."</li>
-        <li><strong>Salı — Tasarım ve geliştirme:</strong> Deneyin teknik implementasyonunu yapın.</li>
-        <li><strong>Çarşamba — Lansman:</strong> Deneyi başlatın, A/B testini aktif edin.</li>
-        <li><strong>Perşembe-Cuma — Veri toplama:</strong> Yeterli örneklem boyutuna ulaşana kadar veri biriktirin.</li>
-        <li><strong>Pazartesi — Analiz ve karar:</strong> Sonuçları değerlendirin: kazanan varyantı ölçeklendirin veya öğrendiklerinizi belgelendirip sıradaki deneye geçin.</li>
+        <li><strong>Pazartesi, Hipotez oluşturma:</strong> Veri analizinden çıkan içgörülere dayalı hipotez yazın. "Kayıt formundaki adım sayısını 3'ten 1'e düşürürsek, tamamlama oranı %30 artar."</li>
+        <li><strong>Salı, Tasarım ve geliştirme:</strong> Deneyin teknik implementasyonunu yapın.</li>
+        <li><strong>Çarşamba, Lansman:</strong> Deneyi başlatın, A/B testini aktif edin.</li>
+        <li><strong>Perşembe-Cuma, Veri toplama:</strong> Yeterli örneklem boyutuna ulaşana kadar veri biriktirin.</li>
+        <li><strong>Pazartesi, Analiz ve karar:</strong> Sonuçları değerlendirin: kazanan varyantı ölçeklendirin veya öğrendiklerinizi belgelendirip sıradaki deneye geçin.</li>
       </ol>
 
       <h2>7. Growth Hacking Araçları</h2>
       <ul>
-        <li><strong>Analitik:</strong> Mixpanel, Amplitude, Google Analytics 4 — kullanıcı davranış analizi.</li>
-        <li><strong>A/B Test:</strong> Optimizely, VWO, Google Optimize — deneyler için.</li>
-        <li><strong>Kullanıcı geri bildirimi:</strong> Hotjar, FullStory — ısı haritaları ve oturum kayıtları.</li>
-        <li><strong>Referans programı:</strong> ReferralCandy, Viral Loops — referans programı altyapısı.</li>
-        <li><strong>E-posta otomasyon:</strong> Customer.io, Intercom — davranış bazlı iletişim.</li>
-        <li><strong>Proje yönetimi:</strong> Notion, Trello — deney backlog yönetimi.</li>
+        <li><strong>Analitik:</strong> Mixpanel, Amplitude, Google Analytics 4: kullanıcı davranış analizi.</li>
+        <li><strong>A/B Test:</strong> Optimizely, VWO, Google Optimize: deneyler için.</li>
+        <li><strong>Kullanıcı geri bildirimi:</strong> Hotjar, FullStory: ısı haritaları ve oturum kayıtları.</li>
+        <li><strong>Referans programı:</strong> ReferralCandy, Viral Loops: referans programı altyapısı.</li>
+        <li><strong>E-posta otomasyon:</strong> Customer.io, Intercom: davranış bazlı iletişim.</li>
+        <li><strong>Proje yönetimi:</strong> Notion, Trello: deney backlog yönetimi.</li>
       </ul>
 
       <h2>8. Yaygın Growth Hacking Hataları</h2>

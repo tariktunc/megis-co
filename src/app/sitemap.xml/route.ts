@@ -1,6 +1,6 @@
 // src/app/sitemap.xml/route.ts
-// Otomatik üretildi — /webforge-sitemap (v2.1)
-// INDEX (sitemapindex) — alt-sitemap'leri listeler.
+// Otomatik üretildi, /webforge-sitemap (v2.1)
+// INDEX (sitemapindex): alt-sitemap'leri listeler.
 
 import { adapters } from "@/lib/sitemap/registry";
 import {

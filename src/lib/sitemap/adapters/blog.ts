@@ -1,5 +1,5 @@
 // src/lib/sitemap/adapters/blog.ts
-// Otomatik üretildi — /webforge-sitemap (v2.1)
+// Otomatik üretildi, /webforge-sitemap (v2.1)
 // Route: /blog/[slug]
 // Filename: blog-sitemap.xml
 // Veri kaynağı: (manuel: blog veri kaynağını ekle)

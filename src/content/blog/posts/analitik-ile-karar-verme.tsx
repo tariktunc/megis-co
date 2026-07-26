@@ -20,7 +20,7 @@ export default function AnalitikIleKararVerme() {
 
       <h2>2. Doğru KPI'ları Belirleme</h2>
       <p>
-        KPI (Key Performance Indicator — Anahtar Performans Göstergesi), işletmenizin stratejik hedeflerine ne kadar yaklaştığını ölçen metriklerdir. Doğru KPI seçimi, veri odaklı kararların kalitesini doğrudan etkiler.
+        KPI (Key Performance Indicator: Anahtar Performans Göstergesi), işletmenizin stratejik hedeflerine ne kadar yaklaştığını ölçen metriklerdir. Doğru KPI seçimi, veri odaklı kararların kalitesini doğrudan etkiler.
       </p>
       <h3>Etkili KPI Özellikleri</h3>
       <ul>
@@ -99,7 +99,7 @@ export default function AnalitikIleKararVerme() {
 
       <h2>5. Aksiyona Dönüştürülebilir Analitik</h2>
       <p>
-        Veri toplamak ve görselleştirmek başlı başına değer yaratmaz — veriyi aksiyona dönüştürmek gerekir. İşte aksiyona dönüştürülebilir analitik yaklaşımının temel ilkeleri:
+        Veri toplamak ve görselleştirmek başlı başına değer yaratmaz. Veriyi aksiyona dönüştürmek gerekir. İşte aksiyona dönüştürülebilir analitik yaklaşımının temel ilkeleri:
       </p>
       <ol>
         <li><strong>Soruyla başlayın:</strong> "Elimde hangi veri var?" yerine "Hangi soruyu yanıtlamam gerekiyor?" sorusuyla başlayın. Soru belirlenince veri arayışı odaklanır.</li>
@@ -170,7 +170,7 @@ export default function AnalitikIleKararVerme() {
 
       <h2>Sonuç</h2>
       <p>
-        Veri odaklı karar verme, modern işletmelerin rekabet avantajı kazanması için olmazsa olmazdır. Veri kültürünü organizasyona yaymak, doğru KPI'ları belirlemek, etkili dashboard'lar tasarlamak ve GA4 gibi araçlardan maksimum fayda sağlamak, bu yolculuğun temel adımlarıdır. Veriyi toplamakla yetinmeyin — her veri noktasını bir aksiyona dönüştürecek süreçler kurun. Sürekli test, öğrenme ve iyileştirme döngüsüyle veri odaklı karar vermeyi işletmenizin DNA'sına işleyin.
+        Veri odaklı karar verme, modern işletmelerin rekabet avantajı kazanması için olmazsa olmazdır. Veri kültürünü organizasyona yaymak, doğru KPI'ları belirlemek, etkili dashboard'lar tasarlamak ve GA4 gibi araçlardan maksimum fayda sağlamak, bu yolculuğun temel adımlarıdır. Veriyi toplamakla yetinmeyin: her veri noktasını bir aksiyona dönüştürecek süreçler kurun. Sürekli test, öğrenme ve iyileştirme döngüsüyle veri odaklı karar vermeyi işletmenizin DNA'sına işleyin.
       </p>
     </>
   );

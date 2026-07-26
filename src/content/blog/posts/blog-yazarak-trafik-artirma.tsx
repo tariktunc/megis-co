@@ -12,7 +12,7 @@ export default function BlogYazarakTrafikArtirma() {
       </p>
       <ul>
         <li><strong>Hedef kitle kimdir?</strong> Buyer persona'lar oluşturarak içeriklerinizi kimin için yazdığınızı netleştirin. Farklı aşamalardaki kullanıcılar (farkındalık, değerlendirme, karar) farklı içerik bekler.</li>
-        <li><strong>İş hedefleriniz nedir?</strong> Marka bilinirliği, lead generation, satış desteği veya müşteri eğitimi — blog'un birincil amacını belirleyin.</li>
+        <li><strong>İş hedefleriniz nedir?</strong> Marka bilinirliği, lead generation, satış desteği veya müşteri eğitimi: blog'un birincil amacını belirleyin.</li>
         <li><strong>Rakipleriniz ne yapıyor?</strong> Rakip blog'larını analiz edin. Hangi konularda yazıyorlar, ne sıklıkla yayınlıyorlar ve hangi içerikler en çok etkileşim alıyor?</li>
         <li><strong>Farklılaşma noktanız ne?</strong> Aynı konularda yazılmış yüzlerce içerik arasından sıyrılmak için özgün bakış açınızı, verilerinizi veya uzmanlığınızı öne çıkarın.</li>
       </ul>
@@ -133,7 +133,7 @@ export default function BlogYazarakTrafikArtirma() {
 
       <h2>6. İçerik Dağıtımı ve Promosyon</h2>
       <p>
-        Harika bir blog yazısı yazmak yetmez — onu doğru kitlelere ulaştırmanız da gerekir. İçerik dağıtım stratejinizi şu kanallarla çeşitlendirin:
+        Harika bir blog yazısı yazmak yetmez: onu doğru kitlelere ulaştırmanız da gerekir. İçerik dağıtım stratejinizi şu kanallarla çeşitlendirin:
       </p>
       <ul>
         <li><strong>E-posta pazarlama:</strong> Yeni blog yazılarını e-posta bülteninizle abonelerinize duyurun. Konu satırını dikkat çekici yazın ve içerikten bir özet sunun.</li>

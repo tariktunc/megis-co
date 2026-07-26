@@ -12,7 +12,7 @@ export default function GoogleMyBusinessOptimizasyonu() {
       </p>
       <h3>Zorunlu Bilgiler</h3>
       <ul>
-        <li><strong>İşletme adı:</strong> Resmi işletme adınızı kullanın. Anahtar kelime doldurmaktan kaçının — Google bunu spam olarak değerlendirir ve profilinizi askıya alabilir.</li>
+        <li><strong>İşletme adı:</strong> Resmi işletme adınızı kullanın. Anahtar kelime doldurmaktan kaçının: Google bunu spam olarak değerlendirir ve profilinizi askıya alabilir.</li>
         <li><strong>Adres:</strong> Fiziksel adresinizi tam ve doğru girin. Hizmet alanı işletmesi iseniz adres gizleyip hizmet bölgenizi tanımlayabilirsiniz.</li>
         <li><strong>Telefon numarası:</strong> Yerel alan kodu içeren bir telefon numarası tercih edin. Call tracking numarası kullanacaksanız bunu birincil numara olarak değil, ikincil olarak ekleyin.</li>
         <li><strong>Web sitesi:</strong> Ana sayfanız yerine, hizmet verdiğiniz bölgeye özel bir landing page varsa onu tercih edin.</li>
@@ -80,7 +80,7 @@ export default function GoogleMyBusinessOptimizasyonu() {
         <li><strong>Hızlı yanıt:</strong> Her yoruma 24-48 saat içinde yanıt verin. Olumlu yorumlara teşekkür edin, olumsuz yorumlara profesyonel ve çözüm odaklı yaklaşın.</li>
         <li><strong>Olumsuz yorum yönetimi:</strong> Olumsuz bir yorum aldığınızda savunmaya geçmeyin. Sorunu kabul edin, özür dileyin ve çözüm önerin. Gerekiyorsa iletişimi özel kanala taşıyın.</li>
         <li><strong>Sahte yorum tespiti:</strong> Rakiplerden gelen sahte olumsuz yorumları Google'a rapor edin. Politikaya aykırı yorumları kaldırma talebinde bulunun.</li>
-        <li><strong>Anahtar kelime zenginliği:</strong> Kullanıcılar yorumlarında hizmetlerinizle ilgili anahtar kelimeleri doğal olarak kullanır. Bu durum yerel SEO'nuzu güçlendirir — bu nedenle memnun müşterilerinizi detaylı yorum yazmaya teşvik edin.</li>
+        <li><strong>Anahtar kelime zenginliği:</strong> Kullanıcılar yorumlarında hizmetlerinizle ilgili anahtar kelimeleri doğal olarak kullanır. Bu durum yerel SEO'nuzu güçlendirir. Bu nedenle memnun müşterilerinizi detaylı yorum yazmaya teşvik edin.</li>
       </ul>
 
       <h2>5. Soru ve Yanıt (Q&A) Bölümü</h2>

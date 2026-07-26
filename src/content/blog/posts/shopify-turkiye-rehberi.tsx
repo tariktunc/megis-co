@@ -194,7 +194,7 @@ export default function ShopifyTurkiyeRehberi() {
 
       <h2>Sonuc</h2>
       <p>
-        Shopify, Turkiye pazarinda e-ticaret yapmak icin guclu ve esnek bir platformdur. Ancak platformun sunduqu evrensel ozelliklerin Turkiye'ye uyarlanmasi — yerli odeme entegrasyonu, vergi uyumlulugu, kargo cozumleri ve yasal gereklilikler — basari icin kritiktir. Bu rehberdeki adimlari takip ederek Shopify magazanizi Turkiye pazari icin optimize edebilir ve guvenli, uyumlu ve musteri odakli bir e-ticaret deneyimi sunabilirsiniz.
+        Shopify, Turkiye pazarinda e-ticaret yapmak icin guclu ve esnek bir platformdur. Ancak platformun sunduqu evrensel ozelliklerin Turkiye'ye uyarlanmasi (yerli odeme entegrasyonu, vergi uyumlulugu, kargo cozumleri ve yasal gereklilikler) basari icin kritiktir. Bu rehberdeki adimlari takip ederek Shopify magazanizi Turkiye pazari icin optimize edebilir ve guvenli, uyumlu ve musteri odakli bir e-ticaret deneyimi sunabilirsiniz.
       </p>
     </>
   );

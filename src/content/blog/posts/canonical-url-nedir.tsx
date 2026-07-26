@@ -102,8 +102,8 @@ export const metadata = {
           </tr>
           <tr>
             <td>Google uyumu</td>
-            <td>İpucu (hint) — göz ardı edilebilir</td>
-            <td>Direktif — genellikle uyulur</td>
+            <td>İpucu (hint): göz ardı edilebilir</td>
+            <td>Direktif: genellikle uyulur</td>
           </tr>
         </tbody>
       </table>

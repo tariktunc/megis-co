@@ -1,5 +1,5 @@
 // src/lib/sitemap/_legal-slugs.ts
-// SHARED constant — pages.ts ve legal.ts adapter'lari ayni listeyi kullanir.
+// SHARED constant, pages.ts ve legal.ts adapter'lari ayni listeyi kullanir.
 // Yeni yasal slug eklendiginde SADECE burayi guncelle (DRY).
 // Detay: webforge/specs/sitemap-format.md (Kural #9 + #41)
 
@@ -33,7 +33,7 @@ export const LEGAL_SLUGS = [
   "dsa-iletisim",
 ] as const;
 
-// Auth-gated / transactional slug'lar — sitemap'e GIRMEZ (Kural #9)
+// Auth-gated / transactional slug'lar: sitemap'e GIRMEZ (Kural #9)
 // Pages adapter bu listede olan klasorleri atlar.
 export const AUTH_GATED_SLUGS = [
   // Auth

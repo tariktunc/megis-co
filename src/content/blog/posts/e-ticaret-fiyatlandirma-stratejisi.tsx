@@ -182,7 +182,7 @@ export default function ETicaretFiyatlandirmaStratejisi() {
 
       <h2>Sonuc</h2>
       <p>
-        E-ticarette fiyatlandırma, tek seferlik bir karar degil surekli bir optimizasyon surecidir. Dinamik fiyatlandırma ile piyasaya uyum saglamak, psikolojik tekniklerle algıyı yonlendirmek, rakip analiziyle rekabetci kalmak ve deger bazlı yaklasımla karlılıgı korumak — hepsini bir arada uygulamak en saglikli sonucu verir. Veriye dayalı kararlar almak, fiyatlandırma araclarını etkin kullanmak ve surekli test etmek, e-ticaret isletmenizin karlılıgını surdurulebilir sekilde artırmanın anahtarıdır.
+        E-ticarette fiyatlandırma, tek seferlik bir karar degil surekli bir optimizasyon surecidir. Dinamik fiyatlandırma ile piyasaya uyum saglamak, psikolojik tekniklerle algıyı yonlendirmek, rakip analiziyle rekabetci kalmak ve deger bazlı yaklasımla karlılıgı korumak: hepsini bir arada uygulamak en saglikli sonucu verir. Veriye dayalı kararlar almak, fiyatlandırma araclarını etkin kullanmak ve surekli test etmek, e-ticaret isletmenizin karlılıgını surdurulebilir sekilde artırmanın anahtarıdır.
       </p>
     </>
   );

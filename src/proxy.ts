@@ -4,7 +4,7 @@ import { routing } from "./i18n/routing";
 
 const intlMiddleware = createMiddleware(routing);
 
-// WebForge Kural #41 — Canonical host (NEXT_PUBLIC_SITE_URL'den)
+// WebForge Kural #41: Canonical host (NEXT_PUBLIC_SITE_URL'den)
 const CANONICAL_HOST = (() => {
   const url = process.env.NEXT_PUBLIC_SITE_URL;
   if (!url) return null;
@@ -17,12 +17,12 @@ const CANONICAL_HOST = (() => {
 
 // "www." on ya da tarafta olabilir (host'ta olabilir cunku apex bu domainde
 // www'ya redirect ediyor; CANONICAL_HOST'ta olabilir baska bir site www'yu
-// canonical secmisse) — normalize edip oyle kiyasla, yoksa apex<->www
+// canonical secmisse), normalize edip oyle kiyasla, yoksa apex<->www
 // redirect zinciri olan HER production istegi "non-canonical" sanilip site
 // genelinde X-Robots-Tag: noindex, nofollow header'i basar (megis-co canli
 // regresyon, 2026-07-26: megis.co, www.megis.co'ya 308 redirect ediyor ama
 // CANONICAL_HOST "megis.co" idi, boylece www uzerinden gelen HER istek
-// noindex isaretleniyordu — meta robots/canonical dogruyken bile).
+// noindex isaretleniyordu, meta robots/canonical dogruyken bile).
 function stripWww(host: string): string {
   return host.replace(/^www\./, "");
 }
@@ -62,8 +62,8 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 301);
   }
 
-  // Route rename: /brand -> /marka (2026-07-25, site-builder/specs/brand-page.md
-  // — WebForge default slug). Locale-aware: default locale "tr" has no prefix,
+  // Route rename: /brand -> /marka (2026-07-25, site-builder/specs/brand-page.md,
+  // WebForge default slug). Locale-aware: default locale "tr" has no prefix,
   // "en" is prefixed (next-intl routing, see ./i18n/routing).
   if (pathname === "/brand" || pathname === "/en/brand") {
     const url = request.nextUrl.clone();
@@ -73,7 +73,7 @@ export function proxy(request: NextRequest) {
 
   const intlResponse = intlMiddleware(request);
 
-  // next-intl response her zaman NextResponse — header ekleyebiliriz
+  // next-intl response her zaman NextResponse, header ekleyebiliriz
   if (intlResponse instanceof NextResponse) {
     return applyNoindexIfNonCanonical(request, intlResponse);
   }

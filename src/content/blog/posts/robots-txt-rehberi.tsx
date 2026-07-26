@@ -177,8 +177,8 @@ Allow: /`}</code></pre>
         Robots.txt'te <code>*</code> ve <code>$</code> joker karakterleri kullanarak daha esnek kurallar oluşturabilirsiniz:
       </p>
       <ul>
-        <li><code>*</code> — Herhangi bir karakter dizisini eşleştirir</li>
-        <li><code>$</code> — URL'nin sonunu belirtir</li>
+        <li><code>*</code>: Herhangi bir karakter dizisini eşleştirir</li>
+        <li><code>$</code>: URL'nin sonunu belirtir</li>
       </ul>
       <pre><code>{`# Tüm .pdf dosyalarını engelle
 User-agent: *

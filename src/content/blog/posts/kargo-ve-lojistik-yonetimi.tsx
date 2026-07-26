@@ -76,7 +76,7 @@ export default function KargoVeLojistikYonetimi() {
 
       <h2>Fulfillment (Siparis Karsilama) Yonetimi</h2>
       <p>
-        Fulfillment, bir siparistirin alinmasindan teslim edilmesine kadar gecen tum sureci kapsar: stok yonetimi, siparis isleme, paketleme, etiketleme, kargoya verme ve teslimat takibi. Bu sureci kendiniz yonetebileceginiz gibi, dis kaynak (3PL — Third Party Logistics) sirkletlerine de devredebilirsiniz.
+        Fulfillment, bir siparistirin alinmasindan teslim edilmesine kadar gecen tum sureci kapsar: stok yonetimi, siparis isleme, paketleme, etiketleme, kargoya verme ve teslimat takibi. Bu sureci kendiniz yonetebileceginiz gibi, dis kaynak (3PL: Third Party Logistics) sirkletlerine de devredebilirsiniz.
       </p>
 
       <h3>Kendi Buyunuzde Fulfillment</h3>

@@ -105,10 +105,10 @@ export default function AiIleSeoIcerikStratejisi() {
       </p>
       <h3>Haftalık Editoryal Döngü</h3>
       <ol>
-        <li><strong>Pazartesi — Veri analizi:</strong> GA4 ve Search Console verilerini AI ile analiz edin. Hangi içeriklerin güncellenmesi gerektiğini, hangi yeni konuların fırsat sunduğunu belirleyin.</li>
-        <li><strong>Salı — Brief hazırlama:</strong> Yeni içerikler için AI destekli taslaklar oluşturun. Anahtar kelime kümeleri, başlık yapıları ve rekabet analizi sonuçlarını brieflere dahil edin.</li>
-        <li><strong>Çarşamba-Perşembe — Yazım:</strong> Yazarlar AI araçlarını yardımcı olarak kullanarak içerik üretir. Her yazar kendi uzmanlık alanına odaklanır.</li>
-        <li><strong>Cuma — İnceleme ve yayın:</strong> Editör AI destekli kalite kontrol araçlarıyla içeriği gözden geçirir. SEO kontrol listesini tamamladıktan sonra yayın planlanır.</li>
+        <li><strong>Pazartesi, Veri analizi:</strong> GA4 ve Search Console verilerini AI ile analiz edin. Hangi içeriklerin güncellenmesi gerektiğini, hangi yeni konuların fırsat sunduğunu belirleyin.</li>
+        <li><strong>Salı, Brief hazırlama:</strong> Yeni içerikler için AI destekli taslaklar oluşturun. Anahtar kelime kümeleri, başlık yapıları ve rekabet analizi sonuçlarını brieflere dahil edin.</li>
+        <li><strong>Çarşamba-Perşembe, Yazım:</strong> Yazarlar AI araçlarını yardımcı olarak kullanarak içerik üretir. Her yazar kendi uzmanlık alanına odaklanır.</li>
+        <li><strong>Cuma, İnceleme ve yayın:</strong> Editör AI destekli kalite kontrol araçlarıyla içeriği gözden geçirir. SEO kontrol listesini tamamladıktan sonra yayın planlanır.</li>
       </ol>
 
       <h2>6. AI İçerik Araçları Karşılaştırması</h2>

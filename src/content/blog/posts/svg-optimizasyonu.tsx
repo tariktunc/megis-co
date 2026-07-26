@@ -3,7 +3,7 @@ export default function SvgOptimizasyonu() {
     <>
       <h2>SVG Nedir ve Neden Kullanilir?</h2>
       <p>
-        <strong>SVG (Scalable Vector Graphics)</strong>, XML tabanli bir vektor grafik formatidir. Piksel tabanli formatlardan (PNG, JPEG, WebP) farkli olarak, SVG dosyalari matematiksel denklemlerle tanimlanan yollar, sekiller ve metinlerden olusur. Bu sayede herhangi bir boyuta olceklendiklerinde kalite kaybi yasamazlar — retina ekranlardan buyuk monitrore, mobilden masaustune her yerde net ve keskin gorunurler.
+        <strong>SVG (Scalable Vector Graphics)</strong>, XML tabanli bir vektor grafik formatidir. Piksel tabanli formatlardan (PNG, JPEG, WebP) farkli olarak, SVG dosyalari matematiksel denklemlerle tanimlanan yollar, sekiller ve metinlerden olusur. Bu sayede herhangi bir boyuta olceklendiklerinde kalite kaybi yasamazlar: retina ekranlardan buyuk monitrore, mobilden masaustune her yerde net ve keskin gorunurler.
       </p>
       <p>
         Web gelistirmede SVG, logolar, ikonlar, illustrasyonlar, grafikler, animasyonlar ve interaktif gorsel elemanlar icin vazgecilmez bir formattir. Dosya boyutlari genellikle bitmap alternatiflrine gore cok daha kucuktur, CSS ve JavaScript ile manipule edilebilir ve erisilebilirlik acisindan zengin secenekler sunar. Ancak SVG dosyalarinin dogru sekilde optimize edilmemesi, performans sorunlarina ve gereksiz buyuk dosya boyutlarina yol acabilir. Bu rehberde SVG optimizasyonunun tum yonlerini detayli olarak inceliyoruz.
@@ -98,7 +98,7 @@ export default function SvgOptimizasyonu() {
       </ul>
       <h3>Performans Ipuclari</h3>
       <ul>
-        <li><code>transform</code> ve <code>opacity</code> ozelliklerini tercih edin — bunlar GPU tarafindan hizlandirilir.</li>
+        <li><code>transform</code> ve <code>opacity</code> ozelliklerini tercih edin: bunlar GPU tarafindan hizlandirilir.</li>
         <li><code>will-change</code> CSS ozelligi ile tarayiciya animasyon yapilacagini onceden bildirin.</li>
         <li>Karmasik animasyonlar icin <code>requestAnimationFrame</code> kullanin.</li>
         <li>Cok sayida SVG animasyonu ayni anda calisiyorsa performansi izleyin.</li>

@@ -11,7 +11,7 @@ export default function DonusumOraniOptimizasyonuCro() {
         Donusum oranı, web sitenizi ziyaret edenlerin ne kadarının istenen aksiyonu (satın alma, form doldurma, uyelik vb.) gerceklestirdigini gosterir. CRO, bu oranı sistematik olarak artırma surecidir.
       </p>
       <ul>
-        <li><strong>Reklam maliyetini dusurur:</strong> Donusum oranınız %1'den %2'ye cıktıgında, aynı trafikle 2 kat daha fazla satıs elde edersiniz — reklam butcenizi artırmaya gerek kalmaz.</li>
+        <li><strong>Reklam maliyetini dusurur:</strong> Donusum oranınız %1'den %2'ye cıktıgında, aynı trafikle 2 kat daha fazla satıs elde edersiniz: reklam butcenizi artırmaya gerek kalmaz.</li>
         <li><strong>Musteri edinme maliyetini (CAC) azaltır:</strong> Aynı butceyle daha fazla musteri kazanırsınız.</li>
         <li><strong>Musteri deneyimini iyilestirir:</strong> CRO calısmaları genellikle kullanıcı deneyimindeki surtumeleri giderir, bu da musteri memnuniyetini artırır.</li>
         <li><strong>Rekabet avantajı saglar:</strong> Aynı trafikten daha fazla gelir elde eden isletme, daha agresif reklam butcesi ayırabilir.</li>
@@ -27,13 +27,13 @@ export default function DonusumOraniOptimizasyonuCro() {
         Basarılı CRO, rastgele degisiklikler yapmak degil, veriye dayalı sistematik bir surecyir. Bu surecin adımları:
       </p>
       <ol>
-        <li><strong>Veri toplama ve analiz:</strong> Mevcut performansı anlayın — nerede kayıp var, hangi sayfalarda cıkıs yuksek?</li>
+        <li><strong>Veri toplama ve analiz:</strong> Mevcut performansı anlayın: nerede kayıp var, hangi sayfalarda cıkıs yuksek?</li>
         <li><strong>Sorun tespiti:</strong> Kantitatif (analitik) ve kalitatif (kullanıcı arastırması) verilerle sorunları belirleyin.</li>
         <li><strong>Hipotez olusturma:</strong> "Eger X'i degistirirsem, Y metriginde Z kadar iyilesme olur cunku..." formatında hipotezler yazın.</li>
         <li><strong>Onceliklendirme:</strong> Hipotezleri etki, guven ve uygulama kolaylıgına gore sıralayın.</li>
         <li><strong>Test tasarımı ve uygulama:</strong> A/B testi veya diger test yontemleriyle hipotezi dogrulayın.</li>
         <li><strong>Analiz ve ogrenme:</strong> Test sonuclarını degerlendirin ve kazanan varyantı kalıcı hale getirin.</li>
-        <li><strong>Tekrarlama:</strong> Sureci surekli olarak tekrarlayın — CRO asla bitmez.</li>
+        <li><strong>Tekrarlama:</strong> Sureci surekli olarak tekrarlayın: CRO asla bitmez.</li>
       </ol>
 
       <h2>3. A/B Testi: CRO'nun Temel Araci</h2>

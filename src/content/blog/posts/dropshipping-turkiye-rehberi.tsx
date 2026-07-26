@@ -118,26 +118,26 @@ export default function DropshippingTurkiyeRehberi() {
       <h2>7. Avantajlar ve Dezavantajlar</h2>
       <h3>Avantajlar</h3>
       <ul>
-        <li>Dusuk baslangıc sermayesi — depo ve stok yatırımı gerektirmez</li>
-        <li>Konum bagimsızlık — internet erisimi olan her yerden yonetilebilir</li>
-        <li>Genis urun yelpazesi — stok riski olmadan binlerce urun listeleyebilirsiniz</li>
-        <li>Kolay olceklendirme — siparis hacmi arttıgında depo buyutme gibi sorunlar yasamazsınız</li>
-        <li>Dusuk operasyonel risk — satılmayan urunler icin zarar yazmazsınız</li>
+        <li>Dusuk baslangıc sermayesi: depo ve stok yatırımı gerektirmez</li>
+        <li>Konum bagimsızlık: internet erisimi olan her yerden yonetilebilir</li>
+        <li>Genis urun yelpazesi: stok riski olmadan binlerce urun listeleyebilirsiniz</li>
+        <li>Kolay olceklendirme: siparis hacmi arttıgında depo buyutme gibi sorunlar yasamazsınız</li>
+        <li>Dusuk operasyonel risk: satılmayan urunler icin zarar yazmazsınız</li>
       </ul>
       <h3>Dezavantajlar</h3>
       <ul>
-        <li>Dusuk kar marjları — aracı konumunda oldugunuz icin marjlar sınırlıdır</li>
-        <li>Kalite kontrolu zorlugu — urunu gormeden sattıgınız icin kalite sorunları yasanabilir</li>
-        <li>Teslimat suresi belirsizligi — ozellikle yurt dısı tedarikcilerde kargo gecikmeleri sık yasanır</li>
-        <li>Yogun rekabet — giris engeli dusuk oldugu icin rakip sayısı fazladır</li>
-        <li>Tedarikci bagimliligi — tedarikcinin stok tutmaması veya kalite dusurmesi dogrudan sizi etkiler</li>
+        <li>Dusuk kar marjları: aracı konumunda oldugunuz icin marjlar sınırlıdır</li>
+        <li>Kalite kontrolu zorlugu: urunu gormeden sattıgınız icin kalite sorunları yasanabilir</li>
+        <li>Teslimat suresi belirsizligi: ozellikle yurt dısı tedarikcilerde kargo gecikmeleri sık yasanır</li>
+        <li>Yogun rekabet: giris engeli dusuk oldugu icin rakip sayısı fazladır</li>
+        <li>Tedarikci bagimliligi: tedarikcinin stok tutmaması veya kalite dusurmesi dogrudan sizi etkiler</li>
       </ul>
 
       <h2>8. Basarı Icin Kritik Ipucları</h2>
       <ol>
         <li><strong>Marka olusturmaya odaklanın:</strong> Sadece urun satmak yerine bir marka kimliği insa edin. Ozel ambalaj, tesekkur kartları ve tutarlı gorsel kimlik fark yaratır.</li>
         <li><strong>Musteri hizmetlerini ihmal etmeyin:</strong> Hızlı ve cozum odaklı musteri destegi, tekrar satın alma oranını dramatik sekilde artırır.</li>
-        <li><strong>Verileri analiz edin:</strong> Hangi urunler satıyor, hangi reklam kanalları donusum saglıyor, musteri edinme maliyetiniz ne — bu verileri surekli takip edin.</li>
+        <li><strong>Verileri analiz edin:</strong> Hangi urunler satıyor, hangi reklam kanalları donusum saglıyor, musteri edinme maliyetiniz ne: bu verileri surekli takip edin.</li>
         <li><strong>Tedarikcilerinizi cesitlendirin:</strong> Tek bir tedarikciye bagımlı kalmak yerine, alternatif kaynaklar belirleyerek riski dagıtın.</li>
         <li><strong>Sabırlı olun:</strong> Dropshipping'te bir gecede zengin olmak gercekci degildir. Ilk 3-6 ay ogrenme ve optimizasyon donemidir.</li>
       </ol>

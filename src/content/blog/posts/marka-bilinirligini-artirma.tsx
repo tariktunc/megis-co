@@ -207,7 +207,7 @@ export default function MarkaBilinirliginiArtirma() {
 
       <h2>Sonuç</h2>
       <p>
-        Marka bilinirliği artırma, tek seferlik bir kampanya değil; sürekli ve tutarlı bir çabadır. Düzenli ölçüm yaparak ilerlemenizi takip edin, çok kanallı stratejilerle farklı kitlelere ulaşın ve sosyal kanıtla güvenilirliğinizi pekiştirin. Güçlü bir marka bilinirliği, dijital pazarlamanın tüm diğer alanlarını — SEO'dan reklam performansına, müşteri edinmeden elde tutmaya kadar — olumlu yönde etkiler.
+        Marka bilinirliği artırma, tek seferlik bir kampanya değil; sürekli ve tutarlı bir çabadır. Düzenli ölçüm yaparak ilerlemenizi takip edin, çok kanallı stratejilerle farklı kitlelere ulaşın ve sosyal kanıtla güvenilirliğinizi pekiştirin. Güçlü bir marka bilinirliği, dijital pazarlamanın tüm diğer alanlarını (SEO'dan reklam performansına, müşteri edinmeden elde tutmaya kadar) olumlu yönde etkiler.
       </p>
     </>
   );

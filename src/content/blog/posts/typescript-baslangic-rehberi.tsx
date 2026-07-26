@@ -43,10 +43,10 @@ export default function TypescriptBaslangicRehberi() {
         <code>type</code> anahtar kelimesi ile ozel tip tanimlari olusturabilirsiniz. Union tipler, bir degiskenin birden fazla tipte olabilecegini belirtir:
       </p>
       <ul>
-        <li><strong>Union Type:</strong> <code>type Sonuc = string | number;</code> — degisken string veya number olabilir.</li>
-        <li><strong>Intersection Type:</strong> <code>type AdminKullanici = Kullanici &amp; Admin;</code> — iki tipin birlesimi.</li>
-        <li><strong>Literal Type:</strong> <code>type Yonu = &quot;sol&quot; | &quot;sag&quot; | &quot;yukari&quot; | &quot;asagi&quot;;</code> — sadece belirli degerleri kabul eder.</li>
-        <li><strong>Template Literal Type:</strong> <code>type EventName = `on$&#123;string&#125;`;</code> — dinamik string kaliplari olusturur.</li>
+        <li><strong>Union Type:</strong> <code>type Sonuc = string | number;</code>: degisken string veya number olabilir.</li>
+        <li><strong>Intersection Type:</strong> <code>type AdminKullanici = Kullanici &amp; Admin;</code>: iki tipin birlesimi.</li>
+        <li><strong>Literal Type:</strong> <code>type Yonu = &quot;sol&quot; | &quot;sag&quot; | &quot;yukari&quot; | &quot;asagi&quot;;</code>: sadece belirli degerleri kabul eder.</li>
+        <li><strong>Template Literal Type:</strong> <code>type EventName = `on$&#123;string&#125;`;</code>: dinamik string kaliplari olusturur.</li>
       </ul>
 
       <h2>Jenerikler (Generics)</h2>

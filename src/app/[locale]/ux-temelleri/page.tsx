@@ -27,14 +27,14 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       eyebrow="UX Temelleri Hizmeti"
       title="Deneyim kusursuz olsun."
       subtitle="Zorunlu sayfalardan global bileşenlere, form tasarımından responsive yapıya kadar her detayı düşünüyoruz. Kullanıcılarınız hiç takılmadan hedefe ulaşsın."
-      introduction="Kullanıcı deneyimi (UX) bir web sitesinin veya uygulamanın görünümünden çok daha fazlasıdır. Kullanıcının ilk tıklamasından hedefine ulaşmasına kadar geçen tüm süreci kapsar. Bu süreçte karşılaştığı her detay — 404 sayfası, loading durumu, form hatası, mobil menü — toplam deneyimi belirler.
+      introduction="Kullanıcı deneyimi (UX) bir web sitesinin veya uygulamanın görünümünden çok daha fazlasıdır. Kullanıcının ilk tıklamasından hedefine ulaşmasına kadar geçen tüm süreci kapsar. Bu süreçte karşılaştığı her detay (404 sayfası, loading durumu, form hatası, mobil menü) toplam deneyimi belirler.
 
 Çoğu projede UX temelleri göz ardı edilir. 404 sayfası varsayılan beyaz ekrandır. Loading durumu yoktur, kullanıcı ne olduğunu anlayamaz. Form hataları kriptik mesajlar gösterir. Mobil görünüm masaüstü tasarımın sıkıştırılmış halidir. Bu sorunlar kullanıcıları kaybettirir ve marka güvenini zedeler.
 
 Megis olarak UX temellerini projenin başından itibaren sistematik olarak ele alıyoruz. Her durum sayfası (404, 500, loading, maintenance), her global bileşen (navbar, footer, breadcrumb), her form etkileşimi ve her ekran boyutu için düşünülmüş, test edilmiş çözümler sunuyoruz. Progressive enhancement ve mobile-first yaklaşımla, tüm kullanıcılar için tutarlı ve keyifli bir deneyim oluşturuyoruz."
       whyMatters={{
         title: "UX temelleri neden bu kadar kritik?",
-        description: "Araştırmalar, kullanıcıların %88'inin kötü bir deneyim yaşadıktan sonra siteye geri dönmediğini gösteriyor. Bir 404 sayfasında yönlendirme yoksa, bir form hatası anlaşılmıyorsa, mobilde butonlara basılamıyorsa — kullanıcı gider ve geri dönmez. İlk izlenim için ikinci bir şansınız yok.\n\nUX temelleri aynı zamanda işletme metriklerini doğrudan etkiler. İyi tasarlanmış formlar dönüşüm oranını %35'e kadar artırabilir. Doğru hata yönetimi destek taleplerini %50 azaltabilir. Mobile-first responsive tasarım, mobil kullanıcıların (tüm trafiğin %60+'i) sitede kalma süresini iki katına çıkarabilir.\n\nÜstelik UX temelleri bir kez doğru kurulursa, projenin tüm yaşamı boyunca fayda sağlar. Her yeni sayfa, her yeni özellik bu temel üzerine inşa edilir. Temeller sağlamsa, ölçeklenmek kolay. Temeller zayıfsa, her yeni ekleme daha fazla sorun yaratır. Bu nedenle UX temellerine yatırım, projenin en yüksek ROI'ye sahip alanlarından biridir."
+        description: "Araştırmalar, kullanıcıların %88'inin kötü bir deneyim yaşadıktan sonra siteye geri dönmediğini gösteriyor. Bir 404 sayfasında yönlendirme yoksa, bir form hatası anlaşılmıyorsa, mobilde butonlara basılamıyorsa: kullanıcı gider ve geri dönmez. İlk izlenim için ikinci bir şansınız yok.\n\nUX temelleri aynı zamanda işletme metriklerini doğrudan etkiler. İyi tasarlanmış formlar dönüşüm oranını %35'e kadar artırabilir. Doğru hata yönetimi destek taleplerini %50 azaltabilir. Mobile-first responsive tasarım, mobil kullanıcıların (tüm trafiğin %60+'i) sitede kalma süresini iki katına çıkarabilir.\n\nÜstelik UX temelleri bir kez doğru kurulursa, projenin tüm yaşamı boyunca fayda sağlar. Her yeni sayfa, her yeni özellik bu temel üzerine inşa edilir. Temeller sağlamsa, ölçeklenmek kolay. Temeller zayıfsa, her yeni ekleme daha fazla sorun yaratır. Bu nedenle UX temellerine yatırım, projenin en yüksek ROI'ye sahip alanlarından biridir."
       }}
       stats={[
         { value: "%88", label: "Kötü UX sonrası geri dönmeyen kullanıcı oranı" },
@@ -45,7 +45,7 @@ Megis olarak UX temellerini projenin başından itibaren sistematik olarak ele a
       features={[
         {
           title: "Durum Sayfaları (404, 500, Loading, Maintenance)",
-          description: "Her hata ve bekleme durumu için özel tasarlanmış sayfalar. 404 sayfası: arama kutusu, popüler sayfalar ve ana sayfaya yönlendirme. 500 sayfası: kullanıcı dostu hata mesajı, otomatik hata raporlama ve yeniden deneme butonu. Loading sayfası: skeleton ekranlar ve progress indicator'lar — boş ekran gösterilmez. Maintenance sayfası: tahmini süre ve bildirim kaydı. Coming soon sayfası: e-posta toplama ve geri sayım."
+          description: "Her hata ve bekleme durumu için özel tasarlanmış sayfalar. 404 sayfası: arama kutusu, popüler sayfalar ve ana sayfaya yönlendirme. 500 sayfası: kullanıcı dostu hata mesajı, otomatik hata raporlama ve yeniden deneme butonu. Loading sayfası: skeleton ekranlar ve progress indicator'lar, boş ekran gösterilmez. Maintenance sayfası: tahmini süre ve bildirim kaydı. Coming soon sayfası: e-posta toplama ve geri sayım."
         },
         {
           title: "Global Bileşenler (Navbar, Footer, Breadcrumb)",
@@ -53,7 +53,7 @@ Megis olarak UX temellerini projenin başından itibaren sistematik olarak ele a
         },
         {
           title: "Form Tasarımı ve Validasyon",
-          description: "Gerçek zamanlı inline validasyon — kullanıcı tab'ladıktan sonra anında geri bildirim. Anlaşılır hata mesajları: 'Bu alan zorunlu' değil, 'E-posta adresinizi giriniz'. Hata durumunda form scrolls to first error, hata alanı kırmızı border ve ikon ile vurgulanır. Başarı durumunda animasyonlu onay ve sonraki adım yönlendirmesi. Loading state'te buton devre dışı, spinner görünür. Multi-step formlarda progress bar ve adım göstergesi. Autosave ile veri kaybı önlenir."
+          description: "Gerçek zamanlı inline validasyon: kullanıcı tab'ladıktan sonra anında geri bildirim. Anlaşılır hata mesajları: 'Bu alan zorunlu' değil, 'E-posta adresinizi giriniz'. Hata durumunda form scrolls to first error, hata alanı kırmızı border ve ikon ile vurgulanır. Başarı durumunda animasyonlu onay ve sonraki adım yönlendirmesi. Loading state'te buton devre dışı, spinner görünür. Multi-step formlarda progress bar ve adım göstergesi. Autosave ile veri kaybı önlenir."
         },
         {
           title: "Mobile-First Responsive Tasarım",
@@ -69,11 +69,11 @@ Megis olarak UX temellerini projenin başından itibaren sistematik olarak ele a
         },
         {
           title: "Onboarding ve Kullanıcı Yönlendirme",
-          description: "İlk kez gelen kullanıcılar için adım adım rehber. Tooltip tabanlı özellik tanıtımları. Empty state tasarımları — boş liste, boş arama sonucu, boş dashboard için anlamlı içerik ve aksiyon önerisi. Contextual help: soru işareti ikonları ile yerinde yardım. Wizard pattern'i ile karmaşık işlemlerin adım adım yönlendirilmesi. Progress indicator ile kullanıcının sürecin neresinde olduğunu göstermek."
+          description: "İlk kez gelen kullanıcılar için adım adım rehber. Tooltip tabanlı özellik tanıtımları. Empty state tasarımları: boş liste, boş arama sonucu, boş dashboard için anlamlı içerik ve aksiyon önerisi. Contextual help: soru işareti ikonları ile yerinde yardım. Wizard pattern'i ile karmaşık işlemlerin adım adım yönlendirilmesi. Progress indicator ile kullanıcının sürecin neresinde olduğunu göstermek."
         },
         {
           title: "Hata Kurtarma ve Dayanıklılık",
-          description: "Ağ hatalarında otomatik yeniden deneme (exponential backoff). Offline durumda anlamlı mesaj ve kuyruğa alma. Form verisi kaybı önleme: sayfa terk uyarısı ve localStorage ile geçici kayıt. Session timeout öncesi uyarı ve uzatma seçeneği. API hatalarında kullanıcı dostu mesajlar — teknik detay gizlenir, çözüm önerisi sunulur. Error boundary ile sayfa bazlı hata izolasyonu — tek bileşen çöker, sayfa çökmez."
+          description: "Ağ hatalarında otomatik yeniden deneme (exponential backoff). Offline durumda anlamlı mesaj ve kuyruğa alma. Form verisi kaybı önleme: sayfa terk uyarısı ve localStorage ile geçici kayıt. Session timeout öncesi uyarı ve uzatma seçeneği. API hatalarında kullanıcı dostu mesajlar: teknik detay gizlenir, çözüm önerisi sunulur. Error boundary ile sayfa bazlı hata izolasyonu: tek bileşen çöker, sayfa çökmez."
         },
       ]}
       included={[
@@ -160,13 +160,13 @@ Megis olarak UX temellerini projenin başından itibaren sistematik olarak ele a
       }}
       caseStudies={[
         {
-          title: "SaaS Dashboard — Form Terk Oranını %62 Azaltma",
+          title: "SaaS Dashboard: Form Terk Oranını %62 Azaltma",
           challenge: "Karmaşık SaaS uygulamasında kullanıcılar kayıt formunu %73 oranında terk ediyordu. Hata mesajları anlaşılmıyordu, mobilde form alanları üst üste biniyordu, loading durumunda kullanıcılar formu tekrar gönderiyor ve duplike kayıtlar oluşuyordu.",
           solution: "Multi-step form yapısı ile 12 alanlı form 3 adıma bölündü. Inline validasyon ile anında geri bildirim eklendi. Mobil için özel form layout oluşturuldu. Loading state'te buton devre dışı bırakıldı ve progress indicator eklendi. Autosave ile terk edilen formlar kaldığı yerden devam etti.",
           result: "Form terk oranı %73'ten %28'e düştü (%62 azalma). Kayıt tamamlama süresi ortalama 4.2 dakikadan 1.8 dakikaya indi. Destek talepleri %45 azaldı. Mobil dönüşüm oranı %180 arttı.",
         },
         {
-          title: "E-Ticaret Sitesi — Mobil Deneyim Dönüşümü",
+          title: "E-Ticaret Sitesi: Mobil Deneyim Dönüşümü",
           challenge: "Trafiğin %68'i mobilden geliyordu ancak mobil dönüşüm oranı masaüstünün 1/5'iydi. Mobil menü kullanışsızdı, ürün filtreler görünmüyordu, ödeme formu mobilde kaydırma gerektiriyordu ve 404 sayfası kullanıcıları tamamen kaybediyordu.",
           solution: "Mobile-first yeniden tasarım: bottom navigation, swipeable ürün görselleri, sticky filtre butonu, tek sayfa ödeme akışı. 404 sayfasına arama kutusu ve popüler kategoriler eklendi. Skeleton loading ile algılanan hız artırıldı. Touch hedefleri 48px'e çıkarıldı.",
           result: "Mobil dönüşüm oranı %340 arttı ve masaüstü seviyesine yaklaştı. Sayfa başı oturum süresi mobilde %85 arttı. 404 sayfasından geri dönüş oranı %78'e çıktı (önceki: %12). Genel gelir %28 yükseldi.",
@@ -179,27 +179,27 @@ Megis olarak UX temellerini projenin başından itibaren sistematik olarak ele a
         },
         {
           question: "Mevcut projemize UX temelleri ekleyebilir misiniz?",
-          answer: "Evet. Mevcut projelere UX temelleri entegre etmek en sık yaptığımız çalışmalardan biridir. Önce mevcut durumu denetliyoruz: hangi durum sayfaları eksik, formlar nasıl çalışıyor, responsive davranış nasıl. Sonra öncelik sırasına göre iyileştirmeler uyguluyoruz. Mevcut tasarım dilinize ve teknik altyapınıza uygun şekilde çalışıyoruz. Genellikle en büyük etki en düşük eforla — örneğin 404 sayfası ve form validasyonu gibi düşük asılan meyve alanlardan başlarız.",
+          answer: "Evet. Mevcut projelere UX temelleri entegre etmek en sık yaptığımız çalışmalardan biridir. Önce mevcut durumu denetliyoruz: hangi durum sayfaları eksik, formlar nasıl çalışıyor, responsive davranış nasıl. Sonra öncelik sırasına göre iyileştirmeler uyguluyoruz. Mevcut tasarım dilinize ve teknik altyapınıza uygun şekilde çalışıyoruz. Genellikle en büyük etki en düşük eforla: örneğin 404 sayfası ve form validasyonu gibi düşük asılan meyve alanlardan başlarız.",
         },
         {
           question: "Mobile-first ne demek, neden önemli?",
-          answer: "Mobile-first, tasarım ve geliştirme sürecinin mobil ekrandan başlaması ve büyük ekranlara doğru genişletilmesi yaklaşımıdır. Global web trafiğinin %60'ından fazlası mobil cihazlardan gelir. Mobile-first yaklaşım, en kısıtlı ortamda en iyi deneyimi sunar ve sonra daha fazla alan ve kapasite oldukça deneyimi zenginleştirir. Bunun tersi — masaüstü tasarımı mobilde küçültmek — genellikle kötü mobil deneyime yol açar. Mobile-first aynı zamanda performans için de avantajlıdır çünkü gereksiz kaynakları yüklemez.",
+          answer: "Mobile-first, tasarım ve geliştirme sürecinin mobil ekrandan başlaması ve büyük ekranlara doğru genişletilmesi yaklaşımıdır. Global web trafiğinin %60'ından fazlası mobil cihazlardan gelir. Mobile-first yaklaşım, en kısıtlı ortamda en iyi deneyimi sunar ve sonra daha fazla alan ve kapasite oldukça deneyimi zenginleştirir. Bunun tersi (masaüstü tasarımı mobilde küçültmek) genellikle kötü mobil deneyime yol açar. Mobile-first aynı zamanda performans için de avantajlıdır çünkü gereksiz kaynakları yüklemez.",
         },
         {
           question: "Form validasyonu neden bu kadar önemli?",
-          answer: "Formlar, kullanıcılardan veri topladığınız her noktadır — kayıt, iletişim, ödeme, arama. Kötü form deneyimi doğrudan gelir kaybına yol açar. Araştırmalar, form terk oranının ortalama %68 olduğunu gösteriyor. Anlaşılır hata mesajları, gerçek zamanlı validasyon, uygun klavye türleri (e-posta için e-posta klavyesi) ve autofill desteği gibi detaylar bu oranı drastik şekilde düşürür. İyi form tasarımı, en yüksek ROI'ye sahip UX iyileştirmelerinden biridir.",
+          answer: "Formlar, kullanıcılardan veri topladığınız her noktadır: kayıt, iletişim, ödeme, arama. Kötü form deneyimi doğrudan gelir kaybına yol açar. Araştırmalar, form terk oranının ortalama %68 olduğunu gösteriyor. Anlaşılır hata mesajları, gerçek zamanlı validasyon, uygun klavye türleri (e-posta için e-posta klavyesi) ve autofill desteği gibi detaylar bu oranı drastik şekilde düşürür. İyi form tasarımı, en yüksek ROI'ye sahip UX iyileştirmelerinden biridir.",
         },
         {
           question: "404 ve hata sayfaları gerçekten önemli mi?",
-          answer: "Kesinlikle. Kullanıcıların %74'ü bir 404 hatasıyla karşılaştığında siteyi terk ediyor. Oysa iyi tasarlanmış bir 404 sayfası — arama kutusu, popüler sayfalar ve anlaşılır bir mesajla — kullanıcıların %70'ini sitede tutabilir. 500 hatası sayfası için de benzer durum geçerli: kullanıcı dostu bir mesaj ve yeniden deneme seçeneği, kullanıcıyı kaybetmek ile tutmak arasındaki farkı yaratır. Bu sayfalar nadir görünür ama göründüğünde etkisi büyüktür.",
+          answer: "Kesinlikle. Kullanıcıların %74'ü bir 404 hatasıyla karşılaştığında siteyi terk ediyor. Oysa iyi tasarlanmış bir 404 sayfası (arama kutusu, popüler sayfalar ve anlaşılır bir mesajla) kullanıcıların %70'ini sitede tutabilir. 500 hatası sayfası için de benzer durum geçerli: kullanıcı dostu bir mesaj ve yeniden deneme seçeneği, kullanıcıyı kaybetmek ile tutmak arasındaki farkı yaratır. Bu sayfalar nadir görünür ama göründüğünde etkisi büyüktür.",
         },
         {
           question: "UX temelleri projesi ne kadar sürer?",
-          answer: "Kapsamına bağlı olarak 4-8 hafta. Sadece durum sayfaları ve temel bileşenler için 2-3 hafta yeterli. Tam kapsamlı UX temelleri — tüm durum sayfaları, global bileşenler, form sistemi, responsive yapı, mikro etkileşimler ve kullanılabilirlik testi dahil — 6-8 hafta sürer. Mevcut projeye entegrasyon genellikle sıfırdan yapmaktan daha hızlıdır. İlk adım olarak ücretsiz UX denetimi sunuyoruz.",
+          answer: "Kapsamına bağlı olarak 4-8 hafta. Sadece durum sayfaları ve temel bileşenler için 2-3 hafta yeterli. Tam kapsamlı UX temelleri (tüm durum sayfaları, global bileşenler, form sistemi, responsive yapı, mikro etkileşimler ve kullanılabilirlik testi dahil) 6-8 hafta sürer. Mevcut projeye entegrasyon genellikle sıfırdan yapmaktan daha hızlıdır. İlk adım olarak ücretsiz UX denetimi sunuyoruz.",
         },
         {
           question: "Hangi teknolojilerle çalışıyorsunuz?",
-          answer: "React, Next.js, TypeScript ve Tailwind CSS ana teknoloji yığınımızdır. Bileşen kütüphanesi olarak Radix UI primitiflerini, animasyon için Framer Motion'i, form yönetimi için React Hook Form ve Zod validasyonu kullanıyoruz. Ancak teknoloji bağımsız çalışabiliriz — Vue, Svelte veya vanilla JavaScript projelerinde de UX temelleri uygulayabiliriz. Önemli olan doğru UX ilkelerinin uygulanmasıdır, teknoloji araçtır.",
+          answer: "React, Next.js, TypeScript ve Tailwind CSS ana teknoloji yığınımızdır. Bileşen kütüphanesi olarak Radix UI primitiflerini, animasyon için Framer Motion'i, form yönetimi için React Hook Form ve Zod validasyonu kullanıyoruz. Ancak teknoloji bağımsız çalışabiliriz: Vue, Svelte veya vanilla JavaScript projelerinde de UX temelleri uygulayabiliriz. Önemli olan doğru UX ilkelerinin uygulanmasıdır, teknoloji araçtır.",
         },
       ]}
       cta="Ücretsiz UX Denetimi Alın"

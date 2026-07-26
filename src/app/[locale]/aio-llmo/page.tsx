@@ -143,7 +143,7 @@ Megis olarak AIO/LLMO hizmetimizle bu süreci tamamen kontrol altına alıyoruz.
         othersTitle: "Geleneksel Dijital Ajanslar",
         us: [
           "AI bot erişimini stratejik olarak yönetme",
-          "Seçici içerik politikası — toptan engelleme yok",
+          "Seçici içerik politikası, toptan engelleme yok",
           "Entity markup + Knowledge Panel + bilgi grafiği bütünsel",
           "Haftalık bot trafik analizi ve marka temsil izleme",
           "Her AI platformu için özel yapılandırma",
@@ -151,22 +151,22 @@ Megis olarak AIO/LLMO hizmetimizle bu süreci tamamen kontrol altına alıyoruz.
         ],
         others: [
           "AI botlarını tamamen engelleme veya tamamen göz ardı etme",
-          "Tek satırlık robots.txt — strateji yok",
+          "Tek satırlık robots.txt, strateji yok",
           "Entity markup ve bilgi grafiği bilgisi yok",
           "AI bot trafiğini ölçmeme ve izlememe",
           "Tüm AI platformlarını aynı görüp tek kural uygulama",
-          "Reaktif yaklaşım — sorun çıktıktan sonra müdahale",
+          "Reaktif yaklaşım, sorun çıktıktan sonra müdahale",
         ],
       }}
       caseStudies={[
         {
-          title: "Medya Şirketi — AI İçerik Trafiği %85 Azalma ve Stratejik Yeniden Yapılanma",
+          title: "Medya Şirketi: AI İçerik Trafiği %85 Azalma ve Stratejik Yeniden Yapılanma",
           challenge: "Günlük 200.000+ ziyaretçisi olan haber sitesinde AI botları günlük 500.000+ sayfa tarıyordu. Server maliyetleri %40 artmıştı. Aynı zamanda içerikleri AI platformlarında atıf verilmeden kullanılıyordu ve organik trafik düşmeye başlamıştı.",
           solution: "Detaylı bot trafik analizi yapıldı. Stratejik erişim politikası oluşturuldu: blog içerikleri AI'a açık, premium içerikler korumalı, arşiv içerikleri sınırlı erişimli. Crawl-delay ayarları optimize edildi. Entity markup ile marka kimliği güçlendirildi.",
           result: "AI bot kaynaklı server yükü %85 azaldı. Aylık hosting maliyetinde 8.000 TL tasarruf sağlandı. Stratejik olarak açılan içerikler sayesinde Perplexity'de kaynak gösterilme oranı %340 arttı. Marka AI cevaplarında doğru temsil edilmeye başladı.",
         },
         {
-          title: "Teknoloji Şirketi — Knowledge Panel ve AI Otorite Kazanımı",
+          title: "Teknoloji Şirketi: Knowledge Panel ve AI Otorite Kazanımı",
           challenge: "10 yıllık yazılım şirketi Google Knowledge Panel'de görünmüyordu. AI platformları şirket hakkında tutarsız ve kısmen yanlış bilgi üretiyordu. Rakiplerle karışmalar ve eksik ürün bilgileri marka itibarını zedeliyordu.",
           solution: "Kapsamlı entity markup uygulaması: Organization, Person (kurucu ve yöneticiler), Product (tüm yazılım ürünleri) ve Brand schema. Wikidata girişi oluşturuldu. Tüm sosyal profiller ve resmi kaynaklar tutarlı hale getirildi. Google Knowledge Panel başvurusu yapıldı.",
           result: "45 günde Google Knowledge Panel aktif oldu. AI platformlarında marka tutarlılığı %95'e çıktı. Yanlış bilgi üretim oranı %90 azaldı. Şirket AI cevaplarında sektörün güvenilir kaynağı olarak referans verilmeye başladı.",
@@ -199,7 +199,7 @@ Megis olarak AIO/LLMO hizmetimizle bu süreci tamamen kontrol altına alıyoruz.
         },
         {
           question: "AIO/LLMO sonuçları ne kadar sürede görülür?",
-          answer: "Teknik uygulama (robots.txt, entity markup, meta tag) genellikle 2-3 hafta içinde tamamlanır ve etkileri hemen başlar — AI bot trafiğindeki değişiklikleri ilk haftadan itibaren görebilirsiniz. Knowledge Panel süreci 30-90 gün sürer. AI platformlarındaki marka temsil iyileşmesi 45-60 günde belirginleşir. Tam ölçüm ve optimizasyon döngüsü için 90 günlük bir süreç önerilir. Ancak AI ekosistemi sürekli değiştiği için AIO/LLMO devam eden bir süreçtir.",
+          answer: "Teknik uygulama (robots.txt, entity markup, meta tag) genellikle 2-3 hafta içinde tamamlanır ve etkileri hemen başlar. AI bot trafiğindeki değişiklikleri ilk haftadan itibaren görebilirsiniz. Knowledge Panel süreci 30-90 gün sürer. AI platformlarındaki marka temsil iyileşmesi 45-60 günde belirginleşir. Tam ölçüm ve optimizasyon döngüsü için 90 günlük bir süreç önerilir. Ancak AI ekosistemi sürekli değiştiği için AIO/LLMO devam eden bir süreçtir.",
         },
       ]}
       cta="Ücretsiz AI Bot Denetimi Alın"

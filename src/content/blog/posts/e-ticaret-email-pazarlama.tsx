@@ -3,7 +3,7 @@ export default function ETicaretEmailPazarlama() {
     <>
       <h2>E-Ticaret E-posta Pazarlama Rehberi: Otomasyondan Segmentasyona</h2>
       <p>
-        E-posta pazarlama, e-ticaret isletmeleri icin en yuksek yatirim getirisine (ROI) sahip dijital pazarlama kanalidir. Arastirmalar, e-posta pazarlamasina harcanan her 1 dolar icin ortalama 36-42 dolar geri donus saglandigini gostermektedir. Sosyal medya algoritmalarinin surekli degistigi, reklam maliyetlerinin arttigi bir donemde, <strong>e-posta listesi</strong> dogrudan size ait olan ve kontrolunuzdeki en degerli pazarlama varigidir. Bu rehberde, e-ticaret icin e-posta pazarlamanin tum boyutlarini — hos geldin serilerinden sepet terk otomasyonlarina, satin alma sonrasi akislardan segmentasyon stratejilerine kadar — detayli olarak ele alacagiz.
+        E-posta pazarlama, e-ticaret isletmeleri icin en yuksek yatirim getirisine (ROI) sahip dijital pazarlama kanalidir. Arastirmalar, e-posta pazarlamasina harcanan her 1 dolar icin ortalama 36-42 dolar geri donus saglandigini gostermektedir. Sosyal medya algoritmalarinin surekli degistigi, reklam maliyetlerinin arttigi bir donemde, <strong>e-posta listesi</strong> dogrudan size ait olan ve kontrolunuzdeki en degerli pazarlama varigidir. Bu rehberde, e-ticaret icin e-posta pazarlamanin tum boyutlarini (hos geldin serilerinden sepet terk otomasyonlarina, satin alma sonrasi akislardan segmentasyon stratejilerine kadar) detayli olarak ele alacagiz.
       </p>
 
       <h2>E-posta Listesi Olusturma</h2>
@@ -28,11 +28,11 @@ export default function ETicaretEmailPazarlama() {
         Hos geldin serisi, yeni abonelerle ilk temas noktanizdir ve tum e-posta pazarlama arasindaki en yuksek acilma oranina sahiptir (ortalama yuzde 50-60). Ideal bir hos geldin serisi 3-5 e-postadan olusur:
       </p>
       <ol>
-        <li><strong>E-posta 1 — Aninda (kayit sonrasi):</strong> Sicak bir karsilama, vaat edilen indirim kodu ve markanizin kisa tanitimi. Indirim kodunun son kullanma tarihini belirtin (7 gun gibi) ve aciliyet yaratin.</li>
-        <li><strong>E-posta 2 — 2. gun:</strong> Marka hikayenizi anlatin. Neden var oldugunuz, degerleriniz ve sizi farkli kilan unsurlar. Duygusal baglanti kurmaya odaklanin.</li>
-        <li><strong>E-posta 3 — 4. gun:</strong> En cok satan urunlerinizi veya editotun secimi koleksiyonunu sergileyin. Sosyal kanit olarak musteri yorumlarini ekleyin.</li>
-        <li><strong>E-posta 4 — 6. gun:</strong> Musteri deneyimi vaatlerinizi vurgulayin: ucretsiz kargo, kolay iade, guvenli odeme. Guven sinyallerini gucendirin.</li>
-        <li><strong>E-posta 5 — 8. gun (indirim kod kullanilmadiysa):</strong> Indirim kodunun son kullanma hatirlatmasi. "Indiriminiz yarin sona eriyor — kacirmayin!" mesaji ile donusum saglayin.</li>
+        <li><strong>E-posta 1, Aninda (kayit sonrasi):</strong> Sicak bir karsilama, vaat edilen indirim kodu ve markanizin kisa tanitimi. Indirim kodunun son kullanma tarihini belirtin (7 gun gibi) ve aciliyet yaratin.</li>
+        <li><strong>E-posta 2, 2. gun:</strong> Marka hikayenizi anlatin. Neden var oldugunuz, degerleriniz ve sizi farkli kilan unsurlar. Duygusal baglanti kurmaya odaklanin.</li>
+        <li><strong>E-posta 3, 4. gun:</strong> En cok satan urunlerinizi veya editotun secimi koleksiyonunu sergileyin. Sosyal kanit olarak musteri yorumlarini ekleyin.</li>
+        <li><strong>E-posta 4, 6. gun:</strong> Musteri deneyimi vaatlerinizi vurgulayin: ucretsiz kargo, kolay iade, guvenli odeme. Guven sinyallerini gucendirin.</li>
+        <li><strong>E-posta 5, 8. gun (indirim kod kullanilmadiysa):</strong> Indirim kodunun son kullanma hatirlatmasi. "Indiriminiz yarin sona eriyor, kacirmayin!" mesaji ile donusum saglayin.</li>
       </ol>
 
       <h2>Sepet Terk E-posta Otomasyonu</h2>
@@ -70,7 +70,7 @@ export default function ETicaretEmailPazarlama() {
         </tbody>
       </table>
       <p>
-        Sepet terk e-postalarinda mutlaka urun gorsellerini ekleyin, tek tikla sepete donus saglayan bir buton yerlestirin ve mobil uyumlu tasarim kullanin. Konu satiri kisisellestirmis olmali — "Mehmet, sepetinizde sizi bekleyen urunler var" gibi ifadeler acilma oranini arttirir.
+        Sepet terk e-postalarinda mutlaka urun gorsellerini ekleyin, tek tikla sepete donus saglayan bir buton yerlestirin ve mobil uyumlu tasarim kullanin. Konu satiri kisisellestirmis olmali: "Mehmet, sepetinizde sizi bekleyen urunler var" gibi ifadeler acilma oranini arttirir.
       </p>
 
       <h2>Satin Alma Sonrasi E-posta Akisi (Post-Purchase Flow)</h2>

@@ -31,9 +31,9 @@ async function scanStaticRoutes(
   for (const entry of entries) {
     if (!entry.isDirectory()) continue;
     if (entry.name.startsWith("[") || entry.name.startsWith("(") || entry.name.startsWith("_")) continue;
-    // Legal — ayri adapter (legal-sitemap.xml) isliyor
+    // Legal: ayri adapter (legal-sitemap.xml) isliyor
     if (LEGAL_SLUG_SET.has(entry.name)) continue;
-    // Auth-gated / transactional — sitemap'e KESINLIKLE GIRMEZ (Kural #9)
+    // Auth-gated / transactional: sitemap'e KESINLIKLE GIRMEZ (Kural #9)
     if (AUTH_GATED_SLUG_SET.has(entry.name)) continue;
 
     const subdir = path.join(dir, entry.name);

@@ -1,5 +1,5 @@
 // src/lib/sitemap/generate.ts
-// Otomatik üretildi — /webforge-sitemap (v2.1)
+// Otomatik üretildi, /webforge-sitemap (v2.1)
 // Spec: webforge/specs/sitemap-format.md
 
 import type { SitemapAdapter, UrlEntry, IndexChild } from "./types";

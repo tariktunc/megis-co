@@ -3,7 +3,7 @@ export default function I18nCokluDilRehberi() {
     <>
       <h2>i18n Nedir?</h2>
       <p>
-        <strong>i18n</strong> (internationalization — uluslararasilastirma), bir yazilim urununu birden fazla dil ve bolgeye uyarlanabilir hale getirme surecidir. &quot;i18n&quot; kisaltmasi, &quot;internationalization&quot; kelimesinin bas harfi &quot;i&quot; ile son harfi &quot;n&quot; arasindaki 18 karakterden gelir. Buna ek olarak <strong>l10n</strong> (localization — yerellestirme) ise belirli bir dil ve bolgeye ozgu uyarlamalarin yapilmasi asamasidir.
+        <strong>i18n</strong> (internationalization: uluslararasilastirma), bir yazilim urununu birden fazla dil ve bolgeye uyarlanabilir hale getirme surecidir. &quot;i18n&quot; kisaltmasi, &quot;internationalization&quot; kelimesinin bas harfi &quot;i&quot; ile son harfi &quot;n&quot; arasindaki 18 karakterden gelir. Buna ek olarak <strong>l10n</strong> (localization: yerellestirme) ise belirli bir dil ve bolgeye ozgu uyarlamalarin yapilmasi asamasidir.
       </p>
       <p>
         Coklu dil destegi, web sitenizin erisim alaninigeniletmenin, uluslararasi pazarlara acilmanin ve farkli dil konusan kullanıcılara daha iyi bir deneyim sunmanin temelidir. Turkiye merkezli bir isletme icin bile, Ingilizce ve belki Arapca veya Almanca gibi ek diller desteklemek, potansiyel musteri tabaninizi katlamaali olarak arttirir. Bu rehberde, Next.js ile coklu dil uygulamasini next-intl kutuphanesi odaginda, routing stratejilerinden SEO uyumluliguna kadar detayli olarak ele aliyoruz.
@@ -149,7 +149,7 @@ export default function I18nCokluDilRehberi() {
         <li>hreflang etiketlerini ve cevirilmis meta etiketleri ekleyin.</li>
         <li>XML sitemap&apos;i tum dil versiyonlarini icerecek sekilde guncelleyin.</li>
         <li>Dil degistirici bileseni ekleyin.</li>
-        <li>Tum dillerde kapsamli test yapin — ozellikle uzun metinler, cogul formlar ve ozel karakterler.</li>
+        <li>Tum dillerde kapsamli test yapin: ozellikle uzun metinler, cogul formlar ve ozel karakterler.</li>
       </ol>
 
       <blockquote>

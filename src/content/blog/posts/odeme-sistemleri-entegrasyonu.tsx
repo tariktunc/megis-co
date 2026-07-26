@@ -61,7 +61,7 @@ export default function OdemeSistemleriEntegrasyonu() {
       <h3>PayTR'nin Avantajlari</h3>
       <ul>
         <li><strong>Dusuk komisyon oranlari:</strong> Piyasadaki en rekabetci oranlardan birini sunar, ozellikle yuksek hacimli isletmeler icin ozel fiyatlandirma yapar.</li>
-        <li><strong>Hizli odeme cozumu:</strong> Onaylanmis islemlerin odeme suresi 1-2 is gunudur — sektordeki en hizli surelerden biri.</li>
+        <li><strong>Hizli odeme cozumu:</strong> Onaylanmis islemlerin odeme suresi 1-2 is gunudur: sektordeki en hizli surelerden biri.</li>
         <li><strong>iFrame entegrasyonu:</strong> Odeme formunu kendi sitenizde gostermenizi saglayan iframe cozumu ile musteri site disindan ciktigini hissetmez.</li>
         <li><strong>Sanal POS destegi:</strong> Tum buyuk Turk bankalarina dogrudan sanal POS baglantisi saglar.</li>
         <li><strong>7/24 teknik destek:</strong> Canli destek hatti ve detayli teknik dokumantasyon sunar.</li>

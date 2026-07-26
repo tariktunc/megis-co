@@ -13,7 +13,7 @@ export default function MusteriyeYorumYonetimi() {
       <ul>
         <li><strong>Donusum oranı artısı:</strong> Yorum iceren urun sayfaları, yorumsuz sayfalara kıyasla ortalama %270 daha yuksek donusum oranı gostermektedir.</li>
         <li><strong>SEO katkısı:</strong> Kullanıcı tarafından olusturulan icerik (UGC), arama motorlarında sayfanın otoritesini artırır ve uzun kuyruklu anahtar kelimelerde sıralama saglar.</li>
-        <li><strong>Guven olusturma:</strong> 5 uzerinden 4.0-4.7 arası puana sahip urunler, 5.0 puana sahip urunlerden daha fazla guven uyandırır — cunku kusursuz puanlar yapay algısı yaratır.</li>
+        <li><strong>Guven olusturma:</strong> 5 uzerinden 4.0-4.7 arası puana sahip urunler, 5.0 puana sahip urunlerden daha fazla guven uyandırır, cunku kusursuz puanlar yapay algısı yaratır.</li>
         <li><strong>Iade oranı azalması:</strong> Detaylı yorumlar, musterinin urunu daha iyi anlamasını saglar ve beklenti uyumsuzlugunu azaltır.</li>
       </ul>
 
@@ -33,7 +33,7 @@ export default function MusteriyeYorumYonetimi() {
         <li><strong>Indirim kuponu:</strong> Yorum yazan musterilere sonraki alısverisleri icin %10 indirim kuponu sunun.</li>
         <li><strong>Sadakat puanı:</strong> Yorum basına puan vererek sadakat programınızla entegre edin.</li>
         <li><strong>Cekilisler:</strong> Aylık yorum cekilisi duzenleyerek katılımı artırın.</li>
-        <li><strong>Fotograflı yorum bonusu:</strong> Fotograf veya video iceren yorumlar icin ekstra odul verin — gorsel yorumlar diger musteriler icin cok daha ikna edicidir.</li>
+        <li><strong>Fotograflı yorum bonusu:</strong> Fotograf veya video iceren yorumlar icin ekstra odul verin: gorsel yorumlar diger musteriler icin cok daha ikna edicidir.</li>
       </ul>
       <blockquote>
         <p>
@@ -56,10 +56,10 @@ export default function MusteriyeYorumYonetimi() {
       </ol>
       <h3>Yapılmaması Gerekenler</h3>
       <ul>
-        <li>Olumsuz yorumları silmeye calısmayın — bu guven kaybına yol acar</li>
-        <li>Musteri ile tartısmaya girmeyin — kamuya acık bir platformda tartısma her zaman markaya zarar verir</li>
-        <li>Kalıp yanıtlar kullanmayın — her yoruma ozel, kisisellestirilmis yanıt verin</li>
-        <li>Sorunu goz ardı etmeyin — yanıtsız olumsuz yorumlar, potansiyel musterileri kaybettirir</li>
+        <li>Olumsuz yorumları silmeye calısmayın: bu guven kaybına yol acar</li>
+        <li>Musteri ile tartısmaya girmeyin: kamuya acık bir platformda tartısma her zaman markaya zarar verir</li>
+        <li>Kalıp yanıtlar kullanmayın: her yoruma ozel, kisisellestirilmis yanıt verin</li>
+        <li>Sorunu goz ardı etmeyin: yanıtsız olumsuz yorumlar, potansiyel musterileri kaybettirir</li>
       </ul>
 
       <h2>4. Platform Bazlı Yorum Politikaları</h2>
@@ -115,11 +115,11 @@ export default function MusteriyeYorumYonetimi() {
       </ul>
       <h3>Yorum Widget'ı Secerken Dikkat Edilecekler</h3>
       <ul>
-        <li>Sayfa yuklenme hızına etkisi — agır widget'lar site performansını dusurur</li>
-        <li>Mobil uyumluluk — trafiginin %70+'ı mobilden gelir</li>
-        <li>SEO uyumu — Schema markup ve rich snippet destegi</li>
-        <li>Ozelletirme — markanızın gorsel kimligine uyarlanabilirlik</li>
-        <li>Entegrasyon — kullandıgınız e-ticaret platformuyla uyumluluk</li>
+        <li>Sayfa yuklenme hızına etkisi: agır widget'lar site performansını dusurur</li>
+        <li>Mobil uyumluluk: trafiginin %70+'ı mobilden gelir</li>
+        <li>SEO uyumu: Schema markup ve rich snippet destegi</li>
+        <li>Ozelletirme: markanızın gorsel kimligine uyarlanabilirlik</li>
+        <li>Entegrasyon: kullandıgınız e-ticaret platformuyla uyumluluk</li>
       </ul>
 
       <h2>6. Yorum Analitiği ve Veriye Dayalı Iyilestirme</h2>
@@ -130,7 +130,7 @@ export default function MusteriyeYorumYonetimi() {
         <li><strong>Duygu analizi (sentiment analysis):</strong> Yorumların genel tonunu analiz ederek musteri memnuniyet trendini izleyin.</li>
         <li><strong>Sık tekrarlanan konular:</strong> Birden fazla musterinin aynı sorunu belirtmesi, sistematik bir iyilestirme gerektigini gosterir.</li>
         <li><strong>Urun gelistirme fırsatları:</strong> "Keske su ozellik de olsaydı" gibi yorumlar, yeni urun veya ozellik gelistirme icin yol gosterir.</li>
-        <li><strong>Rakip karsılastırma:</strong> Musteriler sıklıkla rakip urunlerle karsılastırma yapar — bu bilgiyi kendi konumlandırmanız icin kullanın.</li>
+        <li><strong>Rakip karsılastırma:</strong> Musteriler sıklıkla rakip urunlerle karsılastırma yapar: bu bilgiyi kendi konumlandırmanız icin kullanın.</li>
       </ol>
 
       <h2>7. Sahte Yorum Tespiti ve Onlenmesi</h2>

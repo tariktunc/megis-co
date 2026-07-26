@@ -368,7 +368,7 @@ export default function SosyalMedyaIcerikTakvimi() {
 
       <h2>Sonuc</h2>
       <p>
-        Sosyal medya icerik takvimi, basarili bir dijital pazarlama stratejisinin temel taslarindan biridir. Dogru araclar, tutarli planlama ve veri odakli iyilestirme ile sosyal medya varliginizi guclendirabilir, hedef kitlenizle daha etkili iletisim kurabilir ve pazarlama hedeflerinize daha hizli ulasabilirsiniz. Basit bir Google Sheets sablonuyla baslayabilir, buyudukcce Buffer, Hootsuite veya Notion gibi profesyonel araclara gecebilirsiniz. En onemli sey baslamaktir — mukemmel bir takvim olusturmak yerine, iyi bir takvimle harekete gecmek her zaman daha etkilidir.
+        Sosyal medya icerik takvimi, basarili bir dijital pazarlama stratejisinin temel taslarindan biridir. Dogru araclar, tutarli planlama ve veri odakli iyilestirme ile sosyal medya varliginizi guclendirabilir, hedef kitlenizle daha etkili iletisim kurabilir ve pazarlama hedeflerinize daha hizli ulasabilirsiniz. Basit bir Google Sheets sablonuyla baslayabilir, buyudukcce Buffer, Hootsuite veya Notion gibi profesyonel araclara gecebilirsiniz. En onemli sey baslamaktir: mukemmel bir takvim olusturmak yerine, iyi bir takvimle harekete gecmek her zaman daha etkilidir.
       </p>
     </>
   );

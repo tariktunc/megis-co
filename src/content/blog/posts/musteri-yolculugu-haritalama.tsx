@@ -212,7 +212,7 @@ export default function MusteriYolculuguHaritalama() {
 
       <h2>Sonuc</h2>
       <p>
-        Musteri yolculugu haritalama, isletmenizin musteri odaklı bir yaklasım benimsemesinin ilk ve en onemli adımıdır. Dogru persona'larla baslayarak, her temas noktasını analiz ederek ve acı noktalarını sistematik olarak cozumerek, musteri deneyimini uctan uca optimize edebilirsiniz. Bu surekli bir surecdir — musteri beklentileri degistikce haritanız da guncellenmelidir. Sonuc olarak, musterisini en iyi anlayan isletme, rekabette her zaman bir adım onde olacaktır.
+        Musteri yolculugu haritalama, isletmenizin musteri odaklı bir yaklasım benimsemesinin ilk ve en onemli adımıdır. Dogru persona'larla baslayarak, her temas noktasını analiz ederek ve acı noktalarını sistematik olarak cozumerek, musteri deneyimini uctan uca optimize edebilirsiniz. Bu surekli bir surecdir: musteri beklentileri degistikce haritanız da guncellenmelidir. Sonuc olarak, musterisini en iyi anlayan isletme, rekabette her zaman bir adım onde olacaktır.
       </p>
     </>
   );

@@ -3,7 +3,7 @@ export default function InboundMarketingRehberi() {
     <>
       <h2>Inbound Marketing Rehberi: Attract, Engage, Delight Metodolojisi</h2>
       <p>
-        <strong>Inbound marketing</strong> (gelen pazarlama), potansiyel müşterileri zorla kesintiye uğratmak yerine, değerli içerik ve deneyimlerle doğal olarak çekmeyi hedefleyen bir pazarlama metodolojisidir. HubSpot tarafından popülerleştirilen bu yaklaşım, geleneksel reklamcılığın azalan etkisine karşı sürdürülebilir bir alternatif sunar. Bu rehberde, inbound marketing'in üç temel aşamasını — Attract (Çek), Engage (Etkileşim Kur), Delight (Memnun Et) — detaylıca ele alarak içerik teklifleri, lead mıknatısları ve uygulama adımlarını paylaşıyoruz.
+        <strong>Inbound marketing</strong> (gelen pazarlama), potansiyel müşterileri zorla kesintiye uğratmak yerine, değerli içerik ve deneyimlerle doğal olarak çekmeyi hedefleyen bir pazarlama metodolojisidir. HubSpot tarafından popülerleştirilen bu yaklaşım, geleneksel reklamcılığın azalan etkisine karşı sürdürülebilir bir alternatif sunar. Bu rehberde, inbound marketing'in üç temel aşamasını (Attract [Çek], Engage [Etkileşim Kur], Delight [Memnun Et]) detaylıca ele alarak içerik teklifleri, lead mıknatısları ve uygulama adımlarını paylaşıyoruz.
       </p>
 
       <h2>1. Inbound vs. Outbound: Temel Farklar</h2>
@@ -51,7 +51,7 @@ export default function InboundMarketingRehberi() {
 
       <h2>2. Attract (Çekme) Aşaması</h2>
       <p>
-        Attract aşamasının amacı, doğru kişileri — yani ideal müşteri profilinize (buyer persona) uyan kişileri — web sitenize ve içeriklerinize çekmektir. Herhangi birini değil, potansiyel müşterilerinizi hedeflersiniz.
+        Attract aşamasının amacı, doğru kişileri (yani ideal müşteri profilinize [buyer persona] uyan kişileri) web sitenize ve içeriklerinize çekmektir. Herhangi birini değil, potansiyel müşterilerinizi hedeflersiniz.
       </p>
 
       <h3>Attract Araçları ve Stratejileri</h3>

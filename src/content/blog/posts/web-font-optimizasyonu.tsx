@@ -30,11 +30,11 @@ export default function WebFontOptimizasyonu() {
         CSS <code>font-display</code> ozelligi, font yukleme davranisini kontrol etmenin en temel yoludur. <code>@font-face</code> kurali icinde kullanilir ve tarayiciya fontu nasil yukleyecegini soyler.
       </p>
       <ul>
-        <li><strong>font-display: swap</strong> — Metin hemen yedek fontla gosterilir, web fontu yulendikten sonra degistirilir. FOUT yaratir ancak icerik hemen gorunur. Cogu web sitesi icin onerilen degerdir.</li>
-        <li><strong>font-display: block</strong> — Metin kisa bir sure (genellikle 3 saniye) gorunmez kalir, sonra yedek fonta gecer. FOIT yaratir. Ikon fontlari icin uygun olabilir.</li>
-        <li><strong>font-display: fallback</strong> — Cok kisa bir bloklama suresi (100ms), ardindan yedek font kullanilir. Font kisa surede yuklenirse degistirilir, yuklenemezse yedek font kalir.</li>
-        <li><strong>font-display: optional</strong> — En performans odakli secenek. Tarayici fontu kullanip kullanmamaya kendisi karar verir. Yavas baglantilarida font atlanabilir. CLS&apos;i minimize eder.</li>
-        <li><strong>font-display: auto</strong> — Tarayicinin varsayilan davranisini kullanir. Genellikle onerilmez cunku tarayicilar arasi tutarsizlik yaratir.</li>
+        <li><strong>font-display: swap</strong>: Metin hemen yedek fontla gosterilir, web fontu yulendikten sonra degistirilir. FOUT yaratir ancak icerik hemen gorunur. Cogu web sitesi icin onerilen degerdir.</li>
+        <li><strong>font-display: block</strong>: Metin kisa bir sure (genellikle 3 saniye) gorunmez kalir, sonra yedek fonta gecer. FOIT yaratir. Ikon fontlari icin uygun olabilir.</li>
+        <li><strong>font-display: fallback</strong>: Cok kisa bir bloklama suresi (100ms), ardindan yedek font kullanilir. Font kisa surede yuklenirse degistirilir, yuklenemezse yedek font kalir.</li>
+        <li><strong>font-display: optional</strong>: En performans odakli secenek. Tarayici fontu kullanip kullanmamaya kendisi karar verir. Yavas baglantilarida font atlanabilir. CLS&apos;i minimize eder.</li>
+        <li><strong>font-display: auto</strong>: Tarayicinin varsayilan davranisini kullanir. Genellikle onerilmez cunku tarayicilar arasi tutarsizlik yaratir.</li>
       </ul>
       <p>
         Genel oneri olarak, govde metinleri icin <code>swap</code> veya <code>optional</code>, basliklar icin <code>swap</code> kullanmak iyi bir stratejidir.
@@ -72,11 +72,11 @@ export default function WebFontOptimizasyonu() {
       </ul>
       <h3>Variable Font Eksenleri</h3>
       <ul>
-        <li><strong>wght (Weight):</strong> Font agirligi — ince (100) ile kalin (900) arasinda.</li>
-        <li><strong>wdth (Width):</strong> Font genisligi — condensed ile expanded arasinda.</li>
-        <li><strong>ital (Italic):</strong> Italik stili — 0 (normal) ile 1 (italik) arasinda.</li>
-        <li><strong>slnt (Slant):</strong> Egim acisi — ozel acilarda yatik metin olusturmak icin.</li>
-        <li><strong>opsz (Optical Size):</strong> Optik boyut — kucuk ve buyuk metinler icin farkli optimize edilmis formlar.</li>
+        <li><strong>wght (Weight):</strong> Font agirligi: ince (100) ile kalin (900) arasinda.</li>
+        <li><strong>wdth (Width):</strong> Font genisligi: condensed ile expanded arasinda.</li>
+        <li><strong>ital (Italic):</strong> Italik stili: 0 (normal) ile 1 (italik) arasinda.</li>
+        <li><strong>slnt (Slant):</strong> Egim acisi: ozel acilarda yatik metin olusturmak icin.</li>
+        <li><strong>opsz (Optical Size):</strong> Optik boyut: kucuk ve buyuk metinler icin farkli optimize edilmis formlar.</li>
       </ul>
 
       <h2>Font Yukleme Stratejileri</h2>
@@ -110,7 +110,7 @@ export default function WebFontOptimizasyonu() {
 
       <h2>Font Optimizasyonu Kontrol Listesi</h2>
       <ol>
-        <li>Font dosyalarinizi WOFF2 formatina donusturun — en iyi sikistirma oranini sunar.</li>
+        <li>Font dosyalarinizi WOFF2 formatina donusturun: en iyi sikistirma oranini sunar.</li>
         <li>Sadece kullandiginiz agirliklari ve stilleri yukleyin. Gerekmiyorsa extra bold veya condensed varyantlarini dahil etmeyin.</li>
         <li>Font subsetting ile yalnizca ihtiyac duydugunuz karakter setini paketleyin.</li>
         <li>Variable font kullanarak birden fazla dosya yerine tek dosya yukleyin.</li>

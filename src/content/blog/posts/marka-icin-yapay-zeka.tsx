@@ -72,7 +72,7 @@ export default function MarkaIcinYapayZeka() {
         <li><strong>Ses rehberi oluşturma:</strong> Markanızın kişilik özelliklerini tanımlayın (profesyonel ama samimi, bilgilendirici ama eğlenceli, vb.). Yapılmaması gerekenleri de belirtin.</li>
         <li><strong>AI model eğitimi:</strong> Mevcut marka içeriklerinizi kullanarak AI modelinizi marka sesinize göre ince ayar yapın. Custom instructions veya fine-tuning yöntemlerini kullanın.</li>
         <li><strong>Ses tonu kontrolü:</strong> AI araçlarıyla üretilen her içeriğin marka ses rehberine uygunluğunu otomatik olarak kontrol edin. Uyumsuzluklar için düzeltme önerileri alın.</li>
-        <li><strong>Kanal uyarlaması:</strong> Aynı mesajı farklı kanallar için uyarlayın. LinkedIn için profesyonel, Instagram için rahat, e-posta için kişisel ton — hepsi aynı marka kimliği altında.</li>
+        <li><strong>Kanal uyarlaması:</strong> Aynı mesajı farklı kanallar için uyarlayın. LinkedIn için profesyonel, Instagram için rahat, e-posta için kişisel ton: hepsi aynı marka kimliği altında.</li>
       </ol>
 
       <h2>4. AI ile Kişiselleştirme</h2>
@@ -107,7 +107,7 @@ export default function MarkaIcinYapayZeka() {
       <ol>
         <li><strong>Marka prompt kütüphanesi:</strong> Farklı içerik türleri için marka sesinizi ve kurallarınızı içeren standart prompt şablonları oluşturun. Her ekip üyesinin tutarlı çıktılar almasını sağlayın.</li>
         <li><strong>İçerik onay süreci:</strong> AI üretimi içeriklerin yayınlanmadan önce marka uyumluluğu, doğruluk ve kalite kontrolünden geçeceği bir onay akışı tasarlayın.</li>
-        <li><strong>Çoklu format üretim:</strong> Tek bir ana mesajdan blog yazısı, sosyal medya postu, e-posta metni ve reklam kopyası üretin — hepsi marka sesine uygun.</li>
+        <li><strong>Çoklu format üretim:</strong> Tek bir ana mesajdan blog yazısı, sosyal medya postu, e-posta metni ve reklam kopyası üretin: hepsi marka sesine uygun.</li>
         <li><strong>A/B varyasyonları:</strong> AI ile aynı mesajın birden fazla versiyonunu oluşturun ve hangisinin daha iyi performans gösterdiğini test edin.</li>
       </ol>
 

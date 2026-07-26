@@ -145,7 +145,7 @@ export default function GraphqlBaslangicRehberi() {
       <ul>
         <li>Karmasik ve ic ice iliskili veri yapilari olan projeler.</li>
         <li>Birden fazla istemcinin (web, mobil, IoT) ayni API&apos;yi farkli veri ihtiyaclariyla kullandigi durumlar.</li>
-        <li>Hizli iterasyon gerektiren projeler — frontend degisiklikleri backend degisikligi gerektirmez.</li>
+        <li>Hizli iterasyon gerektiren projeler: frontend degisiklikleri backend degisikligi gerektirmez.</li>
         <li>Mikro servis mimarilerinde birden fazla servisi tek bir API katmaninda birlestirmek istediginizde.</li>
         <li>Gercek zamanli veri guncellemeleri gereken uygulamalar (subscription ile).</li>
       </ul>

@@ -14,7 +14,7 @@ export default function SwotAnaliziRehberi() {
         SWOT analizi, iki ic faktoru (guclu ve zayif yonler) ve iki dis faktoru (firsatlar ve tehditler) inceler. Ic faktorler isletmenin kontrolu altindayken, dis faktorler cevresel kosullardir.
       </p>
 
-      <h3>Guclu Yonler (Strengths) — Ic Faktor</h3>
+      <h3>Guclu Yonler (Strengths): Ic Faktor</h3>
       <p>
         Guclu yonler, isletmenizi rakiplerinizden ayiran ve basariniza katkida bulunan ic ozelliklerdir. Bu alanda soruulacak sorular:
       </p>
@@ -29,7 +29,7 @@ export default function SwotAnaliziRehberi() {
         Ornek guclu yonler: Guclu marka bilinilirligi, yenilikci urun portfoyu, sadik musteri tabani, verimli operasyonel surecler, guclu finansal yapi, deneyimli yonetim kadrosu.
       </p>
 
-      <h3>Zayif Yonler (Weaknesses) — Ic Faktor</h3>
+      <h3>Zayif Yonler (Weaknesses): Ic Faktor</h3>
       <p>
         Zayif yonler, isletmenizin gelismesi gereken alanlari ve rekabet dezavantajlarini temsil eder. Durustluk ve objektivite bu bolumde cok onemlidir:
       </p>
@@ -44,7 +44,7 @@ export default function SwotAnaliziRehberi() {
         Ornek zayif yonler: Sinirli pazarlama butcesi, eski teknoloji altyapisi, yuksek personel devir orani, dusuk marka bilinilirligi, dar urun yelpazesi, yavas karar alma surecleri.
       </p>
 
-      <h3>Firsatlar (Opportunities) — Dis Faktor</h3>
+      <h3>Firsatlar (Opportunities): Dis Faktor</h3>
       <p>
         Firsatlar, dis cevrede isletmenizin lehine kullanabileceegi olumlu gelismeler ve trendlerdir:
       </p>
@@ -59,7 +59,7 @@ export default function SwotAnaliziRehberi() {
         Ornek firsatlar: Buyuyen e-ticaret pazari, yapay zeka teknolojilerinin erisilebilirligi, yeni pazar segmentleri, stratejik ortaklik olanaklari, rakiplerin pazar cikisi, degisen tuketici davranislari.
       </p>
 
-      <h3>Tehditler (Threats) — Dis Faktor</h3>
+      <h3>Tehditler (Threats): Dis Faktor</h3>
       <p>
         Tehditler, isletmenizin basarisini olumsuz etkileyebilecek dis faktorlerdir:
       </p>

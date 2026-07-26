@@ -142,7 +142,7 @@ export default function SeoIcinLogAnalizi() {
           <tr>
             <td>500</td>
             <td>Sunucu Hatasi</td>
-            <td>Ciddi SEO sorunu — acil mudahale gerektirir</td>
+            <td>Ciddi SEO sorunu: acil mudahale gerektirir</td>
           </tr>
           <tr>
             <td>503</td>
@@ -204,9 +204,9 @@ export default function SeoIcinLogAnalizi() {
         Googlebot tarama verileri, hangi iceriklerinizin Google tarafindan onemli goruldugunu gosterir:
       </p>
       <ul>
-        <li>En sik taranan sayfalarinizi belirleyin — bunlar Google icin en onemli sayfalarinizdir</li>
-        <li>Hic taranmayan veya nadiren taranan sayfalari tespit edin — internal linking iyilestirmesi gerekebilir</li>
-        <li>Yeni iceriklerinizin ne kadar hizli taranidigini olcun — dizin hizini belirleyin</li>
+        <li>En sik taranan sayfalarinizi belirleyin: bunlar Google icin en onemli sayfalarinizdir</li>
+        <li>Hic taranmayan veya nadiren taranan sayfalari tespit edin: internal linking iyilestirmesi gerekebilir</li>
+        <li>Yeni iceriklerinizin ne kadar hizli taranidigini olcun: dizin hizini belirleyin</li>
         <li>Guncellenen iceriklerin yeniden taranma suresini takip edin</li>
       </ul>
 

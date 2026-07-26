@@ -160,13 +160,13 @@ Megis olarak önce sitenizin mevcut durumunu derinlemesine analiz ediyoruz. Sonr
       }}
       caseStudies={[
         {
-          title: "E-Ticaret Sitesi — Organik Trafik %450 Artış",
+          title: "E-Ticaret Sitesi: Organik Trafik %450 Artış",
           challenge: "500+ ürün sayfası olan e-ticaret sitesi Google'da neredeyse görünmüyordu. Crawl hataları, duplicate content ve yavaş sayfa yüklenme süresi.",
           solution: "Teknik SEO denetimi, canonical URL düzenleme, ürün sayfası şema markup, sayfa hızı optimizasyonu ve 6 aylık içerik stratejisi uygulandı.",
           result: "6 ayda organik trafik %450 arttı. 120+ anahtar kelimede ilk 3'e girildi. Sayfa hızı skoru 45'ten 94'e çıktı.",
         },
         {
-          title: "SaaS Startup — İlk Sayfaya 90 Günde",
+          title: "SaaS Startup: İlk Sayfaya 90 Günde",
           challenge: "Yeni kurulan SaaS şirketi Google'da hiç görünmüyordu. Domain authority sıfır, içerik yok, teknik altyapı eksik.",
           solution: "Sıfırdan SEO stratejisi: teknik altyapı, 20+ blog yazısı, cornerstone content, guest posting ve dijital PR kampanyası.",
           result: "90 günde 15 hedef anahtar kelimede ilk sayfaya çıkıldı. Aylık organik trafik 0'dan 8.500'e yükseldi.",
@@ -183,7 +183,7 @@ Megis olarak önce sitenizin mevcut durumunu derinlemesine analiz ediyoruz. Sonr
         },
         {
           question: "Aylık SEO maliyeti ne kadar?",
-          answer: "SEO maliyeti projenin kapsamına, sektördeki rekabet seviyesine ve hedeflerinize göre değişir. Başlangıç paketlerimiz aylık 15.000 TL'den başlar. Kapsamlı projeler için özel fiyatlandırma yapıyoruz. İlk adım olarak ücretsiz bir ön analiz sunuyoruz — bu analizde size özel bir teklif hazırlıyoruz.",
+          answer: "SEO maliyeti projenin kapsamına, sektördeki rekabet seviyesine ve hedeflerinize göre değişir. Başlangıç paketlerimiz aylık 15.000 TL'den başlar. Kapsamlı projeler için özel fiyatlandırma yapıyoruz. İlk adım olarak ücretsiz bir ön analiz sunuyoruz. Bu analizde size özel bir teklif hazırlıyoruz.",
         },
         {
           question: "Hangi sektörlerde deneyiminiz var?",

@@ -3,7 +3,7 @@ export default function AffiliateMarketingRehberi() {
     <>
       <h2>Affiliate Marketing Rehberi: Ağlar, Komisyon Modelleri ve Türkiye'de Yasal Boyut</h2>
       <p>
-        <strong>Affiliate marketing</strong> (satış ortaklığı), dijital dünyada hem markalar hem de içerik üreticileri için güçlü bir gelir kanalıdır. Markalar yalnızca sonuç aldığında ödeme yapar; yayıncılar ise kendi kitleleri üzerinden pasif gelir elde eder. Bu rehberde, affiliate marketing ekosistemini Türkiye özelinde tüm boyutlarıyla — ağ seçimi, komisyon modelleri, yayıncı bulma, performans takibi ve yasal gereklilikler dahil — ele alıyoruz.
+        <strong>Affiliate marketing</strong> (satış ortaklığı), dijital dünyada hem markalar hem de içerik üreticileri için güçlü bir gelir kanalıdır. Markalar yalnızca sonuç aldığında ödeme yapar; yayıncılar ise kendi kitleleri üzerinden pasif gelir elde eder. Bu rehberde, affiliate marketing ekosistemini Türkiye özelinde tüm boyutlarıyla (ağ seçimi, komisyon modelleri, yayıncı bulma, performans takibi ve yasal gereklilikler dahil) ele alıyoruz.
       </p>
 
       <h2>1. Affiliate Marketing Nedir ve Nasıl Çalışır?</h2>

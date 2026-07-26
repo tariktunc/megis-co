@@ -3,7 +3,7 @@ export default function DockerWebGelistirme() {
     <>
       <h2>Docker Nedir?</h2>
       <p>
-        <strong>Docker</strong>, uygulamalari konteynerler (containers) icinde paketleyerek calistirmanizi saglayan bir platformdur. Bir konteyner, uygulamanizi ve tum bagimliklarini (runtime, kutuphaneler, sistem araclari, konfigurasyonlar) tek bir izole birim icinde barindirır. Bu sayede &quot;benim bilgisayarimda calisiyor&quot; problemini tamamen ortadan kaldirir — uygulama her ortamda (gelistirme, test, uretim) ayni sekilde calisir.
+        <strong>Docker</strong>, uygulamalari konteynerler (containers) icinde paketleyerek calistirmanizi saglayan bir platformdur. Bir konteyner, uygulamanizi ve tum bagimliklarini (runtime, kutuphaneler, sistem araclari, konfigurasyonlar) tek bir izole birim icinde barindirır. Bu sayede &quot;benim bilgisayarimda calisiyor&quot; problemini tamamen ortadan kaldirir: uygulama her ortamda (gelistirme, test, uretim) ayni sekilde calisir.
       </p>
       <p>
         Web gelistirme dunyasinda Docker, hem bireysel gelisitiriciler hem de ekipler icin devrim niteliginde bir arac haline gelmistir. Farkli Node.js versiyonlari, veritabanlari, cache servisleri ve diger bagimliliklar konteyner olarak yonetilir. Yeni bir ekip uyesinin projeyi calistirmasi, tek bir komutla dakikalar icinde gerceklesir. Bu rehberde, Docker&apos;in web gelistirme sureclerinde nasil kullanilacagini, Dockerfile yapisindan Docker Compose&apos;a, gelistirme ortamlarindan multi-stage build&apos;lere kadar detayli olarak inceleyecegiz.

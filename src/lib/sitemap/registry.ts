@@ -1,5 +1,5 @@
 // src/lib/sitemap/registry.ts
-// Otomatik üretildi — /webforge-sitemap (v2.1)
+// Otomatik üretildi, /webforge-sitemap (v2.1)
 // Bu dosya her yeni dinamik adapter eklendiğinde güncellenir.
 
 import type { SitemapAdapter } from "./types";

@@ -14,7 +14,7 @@ export default function SeoIcinIcerikYazimi() {
         <li><strong>Çekirdek konu belirleme:</strong> İçeriğinizin ana temasını netleştirin. Örneğin "e-ticaret SEO" gibi geniş bir konu seçin.</li>
         <li><strong>Anahtar kelime araçlarını kullanma:</strong> Google Keyword Planner, Ahrefs, SEMrush veya Ubersuggest gibi araçlarla arama hacmi ve rekabet düzeyini analiz edin.</li>
         <li><strong>Uzun kuyruklu anahtar kelimelere odaklanma:</strong> "E-ticaret sitesi için SEO stratejileri" gibi daha spesifik ifadeler, dönüşüm oranı açısından çok daha etkilidir.</li>
-        <li><strong>Arama niyetini anlama:</strong> Kullanıcının bilgi mi arıyor, karşılaştırma mı yapıyor yoksa satın alma kararı mı veriyor — bunu belirleyin.</li>
+        <li><strong>Arama niyetini anlama:</strong> Kullanıcının bilgi mi arıyor, karşılaştırma mı yapıyor yoksa satın alma kararı mı veriyor: bunu belirleyin.</li>
       </ol>
 
       <h3>Anahtar Kelime Yerleştirme Stratejisi</h3>
@@ -70,7 +70,7 @@ export default function SeoIcinIcerikYazimi() {
 
       <h2>2. E-E-A-T: Google'ın Kalite Ölçütü</h2>
       <p>
-        Google'ın <strong>E-E-A-T</strong> çerçevesi (Experience, Expertise, Authoritativeness, Trustworthiness — Deneyim, Uzmanlık, Otorite, Güvenilirlik) içerik kalitesini değerlendirmede kritik bir rol oynar. Bu sinyalleri güçlendirmek için:
+        Google'ın <strong>E-E-A-T</strong> çerçevesi (Experience, Expertise, Authoritativeness, Trustworthiness: Deneyim, Uzmanlık, Otorite, Güvenilirlik) içerik kalitesini değerlendirmede kritik bir rol oynar. Bu sinyalleri güçlendirmek için:
       </p>
       <ul>
         <li><strong>Deneyim (Experience):</strong> Konuyla ilgili kişisel deneyimlerinizi paylaşın. Gerçek vaka çalışmaları, ekran görüntüleri ve somut sonuçlar gösterin.</li>
@@ -101,7 +101,7 @@ export default function SeoIcinIcerikYazimi() {
 
       <h2>4. Okunabilirlik ve Kullanıcı Deneyimi</h2>
       <p>
-        Google, kullanıcı davranış sinyallerini — sayfa kalma süresi, hemen çıkma oranı, sayfada kaydırma derinliği — izleyerek içeriğinizin gerçekten yararlı olup olmadığını değerlendirir. Okunabilirliği artırmak için:
+        Google, kullanıcı davranış sinyallerini (sayfa kalma süresi, hemen çıkma oranı, sayfada kaydırma derinliği) izleyerek içeriğinizin gerçekten yararlı olup olmadığını değerlendirir. Okunabilirliği artırmak için:
       </p>
       <ol>
         <li><strong>Kısa paragraflar kullanın:</strong> Her paragraf 3-4 cümleden oluşsun. Duvar gibi metin blokları kullanıcıyı kaçırır.</li>
@@ -123,7 +123,7 @@ export default function SeoIcinIcerikYazimi() {
       <h3>Etkili Başlık Formülleri</h3>
       <ul>
         <li>"[Konu]: Adım Adım Rehber (2025 Güncel)"</li>
-        <li>"[Sayı] [Konu] Stratejisi — Kanıtlanmış Yöntemler"</li>
+        <li>"[Sayı] [Konu] Stratejisi: Kanıtlanmış Yöntemler"</li>
         <li>"[Konu] Nedir? Bilmeniz Gereken Her Şey"</li>
         <li>"[Konu] Nasıl Yapılır? Başlangıç Rehberi"</li>
       </ul>

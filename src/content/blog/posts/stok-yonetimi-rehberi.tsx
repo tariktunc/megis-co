@@ -67,7 +67,7 @@ export default function StokYonetimiRehberi() {
 
       <h2>Ekonomik Siparis Miktari (EOQ)</h2>
       <p>
-        Ekonomik Siparis Miktari (Economic Order Quantity — EOQ), toplam stok maliyetini (siparis maliyeti + depolama maliyeti) minimize eden optimal siparis miktarini belirler. EOQ formulu: Karekoku (2 x Yillik Talep x Siparis Basi Maliyet / Birim Basi Yillik Depolama Maliyeti). Bu hesaplama, ne cok sik kucuk siparisler vererek siparis maliyetini yukseltmenizi, ne de cok buyuk siparisler vererek depolama maliyetini artirmanizi onler.
+        Ekonomik Siparis Miktari (Economic Order Quantity: EOQ), toplam stok maliyetini (siparis maliyeti + depolama maliyeti) minimize eden optimal siparis miktarini belirler. EOQ formulu: Karekoku (2 x Yillik Talep x Siparis Basi Maliyet / Birim Basi Yillik Depolama Maliyeti). Bu hesaplama, ne cok sik kucuk siparisler vererek siparis maliyetini yukseltmenizi, ne de cok buyuk siparisler vererek depolama maliyetini artirmanizi onler.
       </p>
 
       <h2>Stok Yonetim Araclari ve Yazilimlari</h2>

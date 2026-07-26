@@ -8,7 +8,7 @@ export default function SeoRaporlamaMetrikleri() {
 
       <h2>Temel SEO KPI'ları</h2>
       <p>
-        KPI (Key Performance Indicator — Anahtar Performans Göstergesi), SEO hedeflerinize ne kadar yaklaştığınızı ölçen metriklerdir. İşte takip etmeniz gereken temel KPI'lar:
+        KPI (Key Performance Indicator: Anahtar Performans Göstergesi), SEO hedeflerinize ne kadar yaklaştığınızı ölçen metriklerdir. İşte takip etmeniz gereken temel KPI'lar:
       </p>
 
       <h3>1. Organik Trafik</h3>

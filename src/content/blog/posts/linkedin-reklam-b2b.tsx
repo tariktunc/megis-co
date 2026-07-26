@@ -50,11 +50,11 @@ export default function LinkedinReklamB2b() {
         Sponsorlu mesajlarin etkili kullanimi icin onemli noktalar:
       </p>
       <ol>
-        <li>Gonderici profili onemlidir — taninir ve guvenilir bir kisi profili kullanin</li>
+        <li>Gonderici profili onemlidir: taninir ve guvenilir bir kisi profili kullanin</li>
         <li>Mesaji kisa ve oze yonelik tutun (500 karakterin altinda ideal)</li>
         <li>Kisisel bir ton kullanin, otomatik mesaj hissi vermeyin</li>
         <li>Tek bir net CTA (harekete gecirici mesaj) ekleyin</li>
-        <li>Bir kullanici 45 gun icinde yalnizca bir sponsorlu mesaj alır — bunu degerli kilin</li>
+        <li>Bir kullanici 45 gun icinde yalnizca bir sponsorlu mesaj alır: bunu degerli kilin</li>
       </ol>
 
       <h3>Lead Gen Forms (Lead Toplama Formları)</h3>

@@ -3,7 +3,7 @@ export default function B2bDijitalPazarlama() {
     <>
       <h2>B2B Dijital Pazarlama Rehberi: Kurumsal Müşteri Kazanma</h2>
       <p>
-        B2B (işletmeden işletmeye) dijital pazarlama, tüketici pazarlamasından temelden farklı dinamiklere sahiptir. Satın alma süreci daha uzun, karar vericiler birden fazla ve satın alma gerekçeleri duygusal değil rasyoneldir. Bu rehberde, <strong>B2B dijital pazarlama</strong> stratejilerini — LinkedIn pazarlama, içerik pazarlama, hesap bazlı pazarlama (ABM), lead generation, nurturing ve satış uyumunu kapsamlı şekilde ele alıyoruz.
+        B2B (işletmeden işletmeye) dijital pazarlama, tüketici pazarlamasından temelden farklı dinamiklere sahiptir. Satın alma süreci daha uzun, karar vericiler birden fazla ve satın alma gerekçeleri duygusal değil rasyoneldir. Bu rehberde, <strong>B2B dijital pazarlama</strong> stratejilerini: LinkedIn pazarlama, içerik pazarlama, hesap bazlı pazarlama (ABM), lead generation, nurturing ve satış uyumunu kapsamlı şekilde ele alıyoruz.
       </p>
 
       <h2>1. B2B Satın Alma Sürecini Anlamak</h2>
@@ -92,7 +92,7 @@ export default function B2bDijitalPazarlama() {
         B2B'de kaliteli lead oluşturma, pazarlama ekibinin en önemli görevidir. Çeşitli lead generation kanallarını birlikte kullanın:
       </p>
       <ul>
-        <li><strong>Gated content:</strong> Whitepaper, e-kitap veya sektörel araştırma raporlarını form karşılığında sunun. Form alanlarını minimum tutun — ad, e-posta ve şirket adı genellikle yeterlidir.</li>
+        <li><strong>Gated content:</strong> Whitepaper, e-kitap veya sektörel araştırma raporlarını form karşılığında sunun. Form alanlarını minimum tutun: ad, e-posta ve şirket adı genellikle yeterlidir.</li>
         <li><strong>Webinarlar:</strong> Sektörel konularda düzenli webinar düzenleyin. Kayıt formları kaliteli lead kaynağıdır ve webinar içeriği kayıt sonrası içerik olarak yeniden kullanılabilir.</li>
         <li><strong>SEO ve organik trafik:</strong> Satın alma sürecinin farklı aşamalarına hitap eden içeriklerle organik trafik çekin ve bu trafiği lead formlarına yönlendirin.</li>
         <li><strong>Chatbot ve canlı sohbet:</strong> Web sitenize AI destekli chatbot veya canlı sohbet entegre ederek ziyaretçileri anında yakalayın.</li>

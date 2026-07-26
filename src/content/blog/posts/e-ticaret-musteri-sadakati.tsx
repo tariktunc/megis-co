@@ -13,7 +13,7 @@ export default function ETicaretMusteriSadakati() {
 
       <h3>Musteri Yasam Boyu Degeri (CLV)</h3>
       <p>
-        Musteri yasam boyu degeri (Customer Lifetime Value — CLV), bir musterinin isletmenizle olan iliskisi boyunca yaratacagi toplam geliri ifade eder. CLV hesaplamasi icin ortalama siparis degeri, yillik satin alma sikligi ve ortalama musteri omrunu carparsak. Ornegin ortalama siparis degeri 500 TL, yillik satin alma sikligi 4 ve ortalama musteri omru 3 yil olan bir musterinin CLV'si 6.000 TL'dir. Bu deger, musteri edinme maliyetinizin (CAC) en az 3 katini olmalidir.
+        Musteri yasam boyu degeri (Customer Lifetime Value: CLV), bir musterinin isletmenizle olan iliskisi boyunca yaratacagi toplam geliri ifade eder. CLV hesaplamasi icin ortalama siparis degeri, yillik satin alma sikligi ve ortalama musteri omrunu carparsak. Ornegin ortalama siparis degeri 500 TL, yillik satin alma sikligi 4 ve ortalama musteri omru 3 yil olan bir musterinin CLV'si 6.000 TL'dir. Bu deger, musteri edinme maliyetinizin (CAC) en az 3 katini olmalidir.
       </p>
 
       <h2>Sadakat Programi Modelleri</h2>
@@ -104,8 +104,8 @@ export default function ETicaretMusteriSadakati() {
       <h3>Win-Back E-posta Serisi</h3>
       <ol>
         <li><strong>Ozledik sizi (60. gun):</strong> Nazik bir mesajla geri donmeye davet edin. Yeni urunleri ve kampanyalari tanitim.</li>
-        <li><strong>Ozel teklif (75. gun):</strong> Kisisellestirmis bir indirim kodu gonderin. "Sizin icin ozel yuzde 20 indirim — 7 gun gecerli" gibi aciliyet iceren bir teklif sunun.</li>
-        <li><strong>Son sans (90. gun):</strong> Daha agresif bir teklif ile son bir deneme yapin. "Sizi kaybetmek istemiyoruz — iste size ozel yuzde 30 indirim" mesaji kullanin.</li>
+        <li><strong>Ozel teklif (75. gun):</strong> Kisisellestirmis bir indirim kodu gonderin. "Sizin icin ozel yuzde 20 indirim, 7 gun gecerli" gibi aciliyet iceren bir teklif sunun.</li>
+        <li><strong>Son sans (90. gun):</strong> Daha agresif bir teklif ile son bir deneme yapin. "Sizi kaybetmek istemiyoruz: iste size ozel yuzde 30 indirim" mesaji kullanin.</li>
         <li><strong>Geri bildirim talebi (105. gun):</strong> Neden alisveris yapmadiklarini sorun. Anket gondererek degerli veriler toplayin ve iyilestirme firsatlarini belirleyin.</li>
       </ol>
 

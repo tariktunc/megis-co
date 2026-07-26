@@ -1,5 +1,5 @@
 // src/app/blog-sitemap.xml/route.ts
-// Otomatik üretildi — /webforge-sitemap (v2.1)
+// Otomatik üretildi, /webforge-sitemap (v2.1)
 // Adapter: blog
 
 import { blogAdapter } from "@/lib/sitemap/adapters/blog";

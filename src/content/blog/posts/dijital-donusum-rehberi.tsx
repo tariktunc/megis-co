@@ -140,10 +140,10 @@ export default function DijitalDonusumRehberi() {
         Dijital dönüşüm bir maraton, sprint değildir. Aşağıdaki aşamalı yaklaşımı benimseyin:
       </p>
       <ol>
-        <li><strong>Faz 1 — Temel (0-6 ay):</strong> Bulut e-posta, işbirliği araçları, temel CRM ve web sitesi modernizasyonu. Bu aşamada hızlı kazanımlar elde edin.</li>
-        <li><strong>Faz 2 — Gelişim (6-12 ay):</strong> Süreç otomasyonu, veri analitiği altyapısı, dijital pazarlama sistematizasyonu. Departmanlar arası entegrasyonu başlatın.</li>
-        <li><strong>Faz 3 — Olgunlaşma (12-24 ay):</strong> ERP entegrasyonu, AI destekli karar destek sistemleri, ileri düzey müşteri deneyimi platformları. Veri odaklı kültürü kurumsallaştırın.</li>
-        <li><strong>Faz 4 — İnovasyon (24+ ay):</strong> Prediktif analitik, IoT entegrasyonu, dijital ikiz uygulamaları ve yeni iş modelleri geliştirme.</li>
+        <li><strong>Faz 1, Temel (0-6 ay):</strong> Bulut e-posta, işbirliği araçları, temel CRM ve web sitesi modernizasyonu. Bu aşamada hızlı kazanımlar elde edin.</li>
+        <li><strong>Faz 2, Gelişim (6-12 ay):</strong> Süreç otomasyonu, veri analitiği altyapısı, dijital pazarlama sistematizasyonu. Departmanlar arası entegrasyonu başlatın.</li>
+        <li><strong>Faz 3, Olgunlaşma (12-24 ay):</strong> ERP entegrasyonu, AI destekli karar destek sistemleri, ileri düzey müşteri deneyimi platformları. Veri odaklı kültürü kurumsallaştırın.</li>
+        <li><strong>Faz 4, İnovasyon (24+ ay):</strong> Prediktif analitik, IoT entegrasyonu, dijital ikiz uygulamaları ve yeni iş modelleri geliştirme.</li>
       </ol>
 
       <h2>8. Başarı Ölçütleri ve KPI'lar</h2>

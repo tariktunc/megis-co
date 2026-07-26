@@ -34,7 +34,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 Megis olarak erişilebilirliği tasarım ve geliştirme sürecinin her aşamasına entegre ediyoruz. Radix UI gibi erişilebilirlik odaklı primitifler kullanıyor, ARIA rolleri ve etiketleri doğru şekilde uyguluyoruz, axe-core ile otomatik testler yapıyor ve gerçek ekran okuyucularla manuel testler gerçekleştiriyoruz. Amacımız sadece teknik uyumluluk değil, gerçek anlamda herkesin kullanabileceği ürünler oluşturmaktır."
       whyMatters={{
         title: "Erişilebilirlik neden bu kadar önemli?",
-        description: "Dünya Sağlık Örgütü verilerine göre dünya nüfusunun %16'sı bir engelle yaşıyor. Bu, yaklaşık 1.3 milyar insan demektir. Dijital ürünleriniz erişilebilir değilse, bu devasa kullanıcı kitlesini tamamen dışlamış olursunuz. Üstelik erişilebilirlik sadece kalıcı engeller için değil — geçici yaralanmalar, yaşlılık veya durumsal kısıtlamalar (örneğin tek elle telefon kullanma) da erişilebilirlikten faydalanır.\n\nHukuki açıdan da erişilebilirlik giderek zorunlu hale geliyor. Avrupa Birliği'nin European Accessibility Act (EAA) 2025'te yürürlüğe girdi. ABD'de ADA davaları her yıl artıyor. Türkiye'de de 5378 sayılı Engelliler Hakkında Kanun dijital erişilebilirliği kapsıyor. Erişilebilirliği ihmal etmek hukuki risk taşır.\n\nTicari açıdan bakarsak, erişilebilir siteler daha iyi SEO performansı gösterir. Anlamlı HTML yapısı, doğru başlık hiyerarşisi ve alt text'ler arama motorlarının içeriği daha iyi anlamasını sağlar. Ayrıca erişilebilir arayüzler tüm kullanıcılar için daha iyi bir deneyim sunar — bu da daha yüksek dönüşüm oranları ve müşteri memnuniyeti demektir."
+        description: "Dünya Sağlık Örgütü verilerine göre dünya nüfusunun %16'sı bir engelle yaşıyor. Bu, yaklaşık 1.3 milyar insan demektir. Dijital ürünleriniz erişilebilir değilse, bu devasa kullanıcı kitlesini tamamen dışlamış olursunuz. Üstelik erişilebilirlik sadece kalıcı engeller için değil: geçici yaralanmalar, yaşlılık veya durumsal kısıtlamalar (örneğin tek elle telefon kullanma) da erişilebilirlikten faydalanır.\n\nHukuki açıdan da erişilebilirlik giderek zorunlu hale geliyor. Avrupa Birliği'nin European Accessibility Act (EAA) 2025'te yürürlüğe girdi. ABD'de ADA davaları her yıl artıyor. Türkiye'de de 5378 sayılı Engelliler Hakkında Kanun dijital erişilebilirliği kapsıyor. Erişilebilirliği ihmal etmek hukuki risk taşır.\n\nTicari açıdan bakarsak, erişilebilir siteler daha iyi SEO performansı gösterir. Anlamlı HTML yapısı, doğru başlık hiyerarşisi ve alt text'ler arama motorlarının içeriği daha iyi anlamasını sağlar. Ayrıca erişilebilir arayüzler tüm kullanıcılar için daha iyi bir deneyim sunar: bu da daha yüksek dönüşüm oranları ve müşteri memnuniyeti demektir."
       }}
       stats={[
         { value: "AA", label: "WCAG 2.1 tam uyumluluk seviyesi" },
@@ -45,15 +45,15 @@ Megis olarak erişilebilirliği tasarım ve geliştirme sürecinin her aşaması
       features={[
         {
           title: "WCAG 2.1 AA Tam Uyumluluk",
-          description: "Perceivable, Operable, Understandable ve Robust — WCAG'in dört temel ilkesine tam uyumluluk. Her başarı kriterini (success criterion) tek tek değerlendiriyoruz: metin alternatifleri (1.1.1), altyazı desteği (1.2), uyarlanabilir içerik (1.3), ayırt edilebilirlik (1.4), klavye erişimi (2.1), yeterli zaman (2.2), nöbet güvenliği (2.3), navigasyon kolaylığı (2.4), okunabilirlik (3.1), tahmin edilebilirlik (3.2), girdi yardımı (3.3) ve uyumluluk (4.1). Her kriter için test senaryoları oluşturuyor ve doğruluyoruz."
+          description: "Perceivable, Operable, Understandable ve Robust: WCAG'in dört temel ilkesine tam uyumluluk. Her başarı kriterini (success criterion) tek tek değerlendiriyoruz: metin alternatifleri (1.1.1), altyazı desteği (1.2), uyarlanabilir içerik (1.3), ayırt edilebilirlik (1.4), klavye erişimi (2.1), yeterli zaman (2.2), nöbet güvenliği (2.3), navigasyon kolaylığı (2.4), okunabilirlik (3.1), tahmin edilebilirlik (3.2), girdi yardımı (3.3) ve uyumluluk (4.1). Her kriter için test senaryoları oluşturuyor ve doğruluyoruz."
         },
         {
           title: "Radix UI Primitifleri ile Erişilebilir Bileşenler",
-          description: "Radix UI, erişilebilirlik için sıfırdan tasarlanmış headless UI primitifleridir. Dialog, Dropdown Menu, Select, Tooltip, Tabs, Accordion, Toggle, Popover ve daha fazlası — her biri ARIA pattern'lerine tam uyumlu, klavye navigasyonu dahili, focus yönetimi otomatik. Radix UI kullanarak baştan doğru yapılmış erişilebilir bileşenler oluşturuyoruz. Stil esnekliği sayesinde tasarımınızdan ödün vermeden tam erişilebilirlik sağlıyoruz."
+          description: "Radix UI, erişilebilirlik için sıfırdan tasarlanmış headless UI primitifleridir. Dialog, Dropdown Menu, Select, Tooltip, Tabs, Accordion, Toggle, Popover ve daha fazlası: her biri ARIA pattern'lerine tam uyumlu, klavye navigasyonu dahili, focus yönetimi otomatik. Radix UI kullanarak baştan doğru yapılmış erişilebilir bileşenler oluşturuyoruz. Stil esnekliği sayesinde tasarımınızdan ödün vermeden tam erişilebilirlik sağlıyoruz."
         },
         {
           title: "ARIA Rolleri ve Etiketleri",
-          description: "Doğru ARIA (Accessible Rich Internet Applications) kullanımı, yardımcı teknolojilerin arayüzünüzü anlamasını sağlar. aria-label, aria-labelledby, aria-describedby, aria-live, aria-expanded, aria-hidden, role='alert', role='dialog', role='navigation' gibi ARIA özelliklerini anlamlı ve doğru şekilde uyguluyoruz. Gereksiz ARIA kullanımından kaçınıyoruz — ilk kural: doğal HTML elementi yeterliyse ARIA kullanma."
+          description: "Doğru ARIA (Accessible Rich Internet Applications) kullanımı, yardımcı teknolojilerin arayüzünüzü anlamasını sağlar. aria-label, aria-labelledby, aria-describedby, aria-live, aria-expanded, aria-hidden, role='alert', role='dialog', role='navigation' gibi ARIA özelliklerini anlamlı ve doğru şekilde uyguluyoruz. Gereksiz ARIA kullanımından kaçınıyoruz. İlk kural: doğal HTML elementi yeterliyse ARIA kullanma."
         },
         {
           title: "Focus Yönetimi ve Klavye Navigasyonu",
@@ -61,11 +61,11 @@ Megis olarak erişilebilirliği tasarım ve geliştirme sürecinin her aşaması
         },
         {
           title: "Renk Kontrastı ve Görsel Erişilebilirlik",
-          description: "Normal metin için minimum 4.5:1, büyük metin için minimum 3:1 kontrast oranı. UI bileşenleri ve grafik elementler için minimum 3:1 kontrast. Renk tek başına bilgi taşımaz — her renk kodlu bilgi yanında ikon veya metin alternatifi bulunur. Dark mode ve light mode'da kontrast oranları ayrı ayrı doğrulanır. Forced colors mode (Windows Yüksek Kontrast) desteği sağlanır."
+          description: "Normal metin için minimum 4.5:1, büyük metin için minimum 3:1 kontrast oranı. UI bileşenleri ve grafik elementler için minimum 3:1 kontrast. Renk tek başına bilgi taşımaz: her renk kodlu bilgi yanında ikon veya metin alternatifi bulunur. Dark mode ve light mode'da kontrast oranları ayrı ayrı doğrulanır. Forced colors mode (Windows Yüksek Kontrast) desteği sağlanır."
         },
         {
           title: "Hareket Duyarlılığı ve Animasyon Kontrolü",
-          description: "prefers-reduced-motion medya sorgusu ile kullanıcının işletim sistemi tercihine saygı gösteriyoruz. Animasyonlar azaltılır veya tamamen devre dışı bırakılır. Otomatik oynatılan içerik yoktur — tüm hareket kullanıcı tarafından tetiklenir. Paralaks efektleri, sonsuz kaydırma ve büyük ölçekli geçiş animasyonları reduced-motion modunda kaldırılır. Vestibular bozuklukları olan kullanıcılar için güvenli bir deneyim sunuyoruz."
+          description: "prefers-reduced-motion medya sorgusu ile kullanıcının işletim sistemi tercihine saygı gösteriyoruz. Animasyonlar azaltılır veya tamamen devre dışı bırakılır. Otomatik oynatılan içerik yoktur: tüm hareket kullanıcı tarafından tetiklenir. Paralaks efektleri, sonsuz kaydırma ve büyük ölçekli geçiş animasyonları reduced-motion modunda kaldırılır. Vestibular bozuklukları olan kullanıcılar için güvenli bir deneyim sunuyoruz."
         },
         {
           title: "Otomatik ve Manuel Erişilebilirlik Testleri",
@@ -118,7 +118,7 @@ Megis olarak erişilebilirliği tasarım ve geliştirme sürecinin her aşaması
         },
         {
           title: "Strateji ve Yol Haritası",
-          description: "Denetim sonuçlarına dayanarak erişilebilirlik yol haritası oluşturuyoruz. Hangi sorunlar önce düzeltilecek, hangi bileşenler yeniden yazılacak, hangi alanlar Radix UI ile değiştirilecek — her adım net. Zaman çizelgesi, kaynak ihtiyacı ve beklenen uyumluluk seviyeleri belirlenir."
+          description: "Denetim sonuçlarına dayanarak erişilebilirlik yol haritası oluşturuyoruz. Hangi sorunlar önce düzeltilecek, hangi bileşenler yeniden yazılacak, hangi alanlar Radix UI ile değiştirilecek. Her adım net. Zaman çizelgesi, kaynak ihtiyacı ve beklenen uyumluluk seviyeleri belirlenir."
         },
         {
           title: "Bileşen Geliştirme ve Düzeltme",
@@ -160,16 +160,16 @@ Megis olarak erişilebilirliği tasarım ve geliştirme sürecinin her aşaması
       }}
       caseStudies={[
         {
-          title: "Fintech Uygulaması — Sıfırdan WCAG 2.1 AA Uyumluluk",
+          title: "Fintech Uygulaması: Sıfırdan WCAG 2.1 AA Uyumluluk",
           challenge: "100.000+ aktif kullanıcısı olan fintech uygulaması hiçbir erişilebilirlik standardına uymuyordu. Ekran okuyucular formları okuyamıyordu, klavye ile işlem yapmak imkansızdı, renk kontrastları %60 başarısızdı. Yasal uyarı almışlardı.",
           solution: "Tüm form bileşenleri Radix UI ile yeniden yazıldı. ARIA etiketleri ve roller eklendi. Focus yönetimi sıfırdan tasarlandı. Renk paleti 4.5:1 kontrast oranına uygun olarak güncellendi. axe-core CI/CD pipeline'ına entegre edildi. VoiceOver ve NVDA ile 50+ senaryo test edildi.",
-          result: "8 haftada tam WCAG 2.1 AA uyumluluk sağlandı. Lighthouse Accessibility skoru 34'ten 98'e çıktı. Yasal risk ortadan kaldırıldı. Kullanıcı memnuniyeti skoru %23 arttı — erişilebilirlik iyileştirmeleri tüm kullanıcılara fayda sağladı.",
+          result: "8 haftada tam WCAG 2.1 AA uyumluluk sağlandı. Lighthouse Accessibility skoru 34'ten 98'e çıktı. Yasal risk ortadan kaldırıldı. Kullanıcı memnuniyeti skoru %23 arttı. Erişilebilirlik iyileştirmeleri tüm kullanıcılara fayda sağladı.",
         },
         {
-          title: "E-Ticaret Platformu — Erişilebilir Alışveriş Deneyimi",
+          title: "E-Ticaret Platformu: Erişilebilir Alışveriş Deneyimi",
           challenge: "Büyük e-ticaret platformunda ürün filtreleme, sepet işlemleri ve ödeme akışı klavye ile kullanılamıyordu. Ürün görselleri alt text içermiyordu. Ekran okuyucu kullanıcıları alışveriş yapamıyordu.",
           solution: "Ürün listesi, filtreleme, sepet ve ödeme bileşenleri Radix UI tabanlı erişilebilir bileşenlerle değiştirildi. 2.000+ ürün görseline otomatik ve manuel alt text eklendi. Ödeme formları ARIA live region'larla desteklendi. Focus trap ve skip navigation uygulandı.",
-          result: "Erişilebilirliği iyileştirilen ödeme akışında terk oranı %18 düştü. Engelli kullanıcıların sipariş tamamlama oranı %340 arttı. Organik trafik %12 yükseldi — SEO iyileştirmeleri doğal bir yan etki oldu.",
+          result: "Erişilebilirliği iyileştirilen ödeme akışında terk oranı %18 düştü. Engelli kullanıcıların sipariş tamamlama oranı %340 arttı. Organik trafik %12 yükseldi. SEO iyileştirmeleri doğal bir yan etki oldu.",
         },
       ]}
       faqs={[
@@ -179,7 +179,7 @@ Megis olarak erişilebilirliği tasarım ve geliştirme sürecinin her aşaması
         },
         {
           question: "Erişilebilirlik çalışmaları mevcut tasarımımızı bozar mı?",
-          answer: "Hayır. Erişilebilirlik, iyi tasarımla çelişmez — onu güçlendirir. Radix UI gibi headless primitifler tam stil esnekliği sunar. Renk kontrastı iyileştirmeleri genellikle daha okunabilir ve profesyonel bir görünüm oluşturur. Focus göstergeleri markanıza uygun şekilde tasarlanabilir. Animasyon kontrolü zaten iyi UX pratiklerinin bir parçasıdır. Deneyimimizde erişilebilirlik iyileştirmeleri sonrasında tasarım kalitesi her zaman artmıştır.",
+          answer: "Hayır. Erişilebilirlik, iyi tasarımla çelişmez, onu güçlendirir. Radix UI gibi headless primitifler tam stil esnekliği sunar. Renk kontrastı iyileştirmeleri genellikle daha okunabilir ve profesyonel bir görünüm oluşturur. Focus göstergeleri markanıza uygun şekilde tasarlanabilir. Animasyon kontrolü zaten iyi UX pratiklerinin bir parçasıdır. Deneyimimizde erişilebilirlik iyileştirmeleri sonrasında tasarım kalitesi her zaman artmıştır.",
         },
         {
           question: "Erişilebilirlik testi nasıl yapılıyor?",
@@ -191,7 +191,7 @@ Megis olarak erişilebilirliği tasarım ve geliştirme sürecinin her aşaması
         },
         {
           question: "Radix UI nedir ve neden tercih ediyorsunuz?",
-          answer: "Radix UI, erişilebilirlik odaklı, stilsiz (headless) React UI primitifleridir. Dialog, Select, Dropdown, Tabs, Accordion gibi karmaşık etkileşim kalıplarını ARIA standartlarına tam uyumlu olarak sağlar. Klavye navigasyonu, focus yönetimi ve ekran okuyucu desteği dahilidir. Stilsiz olması sayesinde tasarımınıza tam uyum sağlar — görünümü siz belirlersiniz, erişilebilirlik altyapısı hazırdır. Bu, erişilebilirliği sonradan eklemeye çalışmak yerine baştan doğru yapmaktır.",
+          answer: "Radix UI, erişilebilirlik odaklı, stilsiz (headless) React UI primitifleridir. Dialog, Select, Dropdown, Tabs, Accordion gibi karmaşık etkileşim kalıplarını ARIA standartlarına tam uyumlu olarak sağlar. Klavye navigasyonu, focus yönetimi ve ekran okuyucu desteği dahilidir. Stilsiz olması sayesinde tasarımınıza tam uyum sağlar: görünümü siz belirlersiniz, erişilebilirlik altyapısı hazırdır. Bu, erişilebilirliği sonradan eklemeye çalışmak yerine baştan doğru yapmaktır.",
         },
         {
           question: "Erişilebilirlik projesinin maliyeti ve süresi nedir?",
@@ -199,7 +199,7 @@ Megis olarak erişilebilirliği tasarım ve geliştirme sürecinin her aşaması
         },
         {
           question: "Erişilebilirlik bir kez yapılınca bitiyor mu?",
-          answer: "Hayır. Erişilebilirlik sürekli bir süreçtir. Yeni özellikler eklendikçe, tasarım değişiklikleri yapıldıkça ve içerik güncellendikçe erişilebilirlik kontrolleri tekrarlanmalıdır. Tarayıcılar ve ekran okuyucular güncellendikçe yeni uyumluluk sorunları çıkabilir. WCAG standartları da güncellenir — WCAG 2.2 zaten yayınlandı, 3.0 yolda. Bu nedenle CI/CD'ye otomatik test entegrasyonu, aylık raporlama ve ekip eğitimi ile sürdürülebilir bir erişilebilirlik kültürü oluşturuyoruz.",
+          answer: "Hayır. Erişilebilirlik sürekli bir süreçtir. Yeni özellikler eklendikçe, tasarım değişiklikleri yapıldıkça ve içerik güncellendikçe erişilebilirlik kontrolleri tekrarlanmalıdır. Tarayıcılar ve ekran okuyucular güncellendikçe yeni uyumluluk sorunları çıkabilir. WCAG standartları da güncellenir: WCAG 2.2 zaten yayınlandı, 3.0 yolda. Bu nedenle CI/CD'ye otomatik test entegrasyonu, aylık raporlama ve ekip eğitimi ile sürdürülebilir bir erişilebilirlik kültürü oluşturuyoruz.",
         },
       ]}
       cta="Ücretsiz Erişilebilirlik Taraması Alın"

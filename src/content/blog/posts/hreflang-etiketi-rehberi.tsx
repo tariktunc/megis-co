@@ -12,7 +12,7 @@ export default function HreflangEtiketiRehberi() {
         <li><strong>Yinelenen içerik sorununun önlenmesi:</strong> Farklı dillerdeki benzer içerikler Google tarafından duplicate content olarak algılanmaz.</li>
         <li><strong>Kullanıcı deneyimi:</strong> Kullanıcılar kendi dillerinde içerik görür, hemen çıkma oranı düşer.</li>
         <li><strong>Sıralama gücünün korunması:</strong> Sayfa otoritesi, dil versiyonları arasında doğru şekilde dağıtılır.</li>
-        <li><strong>Bölgesel hedefleme:</strong> Aynı dili konuşan farklı ülkelere (örn. İngilizce — ABD, İngiltere, Avustralya) farklı içerik sunabilirsiniz.</li>
+        <li><strong>Bölgesel hedefleme:</strong> Aynı dili konuşan farklı ülkelere (örn. İngilizce: ABD, İngiltere, Avustralya) farklı içerik sunabilirsiniz.</li>
       </ul>
 
       <h2>Hreflang Sözdizimi</h2>

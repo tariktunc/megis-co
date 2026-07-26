@@ -16,7 +16,7 @@ export async function generateMetadata({
     alternates: {
       canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/marka`,
     },
-    // Style-guide sayfası — arama amacı yok, indekslenirse gerçek içerikle
+    // Style-guide sayfası, arama amacı yok, indekslenirse gerçek içerikle
     // kanibalize olur (site-builder/specs/brand-page.md, /_studio ile aynı
     // gerekçe sınıfı). pages-sitemap.xml'den de _legal-slugs.ts üzerinden
     // AUTH_GATED_SLUGS ile hariç tutulur.

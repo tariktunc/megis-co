@@ -3,10 +3,10 @@ export default function HeadlessCmsKarsilastirmasi() {
     <>
       <h2>Headless CMS Nedir ve Neden Onemlidir?</h2>
       <p>
-        Geleneksel icerik yonetim sistemleri (WordPress, Joomla gibi) hem icerigi hem de sunumu tek bir catida birlestirir. <strong>Headless CMS</strong> ise icerik yonetimini on yuzden (frontend) tamamen ayirir. Icerik bir API uzerinden sunulur ve siz bu icerigi istediginiz platformda — web sitesi, mobil uygulama, IoT cihazi veya dijital kiosk — tuketebilirsiniz. Bu yaklasim, modern web gelistirme dunyasinda giderek daha fazla benimsenmektedir.
+        Geleneksel icerik yonetim sistemleri (WordPress, Joomla gibi) hem icerigi hem de sunumu tek bir catida birlestirir. <strong>Headless CMS</strong> ise icerik yonetimini on yuzden (frontend) tamamen ayirir. Icerik bir API uzerinden sunulur ve siz bu icerigi istediginiz platformda (web sitesi, mobil uygulama, IoT cihazi veya dijital kiosk) tuketebilirsiniz. Bu yaklasim, modern web gelistirme dunyasinda giderek daha fazla benimsenmektedir.
       </p>
       <p>
-        2026 yilinda cok kanalli (omnichannel) deneyimler sunan markalar icin headless yaklasim artik bir tercih degil, zorunluluk haline gelmistir. Tek bir icerik kaynagindan birden fazla platforma icerik dagitmak, hem zaman tasarrufu saglar hem de marka tutarliligini korur. Bu rehberde en populer dort headless CMS platformunu — Strapi, Sanity, Contentful ve Prismic — derinlemesine karsilastiriyoruz.
+        2026 yilinda cok kanalli (omnichannel) deneyimler sunan markalar icin headless yaklasim artik bir tercih degil, zorunluluk haline gelmistir. Tek bir icerik kaynagindan birden fazla platforma icerik dagitmak, hem zaman tasarrufu saglar hem de marka tutarliligini korur. Bu rehberde en populer dort headless CMS platformunu (Strapi, Sanity, Contentful ve Prismic) derinlemesine karsilastiriyoruz.
       </p>
 
       <h2>Karsilastirma Kriterleri</h2>

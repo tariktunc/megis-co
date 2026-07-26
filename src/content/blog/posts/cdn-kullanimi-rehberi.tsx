@@ -3,7 +3,7 @@ export default function CdnKullanimiRehberi() {
     <>
       <h2>CDN Nedir?</h2>
       <p>
-        CDN (Content Delivery Network — Icerik Dagitim Agi), web sitenizin statik ve dinamik iceriklerini dunya genelindeki cografi olarak dagilmis sunucu agiinda onbelleleyerek ziyaretcilere en yakin noktadan sunan bir altyapi hizmetidir. Bu, sayfa yukleme surelerini dramatik olarak kisaltir, sunucu yukunu azaltir ve kullanici deneyimini iyilestirir.
+        CDN (Content Delivery Network: Icerik Dagitim Agi), web sitenizin statik ve dinamik iceriklerini dunya genelindeki cografi olarak dagilmis sunucu agiinda onbelleleyerek ziyaretcilere en yakin noktadan sunan bir altyapi hizmetidir. Bu, sayfa yukleme surelerini dramatik olarak kisaltir, sunucu yukunu azaltir ve kullanici deneyimini iyilestirir.
       </p>
       <p>
         2026 yilinda web sitelerinin performans beklentileri her zamankinden yuksek. Google&apos;in Core Web Vitals metrikleri dogrudan siralama faktorudur ve kullanicilarin %53&apos;u 3 saniyeden uzun yuklenen bir mobil sayfayi terk etmektedir. CDN, bu performans hedeflerine ulasmak icin vazgecilmez bir aractir. Bu rehberde, CDN teknolojisini, lider saglayicilari, kurulum adimlarini ve onbellekleme stratejilerini detayli olarak ele alacagiz.

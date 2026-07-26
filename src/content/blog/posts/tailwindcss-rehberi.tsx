@@ -86,11 +86,11 @@ export default {
         Tailwind CSS, mobile-first responsive yaklasimini benimser. Kirilma noktalari (breakpoints) on ek olarak uygulanir:
       </p>
       <ul>
-        <li><code>sm:</code> — 640px ve ustu</li>
-        <li><code>md:</code> — 768px ve ustu</li>
-        <li><code>lg:</code> — 1024px ve ustu</li>
-        <li><code>xl:</code> — 1280px ve ustu</li>
-        <li><code>2xl:</code> — 1536px ve ustu</li>
+        <li><code>sm:</code>, 640px ve ustu</li>
+        <li><code>md:</code>, 768px ve ustu</li>
+        <li><code>lg:</code>, 1024px ve ustu</li>
+        <li><code>xl:</code>, 1280px ve ustu</li>
+        <li><code>2xl:</code>, 1536px ve ustu</li>
       </ul>
       <pre><code>{`<!-- Mobilde tek kolon, tablette 2, masaustunde 3 kolon -->
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

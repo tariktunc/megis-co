@@ -100,7 +100,7 @@ export default function ETicaretFotografCekim() {
 
       <h3>Kompozisyon Kurallari</h3>
       <p>
-        Urun fotografciliginda ucler kurali (rule of thirds) uygulanabilir ancak cogu durumda urun karenin merkezine yerlestirilir. Urunun etrafinda yeterli bosluk (negative space) birakin. Urunun goruntuyu doldurma orani yaklasik yuzde 70-80 olmalidir — cok kucuk veya cok buyuk gorunmemelidir.
+        Urun fotografciliginda ucler kurali (rule of thirds) uygulanabilir ancak cogu durumda urun karenin merkezine yerlestirilir. Urunun etrafinda yeterli bosluk (negative space) birakin. Urunun goruntuyu doldurma orani yaklasik yuzde 70-80 olmalidir: cok kucuk veya cok buyuk gorunmemelidir.
       </p>
 
       <h2>5. 360 Derece Urun Fotografciligi</h2>
@@ -116,7 +116,7 @@ export default function ETicaretFotografCekim() {
         Beyaz arka plan uzerindeki klasik urun fotograflarinin yani sira, <strong>yasam tarzi cekimleri</strong> urunun gercek hayattaki kullanimini gostererek duygusal baglanti kurar. Bir kahve fincani, sabah isiginda ahsap bir masa uzerinde fotograflandiginda, bos bir arka plandaki gorunumunden cok daha cazip ve ilham verici hale gelir.
       </p>
       <ul>
-        <li><strong>Sahne olusturma:</strong> Urunle uyumlu aksesuar ve dekor ogeleri kullanin. Fazla karmasik sahnelerden kacinin — urun her zaman odak noktasi olmalidir.</li>
+        <li><strong>Sahne olusturma:</strong> Urunle uyumlu aksesuar ve dekor ogeleri kullanin. Fazla karmasik sahnelerden kacinin: urun her zaman odak noktasi olmalidir.</li>
         <li><strong>Model kullanimi:</strong> Giyim, aksesuar ve kozmetik urunlerinde model kullanimi donusum oranini onemli olcude arttirir. Hedef kitlenizi temsil eden modeller tercih edin.</li>
         <li><strong>Mevsimsel temalar:</strong> Urunlerinizi mevsime uygun temalarla fotograflayin. Yilbasi, yaz tatili veya sonbahar konseptleri gorsel cekiciligi arttirir.</li>
       </ul>
@@ -187,7 +187,7 @@ export default function ETicaretFotografCekim() {
 
       <h2>Sonuc</h2>
       <p>
-        E-ticaret fotograf cekimi, teknik bilgi ve yaratici goz gerektiren bir disiplindir. Dogru ekipman, uygun aydinlatma, tutarli arka plan ve profesyonel duzenleme ile musterilerinize guven veren, satin alma kararini kolaylastiran gorseller uretebilirsiniz. Her urun icin en az 5-8 farkli acidan fotograf hazirlayin, 360 derece goruntuleme imkani sunun ve yasam tarzi cekimleri ile duygusal baglanti kurun. Unutmayin, e-ticarette gorseller vitrininizdir — ve vitrin ne kadar etkileyici olursa, musterinin iceride kalma olasiligi o kadar artar.
+        E-ticaret fotograf cekimi, teknik bilgi ve yaratici goz gerektiren bir disiplindir. Dogru ekipman, uygun aydinlatma, tutarli arka plan ve profesyonel duzenleme ile musterilerinize guven veren, satin alma kararini kolaylastiran gorseller uretebilirsiniz. Her urun icin en az 5-8 farkli acidan fotograf hazirlayin, 360 derece goruntuleme imkani sunun ve yasam tarzi cekimleri ile duygusal baglanti kurun. Unutmayin, e-ticarette gorseller vitrininizdir, ve vitrin ne kadar etkileyici olursa, musterinin iceride kalma olasiligi o kadar artar.
       </p>
     </>
   );

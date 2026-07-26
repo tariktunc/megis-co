@@ -3,7 +3,7 @@ export default function TelifHakkiDijitalIcerik() {
     <>
       <h2>Dijital Icerik ve Telif Hakki: Temel Kavramlar</h2>
       <p>
-        Dijital cagda icerik uretimi hiz kazandikca, telif hakki konusu her zamankinden daha kritik hale gelmistir. Bir blog yazisi, fotograf, video, muzik parcasi, yazilim kodu veya grafik tasarim — hepsi telif hakki kapsaminda korunan eserlerdir. Dijital iceriklerin kolayca kopyalanabilmesi, dagitilabilmesi ve degistirilebilmesi, telif hakki ihlallerini yayginlastirmis ve hukuki uyusmazliklari artirmistir.
+        Dijital cagda icerik uretimi hiz kazandikca, telif hakki konusu her zamankinden daha kritik hale gelmistir. Bir blog yazisi, fotograf, video, muzik parcasi, yazilim kodu veya grafik tasarim: hepsi telif hakki kapsaminda korunan eserlerdir. Dijital iceriklerin kolayca kopyalanabilmesi, dagitilabilmesi ve degistirilebilmesi, telif hakki ihlallerini yayginlastirmis ve hukuki uyusmazliklari artirmistir.
       </p>
       <p>
         Bu rehberde dijital icerik baglaaminda telif hakki kavramini, lisanslama modellerini, adil kullaanim (fair use) ilkesini, Creative Commons lisanslarini ve Turkiye&apos;deki yasal cerceeveyi kapsamli sekilde ele alacagiz. Ister icerik ureticisi ister icerik tuketicisi olun, bu bilgiler dijital dunyada haklarinizi ve sorumluluklarinizi anlamaniza yardimci olacaktir.

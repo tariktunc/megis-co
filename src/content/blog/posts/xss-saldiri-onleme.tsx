@@ -161,10 +161,10 @@ export default function XssSaldiriOnleme() {
         CSP&apos;nin yaninda XSS korumasini gucllendirecek ek HTTP basliklari:
       </p>
       <ul>
-        <li><strong>X-Content-Type-Options: nosniff</strong> — MIME tipi koklama saldirilarini onler.</li>
-        <li><strong>X-Frame-Options: DENY</strong> — Clickjacking saldiiirlarini onler.</li>
-        <li><strong>Referrer-Policy: strict-origin-when-cross-origin</strong> — Referrer bilgisi sizintisini sinirlar.</li>
-        <li><strong>Permissions-Policy</strong> — Tarayici ozelliklerine (kamera, mikrofon, konum) erisimi sinirlar.</li>
+        <li><strong>X-Content-Type-Options: nosniff</strong>: MIME tipi koklama saldirilarini onler.</li>
+        <li><strong>X-Frame-Options: DENY</strong>: Clickjacking saldiiirlarini onler.</li>
+        <li><strong>Referrer-Policy: strict-origin-when-cross-origin</strong>: Referrer bilgisi sizintisini sinirlar.</li>
+        <li><strong>Permissions-Policy</strong>: Tarayici ozelliklerine (kamera, mikrofon, konum) erisimi sinirlar.</li>
       </ul>
 
       <h2>Sonuc</h2>

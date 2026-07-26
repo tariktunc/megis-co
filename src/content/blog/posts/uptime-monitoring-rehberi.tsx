@@ -39,7 +39,7 @@ export default function UptimeMonitoringRehberi() {
 
       <h3>Pingdom</h3>
       <p>
-        SolarWinds bunyesindeki Pingdom, kurumsal duzeyde uptime ve performans izleme araci sunar. Gercek kullanici izleme (Real User Monitoring — RUM) ozelligi ile gercek ziyaretcilerin deneyimini olcer. Dunya genelinde dagilmis test noktalarindan kontrol yapar.
+        SolarWinds bunyesindeki Pingdom, kurumsal duzeyde uptime ve performans izleme araci sunar. Gercek kullanici izleme (Real User Monitoring: RUM) ozelligi ile gercek ziyaretcilerin deneyimini olcer. Dunya genelinde dagilmis test noktalarindan kontrol yapar.
       </p>
       <ul>
         <li>Sentetik izleme ve gercek kullanici izleme (RUM)</li>

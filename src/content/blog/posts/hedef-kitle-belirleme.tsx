@@ -104,7 +104,7 @@ export default function HedefKitleBelirleme() {
         <li><strong>Derinlemesine gorusmeler:</strong> Mevcut musterilerriniz ve potansiyel musterileriniz ile bire bir gorusmeler yapin. Motivasyonlari, acilari ve karar sureclerini anlaypin.</li>
         <li><strong>Odak gruplari:</strong> 6-8 kisilik gruplarla moderatorlu tartismalar duzenleyerrek kolektif bakis acilari yakalaayin.</li>
         <li><strong>Sosyal dinleme:</strong> Brandwatch, Mention gibi araclarla hedef kitlenizin online konusmalarini izleyin.</li>
-        <li><strong>Musteri destek analizi:</strong> Destek taleplerini ve sikayetleri analiz edin — musterilerinizin gercek sorunlarini ve ihtiyaclarini ortaya koyar.</li>
+        <li><strong>Musteri destek analizi:</strong> Destek taleplerini ve sikayetleri analiz edin: musterilerinizin gercek sorunlarini ve ihtiyaclarini ortaya koyar.</li>
         <li><strong>Rakip musteri yorumlari:</strong> Rakiplerinizin urunlerine yapilan Google, App Store ve sosyal medya yorumlarini analiz edin.</li>
       </ol>
 
@@ -126,7 +126,7 @@ export default function HedefKitleBelirleme() {
 
       <h3>Ornek Persona</h3>
       <p>
-        <strong>Isim:</strong> Mehmet Yilmaz, 34 yas, Istanbul — <strong>E-ticaret Operasyon Muduru</strong>
+        <strong>Isim:</strong> Mehmet Yilmaz, 34 yas, Istanbul, <strong>E-ticaret Operasyon Muduru</strong>
       </p>
       <p>
         Mehmet, orta olcekli bir e-ticaret firmasinda operasyon muduru olarak calisiyor. Bilgisayar muhendisligi mezunu. Isinde verimliligi artirmak ve teknolojik cozumlerle maliyetleri dusurmek istiyor. LinkedIn&apos;de aktif, sektourel bloglari takip ediyor. Yeni arac ve platformlari arastirmaya zaman ayiriyor ama karar vermeden once mutlaka referans ve vaka calismalarina bakiyor. En buyuk sorun: mevcut sistemlerin entegrasyon zorlugu ve teknik borcun artmasi.

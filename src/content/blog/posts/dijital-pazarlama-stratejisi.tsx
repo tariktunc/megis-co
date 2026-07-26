@@ -197,7 +197,7 @@ export default function DijitalPazarlamaStratejisi() {
       <h2>7. Sık Yapılan Stratejik Hatalar</h2>
       <ul>
         <li><strong>Hedefsiz baslamak:</strong> "Bir seyler yapalım" yaklasimiyla butce harcanır, sonuc olcumlenemez.</li>
-        <li><strong>Tek kanala bagımlılık:</strong> Sadece Instagram veya sadece Google Ads'e guvenme — kanal cesitliledirmesi riskli azaltır.</li>
+        <li><strong>Tek kanala bagımlılık:</strong> Sadece Instagram veya sadece Google Ads'e guvenme: kanal cesitliledirmesi riskli azaltır.</li>
         <li><strong>Veriye bakmamak:</strong> Icerik ve reklam kararlarını sezgiyle degil, veriyle alın.</li>
         <li><strong>Sabırsızlık:</strong> SEO ve icerik pazarlama gibi kanallar zaman alır. 1 ayda sonuc beklemek gercekci degildir.</li>
         <li><strong>Rakip taklidi:</strong> Rakibin stratejisini kopyalamak yerine, kendi guclu yanlarınıza odaklanın.</li>
@@ -205,7 +205,7 @@ export default function DijitalPazarlamaStratejisi() {
 
       <h2>Sonuc</h2>
       <p>
-        Basarılı bir dijital pazarlama stratejisi, net hedefler, dogru kanal secimi, akıllı butce dagılımı ve surekli optimizasyon uzerine kuruludur. SMART hedefler belirleyerek yola cıkın, veriye dayalı kararlar alın ve stratejinizi duzenli olarak gozden gecirin. Dijital pazarlamada "ayarla ve unut" yaklasimiı yoktur — surekli test, olcum ve iyilestirme dongusu, surdurulebilir buyumenin anahtarıdır.
+        Basarılı bir dijital pazarlama stratejisi, net hedefler, dogru kanal secimi, akıllı butce dagılımı ve surekli optimizasyon uzerine kuruludur. SMART hedefler belirleyerek yola cıkın, veriye dayalı kararlar alın ve stratejinizi duzenli olarak gozden gecirin. Dijital pazarlamada "ayarla ve unut" yaklasimiı yoktur: surekli test, olcum ve iyilestirme dongusu, surdurulebilir buyumenin anahtarıdır.
       </p>
     </>
   );

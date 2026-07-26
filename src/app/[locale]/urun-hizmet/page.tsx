@@ -27,14 +27,14 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       eyebrow="Ürün & Hizmet Pazarlama"
       title="Satın. Dönüştün. Büyütün."
       subtitle="Apple tarzı landing page'lerden fiyatlandırma stratejisine, A/B testlerden funnel analizine kadar ürün ve hizmetlerinizi dijitalde en etkili şekilde pazarlıyoruz. Dönüşüm oranınız kalıcı olarak yükselsin."
-      introduction="Harika bir ürün veya hizmet yetmez — onu doğru şekilde sunmanız, doğru kitleye ulaştırmanız ve satın alma kararını kolaylaştırmanız gerekir. Dijital pazarlamada başarı, güçlü metin, ikna edici tasarım ve veri odaklı optimizasyonun bileşimidir.
+      introduction="Harika bir ürün veya hizmet yetmez: onu doğru şekilde sunmanız, doğru kitleye ulaştırmanız ve satın alma kararını kolaylaştırmanız gerekir. Dijital pazarlamada başarı, güçlü metin, ikna edici tasarım ve veri odaklı optimizasyonun bileşimidir.
 
 Çoğu işletme ürününü anlatıyor ama satmıyor. Landing page'ler bilgi yığını gibi, fiyatlandırma kafa karıştırıyor, CTA'lar görünmüyor, sosyal kanıt eksik. Kullanıcı ilgileniyor ama satın alma adımına geçemiyor. Funnel'in her adımında kayıp yaşanıyor ve kimse nedenini ölçmüyor.
 
 Megis olarak satış odaklı dijital deneyimler tasarlıyoruz. Apple'in ürün sayfalarından ilham alan temiz ve etkileyici landing page'ler, stratejik fiyatlandırma tabloları, test edilmiş CTA yerleşimi ve veri odaklı sürekli optimizasyon. Her kararı veriyle destekliyoruz, her değişikliği A/B test ile doğruluyoruz. Amacımız tek seferlik bir lansman değil, sürekli büyüyen bir satış makinesidir."
       whyMatters={{
         title: "Ürün ve hizmet pazarlama neden bu kadar kritik?",
-        description: "Dijital ortamda kullanıcının dikkat süresi 8 saniyenin altında. Landing page'iniz bu süre içinde değer önerinizi net şekilde iletmezse, kullanıcı gider. Araştırmalar, ortalama landing page dönüşüm oranının sadece %2.35 olduğunu gösteriyor. Ancak en iyi %25'lik dilim %5.31 ve üzeri dönüşüm oranı elde ediyor. Aradaki fark strateji, tasarım ve sürekli optimizasyondur.\n\nFiyatlandırma stratejisi satın alma kararının en kritik noktasıdır. Yanlış sunulan fiyat, müşteri kazanmak yerine kaybettirir. Tier bazlı paketler, karşılaştırma tabloları, ücretsiz deneme süreleri ve para iade garantisi gibi taktikler satın alma engellerini ortadan kaldırır. Sosyal kanıt — müşteri yorumları, logo duvarı, vaka çalışmaları — güven inşa eder.\n\nÜstelik dijital pazarlama ölçülebilir bir disiplindir. Her tıklama, her form doldurma, her satın alma takip edilebilir. A/B testing ile hangi başlığın, hangi CTA'nın, hangi fiyat sunumunun daha iyi çalıştığını kesin olarak bilebilirsiniz. Veri odaklı çalışmayan şirketler karanlıkta ok atıyor. Biz her kararı veriyle aydınlatıyoruz."
+        description: "Dijital ortamda kullanıcının dikkat süresi 8 saniyenin altında. Landing page'iniz bu süre içinde değer önerinizi net şekilde iletmezse, kullanıcı gider. Araştırmalar, ortalama landing page dönüşüm oranının sadece %2.35 olduğunu gösteriyor. Ancak en iyi %25'lik dilim %5.31 ve üzeri dönüşüm oranı elde ediyor. Aradaki fark strateji, tasarım ve sürekli optimizasyondur.\n\nFiyatlandırma stratejisi satın alma kararının en kritik noktasıdır. Yanlış sunulan fiyat, müşteri kazanmak yerine kaybettirir. Tier bazlı paketler, karşılaştırma tabloları, ücretsiz deneme süreleri ve para iade garantisi gibi taktikler satın alma engellerini ortadan kaldırır. Sosyal kanıt (müşteri yorumları, logo duvarı, vaka çalışmaları) güven inşa eder.\n\nÜstelik dijital pazarlama ölçülebilir bir disiplindir. Her tıklama, her form doldurma, her satın alma takip edilebilir. A/B testing ile hangi başlığın, hangi CTA'nın, hangi fiyat sunumunun daha iyi çalıştığını kesin olarak bilebilirsiniz. Veri odaklı çalışmayan şirketler karanlıkta ok atıyor. Biz her kararı veriyle aydınlatıyoruz."
       }}
       stats={[
         { value: "%2.35", label: "Ortalama landing page dönüşüm oranı" },
@@ -45,7 +45,7 @@ Megis olarak satış odaklı dijital deneyimler tasarlıyoruz. Apple'in ürün s
       features={[
         {
           title: "Apple Tarzı Landing Page Tasarımı",
-          description: "Temiz tipografi, geniş beyaz alan, odaklanmış mesaj ve sinematik görsellerle ürün ve hizmetlerinizi en etkileyici şekilde sunuyoruz. Hero section'da tek bir güçlü başlık ve değer önerisi. Özellikler bölümünde scroll-triggered animasyonlarla adım adım hikaye anlatımı. Her section tek bir mesaj taşıyor — kullanıcı bilgi bombardımanına uğramıyor. Mobilde aynı etkileyicilikte, responsive ve performanslı. Apple, Stripe ve Linear'dan ilham alan, markanıza özel landing page."
+          description: "Temiz tipografi, geniş beyaz alan, odaklanmış mesaj ve sinematik görsellerle ürün ve hizmetlerinizi en etkileyici şekilde sunuyoruz. Hero section'da tek bir güçlü başlık ve değer önerisi. Özellikler bölümünde scroll-triggered animasyonlarla adım adım hikaye anlatımı. Her section tek bir mesaj taşıyor. Kullanıcı bilgi bombardımanına uğramıyor. Mobilde aynı etkileyicilikte, responsive ve performanslı. Apple, Stripe ve Linear'dan ilham alan, markanıza özel landing page."
         },
         {
           title: "Tier Bazlı Fiyatlandırma Stratejisi",
@@ -53,19 +53,19 @@ Megis olarak satış odaklı dijital deneyimler tasarlıyoruz. Apple'in ürün s
         },
         {
           title: "CTA Optimizasyonu ve Dönüşüm Artırma",
-          description: "CTA (Call to Action) butonu sayfanın en önemli elementidir. Renk, boyut, yerleştirme, metin ve çevresindeki boşluk — her detay dönüşümü etkiler. Above-the-fold'da birincil CTA, sayfa boyunca tekrarlanan aksiyonlar, sticky CTA bar. Buton metni 'Gönder' değil, 'Ücretsiz Deneyin' veya '14 Gün Risk-Free Başlayın' gibi değer odaklı. Urgency taktikleri: sınırlı süre, sınırlı stok, geri sayım zamanlayıcısı. Her varyant A/B test ile doğrulanmış."
+          description: "CTA (Call to Action) butonu sayfanın en önemli elementidir. Renk, boyut, yerleştirme, metin ve çevresindeki boşluk: her detay dönüşümü etkiler. Above-the-fold'da birincil CTA, sayfa boyunca tekrarlanan aksiyonlar, sticky CTA bar. Buton metni 'Gönder' değil, 'Ücretsiz Deneyin' veya '14 Gün Risk-Free Başlayın' gibi değer odaklı. Urgency taktikleri: sınırlı süre, sınırlı stok, geri sayım zamanlayıcısı. Her varyant A/B test ile doğrulanmış."
         },
         {
           title: "Sosyal Kanıt ve Güven İnşa",
-          description: "İnsanlar diğer insanların kararlarından etkilenir. Müşteri yorumları ve değerlendirmeleri (yıldız sistemi), müşteri logoları duvarı, rakamlarla başarı hikayeleri ('500+ şirket güveniyoruz'), video testimonial'lar, detaylı vaka çalışmaları ve medya/basın görünüm. Güven rozeti: SSL, ödeme güvenliği, para iade garantisi, sertifikalar. Her sosyal kanıt elementi stratejik olarak sayfada konumlandırılmış — satın alma kararının en yakın noktasında."
+          description: "İnsanlar diğer insanların kararlarından etkilenir. Müşteri yorumları ve değerlendirmeleri (yıldız sistemi), müşteri logoları duvarı, rakamlarla başarı hikayeleri ('500+ şirket güveniyoruz'), video testimonial'lar, detaylı vaka çalışmaları ve medya/basın görünüm. Güven rozeti: SSL, ödeme güvenliği, para iade garantisi, sertifikalar. Her sosyal kanıt elementi stratejik olarak sayfada konumlandırılmış: satın alma kararının en yakın noktasında."
         },
         {
           title: "A/B Testing ve Veri Odaklı Optimizasyon",
-          description: "Tahmin değil, veri ile karar veriyoruz. Başlık, alt başlık, CTA metni, buton rengi, görsel, layout, fiyat sunumu — her değişkeni A/B test ile ölçüyoruz. İstatistiksel anlamlılık (%95 güven aralığı) sağlanmadan karar almıyoruz. Multivariate testing ile birden fazla değişkeni aynı anda test ediyoruz. Her ay 2-4 test döngüsü. Kazanan varyantlar kalıcı yapılır, yeni hipotezler oluşturulur. Sürekli iyileştirme döngüsü ile dönüşüm oranı ay ay yükselir."
+          description: "Tahmin değil, veri ile karar veriyoruz. Başlık, alt başlık, CTA metni, buton rengi, görsel, layout, fiyat sunumu: her değişkeni A/B test ile ölçüyoruz. İstatistiksel anlamlılık (%95 güven aralığı) sağlanmadan karar almıyoruz. Multivariate testing ile birden fazla değişkeni aynı anda test ediyoruz. Her ay 2-4 test döngüsü. Kazanan varyantlar kalıcı yapılır, yeni hipotezler oluşturulur. Sürekli iyileştirme döngüsü ile dönüşüm oranı ay ay yükselir."
         },
         {
           title: "Funnel Analizi ve Kayıp Nokta Tespiti",
-          description: "Kullanıcı yolculuğunu uçtan uca izliyoruz: ilk temas, landing page, fiyatlandırma sayfası, sepet/form, ödeme/kayıt, tamamlama. Her adımda kaç kullanıcı kayboluyor, neden kayboluyor ve nasıl geri kazanılır — veriyle cevaplıyoruz. Hotjar ile heatmap ve session recording, GA4 ile funnel visualization, Mixpanel ile event tracking. Kayıp noktaları tespit edilir, A/B test ile çözümler denenir, en etkili değişiklikler uygulanır."
+          description: "Kullanıcı yolculuğunu uçtan uca izliyoruz: ilk temas, landing page, fiyatlandırma sayfası, sepet/form, ödeme/kayıt, tamamlama. Her adımda kaç kullanıcı kayboluyor, neden kayboluyor ve nasıl geri kazanılır: veriyle cevaplıyoruz. Hotjar ile heatmap ve session recording, GA4 ile funnel visualization, Mixpanel ile event tracking. Kayıp noktaları tespit edilir, A/B test ile çözümler denenir, en etkili değişiklikler uygulanır."
         },
         {
           title: "E-posta Pazarlama ve Retargeting",
@@ -73,7 +73,7 @@ Megis olarak satış odaklı dijital deneyimler tasarlıyoruz. Apple'in ürün s
         },
         {
           title: "Upsell, Cross-sell ve Churn Azaltma",
-          description: "Mevcut müşterilerinizden daha fazla gelir elde edin. Upsell: mevcut planı yükseltme teklifi, doğru zamanda doğru mesajla. Cross-sell: tamamlayıcı ürün/hizmet önerileri, 'Bunu alanlar bunu da aldı' mantığı. Churn azaltma: iptal sürecinde özel teklif, kullanım analizi ile risk altındaki müşterileri önceden tespit, geri kazanma kampanyaları. Customer lifetime value (CLV) odaklı strateji — tek satış değil, uzun vadeli ilişki."
+          description: "Mevcut müşterilerinizden daha fazla gelir elde edin. Upsell: mevcut planı yükseltme teklifi, doğru zamanda doğru mesajla. Cross-sell: tamamlayıcı ürün/hizmet önerileri, 'Bunu alanlar bunu da aldı' mantığı. Churn azaltma: iptal sürecinde özel teklif, kullanım analizi ile risk altındaki müşterileri önceden tespit, geri kazanma kampanyaları. Customer lifetime value (CLV) odaklı strateji: tek satış değil, uzun vadeli ilişki."
         },
       ]}
       included={[
@@ -160,13 +160,13 @@ Megis olarak satış odaklı dijital deneyimler tasarlıyoruz. Apple'in ürün s
       }}
       caseStudies={[
         {
-          title: "B2B SaaS — Dönüşüm Oranını %280 Artırma",
+          title: "B2B SaaS: Dönüşüm Oranını %280 Artırma",
           challenge: "B2B SaaS ürünün landing page'i %0.8 dönüşüm oranına sahipti. Uzun ve dağınık içerik, belirsiz fiyatlandırma, zayıf CTA ve sosyal kanıt eksikliği. Ücretsiz deneme kayıtları çok düşüktü ve kayıt olanların sadece %5'i ücretli plana geçiyordu.",
           solution: "Landing page Apple tarzı yeniden tasarlandı: tek güçlü başlık, özellikler animasyonlu scroll ile, 3 katmanlı fiyatlandırma tablosu, 15 müşteri logosu ve 3 video testimonial. CTA metni 'Kayıt Ol'dan '14 Gün Ücretsiz Deneyin' olarak değiştirildi. 5 farklı A/B test ile optimize edildi. Kayıt sonrası onboarding e-posta serisi (7 gün, 5 e-posta) oluşturuldu.",
           result: "Landing page dönüşüm oranı %0.8'den %3.04'e çıktı (%280 artış). Ücretsiz deneme'den ücretli plana geçiş oranı %5'ten %18'e yükseldi. Aylık yeni müşteri sayısı 4x arttı. 6 ayda yatırımın 12x karşılığı elde edildi.",
         },
         {
-          title: "Online Eğitim Platformu — Funnel Optimizasyonu ile %420 Gelir Artışı",
+          title: "Online Eğitim Platformu: Funnel Optimizasyonu ile %420 Gelir Artışı",
           challenge: "Online kurs platformu ayda 50.000 ziyaretçi alıyor ama sadece 120 satış yapıyordu (%0.24 dönüşüm). Fiyatlandırma kafa karıştırıyordu (5 paket), ödeme sayfasında %82 terk oranı vardı, sepet hatırlatması yoktu ve mevcut müşterilere yeni kurs satışı yapılmıyordu.",
           solution: "Fiyatlandırma 3 pakete sadeleştirildi, yıllık plan vurgusu eklendi. Ödeme sayfası tek sayfa yapıldı, güven rozetleri eklendi. Terk edilen sepet için 3 aşamalı e-posta serisi kuruldu. Mevcut müşterilere kişiselleştirilmiş cross-sell e-postaları başlatıldı. Landing page için 8 A/B test yapıldı. Social proof video'ları ve öğrenci başarı hikayeleri eklendi.",
           result: "Aylık satış 120'den 385'e çıktı. Ortalama sipariş değeri %35 arttı (cross-sell etkisi). Toplam gelir %420 yükseldi. Terk edilen sepet e-postaları tek başına aylık 45 ek satış getirdi. Mevcut müşteri satışları toplam gelirin %28'ine ulaştı.",
@@ -175,7 +175,7 @@ Megis olarak satış odaklı dijital deneyimler tasarlıyoruz. Apple'in ürün s
       faqs={[
         {
           question: "Landing page ne kadar sürede hazır olur?",
-          answer: "Strateji ve araştırma dahil tipik bir landing page projesi 3-4 hafta sürer. İlk hafta araştırma ve strateji, ikinci hafta tasarım, üçüncü hafta geliştirme ve entegrasyon, dördüncü hafta test ve lansman. Acil projeler için 2 haftada teslimat mümkündür. Ancak en önemli nokta lansmanın başlangıç olması, bitiş olmaması — lansman sonrası A/B testing ve optimizasyon ile dönüşüm oranı sürekli iyileştirilir.",
+          answer: "Strateji ve araştırma dahil tipik bir landing page projesi 3-4 hafta sürer. İlk hafta araştırma ve strateji, ikinci hafta tasarım, üçüncü hafta geliştirme ve entegrasyon, dördüncü hafta test ve lansman. Acil projeler için 2 haftada teslimat mümkündür. Ancak en önemli nokta lansmanın başlangıç olması, bitiş olmaması: lansman sonrası A/B testing ve optimizasyon ile dönüşüm oranı sürekli iyileştirilir.",
         },
         {
           question: "A/B testing nasıl çalışır?",
@@ -187,19 +187,19 @@ Megis olarak satış odaklı dijital deneyimler tasarlıyoruz. Apple'in ürün s
         },
         {
           question: "Funnel analizi ne işe yarar?",
-          answer: "Funnel analizi, kullanıcı yolculuğundaki her adımı ölçer ve kayıp noktalarını tespit eder. Örneğin: 10.000 kişi landing page'i gördü, 3.000'i fiyatlandırmaya gitti, 500'ü kayıt formunu başlattı, 200'ü tamamladı, 150'si ödeme yaptı. Her adımda neden kayıp olduğunu anlayarak — heatmap, session recording ve kullanıcı geri bildirim verileriyle — hedefe yönelik iyileştirmeler yaparız. Funnel optimizasyonu, trafik artırmaktan çok daha maliyet etkilidir.",
+          answer: "Funnel analizi, kullanıcı yolculuğundaki her adımı ölçer ve kayıp noktalarını tespit eder. Örneğin: 10.000 kişi landing page'i gördü, 3.000'i fiyatlandırmaya gitti, 500'ü kayıt formunu başlattı, 200'ü tamamladı, 150'si ödeme yaptı. Her adımda neden kayıp olduğunu anlayarak (heatmap, session recording ve kullanıcı geri bildirim verileriyle) hedefe yönelik iyileştirmeler yaparız. Funnel optimizasyonu, trafik artırmaktan çok daha maliyet etkilidir.",
         },
         {
           question: "E-posta pazarlama hala etkili mi?",
-          answer: "Evet, e-posta pazarlama hala en yüksek ROI'ye sahip dijital pazarlama kanalıdır. Ortalama olarak harcanan her 1 TL için 36 TL getiri sağlar. Sosyal medyada algoritmalar arasında kaybolmak yerine, e-posta doğrudan kullanıcının gelen kutusuna ulaşır. Drip kampanyaları ile potansiyel müşteriyi adım adım satışa yönlendirmek, terk edilen sepet hatırlatmaları ve mevcut müşterilere cross-sell — e-posta hepsini yapabilir. Önemli olan doğru segmentasyon ve kişiselleştirilmiş içeriktir.",
+          answer: "Evet, e-posta pazarlama hala en yüksek ROI'ye sahip dijital pazarlama kanalıdır. Ortalama olarak harcanan her 1 TL için 36 TL getiri sağlar. Sosyal medyada algoritmalar arasında kaybolmak yerine, e-posta doğrudan kullanıcının gelen kutusuna ulaşır. Drip kampanyaları ile potansiyel müşteriyi adım adım satışa yönlendirmek, terk edilen sepet hatırlatmaları ve mevcut müşterilere cross-sell: e-posta hepsini yapabilir. Önemli olan doğru segmentasyon ve kişiselleştirilmiş içeriktir.",
         },
         {
           question: "Sosyal kanıt (social proof) gerçekten dönüşümü arttırır mı?",
-          answer: "Kesinlikle. Araştırmalar, müşterilerin %92'sinin satın alma öncesi yorum ve referans aradığını gösteriyor. Sosyal kanıt unsurları — müşteri yorumları, logo duvarı, vaka çalışmaları, kullanıcı sayısı, medya görünümleri — güven inşa eder ve satın alma engellerini düşürür. Bir landing page'e müşteri yorumları eklemek dönüşüm oranını tek başına %34'e kadar arttırabilir. Biz sosyal kanıtı stratejik olarak konumlandırıyoruz: satın alma kararının en yakın noktasında.",
+          answer: "Kesinlikle. Araştırmalar, müşterilerin %92'sinin satın alma öncesi yorum ve referans aradığını gösteriyor. Sosyal kanıt unsurları (müşteri yorumları, logo duvarı, vaka çalışmaları, kullanıcı sayısı, medya görünümleri) güven inşa eder ve satın alma engellerini düşürür. Bir landing page'e müşteri yorumları eklemek dönüşüm oranını tek başına %34'e kadar arttırabilir. Biz sosyal kanıtı stratejik olarak konumlandırıyoruz: satın alma kararının en yakın noktasında.",
         },
         {
           question: "Ürün & hizmet pazarlama projesi ne kadar?",
-          answer: "Proje kapsamına göre değişir. Tek bir landing page + fiyatlandırma sayfası için başlangıç paketimiz 25.000 TL'den başlar. Tam kapsamlı pazarlama projesi — landing page, fiyatlandırma stratejisi, A/B testing, funnel analizi, e-posta pazarlama ve 3 aylık optimizasyon dahil — 60.000-120.000 TL aralığındadır. Her proje özel fiyatlandırılır. İlk adım olarak ücretsiz dönüşüm analizi sunuyoruz — mevcut durumunuzu değerlendirelim.",
+          answer: "Proje kapsamına göre değişir. Tek bir landing page + fiyatlandırma sayfası için başlangıç paketimiz 25.000 TL'den başlar. Tam kapsamlı pazarlama projesi (landing page, fiyatlandırma stratejisi, A/B testing, funnel analizi, e-posta pazarlama ve 3 aylık optimizasyon dahil) 60.000-120.000 TL aralığındadır. Her proje özel fiyatlandırılır. İlk adım olarak ücretsiz dönüşüm analizi sunuyoruz. Mevcut durumunuzu değerlendirelim.",
         },
       ]}
       cta="Ücretsiz Dönüşüm Analizi Alın"

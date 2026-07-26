@@ -3,7 +3,7 @@ export default function ZeroTrustGuvenlikModeli() {
     <>
       <h2>Zero Trust Guvenlik Modeli Nedir?</h2>
       <p>
-        Zero Trust (Sifir Guven), &quot;hicbir seye guvenme, her seyi dogrula&quot; ilkesine dayanan bir guvenlik modelidir. Geleneksel guvenlik yaklasimlari, ag cevresi icerisindeki kullanicilara ve cihazlara otomatik olarak guvenirken, Zero Trust modeli her erisim talebini — nereden gelirse gelsin — potansiyel bir tehdit olarak degerlendirir ve surekli dogrulama gerektirir.
+        Zero Trust (Sifir Guven), &quot;hicbir seye guvenme, her seyi dogrula&quot; ilkesine dayanan bir guvenlik modelidir. Geleneksel guvenlik yaklasimlari, ag cevresi icerisindeki kullanicilara ve cihazlara otomatik olarak guvenirken, Zero Trust modeli her erisim talebini (nereden gelirse gelsin) potansiyel bir tehdit olarak degerlendirir ve surekli dogrulama gerektirir.
       </p>
       <p>
         Bu model, Forrester Research analisti John Kindervag tarafindan 2010 yilinda ortaya atilmis ve ozellikle bulut bilisim, uzaktan calisma ve mobil cihazlarin yayginligi ile birlikte buyuk onem kazanmistir. 2026 yilinda, kurumsal ag sinirlarinin belirsizlesti bir ortamda, geleneksel &quot;kale ve hendek&quot; yaklasimi artik yeterli degildir. Calisanlar ofis disindaan, kisisel cihazlariyla, bulut uygulamalarina erisiyor ve kurumsal veriler birden fazla bulut saglayicisina dagilmis durumda. Zero Trust, bu yeni gerceklige uygun bir guvenlik cercevesi sunar.
@@ -39,7 +39,7 @@ export default function ZeroTrustGuvenlikModeli() {
 
       <h3>Adim 2: Koruma Yuzeyini Tanimlama</h3>
       <p>
-        Geleneksel yaklasim tum saldiri yuzeyini korumaya calisir ki bu neredeyse imkansizdir. Zero Trust yaklaasiminda &quot;koruma yuzeyi&quot; kavrami kullanilir: En degerli ve hassas veriler, varliklar, uygulamalar ve hizmetler (DAAS — Data, Assets, Applications, Services) belirlenir ve oncelikli olarak korunur.
+        Geleneksel yaklasim tum saldiri yuzeyini korumaya calisir ki bu neredeyse imkansizdir. Zero Trust yaklaasiminda &quot;koruma yuzeyi&quot; kavrami kullanilir: En degerli ve hassas veriler, varliklar, uygulamalar ve hizmetler (DAAS: Data, Assets, Applications, Services) belirlenir ve oncelikli olarak korunur.
       </p>
 
       <h3>Adim 3: Kimlik Dogrulama Altyapisini Guclendirme</h3>
@@ -157,7 +157,7 @@ export default function ZeroTrustGuvenlikModeli() {
 
       <blockquote>
         <p>
-          <strong>Sonuc:</strong> Zero Trust, modern siber guvenligin en onemli stratejik yaklasimidir. &quot;Hicbir seye guvenme, her seyi dogrula&quot; ilkesi, bulut bilisim ve uzaktan calisma caginda kurumsal guvenligi yeniden tanimlar. Zero Trust bir urun degil, surekli gelisen bir yolculuktur. Kucuk ve somut adimlarla baslayin — MFA zorunlulugu, en az yetki ilkesi ve kritik uygulamalarin segmentasyonu iyi baslangic noktalaridir. Her adimda izleyin, olgcun ve iyilestirin.
+          <strong>Sonuc:</strong> Zero Trust, modern siber guvenligin en onemli stratejik yaklasimidir. &quot;Hicbir seye guvenme, her seyi dogrula&quot; ilkesi, bulut bilisim ve uzaktan calisma caginda kurumsal guvenligi yeniden tanimlar. Zero Trust bir urun degil, surekli gelisen bir yolculuktur. Kucuk ve somut adimlarla baslayin: MFA zorunlulugu, en az yetki ilkesi ve kritik uygulamalarin segmentasyonu iyi baslangic noktalaridir. Her adimda izleyin, olgcun ve iyilestirin.
         </p>
       </blockquote>
     </>

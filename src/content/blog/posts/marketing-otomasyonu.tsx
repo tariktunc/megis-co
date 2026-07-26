@@ -87,7 +87,7 @@ export default function MarketingOtomasyonu() {
         Tetikleyici: Yeni e-posta aboneliği veya kayıt.
       </p>
       <ol>
-        <li><strong>Anında:</strong> Hoş geldin e-postası — markanızı tanıtın, vaat ettiğiniz içeriği (lead mıknatısı) teslim edin.</li>
+        <li><strong>Anında:</strong> Hoş geldin e-postası: markanızı tanıtın, vaat ettiğiniz içeriği (lead mıknatısı) teslim edin.</li>
         <li><strong>2. gün:</strong> En popüler blog yazınızı veya kaynağınızı paylaşın.</li>
         <li><strong>4. gün:</strong> Markanızın hikayesini veya değerlerini anlatın.</li>
         <li><strong>7. gün:</strong> Sosyal medya hesaplarınızı takip etmeye davet edin.</li>
@@ -99,9 +99,9 @@ export default function MarketingOtomasyonu() {
         Tetikleyici: Sepete ürün eklenip satın alma tamamlanmadığında.
       </p>
       <ol>
-        <li><strong>1 saat sonra:</strong> Hatırlatma e-postası — sepetteki ürün görseli ve "Alışverişinizi tamamlayın" mesajı.</li>
-        <li><strong>24 saat sonra:</strong> İkinci hatırlatma — müşteri yorumları ve sosyal kanıt ekleyin.</li>
-        <li><strong>72 saat sonra:</strong> Son hatırlatma — sınırlı süreli indirim veya ücretsiz kargo teklifi.</li>
+        <li><strong>1 saat sonra:</strong> Hatırlatma e-postası: sepetteki ürün görseli ve "Alışverişinizi tamamlayın" mesajı.</li>
+        <li><strong>24 saat sonra:</strong> İkinci hatırlatma: müşteri yorumları ve sosyal kanıt ekleyin.</li>
+        <li><strong>72 saat sonra:</strong> Son hatırlatma: sınırlı süreli indirim veya ücretsiz kargo teklifi.</li>
       </ol>
 
       <h3>Lead Nurturing İş Akışı</h3>
@@ -244,7 +244,7 @@ export default function MarketingOtomasyonu() {
 
       <h2>Sonuç</h2>
       <p>
-        Marketing otomasyonu, doğru araç, iyi tasarlanmış iş akışları ve etkili lead skorlama sistemiyle birleştiğinde, pazarlama ekibinizin verimliliğini katlar ve müşteri deneyimini iyileştirir. Basit bir hoş geldin dizisiyle başlayın, sonuçları ölçün ve adım adım daha karmaşık iş akışları ekleyin. Otomasyonun gücü, tutarlılık ve ölçeklenebilirliktir — ancak kişisel dokunuşu hiçbir zaman tamamen kaybetmeyin.
+        Marketing otomasyonu, doğru araç, iyi tasarlanmış iş akışları ve etkili lead skorlama sistemiyle birleştiğinde, pazarlama ekibinizin verimliliğini katlar ve müşteri deneyimini iyileştirir. Basit bir hoş geldin dizisiyle başlayın, sonuçları ölçün ve adım adım daha karmaşık iş akışları ekleyin. Otomasyonun gücü, tutarlılık ve ölçeklenebilirliktir, ancak kişisel dokunuşu hiçbir zaman tamamen kaybetmeyin.
       </p>
     </>
   );

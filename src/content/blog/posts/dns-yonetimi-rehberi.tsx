@@ -3,7 +3,7 @@ export default function DnsYonetimiRehberi() {
     <>
       <h2>DNS Nedir ve Nasil Calisir?</h2>
       <p>
-        DNS (Domain Name System — Alan Adi Sistemi), internetin telefon rehberi olarak adlandirilan ve alan adlarini (ornegin megis.co) IP adreslerine (ornegin 104.26.10.78) donusturen dagitik bir veritabani sistemidir. Insanlar alan adlarini hatirlar, bilgisayarlar ise IP adresleriyle iletisim kurar — DNS bu ikisi arasindaki kopruduir.
+        DNS (Domain Name System: Alan Adi Sistemi), internetin telefon rehberi olarak adlandirilan ve alan adlarini (ornegin megis.co) IP adreslerine (ornegin 104.26.10.78) donusturen dagitik bir veritabani sistemidir. Insanlar alan adlarini hatirlar, bilgisayarlar ise IP adresleriyle iletisim kurar: DNS bu ikisi arasindaki kopruduir.
       </p>
       <p>
         DNS sistemi, interneetin en temel altyapi bilesenlerinden biridir ve her web sitesi erisimi, e-posta gonderimi ve online hizmet kullanimi DNS sorgulariyla baslar. 2026 yilinda DNS yonetimi, web performansi, guvenlik ve hizmet surekliligi icin kritik oneme sahiptir. Bu rehberde, DNS kayit turlerini, yonetim araclarini, sorun giderme yontemlerini ve en iyi uygulamalari kapsamli olarak ele alacagiz.
@@ -17,7 +17,7 @@ export default function DnsYonetimiRehberi() {
         <li><strong>Tarayici onbellegi:</strong> Tarayici, daha once cozumledigi alan adlarini yerel onbellekte arar. Bulursa dogrudan IP adresini kullanir.</li>
         <li><strong>Isletim sistemi onbellegi:</strong> Tarayici onbelleginde yoksa, isletim sisteminin DNS onbellegi kontrol edilir.</li>
         <li><strong>Recursive resolver:</strong> Yerel onbellekte bulunamazsa, sorgu internet servis saglayicisinin (ISP) veya yapilandirilmis DNS sunucusunun (Cloudflare 1.1.1.1, Google 8.8.8.8) recursive resolver&apos;ina gonder ilir.</li>
-        <li><strong>Root nameserver:</strong> Recursive resolver, root nameserver&apos;a basvurarak ust duzey alan (TLD — .com, .tr, .net) icin yetkili nameserver adresini ogrenirr.</li>
+        <li><strong>Root nameserver:</strong> Recursive resolver, root nameserver&apos;a basvurarak ust duzey alan (TLD: .com, .tr, .net) icin yetkili nameserver adresini ogrenirr.</li>
         <li><strong>TLD nameserver:</strong> .com veya .com.tr icin yetkili nameserver, ilgili alan adinin nameserver bilgisini dondurur.</li>
         <li><strong>Yetkili (Authoritative) nameserver:</strong> Alan adinin gercek DNS kayitlarini barindiran sunucu, IP adresini dondurur.</li>
         <li><strong>Yanit ve onbellekleme:</strong> IP adresi tum zincir boyunca onbelleklenir ve tarayiciya iletilir. Tarayici web sunucusuna baglanir.</li>
@@ -159,8 +159,8 @@ export default function DnsYonetimiRehberi() {
 
       <h3>Teshis Araclari</h3>
       <ul>
-        <li><strong>dig komutu:</strong> <code>dig ornek.com A</code> — belirli kayit turlerini sorgulama. En detayli DNS teshis araci.</li>
-        <li><strong>nslookup:</strong> <code>nslookup ornek.com</code> — hizli DNS sorgulamasi icin kullanisli.</li>
+        <li><strong>dig komutu:</strong> <code>dig ornek.com A</code>: belirli kayit turlerini sorgulama. En detayli DNS teshis araci.</li>
+        <li><strong>nslookup:</strong> <code>nslookup ornek.com</code>: hizli DNS sorgulamasi icin kullanisli.</li>
         <li><strong>whatsmydns.net:</strong> Global DNS yayilim kontrolu icin web tabanli arac.</li>
         <li><strong>mxtoolbox.com:</strong> MX, SPF, DKIM, DMARC ve genel DNS saglik kontrolu.</li>
         <li><strong>dnschecker.org:</strong> Farkli DNS sunuculaarindan sorgu sonuclarini karsilastirma.</li>

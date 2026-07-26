@@ -95,7 +95,7 @@ export default function ApiGuvenlikRehberi() {
         <li><strong>TLS 1.3 kullanin:</strong> Eski TLS surumlerini (1.0, 1.1) ve SSL&apos;i devre disi birakin. TLS 1.3, daha hizli el sikisma ve daha guclu sifreleme sunar.</li>
         <li><strong>HSTS (HTTP Strict Transport Security):</strong> Tarayicinin yalnizca HTTPS uzerinden baglanti kurmasini zorunlu kilar. <code>Strict-Transport-Security</code> basligini tum yanitlara ekleyin.</li>
         <li><strong>Sertifika sabitleme (Certificate Pinning):</strong> Mobil uygulamalarda sunucu sertifikasini sabitleyerek sahte sertifika kullanimini engelleyin.</li>
-        <li><strong>Dahili iletisim:</strong> Mikro servisler arasi iletisimde de TLS kullanin (mTLS — mutual TLS). Ic agda bile sifrelenmemis iletisim risk tasir.</li>
+        <li><strong>Dahili iletisim:</strong> Mikro servisler arasi iletisimde de TLS kullanin (mTLS: mutual TLS). Ic agda bile sifrelenmemis iletisim risk tasir.</li>
       </ul>
 
       <h2>Ek Guvenlik Katmanlari</h2>

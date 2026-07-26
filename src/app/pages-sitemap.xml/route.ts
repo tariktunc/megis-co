@@ -1,5 +1,5 @@
 // src/app/pages-sitemap.xml/route.ts
-// Otomatik üretildi — /webforge-sitemap (v2.1)
+// Otomatik üretildi, /webforge-sitemap (v2.1)
 // Adapter: pages
 
 import { pagesAdapter } from "@/lib/sitemap/adapters/pages";

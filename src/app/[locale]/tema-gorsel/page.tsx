@@ -49,7 +49,7 @@ Megis olarak tema sistemini temelden kuruyoruz. next-themes ile Light, Dark ve S
         },
         {
           title: "CSS Custom Properties Mimarisi",
-          description: "Tüm görsel değerler — renkler, tipografi, spacing, border-radius, gölge ve opasite — CSS custom properties olarak tanımlanıyor. :root ve [data-theme='dark'] selector'ları ile tema bazlı değer atamaları. JavaScript'e ihtiyaç duymadan CSS katmanında tema değişimi. Her token semantic adlandırılmış: --color-background, --color-foreground, --color-muted."
+          description: "Tüm görsel değerler (renkler, tipografi, spacing, border-radius, gölge ve opasite) CSS custom properties olarak tanımlanıyor. :root ve [data-theme='dark'] selector'ları ile tema bazlı değer atamaları. JavaScript'e ihtiyaç duymadan CSS katmanında tema değişimi. Her token semantic adlandırılmış: --color-background, --color-foreground, --color-muted."
         },
         {
           title: "Tailwind CSS 4 @theme Direktifi",
@@ -69,11 +69,11 @@ Megis olarak tema sistemini temelden kuruyoruz. next-themes ile Light, Dark ve S
         },
         {
           title: "Tema Kalıcılığı ve Sistem Tercihi Algılama",
-          description: "Kullanıcı tema seçimi localStorage'da saklanır ve sonraki ziyaretlerde otomatik uygulanır. System modu seçildiğinde prefers-color-scheme değişikliklerine real-time olarak tepki verilir — kullanıcı işletim sistemi temasını değiştirdiğinde site anında uyum sağlar. Cookie-based fallback ile cross-tab senkronizasyon destekleniyor."
+          description: "Kullanıcı tema seçimi localStorage'da saklanır ve sonraki ziyaretlerde otomatik uygulanır. System modu seçildiğinde prefers-color-scheme değişikliklerine real-time olarak tepki verilir: kullanıcı işletim sistemi temasını değiştirdiğinde site anında uyum sağlar. Cookie-based fallback ile cross-tab senkronizasyon destekleniyor."
         },
         {
           title: "Görsel Tutarlılık ve Bileşen Uyumu",
-          description: "Tüm UI bileşenleri — butonlar, kartlar, formlar, modallar, tablolar, grafikler — aynı token setinden besleniyor. Yeni bir bileşen eklediğinde mevcut tokenları kullanarak otomatik olarak her iki temaya uyum sağlar. Storybook entegrasyonu ile her bileşen light ve dark modda görsel olarak doğrulanıyor. Tasarımcı-geliştirici arasında token bazlı iletişim standardı oluşturuluyor."
+          description: "Tüm UI bileşenleri (butonlar, kartlar, formlar, modallar, tablolar, grafikler) aynı token setinden besleniyor. Yeni bir bileşen eklediğinde mevcut tokenları kullanarak otomatik olarak her iki temaya uyum sağlar. Storybook entegrasyonu ile her bileşen light ve dark modda görsel olarak doğrulanıyor. Tasarımcı-geliştirici arasında token bazlı iletişim standardı oluşturuluyor."
         },
       ]}
       included={[
@@ -160,13 +160,13 @@ Megis olarak tema sistemini temelden kuruyoruz. next-themes ile Light, Dark ve S
       }}
       caseStudies={[
         {
-          title: "SaaS Dashboard — Tam Tema Sistemi Dönüşümü",
+          title: "SaaS Dashboard: Tam Tema Sistemi Dönüşümü",
           challenge: "50+ sayfadan oluşan SaaS dashboard'unda dark mode isteği vardı ancak renkler 300+ bileşende hard-coded tanımlanmıştı. Tema ekleme denemesi başarısız olmuş, yarım kalmış dark mod kullanıcılarda güven kaybına neden olmuştu.",
           solution: "Tüm hard-coded renkler CSS custom properties'e taşındı. 3 katmanlı token sistemi (primitif, semantik, bileşen) kuruldu. next-themes ile FOUC-free tema geçişi sağlandı. Tailwind CSS 4 @theme direktifi ile entegrasyon yapıldı. 300+ bileşen tek tek görsel test edildi.",
           result: "4 haftada tam tema sistemi teslim edildi. Kullanıcı memnuniyet anketi %94 pozitif. Dark mode kullanım oranı %68. CSS dosya boyutu token sistemi sayesinde %25 azaldı.",
         },
         {
-          title: "E-Ticaret Platformu — Erişilebilir Tema ve Marka Uyumu",
+          title: "E-Ticaret Platformu: Erişilebilir Tema ve Marka Uyumu",
           challenge: "E-ticaret platformunun dark mode'u yoktu ve mevcut light teması WCAG kontrast standartlarını karşılamıyordu. Ürün görselleri dark arka plana uyumsuzdu. 3 farklı marka rengi (ana site, marketplace, blog) yönetilmesi gerekiyordu.",
           solution: "Her marka için ayrı primitif token seti, paylaşımlı semantik token katmanı oluşturuldu. WCAG 2.1 AA kontrast standartlarına uygun renk sistemi tasarlandı. Ürün görselleri için tema-duyarlı arka plan bileşeni geliştirildi. next-themes ile 3 mod desteği sağlandı.",
           result: "Erişilebilirlik puanı %100'e çıktı. Gece saatlerinde dönüşüm oranı %22 arttı. 3 marka alt sitesi tek token sisteminden yönetilmeye başlandı. Yeni bileşen ekleme süresi %60 kısaldı.",

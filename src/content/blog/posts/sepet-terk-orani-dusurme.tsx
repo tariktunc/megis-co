@@ -109,7 +109,7 @@ export default function SepetTerkOraniDusurme() {
 
       <h2>Strateji 7: Kargo Ucretini Seffaf Yapin</h2>
       <p>
-        Beklenmeyen kargo ucretleri, sepet terkinin bir numarali nedenidir. Bu sorunu cozmek icin uc farkli yaklasim uygulayabilirsiniz. Birincisi, belirli bir tutarin uzerindeki siparislerde ucretsiz kargo sunmak ve bu esigi sepet sayfasinda acikca gostermek. Ikincisi, sabit kargo ucreti uygulamak — boylece musteri ne odeyecegini basından bilir. Ucuncusu, kargo ucretini urun fiyatina dahil ederek "ucretsiz kargo" algisi yaratmak.
+        Beklenmeyen kargo ucretleri, sepet terkinin bir numarali nedenidir. Bu sorunu cozmek icin uc farkli yaklasim uygulayabilirsiniz. Birincisi, belirli bir tutarin uzerindeki siparislerde ucretsiz kargo sunmak ve bu esigi sepet sayfasinda acikca gostermek. Ikincisi, sabit kargo ucreti uygulamak: boylece musteri ne odeyecegini basından bilir. Ucuncusu, kargo ucretini urun fiyatina dahil ederek "ucretsiz kargo" algisi yaratmak.
       </p>
 
       <h2>Strateji 8: Aciliyet ve Kitlik Hissi Yaratin</h2>
@@ -144,7 +144,7 @@ export default function SepetTerkOraniDusurme() {
 
       <h2>Strateji 14: Sosyal Kanit ve FOMO Kullanin</h2>
       <p>
-        Canli satis bildirimleri ("Mehmet, Istanbul'dan 5 dakika once bu urunu satin aldi"), urun inceleme sayilari ve musteri memnuniyet istatistikleri, kullanicinin karar vermesini hizlandirir. FOMO (Fear Of Missing Out — firsati kacirma korkusu) etkisi, ozellikle kampanya donemlerinde sepet tamamlama oranini yuzde 10-20 artirabilir.
+        Canli satis bildirimleri ("Mehmet, Istanbul'dan 5 dakika once bu urunu satin aldi"), urun inceleme sayilari ve musteri memnuniyet istatistikleri, kullanicinin karar vermesini hizlandirir. FOMO (Fear Of Missing Out: firsati kacirma korkusu) etkisi, ozellikle kampanya donemlerinde sepet tamamlama oranini yuzde 10-20 artirabilir.
       </p>
 
       <h2>Strateji 15: A/B Testleri ile Surekli Iyilestirme</h2>

@@ -27,14 +27,14 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
       eyebrow="Analitik & Performans Hizmeti"
       title="Hız ve veri, tek platformda."
       subtitle="GA4 entegrasyonundan Core Web Vitals optimizasyonuna, görsel ve font performansından bundle analizine kadar sitenizi hem kullanıcılar hem arama motorları için zirveye taşıyoruz."
-      introduction="Web performansı yalnızca sayfanın hızlı açılması değildir. Kullanıcının her tıklamaya anında yanıt alması, sayfa kaymasının olmaması, görsellerin akıcı yüklenmesi ve tüm bunların gerçek kullanıcı verisiyle ölçülebilmesidir. Performans aynı zamanda bir SEO faktörüdür — Google, yavaş siteleri sıralamalarda cezalandırır.
+      introduction="Web performansı yalnızca sayfanın hızlı açılması değildir. Kullanıcının her tıklamaya anında yanıt alması, sayfa kaymasının olmaması, görsellerin akıcı yüklenmesi ve tüm bunların gerçek kullanıcı verisiyle ölçülebilmesidir. Performans aynı zamanda bir SEO faktörüdür: Google, yavaş siteleri sıralamalarda cezalandırır.
 
 Çoğu site sahibi Lighthouse skorunu bilir ama gerçek kullanıcı deneyimini ölçmez. Lab ortamında 95 puan alan bir site, gerçek dünyada 3G bağlantılı bir mobil cihazda 8 saniyede açılıyor olabilir. Ayrıca GA4 kurulumu yapılmıştır ama özel etkinlikler tanımlanmamıştır, dönüşüm hedefleri eksiktir ve kullanıcı davranışı analiz edilememektedir.
 
 Megis olarak performansa bütünsel yaklaşıyoruz. Önce GA4'ü doğru yapılandırıyor, özel etkinlikler ve dönüşüm hedefleri tanımlıyoruz. Sonra Core Web Vitals metriklerini gerçek kullanıcı verisiyle (RUM) ölçüyor ve optimize ediyoruz. Görsel optimizasyon, font yükleme stratejisi ve JavaScript bundle analizi ile her milisaniyeyi kurtarıyoruz. Amacımız hem müthiş bir kullanıcı deneyimi hem de eksiksiz veri altyapısıdır."
       whyMatters={{
         title: "Analitik ve performans neden bu kadar önemli?",
-        description: "Google'in araştırmasına göre sayfa yükleme süresi 1 saniyeden 3 saniyeye çıktığında bounce rate %32 artıyor. 5 saniyeye çıktığında bu oran %90'a fırlıyor. Yani yavaş bir site, ziyaretçilerinizin büyük çoğunluğunu kaybetmeniz demek. Core Web Vitals aynı zamanda bir Google sıralama faktörüdür — iyi performans gösteren siteler organik aramalarda avantaj kazanır.\n\nAncak performansı iyileştirmek için önce doğru ölçmeniz gerekir. GA4 ile kullanıcı davranışını, conversion funnel'i ve trafik kaynaklarını anlamanız gerekir. Real User Monitoring (RUM) ile gerçek kullanıcıların deneyimini ölçmeniz gerekir. Lab testleri bir başlangıç noktasıdır ama gerçek dünyayı yansıtmaz.\n\nPerformans optimizasyonu tek seferlik bir iş değildir. Yeni özellikler eklendikçe, içerik büyüdükçe ve üçüncü parti scriptler arttıkça performans geriler. Bu yüzden sürekli izleme, ölçüm ve optimizasyon döngüsü şart. Ayrıca doğru yapılandırılmış analitik olmadan hangi sayfaların, kampanyaların veya içerik türlerinin işinize gerçekten değer kattığını bilemezsiniz."
+        description: "Google'in araştırmasına göre sayfa yükleme süresi 1 saniyeden 3 saniyeye çıktığında bounce rate %32 artıyor. 5 saniyeye çıktığında bu oran %90'a fırlıyor. Yani yavaş bir site, ziyaretçilerinizin büyük çoğunluğunu kaybetmeniz demek. Core Web Vitals aynı zamanda bir Google sıralama faktörüdür: iyi performans gösteren siteler organik aramalarda avantaj kazanır.\n\nAncak performansı iyileştirmek için önce doğru ölçmeniz gerekir. GA4 ile kullanıcı davranışını, conversion funnel'i ve trafik kaynaklarını anlamanız gerekir. Real User Monitoring (RUM) ile gerçek kullanıcıların deneyimini ölçmeniz gerekir. Lab testleri bir başlangıç noktasıdır ama gerçek dünyayı yansıtmaz.\n\nPerformans optimizasyonu tek seferlik bir iş değildir. Yeni özellikler eklendikçe, içerik büyüdükçe ve üçüncü parti scriptler arttıkça performans geriler. Bu yüzden sürekli izleme, ölçüm ve optimizasyon döngüsü şart. Ayrıca doğru yapılandırılmış analitik olmadan hangi sayfaların, kampanyaların veya içerik türlerinin işinize gerçekten değer kattığını bilemezsiniz."
       }}
       stats={[
         { value: "98+", label: "Ortalama Lighthouse performans skoru" },
@@ -57,7 +57,7 @@ Megis olarak performansa bütünsel yaklaşıyoruz. Önce GA4'ü doğru yapılan
         },
         {
           title: "Font Yükleme Stratejisi",
-          description: "Font subsetting ile yalnızca kullanılan karakterlerin yüklenmesi — Türkçe karakter seti için dosya boyutunu %70'e kadar azaltma. font-display: swap ile FOIT (Flash of Invisible Text) önleme. Preload ile kritik fontların erken yüklenmesi. Self-hosting ile üçüncü parti font CDN bağımlılığını kaldırma. Variable fonts ile birden fazla ağırlık ve stili tek dosyada birleştirme. WOFF2 formatı ile maksimum sıkıştırma."
+          description: "Font subsetting ile yalnızca kullanılan karakterlerin yüklenmesi: Türkçe karakter seti için dosya boyutunu %70'e kadar azaltma. font-display: swap ile FOIT (Flash of Invisible Text) önleme. Preload ile kritik fontların erken yüklenmesi. Self-hosting ile üçüncü parti font CDN bağımlılığını kaldırma. Variable fonts ile birden fazla ağırlık ve stili tek dosyada birleştirme. WOFF2 formatı ile maksimum sıkıştırma."
         },
         {
           title: "JavaScript Bundle Analizi",
@@ -160,13 +160,13 @@ Megis olarak performansa bütünsel yaklaşıyoruz. Önce GA4'ü doğru yapılan
       }}
       caseStudies={[
         {
-          title: "E-Ticaret — Lighthouse 38'den 96'ya, Satış %35 Artış",
+          title: "E-Ticaret: Lighthouse 38'den 96'ya, Satış %35 Artış",
           challenge: "Büyük bir e-ticaret sitesi mobilde 6+ saniye yükleme süresine sahipti. Lighthouse performans skoru 38'di. Optimize edilmemiş görseller, render-blocking fontlar ve 2.5MB JavaScript bundle sayfayı ağırlaştırıyordu. GA4 kurulumu vardı ama özel etkinlikler tanımlanmamıştı, conversion tracking eksikti.",
           solution: "Tüm görseller WebP/AVIF formatına dönüştürüldü ve responsive srcset oluşturuldu. Fontlar subset'lendi ve self-hosted WOFF2 olarak yapılandırıldı. JS bundle analiz edildi, 800KB gereksiz dependency çıkarıldı, code splitting uygulandı. GA4'te 25+ özel etkinlik tanımlandı, e-ticaret enhanced measurement aktif edildi. RUM ile gerçek kullanıcı verisi toplanmaya başlandı.",
           result: "Lighthouse performans skoru 38'den 96'ya çıktı. LCP 5.8 saniyeden 1.9 saniyeye düştü. Mobil bounce rate %58'den %31'e geriledi. Sayfa başına ortalama süre %45 arttı. E-ticaret satış geliri ilk 60 günde %35 yükseldi. GA4 verileriyle en çok gelir getiren kampanya ve ürün kategorileri ilk kez net olarak görüldü.",
         },
         {
-          title: "SaaS Dashboard — INP 800ms'den 120ms'ye",
+          title: "SaaS Dashboard: INP 800ms'den 120ms'ye",
           challenge: "SaaS platformunun dashboard sayfası kullanıcı etkileşimlerinde belirgin şekilde kasıyor. INP 800ms, filtre değiştirme ve tablo sıralama işlemleri saniyeler sürüyordu. Kullanıcılar şikayetlerini artırmış, churn rate yükselmişti. GA4'te kullanıcı akışı ve feature kullanım verileri toplanamıyordu.",
           solution: "Long task analizi yapıldı, tablo rendering'i virtualize edildi (react-window), filtreleme işlemleri web worker'a taşındı. Gereksiz re-render'lar memo ve useMemo ile önlendi. 1.2MB'lik chart kütüphanesi lazy load edildi. GA4'te feature kullanım etkinlikleri, sayfa performans metrikleri ve kullanıcı segmentleri tanımlandı. RUM dashboard'u ile gerçek zamanlı performans izleme başladı.",
           result: "INP 800ms'den 120ms'ye düştü. Dashboard yüklenme süresi 4.2 saniyeden 1.1 saniyeye indi. Kullanıcı memnuniyet skoru %62'den %91'e çıktı. Churn rate %18 azaldı. GA4 verileriyle en çok kullanılan ve en az kullanılan özellikler belirlendi, ürün yol haritası veri odaklı şekilde yeniden önceliklendirildi.",
@@ -175,7 +175,7 @@ Megis olarak performansa bütünsel yaklaşıyoruz. Önce GA4'ü doğru yapılan
       faqs={[
         {
           question: "Core Web Vitals nedir ve neden önemlidir?",
-          answer: "Core Web Vitals, Google'in web sayfalarının kullanıcı deneyimini ölçmek için belirlediği üç temel metriktir. LCP (Largest Contentful Paint) sayfanın en büyük içerik ögesinin ne kadar sürede yüklendiğini ölçer — hedef 2.5 saniyenin altı. INP (Interaction to Next Paint) kullanıcı etkileşimlerine sayfanın ne kadar hızlı yanıt verdiğini ölçer — hedef 200ms altı. CLS (Cumulative Layout Shift) sayfadaki beklenmeyen kaymaları ölçer — hedef 0.1 altı. Bu metrikler 2021'den beri Google sıralama faktörüdür ve kötü CWV skorları organik sıralamanızı olumsuz etkiler.",
+          answer: "Core Web Vitals, Google'in web sayfalarının kullanıcı deneyimini ölçmek için belirlediği üç temel metriktir. LCP (Largest Contentful Paint) sayfanın en büyük içerik ögesinin ne kadar sürede yüklendiğini ölçer: hedef 2.5 saniyenin altı. INP (Interaction to Next Paint) kullanıcı etkileşimlerine sayfanın ne kadar hızlı yanıt verdiğini ölçer: hedef 200ms altı. CLS (Cumulative Layout Shift) sayfadaki beklenmeyen kaymaları ölçer: hedef 0.1 altı. Bu metrikler 2021'den beri Google sıralama faktörüdür ve kötü CWV skorları organik sıralamanızı olumsuz etkiler.",
         },
         {
           question: "GA4 ile Universal Analytics arasındaki fark nedir?",
@@ -183,11 +183,11 @@ Megis olarak performansa bütünsel yaklaşıyoruz. Önce GA4'ü doğru yapılan
         },
         {
           question: "Lighthouse skoru ile gerçek kullanıcı deneyimi neden farklı?",
-          answer: "Lighthouse bir lab testidir — sabit bir cihaz ve ağ koşullarında çalışır. Gerçek kullanıcılarınız ise farklı cihazlar, farklı ağ hızları ve farklı coğrafi konumlardan erişir. Bir kullanıcı 5G ile iPhone 15'ten girerken, başkası 3G ile eski bir Android'den girebilir. Bu yüzden RUM (Real User Monitoring) kritiktir. CrUX verileri Google'in gerçek Chrome kullanıcılarından topladığı performans verisidir ve sıralama için bu veriler kullanılır. Biz hem lab hem gerçek kullanıcı verilerini birlikte değerlendiriyoruz.",
+          answer: "Lighthouse bir lab testidir: sabit bir cihaz ve ağ koşullarında çalışır. Gerçek kullanıcılarınız ise farklı cihazlar, farklı ağ hızları ve farklı coğrafi konumlardan erişir. Bir kullanıcı 5G ile iPhone 15'ten girerken, başkası 3G ile eski bir Android'den girebilir. Bu yüzden RUM (Real User Monitoring) kritiktir. CrUX verileri Google'in gerçek Chrome kullanıcılarından topladığı performans verisidir ve sıralama için bu veriler kullanılır. Biz hem lab hem gerçek kullanıcı verilerini birlikte değerlendiriyoruz.",
         },
         {
           question: "Görsel optimizasyonu yapınca kalite düşüyor mu?",
-          answer: "Modern görsel formatları (WebP, AVIF) aynı görsel kalitesini çok daha düşük dosya boyutunda sunar. AVIF formatı orijinal JPEG'e kıyasla %50-80 daha küçüktür ve gözle görülür kalite farkı yoktur. Ayrıca responsive srcset ile her cihaza uygun boyutta görsel sunulur — masaüstünde büyük, mobilde küçük. Next.js Image component bu süreci otomatikleştirir. Biz her görsel için format, boyut ve kalite dengesini optimize ediyor, görsel karşılaştırma ile kalite kaybının olmadığını doğruluyoruz.",
+          answer: "Modern görsel formatları (WebP, AVIF) aynı görsel kalitesini çok daha düşük dosya boyutunda sunar. AVIF formatı orijinal JPEG'e kıyasla %50-80 daha küçüktür ve gözle görülür kalite farkı yoktur. Ayrıca responsive srcset ile her cihaza uygun boyutta görsel sunulur: masaüstünde büyük, mobilde küçük. Next.js Image component bu süreci otomatikleştirir. Biz her görsel için format, boyut ve kalite dengesini optimize ediyor, görsel karşılaştırma ile kalite kaybının olmadığını doğruluyoruz.",
         },
         {
           question: "JavaScript bundle boyutunu nasıl küçültüyorsunuz?",
@@ -195,7 +195,7 @@ Megis olarak performansa bütünsel yaklaşıyoruz. Önce GA4'ü doğru yapılan
         },
         {
           question: "Performans optimizasyonu SEO'yu nasıl etkiler?",
-          answer: "Doğrudan etkiler. Core Web Vitals 2021'den beri Google'in sayfa deneyimi sıralama faktörlerinden biridir. Ayrıca hızlı sayfalar düşük bounce rate, yüksek sayfa başına süre ve daha fazla sayfa görüntülemesi demektir — bunlar da dolaylı sıralama sinyalleridir. Google'in crawl budget'i da hıza duyarlıdır; hızlı siteler daha sık ve daha derinlemesine taranır. Mobil-first indexing ile mobil performans özellikle kritiktir. Performans optimizasyonu yapan müşterilerimizde ortalama %15-25 organik trafik artışı görüyoruz.",
+          answer: "Doğrudan etkiler. Core Web Vitals 2021'den beri Google'in sayfa deneyimi sıralama faktörlerinden biridir. Ayrıca hızlı sayfalar düşük bounce rate, yüksek sayfa başına süre ve daha fazla sayfa görüntülemesi demektir; bunlar da dolaylı sıralama sinyalleridir. Google'in crawl budget'i da hıza duyarlıdır; hızlı siteler daha sık ve daha derinlemesine taranır. Mobil-first indexing ile mobil performans özellikle kritiktir. Performans optimizasyonu yapan müşterilerimizde ortalama %15-25 organik trafik artışı görüyoruz.",
         },
         {
           question: "Raporlama nasıl yapılıyor, neleri izliyorsunuz?",

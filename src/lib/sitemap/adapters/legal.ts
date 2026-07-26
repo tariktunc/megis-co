@@ -1,7 +1,7 @@
 // src/lib/sitemap/adapters/legal.ts
-// Otomatik üretildi — /webforge-sitemap (v2.2)
+// Otomatik üretildi, /webforge-sitemap (v2.2)
 // Yasal sayfalar bağımsız lastmod (policy bump) ve düşük frekans için ayrı adapter.
-// LEGAL_SLUGS shared constant'tan gelir — pages.ts ile aynı liste (DRY).
+// LEGAL_SLUGS shared constant'tan gelir: pages.ts ile aynı liste (DRY).
 // Megis i18n: src/app/[locale] altindaki yasal sayfalari arar.
 
 import fs from "fs/promises";

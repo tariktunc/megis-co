@@ -180,7 +180,7 @@ export default function WebTasarimTrendleri2026() {
 
       <h2>Sonuç</h2>
       <p>
-        2026 yılının web tasarım trendleri, yapay zeka, performans ve erişilebilirliğin kesişim noktasında şekilleniyor. AI destekli tasarım araçları süreci hızlandırırken, 3D deneyimler ve mikro etkileşimler kullanıcı deneyimini zenginleştiriyor. Dark mode ve dinamik renk sistemleri görsel deneyimi kişiselleştirirken, erişilebilirlik öncelikli yaklaşım herkes için kullanılabilir web'i hedefliyor. Performans optimizasyonu ise tüm bu zenginliklerin hızlı ve sorunsuz sunulmasını sağlıyor. Bu trendleri projelerinize entegre ederken her zaman kullanıcı ihtiyaçlarını merkeze alın — en iyi tasarım trendi, kullanıcının sorununu çözen tasarımdır.
+        2026 yılının web tasarım trendleri, yapay zeka, performans ve erişilebilirliğin kesişim noktasında şekilleniyor. AI destekli tasarım araçları süreci hızlandırırken, 3D deneyimler ve mikro etkileşimler kullanıcı deneyimini zenginleştiriyor. Dark mode ve dinamik renk sistemleri görsel deneyimi kişiselleştirirken, erişilebilirlik öncelikli yaklaşım herkes için kullanılabilir web'i hedefliyor. Performans optimizasyonu ise tüm bu zenginliklerin hızlı ve sorunsuz sunulmasını sağlıyor. Bu trendleri projelerinize entegre ederken her zaman kullanıcı ihtiyaçlarını merkeze alın: en iyi tasarım trendi, kullanıcının sorununu çözen tasarımdır.
       </p>
     </>
   );

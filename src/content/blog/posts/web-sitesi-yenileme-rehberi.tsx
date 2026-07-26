@@ -3,7 +3,7 @@ export default function WebSitesiYenilemeRehberi() {
     <>
       <h2>Web Sitesi Yenileme (Redesign) Rehberi: SEO Kaybetmeden</h2>
       <p>
-        Web sitesi yenileme, işletmelerin dijital varlığını güçlendirmek için kaçınılmaz bir süreçtir. Ancak yanlış yönetilen bir redesign projesi, yıllarca emek verilerek kazanılmış organik trafiği ve arama motoru sıralamalarını bir gecede yok edebilir. Bu rehberde, <strong>SEO değerini koruyarak web sitesi yenilemenin</strong> tüm adımlarını — planlama, URL haritalama, 301 yönlendirmeleri, içerik denetimi ve lansman kontrol listesiyle birlikte — kapsamlı şekilde ele alıyoruz.
+        Web sitesi yenileme, işletmelerin dijital varlığını güçlendirmek için kaçınılmaz bir süreçtir. Ancak yanlış yönetilen bir redesign projesi, yıllarca emek verilerek kazanılmış organik trafiği ve arama motoru sıralamalarını bir gecede yok edebilir. Bu rehberde, <strong>SEO değerini koruyarak web sitesi yenilemenin</strong> tüm adımlarını (planlama, URL haritalama, 301 yönlendirmeleri, içerik denetimi ve lansman kontrol listesiyle birlikte) kapsamlı şekilde ele alıyoruz.
       </p>
 
       <h2>1. Redesign Öncesi SEO Denetimi</h2>
@@ -77,10 +77,10 @@ export default function WebSitesiYenilemeRehberi() {
       </p>
       <h3>301 Yönlendirme En İyi Uygulamaları</h3>
       <ul>
-        <li><strong>Birebir yönlendirme:</strong> Her eski URL'yi en yakın karşılığına yönlendirin. Tüm eski URL'leri ana sayfaya yönlendirmek büyük bir hatadır — bu uygulama, Google tarafından soft 404 olarak değerlendirilir.</li>
+        <li><strong>Birebir yönlendirme:</strong> Her eski URL'yi en yakın karşılığına yönlendirin. Tüm eski URL'leri ana sayfaya yönlendirmek büyük bir hatadır: bu uygulama, Google tarafından soft 404 olarak değerlendirilir.</li>
         <li><strong>Zincirleme yönlendirmeden kaçının:</strong> A'dan B'ye, B'den C'ye gibi zincirleme yönlendirmeler link equity kaybına neden olur. Doğrudan A'dan C'ye yönlendirme yapın.</li>
         <li><strong>Sunucu tarafı yönlendirme:</strong> JavaScript veya meta refresh yönlendirmeleri yerine sunucu tarafı 301 yönlendirmeleri kullanın. Next.js'te next.config dosyasında redirects, Apache'de .htaccess, Nginx'te server bloğunda tanımlayın.</li>
-        <li><strong>Regex kuralları:</strong> URL yapısı sistematik olarak değişiyorsa regex bazlı toplu yönlendirme kuralları oluşturun. Ancak dikkatli test edin — yanlış regex kuralları beklenmeyen yönlendirmelere neden olabilir.</li>
+        <li><strong>Regex kuralları:</strong> URL yapısı sistematik olarak değişiyorsa regex bazlı toplu yönlendirme kuralları oluşturun. Ancak dikkatli test edin: yanlış regex kuralları beklenmeyen yönlendirmelere neden olabilir.</li>
         <li><strong>Yönlendirme kalıcılığı:</strong> 301 yönlendirmelerini en az 1 yıl, tercihen kalıcı olarak aktif tutun. Erken kaldırılan yönlendirmeler trafik kaybına yol açar.</li>
       </ul>
 

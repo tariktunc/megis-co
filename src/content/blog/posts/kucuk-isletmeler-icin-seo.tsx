@@ -3,7 +3,7 @@ export default function KucukIsletmelerIcinSeo() {
     <>
       <h2>Küçük İşletmeler İçin SEO: Düşük Bütçeyle Sonuç Alma</h2>
       <p>
-        SEO, büyük bütçeler gerektiren bir lüks değil — doğru stratejiyle küçük işletmelerin de rakipleriyle eşit koşullarda yarışabileceği güçlü bir araçtır. Bu rehberde, <strong>düşük bütçeyle etkili SEO</strong> yapmanın yollarını, ücretsiz araçları, yerel SEO taktiklerini ve kendin yap (DIY) SEO yaklaşımlarını kapsamlı şekilde ele alıyoruz.
+        SEO, büyük bütçeler gerektiren bir lüks değil, doğru stratejiyle küçük işletmelerin de rakipleriyle eşit koşullarda yarışabileceği güçlü bir araçtır. Bu rehberde, <strong>düşük bütçeyle etkili SEO</strong> yapmanın yollarını, ücretsiz araçları, yerel SEO taktiklerini ve kendin yap (DIY) SEO yaklaşımlarını kapsamlı şekilde ele alıyoruz.
       </p>
 
       <h2>1. Küçük İşletme SEO'sunun Temelleri</h2>
@@ -13,7 +13,7 @@ export default function KucukIsletmelerIcinSeo() {
       <h3>Öncelik Sıralaması</h3>
       <ol>
         <li><strong>Google İşletme Profili:</strong> Yerel işletmeler için en yüksek ROI sunan kanal. Ücretsiz ve hemen başlanabilir.</li>
-        <li><strong>Web sitesi teknik temelleri:</strong> Hızlı, mobil uyumlu ve güvenli bir web sitesi — tüm SEO çalışmalarının temelidir.</li>
+        <li><strong>Web sitesi teknik temelleri:</strong> Hızlı, mobil uyumlu ve güvenli bir web sitesi: tüm SEO çalışmalarının temelidir.</li>
         <li><strong>Yerel anahtar kelime hedefleme:</strong> Ulusal rekabet yerine yerel aramalara odaklanarak daha hızlı sonuç alın.</li>
         <li><strong>İçerik üretimi:</strong> Uzmanlık alanınızda düzenli ve kaliteli içerik üreterek topikal otorite inşa edin.</li>
         <li><strong>Link building:</strong> Yerel iş birlikleri ve dizinler aracılığıyla doğal backlink kazanımı.</li>
@@ -153,17 +153,17 @@ export default function KucukIsletmelerIcinSeo() {
           <tr>
             <td>Google İşletme Profili</td>
             <td>Ücretsiz (zaman yatırımı)</td>
-            <td>Çok yüksek — yerel aramalar</td>
+            <td>Çok yüksek: yerel aramalar</td>
           </tr>
           <tr>
             <td>Teknik SEO temelleri</td>
             <td>Düşük (hosting + SSL)</td>
-            <td>Yüksek — tüm SEO'nun temeli</td>
+            <td>Yüksek: tüm SEO'nun temeli</td>
           </tr>
           <tr>
             <td>İçerik üretimi</td>
             <td>Düşük-Orta (zaman)</td>
-            <td>Yüksek — uzun vadeli organik trafik</td>
+            <td>Yüksek: uzun vadeli organik trafik</td>
           </tr>
           <tr>
             <td>Yerel link building</td>
@@ -180,7 +180,7 @@ export default function KucukIsletmelerIcinSeo() {
 
       <h2>Sonuç</h2>
       <p>
-        Küçük işletmeler, doğru strateji ve tutarlı çabayla SEO'da büyük başarılar elde edebilir. Google İşletme Profili optimizasyonuyla başlayın, ücretsiz araçları etkin kullanın, yerel anahtar kelimelere odaklanın ve düzenli içerik üretin. SEO bir maraton, sprint değildir — sabırlı olun ama tutarlı kalın. Küçük ama sürekli adımlar, zaman içinde büyük organik trafik kazanımlarına dönüşür. En önemlisi, müşterilerinize gerçekten değer katan içerikler üretin — geri kalanını Google zaten fark edecektir.
+        Küçük işletmeler, doğru strateji ve tutarlı çabayla SEO'da büyük başarılar elde edebilir. Google İşletme Profili optimizasyonuyla başlayın, ücretsiz araçları etkin kullanın, yerel anahtar kelimelere odaklanın ve düzenli içerik üretin. SEO bir maraton, sprint değildir: sabırlı olun ama tutarlı kalın. Küçük ama sürekli adımlar, zaman içinde büyük organik trafik kazanımlarına dönüşür. En önemlisi, müşterilerinize gerçekten değer katan içerikler üretin: geri kalanını Google zaten fark edecektir.
       </p>
     </>
   );

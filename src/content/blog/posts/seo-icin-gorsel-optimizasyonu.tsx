@@ -42,11 +42,11 @@ export default function SeoIcinGorselOptimizasyonu() {
       <p>Kötü örnekler ve iyi alternatifleri karşılaştıralım:</p>
 
       <ul>
-        <li><strong>Kötü:</strong> alt="görsel" — Hiçbir bilgi vermiyor.</li>
-        <li><strong>Kötü:</strong> alt="istanbul restoran yemek kafe en iyi lezzetli" — Keyword stuffing.</li>
-        <li><strong>İyi:</strong> alt="İstanbul Kadıköy'de deniz manzaralı balık restoranının dış mekan terası" — Açıklayıcı, spesifik, doğal.</li>
-        <li><strong>Kötü:</strong> alt="grafik" — Anlamsız.</li>
-        <li><strong>İyi:</strong> alt="2025 yılında Türkiye'deki mobil internet kullanım oranını gösteren çubuk grafik" — Grafiğin ne anlattığını belirtiyor.</li>
+        <li><strong>Kötü:</strong> alt="görsel": Hiçbir bilgi vermiyor.</li>
+        <li><strong>Kötü:</strong> alt="istanbul restoran yemek kafe en iyi lezzetli": Keyword stuffing.</li>
+        <li><strong>İyi:</strong> alt="İstanbul Kadıköy'de deniz manzaralı balık restoranının dış mekan terası": Açıklayıcı, spesifik, doğal.</li>
+        <li><strong>Kötü:</strong> alt="grafik": Anlamsız.</li>
+        <li><strong>İyi:</strong> alt="2025 yılında Türkiye'deki mobil internet kullanım oranını gösteren çubuk grafik": Grafiğin ne anlattığını belirtiyor.</li>
       </ul>
 
       <h2>Dosya Adlandırma Stratejisi</h2>

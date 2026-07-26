@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og';
 
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
-export const alt = 'Megis | Dijital Ajans — SEO, SEM, AI Reklam, E-Ticaret & Web Tasarım';
+export const alt = 'Megis | Dijital Ajans: SEO, SEM, AI Reklam, E-Ticaret & Web Tasarım';
 
 export default function OgImage() {
   return new ImageResponse(
@@ -49,7 +49,7 @@ export default function OgImage() {
             marginTop: 16,
           }}
         >
-          Dijital Ajans — SEO, SEM, AI Reklam, E-Ticaret & Web Tasarım
+          Dijital Ajans: SEO, SEM, AI Reklam, E-Ticaret & Web Tasarım
         </div>
         <div style={{ display: 'flex', gap: 16, marginTop: 36 }}>
           {['SEO', 'SEM', 'AI Ads', 'E-Ticaret'].map((badge) => (

@@ -3,7 +3,7 @@ export default function LazyLoadingRehberi() {
     <>
       <h2>Lazy Loading Nedir?</h2>
       <p>
-        <strong>Lazy loading</strong> (tembel yukleme), web sayfasindaki kaynaklarin — gorseller, videolar, bilesen (component) ve betikler — yalnizca ihtiyac duyuldugunda yuklenmesini saglayan bir performans optimizasyon teknigidir. Sayfa ilk acildiginda yalnizca gorunen alan (viewport) icindeki icerikler yuklenir, ekranin altinda kalan kaynaklar kullanici o bolgeye scroll ettikce yuklenir.
+        <strong>Lazy loading</strong> (tembel yukleme), web sayfasindaki kaynaklarin (gorseller, videolar, bilesen (component) ve betikler) yalnizca ihtiyac duyuldugunda yuklenmesini saglayan bir performans optimizasyon teknigidir. Sayfa ilk acildiginda yalnizca gorunen alan (viewport) icindeki icerikler yuklenir, ekranin altinda kalan kaynaklar kullanici o bolgeye scroll ettikce yuklenir.
       </p>
       <p>
         Modern web sitelerinde bir sayfa onlarca gorsel, birden fazla ucuncu parti betik ve agir JavaScript bilesenlerinden olusabilir. Tum bu kaynaklarin sayfa acilisinda ayni anda yuklenmesi, hem bant genisligini israf eder hem de kullanici deneyimini olumsuz etkiler. Lazy loading ile <strong>ilk yukleme suresini</strong> (Time to Interactive) onemli olcude kisaltabilir, bant genisligi tuketimini azaltabilir ve sunucu yukunu hafifletebilirsiniz.
@@ -63,7 +63,7 @@ export default function LazyLoadingRehberi() {
       </p>
       <h3>Dynamic Imports ile Bilesen Lazy Loading</h3>
       <p>
-        Next.js <code>dynamic</code> fonksiyonu, React bilesenlerini lazy load etmenizi saglar. Buyuk bilesenler — grafik kutuphaneleri, harita bilesenler, zengin metin editorleri gibi — yalnizca ihtiyac duyulduklarinda yuklenir.
+        Next.js <code>dynamic</code> fonksiyonu, React bilesenlerini lazy load etmenizi saglar. Buyuk bilesenler (grafik kutuphaneleri, harita bilesenler, zengin metin editorleri gibi) yalnizca ihtiyac duyulduklarinda yuklenir.
       </p>
       <p>
         <code>dynamic(() =&gt; import(&apos;./HeavyComponent&apos;))</code> seklinde kullanilir. <code>ssr: false</code> secenegi ile bileseni yalnizca istemci tarafinda render edebilirsiniz. Bu, sunucu tarafinda calismasina gerek olmayan bilesenler (harita, grafik, medya oynatici) icin idealdir.

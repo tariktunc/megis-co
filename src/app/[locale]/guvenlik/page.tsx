@@ -160,13 +160,13 @@ Megis olarak güvenlik yaklaşımımız derinlemesine savunma (defense in depth)
       }}
       caseStudies={[
         {
-          title: "E-Ticaret Platformu — A+ Güvenlik Skoru ve Sıfır İhlal",
+          title: "E-Ticaret Platformu: A+ Güvenlik Skoru ve Sıfır İhlal",
           challenge: "Aylık 50.000+ işlem yapan e-ticaret sitesi güvenlik denetiminden F notu almıştı. CSP yoktu, login sayfasına brute-force saldırıları yapılıyordu, 3 kritik bağımlılık zafiyeti açıktı ve HTTPS yapılandırması eksikti.",
           solution: "Kapsamlı CSP politikası yazıldı, HSTS preload etkinleştirildi, tüm güvenlik header'ları uygulandı. Login'e rate limiting ve MFA eklendi, bağımlılıklar güncellendi, CI/CD'ye Snyk entegre edildi. Penetrasyon testi ile 12 ek bulgu tespit edilip giderildi.",
           result: "SecurityHeaders.com notu F'den A+'ya çıktı. 12 ayda sıfır güvenlik ihlali. Brute-force saldırıları %99.8 oranında engellendi. Google 'Güvenli Değil' uyarısı tamamen kaldırıldı. PCI DSS denetiminden başarıyla geçildi.",
         },
         {
-          title: "SaaS Uygulaması — XSS Zafiyetinin Kapatılması ve Sürdürülebilir Güvenlik",
+          title: "SaaS Uygulaması: XSS Zafiyetinin Kapatılması ve Sürdürülebilir Güvenlik",
           challenge: "Kullanıcı verisi işleyen SaaS uygulamasında bir güvenlik araştırmacısı stored XSS zafiyeti bildirdi. Input validasyonu yetersizdi, CSRF koruması yoktu, security.txt dosyası bulunmuyordu ve bağımlılıklarda 8 bilinen CVE mevcuttu.",
           solution: "Acil olarak XSS zafiyeti giderildi, tüm input alanları server-side validasyona alındı. CSP nonce bazlı politika uygulandı, CSRF token sistemi kuruldu. security.txt eklendi. Tüm CVE'ler giderildi ve Dependabot aktif hale getirildi. Kapsamlı penetrasyon testi gerçekleştirildi.",
           result: "Stored XSS zafiyeti 4 saat içinde kapatıldı. 8 CVE tamamı giderildi. Sonraki 6 ayda sıfır güvenlik bulgusu raporlandı. Security.txt üzerinden 2 sorumluluk bildirimi alındı ve zamanında müdahale edildi.",

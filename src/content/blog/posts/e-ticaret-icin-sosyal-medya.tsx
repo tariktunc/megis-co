@@ -3,7 +3,7 @@ export default function ETicaretIcinSosyalMedya() {
     <>
       <h2>E-Ticaret İçin Sosyal Medya Stratejisi: Satış Rehberi</h2>
       <p>
-        Sosyal medya, artık sadece marka bilinirliği oluşturmak için kullanılan bir kanal değil — doğrudan satış yapılabilen bir platformlar ekosistemine dönüştü. <strong>Sosyal ticaret (social commerce)</strong>, kullanıcıların sosyal medya uygulamalarından çıkmadan ürün keşfetmesi, değerlendirmesi ve satın alması anlamına gelir. Bu rehberde, e-ticaret işletmeleri için sosyal medya satış stratejilerini, platform bazlı taktikleri ve canlı alışveriş trendlerini kapsamlı şekilde ele alıyoruz.
+        Sosyal medya, artık sadece marka bilinirliği oluşturmak için kullanılan bir kanal değil, doğrudan satış yapılabilen bir platformlar ekosistemine dönüştü. <strong>Sosyal ticaret (social commerce)</strong>, kullanıcıların sosyal medya uygulamalarından çıkmadan ürün keşfetmesi, değerlendirmesi ve satın alması anlamına gelir. Bu rehberde, e-ticaret işletmeleri için sosyal medya satış stratejilerini, platform bazlı taktikleri ve canlı alışveriş trendlerini kapsamlı şekilde ele alıyoruz.
       </p>
 
       <h2>1. Sosyal Ticaret Nedir ve Neden Önemlidir?</h2>

@@ -6,7 +6,7 @@ export default function MarkaSesiTonuBelirleme() {
         Marka sesi (brand voice), markanizin tum iletisim kanallarinda kullandigi tutarli kisilik ve ifade bicimidir. Marka tonu (brand tone) ise bu sesin farkli baglamlara gore ayarlanan duygusal yansitmasidir. Ornegin, markanizin sesi her zaman &quot;samimi ve bilgili&quot; olabilir, ancak tonu bir hata sayfasinda daha anlayisli, bir basari mesajinda ise daha enerjik olabilir.
       </p>
       <p>
-        Dusunun: Bir insanin sesi her zaman aynidir — tok, ince, sicak veya ciddi. Ama o insanin tonu duruma gore degisir: bir cenazede farkli, bir kutlamada farkli konusur. Marka sesi ve tonu da tam olarak boyle calisir. Bu rehberde, markaniz icin benzersiz bir ses ve ton sistemi olusturmanin tum adimlarini ele alacagiz.
+        Dusunun: Bir insanin sesi her zaman aynidir: tok, ince, sicak veya ciddi. Ama o insanin tonu duruma gore degisir: bir cenazede farkli, bir kutlamada farkli konusur. Marka sesi ve tonu da tam olarak boyle calisir. Bu rehberde, markaniz icin benzersiz bir ses ve ton sistemi olusturmanin tum adimlarini ele alacagiz.
       </p>
 
       <h2>Marka Sesi Neden Bu Kadar Onemli?</h2>
@@ -96,7 +96,7 @@ export default function MarkaSesiTonuBelirleme() {
 
       <h3>Ornek: &quot;Samimi&quot; Kisilik Ozelligi</h3>
       <ul>
-        <li><strong>Bu boyledir:</strong> &quot;Merhaba! Hesabiniz basariyla olusturuldu. Hadi baslayalim — ilk projenizi olusturmak icin buraya tiklayin.&quot;</li>
+        <li><strong>Bu boyledir:</strong> &quot;Merhaba! Hesabiniz basariyla olusturuldu. Hadi baslayalim: ilk projenizi olusturmak icin buraya tiklayin.&quot;</li>
         <li><strong>Bu boyle degildir:</strong> &quot;Hesap olusturma islemi tamamlanmistir. Proje olusturmak icin asagidaki baglantiya tiklayiniz.&quot;</li>
         <li><strong>Bu da degildir:</strong> &quot;Yeeey, hosgeldin dostum!! Super haberler, hesabin hazir!! Hadi hemen bir seyler yapalim!!!&quot;</li>
       </ul>

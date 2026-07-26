@@ -31,7 +31,7 @@ export default async function Page({ params }: { params: Promise<{ locale: strin
 
 Çoğu işletme web sitesini doğrudan tasarım aşamasından başlatır. Ancak site türü belirlenmeden, hedef kitle tanımlanmadan ve marka dili oluşturulmadan yapılan tasarımlar tutarsız, etkisiz ve kısa ömürlü olur. 6 ay sonra her şey sıfırdan yapılmak zorunda kalır.
 
-Megis olarak önce işletmenizi, sektörünüzü ve rakiplerinizi derinlemesine analiz ediyoruz. Site türünüzü belirliyoruz — kurumsal, e-ticaret, SaaS veya portfolio. Hedef kitlenizi persona bazında tanımlıyoruz. Çok dilli altyapıyı next-intl ile SEO uyumlu şekilde kuruyoruz. Tasarım tokenlarınızı, marka rehberinizi ve kurumsal şablonlarınızı hazırlıyoruz. Sonuçta elinizde yalnızca bir web sitesi değil, eksiksiz bir dijital kimlik sistemi oluyor."
+Megis olarak önce işletmenizi, sektörünüzü ve rakiplerinizi derinlemesine analiz ediyoruz. Site türünüzü belirliyoruz: kurumsal, e-ticaret, SaaS veya portfolio. Hedef kitlenizi persona bazında tanımlıyoruz. Çok dilli altyapıyı next-intl ile SEO uyumlu şekilde kuruyoruz. Tasarım tokenlarınızı, marka rehberinizi ve kurumsal şablonlarınızı hazırlıyoruz. Sonuçta elinizde yalnızca bir web sitesi değil, eksiksiz bir dijital kimlik sistemi oluyor."
       whyMatters={{
         title: "Marka kimliği neden bu kadar önemli?",
         description: "Tutarlı bir marka kimliği geliri ortalama %23 artırır. Kullanıcılar bir markayla ilk 7 saniyede izlenim oluşturur ve bu izlenimin %94'ü görsel tasarıma dayalıdır. Yanlış seçilmiş bir site türü, hatalı bir renk paleti veya tutarsız bir tipografi bile potansiyel müşterilerin güvenini sarsar ve geri dönüşü olmayan bir şekilde kaybettirir.\n\nÜstelik dijital kimlik yalnızca web sitenizle sınırlı değildir. E-posta imzalarınız, sosyal medya görselleri, sunumlarınız, müşterilerinize gönderdiğiniz her dokümanın aynı dili konuşması gerekir. Bu bütünlük ancak sistematik bir marka rehberi ve tasarım tokenları ile mümkündür.\n\nÇok dilli pazarlarda ise marka kimliği daha da kritik hale gelir. Türkçe ve İngilizce içeriklerin aynı marka sesini taşımasını, farklı kültürlerde aynı algının oluşmasını sağlamak profesyonel bir planlama gerektirir. next-intl ile kurulan çok dilli altyapı, yalnızca çeviri değil kültürel adaptasyon sunar."
@@ -45,7 +45,7 @@ Megis olarak önce işletmenizi, sektörünüzü ve rakiplerinizi derinlemesine 
       features={[
         {
           title: "Site Türü Analizi ve Mimari Planlama",
-          description: "Kurumsal site, e-ticaret, SaaS platformu veya portfolio — işletmenizin hedeflerine en uygun site yapısını belirliyoruz. Sayfa hiyerarşisi, navigasyon akışı, kullanıcı yolculuğu haritaları ve bilgi mimarisi planlanıyor. Yanlış site türü seçimi aylar sonra maliyetli bir yeniden yapılanma gerektirir, biz bunu baştan önlüyoruz."
+          description: "Kurumsal site, e-ticaret, SaaS platformu veya portfolio: işletmenizin hedeflerine en uygun site yapısını belirliyoruz. Sayfa hiyerarşisi, navigasyon akışı, kullanıcı yolculuğu haritaları ve bilgi mimarisi planlanıyor. Yanlış site türü seçimi aylar sonra maliyetli bir yeniden yapılanma gerektirir, biz bunu baştan önlüyoruz."
         },
         {
           title: "Hedef Kitle ve Persona Oluşturma",
@@ -61,7 +61,7 @@ Megis olarak önce işletmenizi, sektörünüzü ve rakiplerinizi derinlemesine 
         },
         {
           title: "Marka Rehberi (Brand Guidelines)",
-          description: "Logo kullanım kuralları (minimum boyut, koruma alanı, yasak kullanımlar), renk paleti (primer, sekonder, nötr tonlar — HEX, RGB, HSL kodları), tipografi sistemi (başlık, gövde, vurgu fontları), ikonografi stili ve fotoğraf yönergesi. Ekibinizin ve partnerlerinizin tutarlı üretim yapması için eksiksiz bir referans dokümanı."
+          description: "Logo kullanım kuralları (minimum boyut, koruma alanı, yasak kullanımlar), renk paleti (primer, sekonder, nötr tonlar: HEX, RGB, HSL kodları), tipografi sistemi (başlık, gövde, vurgu fontları), ikonografi stili ve fotoğraf yönergesi. Ekibinizin ve partnerlerinizin tutarlı üretim yapması için eksiksiz bir referans dokümanı."
         },
         {
           title: "Tasarım Tokenları ve CSS Değişkenleri",
@@ -160,13 +160,13 @@ Megis olarak önce işletmenizi, sektörünüzü ve rakiplerinizi derinlemesine 
       }}
       caseStudies={[
         {
-          title: "Fintech Startup — Sıfırdan Dijital Kimlik",
+          title: "Fintech Startup: Sıfırdan Dijital Kimlik",
           challenge: "Yeni kurulan fintech şirketi için hiçbir marka varlığı yoktu. Hedef kitle belirsiz, site türü kararsız, iki dilde (TR/EN) hizmet verilmesi gerekiyordu. Yatırımcı sunumuna 6 hafta kalmıştı.",
           solution: "2 haftada keşif ve persona çalışması tamamlandı. SaaS tipi site yapısı belirlendi. Marka rehberi, tasarım tokenları, next-intl altyapısı ve 12 kurumsal şablon hazırlandı. Figma component library oluşturuldu.",
           result: "6 haftada eksiksiz dijital kimlik teslim edildi. Yatırımcı sunumunda profesyonel marka algısı oluşturuldu. Site geliştirme süresi marka rehberi sayesinde %40 kısaldı.",
         },
         {
-          title: "E-Ticaret Markası — Marka Yenileme ve Çok Dilli Geçiş",
+          title: "E-Ticaret Markası: Marka Yenileme ve Çok Dilli Geçiş",
           challenge: "10 yıllık e-ticaret markası dijitalde tutarsız görünüyordu. Logo 4 farklı versiyonda kullanılıyordu, renk paleti belirsizdi, İngilizce site mevcuttu ama marka sesi Türkçe ile uyumsuzdu.",
           solution: "Mevcut marka varlıklarının envanteri çıkarıldı. 3 persona güncellendi. Marka rehberi sıfırdan yazıldı. Tasarım tokenları CSS custom properties olarak tanımlandı. next-intl ile her iki dilde tutarlı marka sesi oluşturuldu.",
           result: "Marka tutarlılığı %100'e çıktı. Müşteri anketlerinde güven algısı %35 arttı. İngilizce pazarda dönüşüm oranı %28 yükseldi. Yeni içerik üretim süresi %50 azaldı.",
@@ -183,7 +183,7 @@ Megis olarak önce işletmenizi, sektörünüzü ve rakiplerinizi derinlemesine 
         },
         {
           question: "Çok dilli site zorunlu mu? Sadece Türkçe istemiyorum yeterli mi?",
-          answer: "Kesinlikle zorunlu değil. next-intl altyapısını tek dilde de kuruyoruz — ileride ikinci bir dil eklemek istediğinizde altyapı hazır oluyor. Ancak başlangıçta sadece Türkçe ile ilerlemeniz tamamen mümkün. Çok dilli altyapının erken kurulması ilerideki maliyet ve emeği %70'e kadar azaltır.",
+          answer: "Kesinlikle zorunlu değil. next-intl altyapısını tek dilde de kuruyoruz: ileride ikinci bir dil eklemek istediğinizde altyapı hazır oluyor. Ancak başlangıçta sadece Türkçe ile ilerlemeniz tamamen mümkün. Çok dilli altyapının erken kurulması ilerideki maliyet ve emeği %70'e kadar azaltır.",
         },
         {
           question: "Tasarım tokenları nedir, bize ne faydası var?",
@@ -191,7 +191,7 @@ Megis olarak önce işletmenizi, sektörünüzü ve rakiplerinizi derinlemesine 
         },
         {
           question: "Brand guidelines dokümanı neleri içeriyor?",
-          answer: "Kapsamlı marka rehberimiz şunları içerir: logo kullanım kuralları (minimum boyut, koruma alanı, yasak kullanımlar), renk paleti (primer, sekonder, nötr tonlar — HEX, RGB, HSL kodları), tipografi sistemi (başlık, gövde, vurgu fontları ve kullanım kuralları), ikonografi ve görsel stil rehberi, fotoğraf yönergesi, marka sesi ve iletişim tonu kılavuzu, dijital ve basılı materyal uygulama örnekleri. Doküman PDF ve interaktif Figma formatı olarak teslim edilir.",
+          answer: "Kapsamlı marka rehberimiz şunları içerir: logo kullanım kuralları (minimum boyut, koruma alanı, yasak kullanımlar), renk paleti (primer, sekonder, nötr tonlar: HEX, RGB, HSL kodları), tipografi sistemi (başlık, gövde, vurgu fontları ve kullanım kuralları), ikonografi ve görsel stil rehberi, fotoğraf yönergesi, marka sesi ve iletişim tonu kılavuzu, dijital ve basılı materyal uygulama örnekleri. Doküman PDF ve interaktif Figma formatı olarak teslim edilir.",
         },
         {
           question: "Persona çalışması gerçekten gerekli mi?",

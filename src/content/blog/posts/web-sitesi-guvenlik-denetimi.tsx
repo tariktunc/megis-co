@@ -106,7 +106,7 @@ export default function WebSitesiGuvenlikDenetimi() {
       <ul>
         <li><strong>CMS çekirdek güncellemeleri:</strong> Ana CMS sürümünü her zaman güncel tutun. Güvenlik yamaları yayınlandığında 24-48 saat içinde uygulayın.</li>
         <li><strong>Eklenti denetimi:</strong> Kullanılmayan eklentileri kaldırın. Aktif eklentilerin son güncelleme tarihini kontrol edin; 6 aydan uzun süredir güncellenmeyen eklentiler risk oluşturabilir.</li>
-        <li><strong>Tema güvenliği:</strong> Güvenilir kaynaklardan tema kullanın. Nulled (kırık) temalar kesinlikle kullanmayın — genellikle arka kapı (backdoor) içerirler.</li>
+        <li><strong>Tema güvenliği:</strong> Güvenilir kaynaklardan tema kullanın. Nulled (kırık) temalar kesinlikle kullanmayın: genellikle arka kapı (backdoor) içerirler.</li>
         <li><strong>Admin paneli koruması:</strong> Varsayılan admin URL'sini değiştirin, IP bazlı erişim kısıtlaması uygulayın ve giriş denemesi sınırlaması aktifleştirin.</li>
         <li><strong>Dosya izinleri:</strong> Dizinler için 755, dosyalar için 644 izinlerini ayarlayın. wp-config.php gibi hassas dosyaları 400 veya 440 olarak ayarlayın.</li>
       </ul>
@@ -131,7 +131,7 @@ export default function WebSitesiGuvenlikDenetimi() {
         <li><strong>Log yönetimi:</strong> Web sunucusu, uygulama ve veritabanı loglarını merkezi bir sistemde toplayın. Anormal aktiviteleri tespit etmek için uyarılar oluşturun.</li>
         <li><strong>Uptime izleme:</strong> Sitenizin erişilebilirliğini 7/24 izleyin. Kesintilerde anında bildirim alacak şekilde yapılandırın.</li>
         <li><strong>Dosya bütünlük kontrolü:</strong> Kritik dosyalardaki değişiklikleri izleyen bir sistem kurun. Yetkisiz değişiklikler tespit edildiğinde uyarı verin.</li>
-        <li><strong>Olay müdahale planı:</strong> Güvenlik ihlali durumunda kimler bilgilendirilecek, hangi adımlar izlenecek ve iletişim nasıl yönetilecek — bunları önceden belirleyin ve yazılı hale getirin.</li>
+        <li><strong>Olay müdahale planı:</strong> Güvenlik ihlali durumunda kimler bilgilendirilecek, hangi adımlar izlenecek ve iletişim nasıl yönetilecek: bunları önceden belirleyin ve yazılı hale getirin.</li>
         <li><strong>Düzenli denetim takvimi:</strong> Kapsamlı güvenlik denetimini en az yılda iki kez, küçük kontrolleri ise aylık olarak yapın.</li>
       </ul>
 
@@ -193,7 +193,7 @@ export default function WebSitesiGuvenlikDenetimi() {
 
       <h2>Sonuç</h2>
       <p>
-        Web sitesi güvenlik denetimi, işletmenizin dijital varlığını korumak için vazgeçilmez bir süreçtir. SSL yapılandırmasından güvenlik başlıklarına, yaygın açık taramalarından penetrasyon testine kadar kapsamlı bir yaklaşım benimsemek, olası saldırıları önlemenin en etkili yoludur. Bu kontrol listesini düzenli olarak uygulayarak, hem kullanıcı güvenini hem de arama motoru sıralamalarınızı koruyabilirsiniz. Güvenlik sürekli bir süreçtir — tek seferlik bir denetimle değil, sürekli izleme ve iyileştirmeyle sağlanır.
+        Web sitesi güvenlik denetimi, işletmenizin dijital varlığını korumak için vazgeçilmez bir süreçtir. SSL yapılandırmasından güvenlik başlıklarına, yaygın açık taramalarından penetrasyon testine kadar kapsamlı bir yaklaşım benimsemek, olası saldırıları önlemenin en etkili yoludur. Bu kontrol listesini düzenli olarak uygulayarak, hem kullanıcı güvenini hem de arama motoru sıralamalarınızı koruyabilirsiniz. Güvenlik sürekli bir süreçtir: tek seferlik bir denetimle değil, sürekli izleme ve iyileştirmeyle sağlanır.
       </p>
     </>
   );

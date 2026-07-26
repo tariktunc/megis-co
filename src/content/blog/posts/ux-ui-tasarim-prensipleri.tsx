@@ -15,7 +15,7 @@ export default function UxUiTasarimPrensipleri() {
         <li><strong>Tanımlama (Define):</strong> Topladığınız verileri analiz ederek gerçek problemi tanımlayın. "Nasıl yapabiliriz?" (How Might We?) soruları oluşturun. Persona ve kullanıcı yolculuğu haritaları bu aşamanın temel çıktılarıdır.</li>
         <li><strong>Fikir Üretme (Ideate):</strong> Beyin fırtınası, Crazy 8's veya SCAMPER gibi tekniklerle mümkün olduğunca çok çözüm üretin. Bu aşamada yargılamayı erteleyin ve yaratıcılığı teşvik edin.</li>
         <li><strong>Prototipleme (Prototype):</strong> En umut vaat eden fikirleri hızlı ve düşük maliyetli prototipler halinde somutlaştırın. Kağıt prototipler bile bu aşamada değerlidir.</li>
-        <li><strong>Test (Test):</strong> Prototipleri gerçek kullanıcılarla test edin, geribildirim toplayın ve tasarımı iyileştirin. Bu süreç doğrusal değil döngüseldir — gerektiğinde önceki aşamalara dönün.</li>
+        <li><strong>Test (Test):</strong> Prototipleri gerçek kullanıcılarla test edin, geribildirim toplayın ve tasarımı iyileştirin. Bu süreç doğrusal değil döngüseldir: gerektiğinde önceki aşamalara dönün.</li>
       </ol>
 
       <h2>2. Kullanıcı Araştırma Yöntemleri</h2>
@@ -152,7 +152,7 @@ export default function UxUiTasarimPrensipleri() {
 
       <h2>Sonuç</h2>
       <p>
-        UX/UI tasarım, teknik becerinin ötesinde empati, araştırma ve sürekli iyileştirme gerektiren bir disiplindir. Design thinking metodolojisiyle başlayın, kullanıcı araştırmasıyla devam edin, wireframe ve prototiplerle test edin ve erişilebilirlik standartlarını ihmal etmeyin. Harika bir tasarım, kullanıcının fark etmediği tasarımdır — her şey o kadar doğal ve sezgisel akar ki kullanıcı sadece hedefine odaklanır. Bu rehberdeki prensipleri uygulayarak hem estetik hem de işlevsel dijital ürünler oluşturabilirsiniz.
+        UX/UI tasarım, teknik becerinin ötesinde empati, araştırma ve sürekli iyileştirme gerektiren bir disiplindir. Design thinking metodolojisiyle başlayın, kullanıcı araştırmasıyla devam edin, wireframe ve prototiplerle test edin ve erişilebilirlik standartlarını ihmal etmeyin. Harika bir tasarım, kullanıcının fark etmediği tasarımdır: her şey o kadar doğal ve sezgisel akar ki kullanıcı sadece hedefine odaklanır. Bu rehberdeki prensipleri uygulayarak hem estetik hem de işlevsel dijital ürünler oluşturabilirsiniz.
       </p>
     </>
   );

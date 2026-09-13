@@ -137,7 +137,7 @@ export default async function LocaleLayout({
                 <Navbar />
                 <main className="flex-1">{children}</main>
                 <Footer />
-                <A11yScript locale={locale === "tr" ? "tr" : "en"} theme="auto" position="bottom-left" />
+                <A11yScript locale={locale === "tr" ? "tr" : "en"} theme="auto" position="bottom-left" version="latest" />
                 <BlakfyFooter />
               </LenisProvider>
             </Providers>

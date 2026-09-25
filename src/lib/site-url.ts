@@ -13,7 +13,7 @@
 function resolveSiteUrl(): string {
   if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL;
   if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
-  if (process.env.NODE_ENV === "production") return "https://www.megis.co";
+  if (process.env.NODE_ENV === "production") return "https://megis.co";
   return "http://localhost:3000";
 }
 

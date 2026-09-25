@@ -85,6 +85,7 @@ export async function generateMetadata({
     manifest: "/manifest.json",
     other: {
       "theme-color": "#000000",
+      "msvalidate.01": "81F0AD857C8DC6F856F5D6AFDFCE9402",
     },
   };
 }

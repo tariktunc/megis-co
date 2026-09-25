@@ -1,5 +1,23 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { SeoBrowser } from "@/components/tools/seo-browser";
+import { SITE_URL } from "@/lib/site-url";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "SEO Browser",
+    description:
+      "Googlebot'un sayfanızı nasıl gördüğünü görüntüleyin. Başlık yapısı, linkler, görseller ve metin içeriği.",
+    alternates: {
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/araclar/seo-browser`,
+    },
+  };
+}
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

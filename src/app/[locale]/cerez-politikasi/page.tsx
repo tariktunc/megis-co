@@ -3,6 +3,7 @@ import { setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { getMessages } from "next-intl/server";
 import { SITE_URL } from "@/lib/site-url";
+import { metaExcerpt } from "@/lib/metadata-excerpt";
 
 export async function generateMetadata({
   params,
@@ -15,6 +16,7 @@ export async function generateMetadata({
     ?.cookies;
   return {
     title: legal?.title || "Çerez Politikası",
+    description: legal?.intro ? metaExcerpt(legal.intro) : undefined,
     alternates: {
       canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/cerez-politikasi`,
     },

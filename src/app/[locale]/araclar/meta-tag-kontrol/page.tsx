@@ -1,5 +1,23 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { MetaTagChecker } from "@/components/tools/meta-tag-checker";
+import { SITE_URL } from "@/lib/site-url";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "Meta Tag Kontrol",
+    description:
+      "Herhangi bir URL'nin title, description, OG tag ve SEO durumunu analiz edin.",
+    alternates: {
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/araclar/meta-tag-kontrol`,
+    },
+  };
+}
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

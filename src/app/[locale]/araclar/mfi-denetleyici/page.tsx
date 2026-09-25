@@ -1,5 +1,23 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { MfiChecker } from "@/components/tools/mfi-checker";
+import { SITE_URL } from "@/lib/site-url";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "MFI Denetleyici",
+    description:
+      "Mobile-First Indexing uyumluluğunu denetleyin. Masaüstü ve mobil versiyonları karşılaştırın.",
+    alternates: {
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/araclar/mfi-denetleyici`,
+    },
+  };
+}
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

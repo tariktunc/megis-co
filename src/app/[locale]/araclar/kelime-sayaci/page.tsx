@@ -1,5 +1,23 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { WordCounter } from "@/components/tools/word-counter";
+import { SITE_URL } from "@/lib/site-url";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "Kelime Sayacı",
+    description:
+      "Kelime, karakter, cümle sayısı, okuma süresi ve anahtar kelime yoğunluğu analizi.",
+    alternates: {
+      canonical: `${SITE_URL}${locale === "en" ? "/en" : ""}/araclar/kelime-sayaci`,
+    },
+  };
+}
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

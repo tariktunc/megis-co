@@ -10,6 +10,7 @@ import { Footer } from "@/components/layout/footer";
 import { LenisProvider } from "@/components/animations/lenis-provider";
 import { BlakfyFooter } from "@/components/BlakfyFooter";
 import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/seo/json-ld";
+import { ClarityScript } from "@/components/ClarityScript";
 import { SITE_URL } from "@/lib/site-url";
 import type { Metadata } from "next";
 
@@ -163,6 +164,7 @@ export default async function LocaleLayout({
           ym(110019865,"init",{ssr:true,webvisor:true,clickmap:true,ecommerce:"dataLayer",accurateTrackBounce:true,trackLinks:true});
         `}</Script>
         <noscript><div><img src="https://mc.yandex.ru/watch/110019865" style={{position:"absolute",left:"-9999px"}} alt="" /></div></noscript>
+        <ClarityScript />
       </body>
     </html>
   );

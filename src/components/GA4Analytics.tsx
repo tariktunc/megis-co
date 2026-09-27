@@ -2,12 +2,17 @@
 
 import { useEffect } from "react";
 
-// Google Analytics 4 — consent-gated via the Blakfy Cookie widget's
-// window.BlakfyCookie.onConsent() API (specs/blakfy-cookie-consent.md).
-// Mirrors ClarityScript.tsx / AhrefsAnalytics.tsx consent-gate pattern.
-// gtag itself already exists (stubbed) via CONSENT_MODE_DEFAULT_SCRIPT in
-// layout.tsx; this component only loads gtag.js and issues the config call
-// once analytics consent is granted.
+// Google Analytics 4 — Consent Mode v2 ADVANCED (WEBFORGE 2026-09-27).
+// Loads gtag.js on every page load, right after the consent default (all
+// denied, set beforeInteractive via CONSENT_MODE_DEFAULT_SCRIPT in
+// layout.tsx). This lets Google send cookieless pings (gcs=G100) before
+// consent. analytics_storage is granted afterwards through the
+// "ga4" preset on the @blakfy/cookie widget (data-blakfy-presets in
+// layout.tsx), which calls gtag('consent','update', ...) on accept — no
+// custom onConsent wiring needed here anymore.
+// Previous BASIC-mode version only called loadGa4() after consent was
+// granted, so zero data left the browser pre-accept (measured 2026-09-27:
+// 0 GA collect requests on page load).
 
 const GA_MEASUREMENT_ID = "G-PCKX9W2QDS";
 
@@ -40,30 +45,7 @@ function loadGa4(id: string) {
 
 export function GA4Analytics() {
   useEffect(() => {
-    const wireUp = () => {
-      const bc = window.BlakfyCookie;
-      if (!bc) return false;
-      if (bc.getConsent?.("analytics")) {
-        loadGa4(GA_MEASUREMENT_ID);
-      }
-      bc.onConsent("analytics", (granted) => {
-        if (granted) loadGa4(GA_MEASUREMENT_ID);
-      });
-      return true;
-    };
-
-    if (wireUp()) return;
-
-    // BlakfyCookie script loads afterInteractive — poll briefly until it's ready.
-    const interval = setInterval(() => {
-      if (wireUp()) clearInterval(interval);
-    }, 300);
-    const timeout = setTimeout(() => clearInterval(interval), 10000);
-
-    return () => {
-      clearInterval(interval);
-      clearTimeout(timeout);
-    };
+    loadGa4(GA_MEASUREMENT_ID);
   }, []);
 
   return null;

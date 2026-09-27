@@ -12,6 +12,7 @@ import { BlakfyFooter } from "@/components/BlakfyFooter";
 import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/seo/json-ld";
 import { ClarityScript } from "@/components/ClarityScript";
 import { AhrefsAnalytics } from "@/components/AhrefsAnalytics";
+import { GA4Analytics } from "@/components/GA4Analytics";
 import { SITE_URL } from "@/lib/site-url";
 import type { Metadata } from "next";
 
@@ -167,6 +168,7 @@ export default async function LocaleLayout({
         <noscript><div><img src="https://mc.yandex.ru/watch/110019865" style={{position:"absolute",left:"-9999px"}} alt="" /></div></noscript>
         <ClarityScript />
         <AhrefsAnalytics />
+        <GA4Analytics />
       </body>
     </html>
   );

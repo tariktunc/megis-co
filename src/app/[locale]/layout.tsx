@@ -12,7 +12,7 @@ import { BlakfyFooter } from "@/components/BlakfyFooter";
 import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/seo/json-ld";
 import { ClarityScript } from "@/components/ClarityScript";
 import { AhrefsAnalytics } from "@/components/AhrefsAnalytics";
-import { GA4Analytics } from "@/components/GA4Analytics";
+import { GTMAnalytics } from "@/components/GTMAnalytics";
 import { SITE_URL } from "@/lib/site-url";
 import type { Metadata } from "next";
 
@@ -132,6 +132,17 @@ export default async function LocaleLayout({
         <WebSiteJsonLd locale={locale} />
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        {/* GTM noscript fallback — must be the first thing after <body> (Google standard) */}
+        {process.env.NEXT_PUBLIC_GTM_ID && (
+          <noscript>
+            <iframe
+              src={`https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GTM_ID}`}
+              height="0"
+              width="0"
+              style={{ display: "none", visibility: "hidden" }}
+            />
+          </noscript>
+        )}
         {/* WEBFORGE 2026-09-23: CDN @latest standard (site-builder spec.md
             "Site script tag standard"). No data-blakfy-theme (light is now
             the package default) and no data-blakfy-fab. */}
@@ -168,7 +179,7 @@ export default async function LocaleLayout({
         <noscript><div><img src="https://mc.yandex.ru/watch/110019865" style={{position:"absolute",left:"-9999px"}} alt="" /></div></noscript>
         <ClarityScript />
         <AhrefsAnalytics />
-        <GA4Analytics />
+        <GTMAnalytics />
       </body>
     </html>
   );
